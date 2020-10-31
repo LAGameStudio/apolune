@@ -1,0 +1,31 @@
+# CMake generation dependency list for this directory.
+C:/Program Files (x86)/CMake 2.8/alure-1.0/CMakeLists.txt
+C:/Program Files (x86)/CMake 2.8/alure-1.0/cmake/CheckCCompilerFlag.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckCSourceCompiles.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckFunctionExists.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckIncludeFile.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckIncludeFiles.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CheckLibraryExists.cmake
+C:/Program Files (x86)/CMake 2.8/alure-1.0/cmake/CheckSharedLibraryExists.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/FindPkgConfig.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/UsePkgConfig.cmake
+C:/Program Files (x86)/CMake 2.8/alure-1.0/cmake/CheckFileOffsetBits.cmake
+C:/AGAR140/libdeps/lib/alure/CMakeFiles/CMakeSystem.cmake
+C:/AGAR140/libdeps/lib/alure/CMakeFiles/CMakeCCompiler.cmake
+C:/AGAR140/libdeps/lib/alure/CMakeFiles/CMakeCXXCompiler.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeGenericSystem.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/WindowsPaths.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCInformation.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/Windows-cl.cmake
+C:/AGAR140/libdeps/lib/alure/CMakeFiles/CMakeCPlatform.cmake
+C:/AGAR140/libdeps/lib/alure/CMakeFiles/CMakeCXXPlatform.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/Platform/cl.cmake
+C:/AGAR140/libdeps/lib/alure/CMakeFiles/CMakeRCCompiler.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeRCInformation.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCXXInformation.cmake
+C:/Program Files (x86)/CMake 2.8/share/cmake-2.8/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files (x86)/CMake 2.8/alure-1.0/config.h.in
+C:/Program Files (x86)/CMake 2.8/alure-1.0/alure.pc.in

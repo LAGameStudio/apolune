@@ -1,0 +1,4 @@
+data/images/atlasfonts/Typewriter-Sans.txt
+data/images/atlasfonts/TermTiny.txt
+data/images/atlasfonts/Term/Term-256.txt
+data/images/atlasfonts/Term/Term-1024.txt

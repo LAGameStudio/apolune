@@ -1,0 +1,4 @@
+data/otf/Nexa-Bold.otf
+data/otf/Nexa-Light.otf
+data/otf/ArchivoBlack-Regular.otf
+data/otf/WendyOne-Regular.otf

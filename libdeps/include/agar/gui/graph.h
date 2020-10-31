@@ -1,0 +1,117 @@
+/*	Public domain	*/
+
+#ifndef _AGAR_GUI_GRAPH_H_
+#define _AGAR_GUI_GRAPH_H_
+
+#include <agar/gui/widget.h>
+#include <agar/gui/scrollbar.h>
+
+#include <agar/gui/begin.h>
+
+#define AG_GRAPH_NDEFCOLORS	16
+#define AG_GRAPH_LABEL_MAX	64
+
+struct ag_graph_edge;
+struct ag_popup_menu;
+
+enum ag_graph_vertex_style {	/* Vertex style */
+	AG_GRAPH_RECTANGLE,	/* Rectangular box */
+	AG_GRAPH_CIRCLE		/* Circle */
+};
+
+typedef struct ag_graph_vertex {
+	char labelTxt[AG_GRAPH_LABEL_MAX]; /* Label text */
+	int  labelSu;			/* Text surface handle */
+	AG_Color labelColor;		/* Text color */
+	AG_Color bgColor;		/* Background color */
+	enum ag_graph_vertex_style style; /* Vertex style */
+	Uint flags;
+#define AG_GRAPH_MOUSEOVER	0x01
+#define AG_GRAPH_SELECTED	0x02
+#define AG_GRAPH_HIDDEN		0x04
+#define AG_GRAPH_AUTOPLACED	0x08
+	int x, y;				/* Coordinates */
+	Uint w, h;				/* Bounding box geometry */
+	void *userPtr;				/* User pointer */
+	struct ag_graph_edge **edges;		/* Back pointers to edges */
+	Uint nedges;
+	struct ag_graph *graph;			/* Back pointer to graph */
+	AG_TAILQ_ENTRY(ag_graph_vertex) vertices;
+	AG_TAILQ_ENTRY(ag_graph_vertex) sorted;	/* For autoplacer */
+	struct ag_popup_menu *popupMenu;
+} AG_GraphVertex;
+
+typedef struct ag_graph_edge {
+	char labelTxt[AG_GRAPH_LABEL_MAX];	/* Label text */
+	int  labelSu;				/* Text surface handle */
+	AG_Color edgeColor;			/* Edge color */
+	AG_Color labelColor;			/* Label color */
+	Uint flags;
+/*#define AG_GRAPH_MOUSEOVER	0x01 */
+/*#define AG_GRAPH_SELECTED	0x02 */
+/*#define AG_GRAPH_HIDDEN	0x04 */
+	AG_GraphVertex *v1, *v2;		/* Connected vertices */
+	void *userPtr;				/* User pointer */
+	struct ag_graph *graph;			/* Back pointer to graph */
+	AG_TAILQ_ENTRY(ag_graph_edge) edges;
+	struct ag_popup_menu *popupMenu;
+} AG_GraphEdge;
+
+typedef struct ag_graph {
+	struct ag_widget wid;
+	Uint flags;
+#define AG_GRAPH_HFILL		0x01
+#define AG_GRAPH_VFILL		0x02
+#define AG_GRAPH_EXPAND		(AG_GRAPH_HFILL|AG_GRAPH_VFILL)
+#define AG_GRAPH_SCROLL		0x04
+#define AG_GRAPH_DRAGGING	0x08	/* Vertex is being moved (readonly) */
+#define AG_GRAPH_PANNING	0x10	/* View is being panned (readonly) */
+#define AG_GRAPH_NO_MOVE	0x20	/* User cannot move vertices */
+#define AG_GRAPH_NO_SELECT	0x40	/* User cannot select vertices */
+#define AG_GRAPH_NO_MENUS	0x80	/* Disable popup menus */
+#define AG_GRAPH_READONLY (AG_GRAPH_NO_MOVE|AG_GRAPH_NO_SELECT| AG_GRAPH_NO_MENUS)
+
+	int wPre, hPre;			/* Requested geometry */
+	int xOffs, yOffs;		/* Display offset */
+	int xMin, xMax, yMin, yMax;	/* Display boundaries */
+	AG_Scrollbar *hbar, *vbar;	/* Scrollbars for panning */
+
+	AG_TAILQ_HEAD_(ag_graph_vertex) vertices;	/* Graph vertices */
+	AG_TAILQ_HEAD_(ag_graph_edge) edges;		/* Graph edges */
+	Uint nvertices, nedges;	
+	int pxMin, pxMax, pyMin, pyMax;		/* Bounds of last cluster
+						   (for autoplacer) */
+	AG_Rect r;			/* View area */
+} AG_Graph;
+
+/* Begin generated block */
+__BEGIN_DECLS
+extern DECLSPEC AG_WidgetClass agGraphClass;
+extern DECLSPEC AG_Graph *AG_GraphNew(void *, Uint);
+extern DECLSPEC void AG_GraphFreeVertices(AG_Graph *);
+extern DECLSPEC void AG_GraphSizeHint(AG_Graph *, Uint, Uint);
+extern DECLSPEC AG_GraphVertex *AG_GraphVertexNew(AG_Graph *, void *);
+extern DECLSPEC void AG_GraphVertexFree(AG_GraphVertex *);
+extern DECLSPEC AG_GraphVertex *AG_GraphVertexFind(AG_Graph *, void *);
+extern DECLSPEC void AG_GraphVertexLabel(AG_GraphVertex *, const char *, ...) FORMAT_ATTRIBUTE(printf,2,3) NONNULL_ATTRIBUTE(2);
+extern DECLSPEC void AG_GraphVertexLabelS(AG_GraphVertex *, const char *);
+extern DECLSPEC void AG_GraphVertexColorLabel(AG_GraphVertex *, Uint8, Uint8, Uint8);
+extern DECLSPEC void AG_GraphVertexColorBG(AG_GraphVertex *, Uint8, Uint8, Uint8);
+extern DECLSPEC void AG_GraphVertexPosition(AG_GraphVertex *, int, int);
+extern DECLSPEC void AG_GraphVertexSize(AG_GraphVertex *, Uint, Uint);
+extern DECLSPEC void AG_GraphVertexStyle(AG_GraphVertex *, enum ag_graph_vertex_style);
+extern DECLSPEC void AG_GraphVertexPopupMenu(AG_GraphVertex *, struct ag_popup_menu *);
+extern DECLSPEC AG_GraphEdge *AG_GraphEdgeNew(AG_Graph *, AG_GraphVertex *, AG_GraphVertex *, void *);
+extern DECLSPEC void AG_GraphEdgeFree(AG_GraphEdge *);
+extern DECLSPEC AG_GraphEdge *AG_GraphEdgeFind(AG_Graph *, void *);
+extern DECLSPEC void AG_GraphEdgeLabel(AG_GraphEdge *, const char *, ...) FORMAT_ATTRIBUTE(printf,2,3) NONNULL_ATTRIBUTE(2);
+extern DECLSPEC void AG_GraphEdgeLabelS(AG_GraphEdge *, const char *);
+extern DECLSPEC void AG_GraphEdgeColorLabel(AG_GraphEdge *, Uint8, Uint8, Uint8);
+extern DECLSPEC void AG_GraphEdgeColor(AG_GraphEdge *, Uint8, Uint8, Uint8);
+extern DECLSPEC void AG_GraphEdgePopupMenu(AG_GraphEdge *, struct ag_popup_menu *);
+extern DECLSPEC void AG_GraphAutoPlace(AG_Graph *, Uint, Uint);
+__END_DECLS
+/* Close generated block */
+
+#include <agar/gui/close.h>
+#endif /* _AGAR_GUI_GRAPH_H_ */

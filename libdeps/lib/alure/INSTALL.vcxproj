@@ -1,0 +1,150 @@
+﻿<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{BB186C4D-DC8D-49B8-B2AD-D8211318A715}</ProjectGUID>
+    <SccProjectName />
+    <SccLocalPath />
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType></ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType></ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType></ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType></ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Program Files (x86)/CMake 2.8/alure-1.0/include;C:/AGAR140/libdeps/lib/alure;C:/Program Files (x86)/OpenAL 1.1 SDK/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -DBUILD_TYPE=$(Configuration) -P cmake_install.cmake
+if errorlevel 1 goto VCReportError</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Program Files (x86)/CMake 2.8/alure-1.0/include;C:/AGAR140/libdeps/lib/alure;C:/Program Files (x86)/OpenAL 1.1 SDK/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -DBUILD_TYPE=$(Configuration) -P cmake_install.cmake
+if errorlevel 1 goto VCReportError</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Program Files (x86)/CMake 2.8/alure-1.0/include;C:/AGAR140/libdeps/lib/alure;C:/Program Files (x86)/OpenAL 1.1 SDK/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -DBUILD_TYPE=$(Configuration) -P cmake_install.cmake
+if errorlevel 1 goto VCReportError</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:/Program Files (x86)/CMake 2.8/alure-1.0/include;C:/AGAR140/libdeps/lib/alure;C:/Program Files (x86)/OpenAL 1.1 SDK/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -DBUILD_TYPE=$(Configuration) -P cmake_install.cmake
+if errorlevel 1 goto VCReportError</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="CMakeFiles\INSTALL_force.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">cd .
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/AGAR140/libdeps/lib/alure/CMakeFiles/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\AGAR140\libdeps\lib\alure\CMakeFiles\INSTALL_force;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"> </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">cd .
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/AGAR140/libdeps/lib/alure/CMakeFiles/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\AGAR140\libdeps\lib\alure\CMakeFiles\INSTALL_force;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"> </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">cd .
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/AGAR140/libdeps/lib/alure/CMakeFiles/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\AGAR140\libdeps\lib\alure\CMakeFiles\INSTALL_force;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"> </Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">cd .
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/AGAR140/libdeps/lib/alure/CMakeFiles/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\AGAR140\libdeps\lib\alure\CMakeFiles\INSTALL_force;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\..\Program Files (x86)\CMake 2.8\alure-1.0\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Program Files (x86)/CMake 2.8/alure-1.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" "-HC:/Program Files (x86)/CMake 2.8/alure-1.0" -BC:/AGAR140/libdeps/lib/alure --check-stamp-file C:\AGAR140\libdeps\lib\alure\CMakeFiles\generate.stamp
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Program Files (x86)/CMake 2.8/alure-1.0/CMakeLists.txt;C:\Program Files (x86)\CMake 2.8\alure-1.0\CMakeLists.txt;C:\Program Files (x86)\CMake 2.8\alure-1.0\cmake\CheckCCompilerFlag.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake 2.8\alure-1.0\cmake\CheckSharedLibraryExists.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPkgConfig.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\UsePkgConfig.cmake;C:\Program Files (x86)\CMake 2.8\alure-1.0\cmake\CheckFileOffsetBits.cmake;C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeSystem.cmake;C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeCCompiler.cmake;C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-cl.cmake;C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeCPlatform.cmake;C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeCXXPlatform.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\cl.cmake;C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\alure-1.0\config.h.in;C:\Program Files (x86)\CMake 2.8\alure-1.0\alure.pc.in;C:\Program Files (x86)\CMake 2.8\alure-1.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\AGAR140\libdeps\lib\alure\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Program Files (x86)/CMake 2.8/alure-1.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" "-HC:/Program Files (x86)/CMake 2.8/alure-1.0" -BC:/AGAR140/libdeps/lib/alure --check-stamp-file C:\AGAR140\libdeps\lib\alure\CMakeFiles\generate.stamp
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Program Files (x86)/CMake 2.8/alure-1.0/CMakeLists.txt;C:\Program Files (x86)\CMake 2.8\alure-1.0\CMakeLists.txt;C:\Program Files (x86)\CMake 2.8\alure-1.0\cmake\CheckCCompilerFlag.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake 2.8\alure-1.0\cmake\CheckSharedLibraryExists.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPkgConfig.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\UsePkgConfig.cmake;C:\Program Files (x86)\CMake 2.8\alure-1.0\cmake\CheckFileOffsetBits.cmake;C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeSystem.cmake;C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeCCompiler.cmake;C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-cl.cmake;C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeCPlatform.cmake;C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeCXXPlatform.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\cl.cmake;C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\alure-1.0\config.h.in;C:\Program Files (x86)\CMake 2.8\alure-1.0\alure.pc.in;C:\Program Files (x86)\CMake 2.8\alure-1.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\AGAR140\libdeps\lib\alure\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Program Files (x86)/CMake 2.8/alure-1.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" "-HC:/Program Files (x86)/CMake 2.8/alure-1.0" -BC:/AGAR140/libdeps/lib/alure --check-stamp-file C:\AGAR140\libdeps\lib\alure\CMakeFiles\generate.stamp
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Program Files (x86)/CMake 2.8/alure-1.0/CMakeLists.txt;C:\Program Files (x86)\CMake 2.8\alure-1.0\CMakeLists.txt;C:\Program Files (x86)\CMake 2.8\alure-1.0\cmake\CheckCCompilerFlag.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake 2.8\alure-1.0\cmake\CheckSharedLibraryExists.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPkgConfig.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\UsePkgConfig.cmake;C:\Program Files (x86)\CMake 2.8\alure-1.0\cmake\CheckFileOffsetBits.cmake;C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeSystem.cmake;C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeCCompiler.cmake;C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-cl.cmake;C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeCPlatform.cmake;C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeCXXPlatform.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\cl.cmake;C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\alure-1.0\config.h.in;C:\Program Files (x86)\CMake 2.8\alure-1.0\alure.pc.in;C:\Program Files (x86)\CMake 2.8\alure-1.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\AGAR140\libdeps\lib\alure\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Program Files (x86)/CMake 2.8/alure-1.0/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" "-HC:/Program Files (x86)/CMake 2.8/alure-1.0" -BC:/AGAR140/libdeps/lib/alure --check-stamp-file C:\AGAR140\libdeps\lib\alure\CMakeFiles\generate.stamp
+if errorlevel 1 goto VCReportError</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Program Files (x86)/CMake 2.8/alure-1.0/CMakeLists.txt;C:\Program Files (x86)\CMake 2.8\alure-1.0\CMakeLists.txt;C:\Program Files (x86)\CMake 2.8\alure-1.0\cmake\CheckCCompilerFlag.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckCSourceCompiles.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckIncludeFiles.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake 2.8\alure-1.0\cmake\CheckSharedLibraryExists.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\FindPkgConfig.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\UsePkgConfig.cmake;C:\Program Files (x86)\CMake 2.8\alure-1.0\cmake\CheckFileOffsetBits.cmake;C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeSystem.cmake;C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeCCompiler.cmake;C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeCXXCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-cl.cmake;C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeCPlatform.cmake;C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeCXXPlatform.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\Platform\cl.cmake;C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeRCCompiler.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake;C:\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files (x86)\CMake 2.8\alure-1.0\config.h.in;C:\Program Files (x86)\CMake 2.8\alure-1.0\alure.pc.in;C:\Program Files (x86)\CMake 2.8\alure-1.0\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\AGAR140\libdeps\lib\alure\CMakeFiles\generate.stamp;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/AGAR140/libdeps/lib/alure/ALL_BUILD.vcxproj">
+      <Project>5A9BD046-AB8F-4A66-B2A6-E678FB886A35</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

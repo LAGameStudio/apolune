@@ -1,0 +1,38 @@
+^H                                              Scripting Cheat Sheet^X
+^GLOCATION / INTERIOR^X                                                        ^GPLAYER TAG CLOUD^X  
+^Mplayer start^X ["priority"]                                                  ^Mcloud add^X banana
+^Mplayer ship^X [angleDeg#] [location_reference]                               ^Mcloud remove^X banana
+^Msign^X <"[text sign]"> <message>                                             ^Mcloud add^X <Something Longer With a Space>
+^Msign^X <type> ["route"]                                                      ^Mcloud remove^X <Something Longer With a Space>
+^Mplace^X <reference> ["enemy"|"friend"] [seed#] [Species_reference]           ^Mcloud +^X word
+^Mtraffic^X <city|hub|sparse>                                                  ^Mcloud -^X word
+^Mhuman^X <"name"> <"male"|"female"> [<seed> <suit#>] ["enemy"|"friend"]       ^Mcloud +^X <two words>
+^Mwander^X (makes last created human wander aimlessly)                         ^Mcloud^X - <two words>    
+^Masteroid field^X <cx,cy> <#> <radius> <rockType> [elements...]               ^Mcloud has^X <tag> [if_doesnt_have]    
+^Masteroid circle^X <cx,cy> <#> <R> <thickness> <rockType> [elements...]    
+^Masteroid arc^X <cx,cy> <#> <angleStartDeg> <R> <thickness> <type> [ele..] ...(or use ^Mminerals^X keyword)
+
+^GEVENTS (LOCATION MARKER, DIALOG, ETC)^X                                      ^GDIALOG BEAT / NARRATION^M
+^Mstarmap^X <reference>                                                        ^Mback^X
+^Mdialog^X <dialog reference> [<damaged>] [beat reference]                     ^Mbeat^X <ref>
+^Mgo^X <interior or location or starmap reference>                             ^Mmood^X <type|none|explaining>
+^Mgoif^X <player_has_item> <interior or location> <dialog if not>              ^Mportrait^X ["male"|"remove"] <[seed] [suit#]>
+^Mgoifquest^X <active_quest> <interior or location> <dialog if not>            ^Mnarrate^X <narration_ref> [priority]
+^Mgoifquestdone^X <completed_quest> <interior or location> <dialog if not>     ^Mqmap^X <reference>
+^Mpanel^X <"trade"|"hangar"|"recruit"|"minigame"|"all"> [data]                       
+^Mquest^X <ref> complete [xp]                                                  ^GOBJECTS^X                     
+^Mquest^X <ref> ["has"|"had"] <beat_if_true>                                   ^Mlock^X [<name> [pickability]] 
+^Mplay^X <sample_name> [pitch] [gain]                                          ^Munlock^X                      
+^Mmusic^X [track_reference]                                                    ^Mkey^X <name>                  
+^Msilence^X [seconds]                                                          ^Mopen^X <if_cannot_open>       
+^Mtake^X <thing reference or commodity reference> [quantity]                   ^Mclose^X                       
+^Mgive^X <reference> [quantity]  contains <reference> [quantity]               ^Mactivate^X                    
+^Mcheck^X <stat name> <minimum> <beat_if_less_than>                            ^Mdeactivate^X                  
+^Mcharge^X <amount> <beat_when_too_poor>  stat <name> <amount>                 ^Mfriend^X                      
+^Mhas^X <thing or commodity reference> <does_not_have beat ref> [quantity]     ^Mnamed^X ["name"]              
+^Mpay^X <amount>                                                               ^Menemy^X                       
+^Mannounce^X <announcement identifier>                                         ^Mlight^X                       
+^Mskill^X <name> <minimum percentage> <beat_if_failed>                         ^Mdark^X                        
+^Mbonus^X ["xp"|stat name] <amount> <bonus_reason> [duration]                  ^Mtint^X #RRGGBBAA              
+^Mbonus negate^X <bonus_reason>												   ^Mremove^X                      
+^Mprereq^X <skill/stat name> <prereq skill name>                               ^Mreplace^X <reference>                                      

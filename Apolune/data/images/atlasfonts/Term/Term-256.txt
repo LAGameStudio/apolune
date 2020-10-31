@@ -1,0 +1,8 @@
+name "Term-256"
+bmfont
+img "data/images/atlasfonts/Term/Term-256.png"
+glyphs "data/images/atlasfonts/Term/Term-256.fnt"
+spaceWidth 16.0
+lineHeight 16.0
+base 16.0
+kern 0.0

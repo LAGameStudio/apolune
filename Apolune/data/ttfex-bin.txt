@@ -1,0 +1,3 @@
+data/ttfex/numeric/digits.txt.bin
+data/ttfex/numeric/numberpile.txt.bin
+data/ttfex/elements/roundrect.txt.bin

@@ -1,0 +1,9 @@
+name {metalfont}
+image {data/images/atfonts/metalfont.png}
+blend {additive}
+spaceWidth {0.75}
+charSpace {0.0}
+lineSpace {0.1}
+size {w 32.0 h 42.0}
+cells {x 256 y 256}
+glyphs {data/images/atfonts/metalfont.glyphs.txt}

@@ -1,0 +1,10 @@
+glyph { "0" data/images/fonts/numbers/TzeenieWheenie_Mechanical_alarm_clock_number_tiles_1.png }
+glyph { "1" data/images/fonts/numbers/TzeenieWheenie_Mechanical_alarm_clock_number_tiles_2.png }
+glyph { "2" data/images/fonts/numbers/TzeenieWheenie_Mechanical_alarm_clock_number_tiles_3.png }
+glyph { "3" data/images/fonts/numbers/TzeenieWheenie_Mechanical_alarm_clock_number_tiles_4.png }
+glyph { "4" data/images/fonts/numbers/TzeenieWheenie_Mechanical_alarm_clock_number_tiles_5.png }
+glyph { "5" data/images/fonts/numbers/TzeenieWheenie_Mechanical_alarm_clock_number_tiles_6.png }
+glyph { "6" data/images/fonts/numbers/TzeenieWheenie_Mechanical_alarm_clock_number_tiles_7.png }
+glyph { "7" data/images/fonts/numbers/TzeenieWheenie_Mechanical_alarm_clock_number_tiles_8.png }
+glyph { "8" data/images/fonts/numbers/TzeenieWheenie_Mechanical_alarm_clock_number_tiles_9.png }
+glyph { "9" data/images/fonts/numbers/TzeenieWheenie_Mechanical_alarm_clock_number_tiles_10.png }

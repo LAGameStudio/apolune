@@ -1,0 +1,7 @@
+name "Typewriter-Sans"
+bmfont
+img "data/images/atlasfonts/Typewriter-Sans/Typewriter-Sans.png"
+glyphs "data/images/atlasfonts/Typewriter-Sans/Typewriter-Sans.fnt"
+spaceWidth 32.0
+lineHeight 64.0
+base 64.0

@@ -1,0 +1,294 @@
+#include "WebPage.h"
+
+#include "Indexed.h"
+
+
+/* Converts a hex character to its integer value */
+char from_hexc(char ch) {
+  return isdigit(ch) ? ch - '0' : LOWER(ch) - 'a' + 10;
+}
+
+/* Converts an integer value to its hex character*/
+char to_hexc(char code) {
+  static char hex[] = "0123456789abcdef";
+  return hex[code & 15];
+}
+
+char *url_encode(char *str) {
+  char *pstr = str, *buf = new char[(strlen(str) * 3 + 1)], *pbuf = buf;
+  while (*pstr) {
+    if (isalnum(*pstr) || *pstr == '-' || *pstr == '_' || *pstr == '.' || *pstr == '~') 
+      *(pbuf++) = *pstr;
+    else if (*pstr == ' ') 
+      *(pbuf++) = '+';
+    else 
+      *(pbuf++) = '%', *(pbuf++) = to_hexc(*pstr >> 4), *(pbuf++) = to_hexc(*pstr & 15);
+    pstr++;
+  }
+  *pbuf = '\0';
+  return buf;
+}
+
+/* Returns a url-decoded version of str */
+/* IMPORTANT: be sure to free() the returned string after use */
+char *url_decode(char *str) {
+  char *pstr = str, *buf = new char[(strlen(str) + 1)], *pbuf = buf;
+  while (*pstr) {
+    if (*pstr == '%') {
+      if (pstr[1] && pstr[2]) {
+        *pbuf++ = from_hexc(pstr[1]) << 4 | from_hexc(pstr[2]);
+        pstr += 2;
+      }
+    } else if (*pstr == '+') { 
+      *pbuf++ = ' ';
+    } else {
+      *pbuf++ = *pstr;
+    }
+    pstr++;
+  }
+  *pbuf = '\0';
+  return buf;
+}
+
+Zstring lastresult;
+static size_t
+WriteMemoryCallback(void *ptr, size_t size, size_t nmemb, void *data)
+{
+  size_t realsize = size * nmemb;
+  struct MemoryStruct *mem = (struct MemoryStruct *)data;
+ 
+  mem->memory = (char *) realloc(mem->memory, mem->size + realsize + 1);
+  if (mem->memory == NULL) {
+    /* out of memory! */ 
+    OUTPUT("WriteMemoryCallback(curl): not enough memory (realloc returned NULL)\n");
+    exit(EXIT_FAILURE);
+  }
+ 
+  memcpy(&(mem->memory[mem->size]), ptr, realsize);
+  mem->size += realsize;
+  mem->memory[mem->size] = 0;
+  for ( size_t i=0; i<realsize; i++ ) {
+   lastresult+=(char) mem->memory[i];
+  }
+  return realsize;
+}
+
+void DummyPageTest() {
+ MemoryStruct chunk;
+ CURL *curl;
+ curl=curl_easy_init();
+ curl_easy_setopt(curl, CURLOPT_SSL_VERIFYPEER, FALSE );
+ curl_easy_setopt(curl, CURLOPT_FOLLOWLOCATION, TRUE );
+ curl_easy_setopt(curl, CURLOPT_URL, "http://127.0.0.1/"); /* specify URL to get */ 
+ curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, WriteMemoryCallback);  /* send all data to this function  */ 
+ curl_easy_setopt(curl, CURLOPT_WRITEDATA, (void *)&chunk);           /* we pass our 'chunk' struct to the callback function */ 
+ curl_easy_setopt(curl, CURLOPT_USERAGENT, "libcurl-agent/1.0");      /* some servers don't like requests made without a user-agent field, so we provide one */ 
+ curl_easy_perform(curl);  /* get it! */ 
+ curl_easy_cleanup(curl);
+ OUTPUT("Result:\n%s<---end\n",(const char *) chunk.memory);
+}
+
+#include <WinInet.h>
+
+string PostURL( const char *hostname, const char *path, const char *data, bool secure, const char *username, const char *password ) {
+ OUTPUT("PostURL(`%s`,`%s`,`%s`,%s,`%s`,`%s`):\n",
+  hostname, path, data, secure ? "secure" : "insecure", 
+  username == NULL ? "(null)" : username,
+  password == NULL ? "(null)" : password
+ );
+ HINTERNET hInternet = InternetOpen("PieceMaker Kiosk", INTERNET_OPEN_TYPE_PRECONFIG, NULL, NULL, 0);
+ HINTERNET hConnect = NULL;
+ if ( secure ) {
+  hConnect = InternetConnect(hInternet, hostname, 
+   INTERNET_DEFAULT_HTTPS_PORT,
+   strlen(username) > 0 ? username : NULL,
+   strlen(password) > 0 ? password : NULL,
+   INTERNET_SERVICE_HTTP, 0, 0);
+ } else {
+  hConnect = InternetConnect(hInternet, hostname, 
+   INTERNET_DEFAULT_HTTP_PORT,
+   strlen(username) > 0 ? username : NULL,
+   strlen(password) > 0 ? password : NULL,
+   INTERNET_SERVICE_HTTP, 0, 0);
+ }
+ LPCSTR rgpszAcceptTypes[] = {"*/*", NULL};
+ HINTERNET hRequest = HttpOpenRequest(hConnect, "POST", path, NULL, NULL, rgpszAcceptTypes, secure ? INTERNET_FLAG_SECURE : 0, 0);
+ HttpAddRequestHeaders(hRequest, ("Content-Type: application/x-www-form-urlencoded\r\n"), -1, HTTP_ADDREQ_FLAG_ADD);
+ string form=string("data=")+string(data);
+ HttpSendRequest(hRequest, NULL, 0, (LPVOID)form.c_str(), strlen(form.c_str()));
+ DWORD StatusCode = 0;
+ DWORD StatusCodeLen = sizeof(StatusCode);
+ HttpQueryInfo(hRequest, HTTP_QUERY_STATUS_CODE | HTTP_QUERY_FLAG_NUMBER, &StatusCode, &StatusCodeLen, NULL);
+ HttpQueryInfo(hRequest, HTTP_QUERY_STATUS_TEXT | HTTP_QUERY_FLAG_NUMBER, &StatusCode, &StatusCodeLen, NULL);
+ Zstring out;
+ // use InternetQueryDataAvailable() and InternetReadFile()
+ // to read any response data as needed...
+ if (StatusCode == 200) {
+  DWORD dwBytesAvailable=0;
+  while ( InternetQueryDataAvailable(hRequest,&dwBytesAvailable, 0, 0) == TRUE
+    && dwBytesAvailable > 0 ) {
+   DWORD dwBytesRead=0;
+   Indexed<char> buffer;
+   buffer.Size((int)dwBytesAvailable+1);
+   do {
+  		InternetReadFile(hRequest, (LPVOID)buffer.list, dwBytesAvailable, &dwBytesRead);
+    if ( dwBytesRead > 0 ) {
+     buffer[dwBytesRead]='\0';
+     out+=string(buffer.list);
+    }
+   } while ( dwBytesRead > 0 );
+  }
+ } else {
+  OUTPUT("Error: response status code: %d\n", (int) StatusCode );
+  if ( StatusCode == -1 ) OUTPUT("400 BAD REQUEST\n");
+  OUTPUT(getLastInternetErrorText().c_str());
+  OUTPUT(getLastErrorText().c_str());
+ }
+ InternetCloseHandle(hRequest);
+ InternetCloseHandle(hConnect);
+ InternetCloseHandle(hInternet);
+ return out.value;
+}
+
+string GetURL( const char *url, const char *userpwd, bool unrestricted ) {
+ #if defined(WIN32)
+ Zstring out;
+ HINTERNET hOpen = NULL;
+	HINTERNET hFile = NULL;
+	DWORD dwBytesRead = 0;
+
+	hOpen = InternetOpenW(L"MyAgent", NULL, NULL, NULL, NULL);
+	if(!hOpen) return string("");
+
+ LPCWSTR temp=chartoLPCW(url);
+	hFile = InternetOpenUrlW(hOpen, temp, NULL, NULL, INTERNET_FLAG_RELOAD | INTERNET_FLAG_NO_CACHE_WRITE | INTERNET_FLAG_NO_UI, NULL);
+	if(!hFile) {
+		InternetCloseHandle(hOpen);
+		return string("");
+	}
+	do {
+		char buffer[1024+1];
+		InternetReadFile(hFile, (LPVOID)buffer, _countof(buffer)-1, &dwBytesRead);
+  if ( dwBytesRead > 0 ) {
+   buffer[dwBytesRead]='\0';
+   out+=buffer;
+  }
+	} while (dwBytesRead > 0);
+	InternetCloseHandle(hFile);
+	InternetCloseHandle(hOpen);
+	return out.value;
+#else
+ MemoryStruct chunk;
+ CURL *curl;
+ lastresult="";
+ curl=curl_easy_init();
+// curl_easy_setopt(curl, CURLOPT_VERBOSE, TRUE );
+ curl_easy_setopt(curl, CURLOPT_SSL_VERIFYPEER, FALSE );
+ curl_easy_setopt(curl, CURLOPT_FOLLOWLOCATION, TRUE );
+ curl_easy_setopt(curl, CURLOPT_URL, url); /* specify URL to get */ 
+ if ( strlen(userpwd) > 0 ) {
+  curl_easy_setopt(curl, CURLOPT_USERPWD, userpwd );
+  if ( unrestricted ) curl_easy_setopt(curl, CURLOPT_UNRESTRICTED_AUTH, TRUE );
+ }
+ curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, WriteMemoryCallback);  /* send all data to this function  */ 
+ curl_easy_setopt(curl, CURLOPT_WRITEDATA, (void *)&chunk);           /* we pass our 'chunk' struct to the callback function */ 
+ curl_easy_setopt(curl, CURLOPT_USERAGENT, "libcurl-agent/1.0");      /* some servers don't like requests made without a user-agent field, so we provide one */ 
+ curl_easy_perform(curl);  /* get it! */ 
+ curl_easy_cleanup(curl);
+ return lastresult.value;
+#endif
+}
+
+void GetFILE( const char *url, const char *save_to, bool unrestricted ) {
+#if defined(WIN32)
+ Zstring out;
+ HINTERNET hOpen = NULL;
+	HINTERNET hFile = NULL;
+	DWORD dwBytesRead = 0;
+
+	hOpen = InternetOpenW(L"MyAgent", NULL, NULL, NULL, NULL);
+	if(!hOpen) return;
+
+ LPCWSTR temp=chartoLPCW(url);
+	hFile = InternetOpenUrlW(hOpen, temp, NULL, NULL, INTERNET_FLAG_RELOAD | INTERNET_FLAG_NO_CACHE_WRITE | INTERNET_FLAG_NO_UI, NULL);
+	if(!hFile) {
+		InternetCloseHandle(hOpen);
+		return;
+	}
+	do {
+		char buffer[1024+1];
+		InternetReadFile(hFile, (LPVOID)buffer, _countof(buffer)-1, &dwBytesRead);
+  if ( dwBytesRead > 0 ) {
+   buffer[dwBytesRead]='\0';
+   out+=buffer;
+  }
+	} while (dwBytesRead > 0);
+	InternetCloseHandle(hFile);
+	InternetCloseHandle(hOpen);
+ string_as_file(out.c_str(),save_to);
+#endif
+}
+
+void RemoteFileHTTP::Get()
+{
+ result=GetURL(url.c_str());
+}
+
+ CURLcode WebForm::Post( ) {
+  struct curl_httppost *formpost=NULL;
+  struct curl_httppost *lastptr=NULL;
+  struct curl_slist *headerlist=NULL;
+  CURL *curl;
+  MemoryStruct chunk;
+  WebFormElement *e;
+  for ( e=(WebFormElement *) first; e; e=(WebFormElement *) (e->next) ) { // Post all the elements.
+   if ( e->type == _File ) curl_formadd(&formpost, &lastptr, CURLFORM_COPYNAME, e->name, CURLFORM_FILE, e->value.c_str(), CURLFORM_END);
+   else                   curl_formadd(&formpost, &lastptr, CURLFORM_COPYNAME, e->name, CURLFORM_COPYCONTENTS, e->value.c_str(), CURLFORM_END);
+  }
+  curl = curl_easy_init();
+  headerlist = curl_slist_append(headerlist, WebFormHeaderbuf);                   /* initalize custom header list (stating that Expect: 100-continue is not wanted */ 
+  if(curl) {
+   CURLcode res;
+   curl_easy_setopt(curl, CURLOPT_SSL_VERIFYPEER, FALSE );
+   curl_easy_setopt(curl, CURLOPT_FOLLOWLOCATION, TRUE );
+   curl_easy_setopt(curl, CURLOPT_URL, url);    /* what URL that receives this POST */ 
+   if ( !NoExpectHeader ) curl_easy_setopt(curl, CURLOPT_HTTPHEADER, headerlist); /* only disable 100-continue header if explicitly requested */ 
+   curl_easy_setopt(curl, CURLOPT_HTTPPOST, formpost);
+   curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, WriteMemoryCallback);  /* send all data to this function  */ 
+   curl_easy_setopt(curl, CURLOPT_WRITEDATA, (void *)&chunk);           /* we pass our 'chunk' struct to the callback function */ 
+   curl_easy_setopt(curl, CURLOPT_USERAGENT, "libcurl-agent/1.0");      /* some servers don't like requests made without a user-agent field, so we provide one */ 
+   res = curl_easy_perform(curl);
+   curl_easy_cleanup(curl);                                                       /* always cleanup */ 
+   curl_formfree(formpost);                                                       /* then cleanup the formpost chain */ 
+   curl_slist_free_all(headerlist);                                               /* free slist */ 
+   return res;
+  }
+  return (CURLcode)0;
+ }
+
+ void WebPage::Browse() {
+  CURL *curl_handle = curl_easy_init();
+  OUTPUT( "Requesting url: %s\n", url.c_str() ); 
+  curl_easy_setopt(curl_handle, CURLOPT_URL, url);
+  curl_easy_setopt(curl_handle, CURLOPT_NOPROGRESS, 1L);
+  curl_easy_setopt(curl_handle, CURLOPT_WRITEFUNCTION, WriteMemoryCallback);
+  curl_easy_setopt(curl_handle, CURLOPT_WRITEDATA, (void *) (&(this->data)) );
+  curl_easy_perform(curl_handle);
+  OUTPUT( "\nResult:\n%s", (const char *) data.memory );
+  {
+   char buf[16384];
+   char *p,*q;
+   p=data.memory;
+   while ( p && *p != '\0' ) {
+    q=buf;
+    while ( *p != '\0' && *p != '\n' ) {
+     *q=*p; p++; q++;
+    }
+    *q='\0';
+    lines.Push(buf);
+   }
+  }
+  OUTPUT("Responses Lines (%d):\n",(int)lines.count);
+  lines.Output();
+  curl_easy_cleanup(curl_handle);
+ }

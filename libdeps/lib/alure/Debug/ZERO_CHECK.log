@@ -1,0 +1,17 @@
+﻿Build started 7/18/2010 1:36:42 PM.
+     1>Project "C:\AGAR140\libdeps\lib\alure\ZERO_CHECK.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\ZERO_CHECK.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\ZERO_CHECK.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Checking Build System
+         CMake does not need to re-run because C:/AGAR140/libdeps/lib/alure/CMakeFiles/generate.stamp is up-to-date.
+       FinalizeBuildStatus:
+         Deleting file "Debug\ZERO_CHECK.unsuccessfulbuild".
+         Touching "Debug\ZERO_CHECK.lastbuildstate".
+     1>Done Building Project "C:\AGAR140\libdeps\lib\alure\ZERO_CHECK.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.14

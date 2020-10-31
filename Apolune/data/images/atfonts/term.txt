@@ -1,0 +1,10 @@
+name {term}
+image {data/images/atfonts/term.png}
+spaceWidth {1.0}
+charSpace {-0.5}
+blend {transparency}
+lineSpace {0.0}
+size {w 15 h 18}
+cells {x 24 y 36}
+padding {x 7 y 1}
+glyphs {data/images/atfonts/term.glyphs.txt}

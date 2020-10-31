@@ -1,0 +1,3749 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="TTFCoreTest.cpp">
+      <Filter>Framework\Fonts\TTF</Filter>
+    </ClCompile>
+    <ClCompile Include="TTFExceptions.cpp">
+      <Filter>Framework\Fonts\TTF</Filter>
+    </ClCompile>
+    <ClCompile Include="TTFFont.cpp">
+      <Filter>Framework\Fonts\TTF</Filter>
+    </ClCompile>
+    <ClCompile Include="TTFLibrary.cpp">
+      <Filter>Framework\Fonts\TTF</Filter>
+    </ClCompile>
+    <ClCompile Include="TTFLibraryBrowser.cpp">
+      <Filter>Framework\Fonts\TTF</Filter>
+    </ClCompile>
+    <ClCompile Include="TTFMath.cpp">
+      <Filter>Framework\Fonts\TTF</Filter>
+    </ClCompile>
+    <ClCompile Include="TTFTriangulator.cpp">
+      <Filter>Framework\Fonts\TTF</Filter>
+    </ClCompile>
+    <ClCompile Include="TTFTriangulatorI.cpp">
+      <Filter>Framework\Fonts\TTF</Filter>
+    </ClCompile>
+    <ClCompile Include="TTFTriangulatorII.cpp">
+      <Filter>Framework\Fonts\TTF</Filter>
+    </ClCompile>
+    <ClCompile Include="TTFTriangulatorIII.cpp">
+      <Filter>Framework\Fonts\TTF</Filter>
+    </ClCompile>
+    <ClCompile Include="TTFEx.cpp">
+      <Filter>Framework\Fonts\TTFEx</Filter>
+    </ClCompile>
+    <ClCompile Include="TTFExLibraryBrowser.cpp">
+      <Filter>Framework\Fonts\TTFEx</Filter>
+    </ClCompile>
+    <ClCompile Include="aCamera.cpp">
+      <Filter>Framework\3D\Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="Arrows.cpp">
+      <Filter>Framework\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="AStar.cpp">
+      <Filter>Framework\2D\Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="AStarTest.cpp">
+      <Filter>Framework\2D\Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="AsciiMap.cpp">
+      <Filter>Framework\2D\Mapping</Filter>
+    </ClCompile>
+    <ClCompile Include="b2BlockAllocator.cpp">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="b2Body.cpp">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="b2BroadPhase.cpp">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="b2CircleContact.cpp">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="b2CircleShape.cpp">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="b2CollideCircle.cpp">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="b2CollidePolygon.cpp">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="b2Collision.cpp">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="b2Contact.cpp">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="b2ContactManager.cpp">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="b2ContactSolver.cpp">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="b2Distance.cpp">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="b2DistanceJoint.cpp">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="b2DynamicTree.cpp">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="b2Fixture.cpp">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="b2FrictionJoint.cpp">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="b2GearJoint.cpp">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="b2Island.cpp">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="b2Joint.cpp">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="b2LineJoint.cpp">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="b2Math.cpp">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="b2MouseJoint.cpp">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="b2PolygonAndCircleContact.cpp">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="b2PolygonContact.cpp">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="b2PolygonShape.cpp">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="b2PrismaticJoint.cpp">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="b2PulleyJoint.cpp">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="b2RevoluteJoint.cpp">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="b2Settings.cpp">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="b2StackAllocator.cpp">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="b2TimeOfImpact.cpp">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="b2TOISolver.cpp">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="b2WeldJoint.cpp">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="b2World.cpp">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="b2WorldCallbacks.cpp">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="BDungeon.cpp">
+      <Filter>Framework\2D\Mapping</Filter>
+    </ClCompile>
+    <ClCompile Include="Attraction.cpp">
+      <Filter>Framework\Physics\Traer</Filter>
+    </ClCompile>
+    <ClCompile Include="Billboard.cpp">
+      <Filter>Framework\2D\Billboarding</Filter>
+    </ClCompile>
+    <ClCompile Include="BillboardShader.cpp">
+      <Filter>Framework\2D\Billboarding</Filter>
+    </ClCompile>
+    <ClCompile Include="BendShader.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio.cpp">
+      <Filter>Framework\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryFile.cpp">
+      <Filter>Framework\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryFileTest.cpp">
+      <Filter>Framework\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="BitVoxel.cpp">
+      <Filter>Framework\3D\Worlds</Filter>
+    </ClCompile>
+    <ClCompile Include="BitVoxelTest.cpp">
+      <Filter>Framework\3D\Worlds</Filter>
+    </ClCompile>
+    <ClCompile Include="BlendShader.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="BloomShader.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockWorld.cpp">
+      <Filter>Framework\3D\Worlds</Filter>
+    </ClCompile>
+    <ClCompile Include="BouncingBall.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2DTest.cpp">
+      <Filter>Framework\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2d.cpp">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Blur3D.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Box3d.cpp">
+      <Filter>Framework\3D\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera2d.cpp">
+      <Filter>Framework\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Framework\3D\Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxBool.cpp">
+      <Filter>Framework\3D\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxCollision2d.cpp">
+      <Filter>Framework\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Cartesian.cpp">
+      <Filter>Framework\3D\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="ClodShader.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="CDateTime.cpp">
+      <Filter>Framework\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Chemistry.cpp">
+      <Filter>Framework\3D\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionTests.cpp">
+      <Filter>Framework\Physics\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="CLL.cpp">
+      <Filter>Lost and Found</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorField.cpp">
+      <Filter>Framework\Color</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorFieldTest.cpp">
+      <Filter>Framework\Color</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorNetwork.cpp">
+      <Filter>Framework\Color</Filter>
+    </ClCompile>
+    <ClCompile Include="CommandLine.cpp">
+      <Filter>Framework\System</Filter>
+    </ClCompile>
+    <ClCompile Include="BitBrush.cpp">
+      <Filter>Framework\2D\Art</Filter>
+    </ClCompile>
+    <ClCompile Include="CompositeImage.cpp">
+      <Filter>Framework\2D\Art</Filter>
+    </ClCompile>
+    <ClCompile Include="Cone.cpp">
+      <Filter>Framework\3D\Geometry\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="ConvolverShader.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Crack2d.cpp">
+      <Filter>Framework\2D\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="Crayon.cpp">
+      <Filter>Framework\Color</Filter>
+    </ClCompile>
+    <ClCompile Include="CrosshatchShader.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="CTimer.cpp">
+      <Filter>Framework\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Cube.cpp">
+      <Filter>Framework\3D\Geometry\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="CudaParticles.cpp">
+      <Filter>Lost and Found</Filter>
+    </ClCompile>
+    <ClCompile Include="DeformerShader.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Delay.cpp">
+      <Filter>Framework\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="Cylinder.cpp">
+      <Filter>Framework\3D\Geometry\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="Derar.cpp">
+      <Filter>Framework\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Display.cpp">
+      <Filter>Framework\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="DreamBlurShader.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="DungeonDigger.cpp">
+      <Filter>Framework\2D\Mapping</Filter>
+    </ClCompile>
+    <ClCompile Include="DynamicCamera.cpp">
+      <Filter>Framework\3D\Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="Emitter2d.cpp">
+      <Filter>Framework\2D\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="Enumerated.cpp">
+      <Filter>Framework\Data Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="FAFParticles.cpp">
+      <Filter>Framework\2D\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="FANSI.cpp">
+      <Filter>Lost and Found</Filter>
+    </ClCompile>
+    <ClCompile Include="FBMShader.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="FBMShaderTest.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="FBOTests.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="FDP2d.cpp">
+      <Filter>Framework\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="FIFO.cpp">
+      <Filter>Framework\Data Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="FileLibrary.cpp">
+      <Filter>Framework\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Film.cpp">
+      <Filter>Framework\2D\Art</Filter>
+    </ClCompile>
+    <ClCompile Include="Fluid2d.cpp">
+      <Filter>Framework\2D\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="Fire2d.cpp">
+      <Filter>Framework\2D\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="Fluid3dTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Fluid3d.cpp">
+      <Filter>Framework\3D\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="Curve2dTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="DLTilemapTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="FBOBoxCameraTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="FBOSwapperTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyingShader.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="FBO.cpp">
+      <Filter>Framework\GL\FBO</Filter>
+    </ClCompile>
+    <ClCompile Include="FObject.cpp">
+      <Filter>Framework\GL\FBO</Filter>
+    </ClCompile>
+    <ClCompile Include="ForeverWrappingQuadLayers.cpp">
+      <Filter>Framework\GL\FBO</Filter>
+    </ClCompile>
+    <ClCompile Include="Force.cpp">
+      <Filter>Framework\Physics\Traer</Filter>
+    </ClCompile>
+    <ClCompile Include="EulerIntegrator.cpp">
+      <Filter>Framework\Physics\Traer</Filter>
+    </ClCompile>
+    <ClCompile Include="Frosted2Shader.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="FrostedShader.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeType.cpp">
+      <Filter>Framework\Fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="FWTFTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEffects.cpp">
+      <Filter>Framework\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine.cpp">
+      <Filter>Framework\Abstractions</Filter>
+    </ClCompile>
+    <ClCompile Include="GammaShader.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="GarbageCollector.cpp">
+      <Filter>Framework\Data Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry.cpp">
+      <Filter>Framework\3D\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryInstancer.cpp">
+      <Filter>Framework\GL</Filter>
+    </ClCompile>
+    <ClCompile Include="GetTotalMemory.cpp">
+      <Filter>Framework\System</Filter>
+    </ClCompile>
+    <ClCompile Include="GlasscaveShader.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="GLScissor.cpp">
+      <Filter>Framework\GL</Filter>
+    </ClCompile>
+    <ClCompile Include="GLCubeMap.cpp">
+      <Filter>Framework\GL</Filter>
+    </ClCompile>
+    <ClCompile Include="GLBlend.cpp">
+      <Filter>Framework\GL</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFAFTester.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFontsTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="GLFBOColorDepthStencilTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="GLMCamera.cpp">
+      <Filter>Framework\3D\Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="GLMVBO.cpp">
+      <Filter>Framework\GL\VBO</Filter>
+    </ClCompile>
+    <ClCompile Include="GLSL2ShaderTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="GLPrimitives.cpp">
+      <Filter>Framework\GL</Filter>
+    </ClCompile>
+    <ClCompile Include="GLSimpleCubeTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="GLSkyboxTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="GLWindow.cpp">
+      <Filter>Framework\Abstractions</Filter>
+    </ClCompile>
+    <ClCompile Include="GLWindowGLTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="GLWindowHeightmapTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="GLWindowMaterialsCubeTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="GLWindowTotalWidgetTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="GLWindowSceneTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="GLWindowTest2.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="GLWindowTest3.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Gravitron2d.cpp">
+      <Filter>Framework\2D\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightBrush.cpp">
+      <Filter>Framework\3D\Topography</Filter>
+    </ClCompile>
+    <ClCompile Include="GravitronTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="HistoryFileManager.cpp">
+      <Filter>Framework\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="HeightMap.cpp">
+      <Filter>Framework\3D\Topography</Filter>
+    </ClCompile>
+    <ClCompile Include="HRTimer.cpp">
+      <Filter>Framework\System</Filter>
+    </ClCompile>
+    <ClCompile Include="HUD.cpp">
+      <Filter>Framework\Abstractions</Filter>
+    </ClCompile>
+    <ClCompile Include="HUDOverlay.cpp">
+      <Filter>Framework\Abstractions</Filter>
+    </ClCompile>
+    <ClCompile Include="ImplodeShader.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="InputControls.cpp">
+      <Filter>Framework\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Interface.cpp">
+      <Filter>Framework\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="Hemisphere.cpp">
+      <Filter>Framework\3D\Geometry\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="InfiniteTerrain.cpp">
+      <Filter>Framework\3D\Topography</Filter>
+    </ClCompile>
+    <ClCompile Include="IncrementalHalton.cpp">
+      <Filter>Framework\Randomness</Filter>
+    </ClCompile>
+    <ClCompile Include="Indexed.cpp">
+      <Filter>Framework\Data Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="Lathe.cpp">
+      <Filter>Framework\3D\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="LatheTool.cpp">
+      <Filter>Framework\3D\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Light2d.cpp">
+      <Filter>Framework\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="LightManager2d.cpp">
+      <Filter>Framework\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="LightManager2dTest.cpp">
+      <Filter>Framework\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="Lightning2dTest.cpp">
+      <Filter>Framework\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="LightningSystem2d.cpp">
+      <Filter>Framework\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="Lights.cpp">
+      <Filter>Framework\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="LightScattering.cpp">
+      <Filter>Framework\Lighting</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemCamera.cpp">
+      <Filter>Framework\3D\Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyedDataStore.cpp">
+      <Filter>Framework\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="LithophaneTest2.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="FastGUITest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="FreetypeTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="ZonedProce55orsTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="ZigguratTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldShaderTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="WireframeTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="TraerParticleTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="TouchGestureDetectorTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadedLoadingTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="TexturedFBOPLYTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="TexFontTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="SpiralTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="SpherePainterTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="SparksTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="SnowTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="SmokeTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaded2dShadowTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenPositionTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="RotatedTextureTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="QuadGridVBOTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="PointInTriangleTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="PagedLithophaneTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalAlphaMapTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalMapTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="NormalTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="NewShaderTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiCirclePlacerTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="LithophaneTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="STLFile.cpp">
+      <Filter>Framework\3D\Geometry\Modeling\STL</Filter>
+    </ClCompile>
+    <ClCompile Include="STLLibrary.cpp">
+      <Filter>Framework\3D\Geometry\Modeling\STL</Filter>
+    </ClCompile>
+    <ClCompile Include="STLLibraryBrowser.cpp">
+      <Filter>Framework\3D\Geometry\Modeling\STL</Filter>
+    </ClCompile>
+    <ClCompile Include="STLViewer.cpp">
+      <Filter>Framework\3D\Geometry\Modeling\STL</Filter>
+    </ClCompile>
+    <ClCompile Include="OrderedSet.cpp">
+      <Filter>Framework\Data Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="ZIndexed.cpp">
+      <Filter>Framework\Data Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="ZeroTypes.cpp">
+      <Filter>Framework\Data Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="Variable.cpp">
+      <Filter>Framework\Data Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedList.cpp">
+      <Filter>Framework\Data Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerCombiner.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerCombinerProfile.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="LatheTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Lithophane.cpp">
+      <Filter>Framework\3D\Topography</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix.cpp">
+      <Filter>Framework\3D\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix16.cpp">
+      <Filter>Framework\3D\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix4x4.cpp">
+      <Filter>Framework\3D\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="HyperspaceLoadingSequence.cpp">
+      <Filter>Lost and Found</Filter>
+    </ClCompile>
+    <ClCompile Include="Introduction.cpp">
+      <Filter>Lost and Found</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadingSequence.cpp">
+      <Filter>Framework\System</Filter>
+    </ClCompile>
+    <ClCompile Include="LuxShader.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="MapPosition.cpp">
+      <Filter>Framework\2D\Mapping</Filter>
+    </ClCompile>
+    <ClCompile Include="Masking.cpp">
+      <Filter>Framework\2D\Art</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Framework\3D\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelLibrary.cpp">
+      <Filter>Framework\3D\Geometry\Modeling</Filter>
+    </ClCompile>
+    <ClCompile Include="Mesh.cpp">
+      <Filter>Framework\3D\Geometry\Modeling</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Framework\3D\Geometry\Modeling</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelFactory.cpp">
+      <Filter>Framework\3D\Geometry\Modeling</Filter>
+    </ClCompile>
+    <ClCompile Include="NautilusShader.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="NightvisionShader.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="MonjoriShader.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="MetaFractalShader.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="ParallaxShader.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="PatchworkShader.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="PixelateShader.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="PlasmaShader.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="ProtoShader.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="PulseShader.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Shadows2DShader.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="ShockwaveShader.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="SmoothShadows2dShader.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="SniperLensShader.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="SpherizeShader.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="SurfaceShader.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="SwirlShader.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="StencilShader.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="TileShader.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="ThermalShader.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Tunnel2Shader.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="TunnelShader.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="TVShader.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="VortexShader.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="WireframeShader.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldShader.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="ModifiedEulerIntegrator.cpp">
+      <Filter>Framework\Physics\Traer</Filter>
+    </ClCompile>
+    <ClCompile Include="ListItem.cpp">
+      <Filter>Framework\Data Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="OCSG.cpp">
+      <Filter>Framework\3D\CSG</Filter>
+    </ClCompile>
+    <ClCompile Include="jsCSG.cpp">
+      <Filter>Framework\3D\CSG</Filter>
+    </ClCompile>
+    <ClCompile Include="SGjs.cpp">
+      <Filter>Framework\3D\CSG</Filter>
+    </ClCompile>
+    <ClCompile Include="Matter.cpp">
+      <Filter>Framework\3D\Geometry\Modeling</Filter>
+    </ClCompile>
+    <ClCompile Include="ModernVBOTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="PagedLithophane.cpp">
+      <Filter>Framework\3D\Topography</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryPool.cpp">
+      <Filter>Framework\Data Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="Multiparticle.cpp">
+      <Filter>Framework\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiPointSprite.cpp">
+      <Filter>Framework\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiCirclePlacer.cpp">
+      <Filter>Framework\2D\Art</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Framework\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle2d.cpp">
+      <Filter>Framework\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="Particles.cpp">
+      <Filter>Framework\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="ModernVBO.cpp">
+      <Filter>Framework\GL\VBO</Filter>
+    </ClCompile>
+    <ClCompile Include="GLSetup.cpp">
+      <Filter>Framework\GL\Context</Filter>
+    </ClCompile>
+    <ClCompile Include="glsw.c">
+      <Filter>Framework\GL\Context</Filter>
+    </ClCompile>
+    <ClCompile Include="GLImage.cpp">
+      <Filter>Framework\GL\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="OrangeShader.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="PanningWrappingMultiVBODetail.cpp">
+      <Filter>Framework\GL\VBO</Filter>
+    </ClCompile>
+    <ClCompile Include="Parallax2D.cpp">
+      <Filter>Framework\2.5D</Filter>
+    </ClCompile>
+    <ClCompile Include="ParallaxTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="PLY.cpp">
+      <Filter>Framework\3D\Geometry\Modeling</Filter>
+    </ClCompile>
+    <ClCompile Include="Polygon.cpp">
+      <Filter>Framework\3D\Geometry\Modeling</Filter>
+    </ClCompile>
+    <ClCompile Include="MotionShader.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenPosition.cpp">
+      <Filter>Framework\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="macros.cpp">
+      <Filter>Framework\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="moremath.cpp">
+      <Filter>Framework\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Panes.cpp">
+      <Filter>Framework\Abstractions</Filter>
+    </ClCompile>
+    <ClCompile Include="Parametric3d.cpp">
+      <Filter>Framework\3D\Geometry\Modeling</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertySet.cpp">
+      <Filter>Framework\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="PatchworkSystem.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Postprocessing.cpp">
+      <Filter>Framework\Abstractions</Filter>
+    </ClCompile>
+    <ClCompile Include="ProceduralTerrain.cpp">
+      <Filter>Framework\3D\Topography</Filter>
+    </ClCompile>
+    <ClCompile Include="Numbers.cpp">
+      <Filter>Framework\Data Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="Primitive3d.cpp">
+      <Filter>Framework\3D\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="InterpolatedPointFilm.cpp">
+      <Filter>Framework\3D\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="RippleShader.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="pThread.cpp">
+      <Filter>Framework\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Profiler.cpp">
+      <Filter>Framework\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Recyclable.cpp">
+      <Filter>Framework\Data Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="Reference.cpp">
+      <Filter>Framework\Data Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="RungeKuttaIntegrator.cpp">
+      <Filter>Framework\Physics\Traer</Filter>
+    </ClCompile>
+    <ClCompile Include="Poly2Tri.cpp">
+      <Filter>Framework\2D\Algorithms\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="vntShader.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="TweenBeamProfile.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="TweenBeam.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrollingInfiniteTerrain.cpp">
+      <Filter>Framework\3D\Topography</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleObjectiveCamera.cpp">
+      <Filter>Framework\3D\Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="RadialShader.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="GLSL2Shader.cpp">
+      <Filter>Framework\GL\GLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadProgram.cpp">
+      <Filter>Framework\GL\GLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Framework\GL\GLSL</Filter>
+    </ClCompile>
+    <ClCompile Include="pBuffer.cpp">
+      <Filter>Framework\GL\PBUFFER</Filter>
+    </ClCompile>
+    <ClCompile Include="pBufferWindow.cpp">
+      <Filter>Framework\GL\PBUFFER</Filter>
+    </ClCompile>
+    <ClCompile Include="GLGenTextureSettings.cpp">
+      <Filter>Framework\GL\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureLibrary.cpp">
+      <Filter>Framework\GL\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureRolodex.cpp">
+      <Filter>Framework\GL\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleMenu.cpp">
+      <Filter>Lost and Found</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleSequence.cpp">
+      <Filter>Lost and Found</Filter>
+    </ClCompile>
+    <ClCompile Include="Smoke2d.cpp">
+      <Filter>Framework\2D\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="Snow2d.cpp">
+      <Filter>Framework\2D\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="Spark2d.cpp">
+      <Filter>Framework\2D\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="SpilledLiquid2d.cpp">
+      <Filter>Framework\2D\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape2d.cpp">
+      <Filter>Framework\2D\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Primitives2D.cpp">
+      <Filter>Framework\2D\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Framework\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Skybox.cpp">
+      <Filter>Framework\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Voxel.cpp">
+      <Filter>Framework\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="VoxelLandscape.cpp">
+      <Filter>Framework\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Quaternion.cpp">
+      <Filter>Framework\3D\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Sphere.cpp">
+      <Filter>Framework\3D\Geometry\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="Pyramids.cpp">
+      <Filter>Framework\3D\Geometry\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="Prisms.cpp">
+      <Filter>Framework\3D\Geometry\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="Toroid.cpp">
+      <Filter>Framework\3D\Geometry\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="Torus.cpp">
+      <Filter>Framework\3D\Geometry\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="Tube.cpp">
+      <Filter>Framework\3D\Geometry\Primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeMappedSphere.cpp">
+      <Filter>Framework\3D\Geometry\Cube Mapped Sphere</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeMappedSpherePatternTest.cpp">
+      <Filter>Framework\3D\Geometry\Cube Mapped Sphere</Filter>
+    </ClCompile>
+    <ClCompile Include="CubeMappedSphereTest.cpp">
+      <Filter>Framework\3D\Geometry\Cube Mapped Sphere</Filter>
+    </ClCompile>
+    <ClCompile Include="SpherePainter.cpp">
+      <Filter>Framework\3D\Geometry\Cube Mapped Sphere</Filter>
+    </ClCompile>
+    <ClCompile Include="LookAtPerspective.cpp">
+      <Filter>Framework\3D\Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="GLUTesselator.cpp">
+      <Filter>Framework\2D\Algorithms\Tesselation</Filter>
+    </ClCompile>
+    <ClCompile Include="IncrementalDelauney.cpp">
+      <Filter>Framework\2D\Algorithms\Tesselation</Filter>
+    </ClCompile>
+    <ClCompile Include="Delaunay.cpp">
+      <Filter>Framework\2D\Algorithms\Tesselation</Filter>
+    </ClCompile>
+    <ClCompile Include="Triangulate.cpp">
+      <Filter>Framework\2D\Algorithms\Tesselation</Filter>
+    </ClCompile>
+    <ClCompile Include="Vertex.cpp">
+      <Filter>Framework\3D\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Vertexd.cpp">
+      <Filter>Framework\3D\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="dhpowareMath.cpp">
+      <Filter>Framework\3D\Math\3rd Party</Filter>
+    </ClCompile>
+    <ClCompile Include="HMatrix.cpp">
+      <Filter>Framework\3D\Math\3rd Party</Filter>
+    </ClCompile>
+    <ClCompile Include="HPlane.cpp">
+      <Filter>Framework\3D\Math\3rd Party</Filter>
+    </ClCompile>
+    <ClCompile Include="HQuaternion.cpp">
+      <Filter>Framework\3D\Math\3rd Party</Filter>
+    </ClCompile>
+    <ClCompile Include="HVertex.cpp">
+      <Filter>Framework\3D\Math\3rd Party</Filter>
+    </ClCompile>
+    <ClCompile Include="UglyFont.cpp">
+      <Filter>Framework\Fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="TexFont.cpp">
+      <Filter>Framework\Fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="Quad1.cpp">
+      <Filter>Framework\2.5D</Filter>
+    </ClCompile>
+    <ClCompile Include="QuadBender.cpp">
+      <Filter>Framework\2.5D</Filter>
+    </ClCompile>
+    <ClCompile Include="QuadGridVBO.cpp">
+      <Filter>Framework\2.5D</Filter>
+    </ClCompile>
+    <ClCompile Include="RLDungeon.cpp">
+      <Filter>Framework\2D\Mapping</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMap2d.cpp">
+      <Filter>Framework\2D\Mapping</Filter>
+    </ClCompile>
+    <ClCompile Include="SafeMediaLookup.cpp">
+      <Filter>Framework\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Randoms.cpp">
+      <Filter>Framework\Randomness</Filter>
+    </ClCompile>
+    <ClCompile Include="Rock.cpp">
+      <Filter>Framework\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="VBO.cpp">
+      <Filter>Framework\GL\VBO</Filter>
+    </ClCompile>
+    <ClCompile Include="VBOGroup.cpp">
+      <Filter>Framework\GL\VBO</Filter>
+    </ClCompile>
+    <ClCompile Include="Spring.cpp">
+      <Filter>Framework\Physics\Traer</Filter>
+    </ClCompile>
+    <ClCompile Include="Singleton.cpp">
+      <Filter>Framework\Data Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="SaveData.cpp">
+      <Filter>Framework\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Set.cpp">
+      <Filter>Framework\Data Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="SpecialPaths.cpp">
+      <Filter>Framework\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayList.cpp">
+      <Filter>Framework\GL\Display Lists %28defunct%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape.cpp">
+      <Filter>Framework\GL\Display Lists %28defunct%29</Filter>
+    </ClCompile>
+    <ClCompile Include="GLDisplayListTest.cpp">
+      <Filter>Framework\GL\Display Lists %28defunct%29</Filter>
+    </ClCompile>
+    <ClCompile Include="Spiral.cpp">
+      <Filter>Framework\2D\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Curve2d.cpp">
+      <Filter>Framework\2D\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Image2Fansi.cpp">
+      <Filter>Lost and Found</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteSheet.cpp">
+      <Filter>Framework\GL\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="Stopwatch.cpp">
+      <Filter>Framework\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="Statistic.cpp">
+      <Filter>Framework\Data Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMapTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="TouchGestureDetector.cpp">
+      <Filter>Framework\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="TSCTime.cpp">
+      <Filter>Framework\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Strings.cpp">
+      <Filter>Framework\Data Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="string_functions.cpp">
+      <Filter>Framework\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Framework\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="WebAPI.cpp">
+      <Filter>Framework\System</Filter>
+    </ClCompile>
+    <ClCompile Include="WebPage.cpp">
+      <Filter>Framework\System</Filter>
+    </ClCompile>
+    <ClCompile Include="FireAndForgetLimitedWrappingProce55Viewer2d.cpp">
+      <Filter>Framework\Proce55\Controllers and Viewers</Filter>
+    </ClCompile>
+    <ClCompile Include="fx_Buttons.cpp">
+      <Filter>Framework\Proce55\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="fx_CircleMenu.cpp">
+      <Filter>Framework\Proce55\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="fx_Film.cpp">
+      <Filter>Framework\Proce55\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="fx_FireAndForget.cpp">
+      <Filter>Framework\Proce55\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="fx_Glow.cpp">
+      <Filter>Framework\Proce55\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="fx_IconSelect.cpp">
+      <Filter>Framework\Proce55\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="fx_Lightning.cpp">
+      <Filter>Framework\Proce55\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="fx_LineGraph.cpp">
+      <Filter>Framework\Proce55\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="fx_List.cpp">
+      <Filter>Framework\Proce55\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="fx_MixedBag.cpp">
+      <Filter>Framework\Proce55\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="fx_Model.cpp">
+      <Filter>Framework\Proce55\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="fx_MultiPointSprite.cpp">
+      <Filter>Framework\Proce55\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="fx_Numbers.cpp">
+      <Filter>Framework\Proce55\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="fx_RGBAPal.cpp">
+      <Filter>Framework\Proce55\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="fx_RotaryMenu.cpp">
+      <Filter>Framework\Proce55\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="fx_SectionalPercentages.cpp">
+      <Filter>Framework\Proce55\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="fx_Shader2d.cpp">
+      <Filter>Framework\Proce55\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="fx_Shockwave.cpp">
+      <Filter>Framework\Proce55\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="fx_Sliders.cpp">
+      <Filter>Framework\Proce55\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="fx_Switchers.cpp">
+      <Filter>Framework\Proce55\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="fx_TexFont.cpp">
+      <Filter>Framework\Proce55\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="fx_Toggles.cpp">
+      <Filter>Framework\Proce55\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="fx_Tweakables.cpp">
+      <Filter>Framework\Proce55\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="fx_Tween.cpp">
+      <Filter>Framework\Proce55\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="fx_UglyText.cpp">
+      <Filter>Framework\Proce55\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="fx_VBOView.cpp">
+      <Filter>Framework\Proce55\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="LimitedProce55Viewer2d.cpp">
+      <Filter>Framework\Proce55\Controllers and Viewers</Filter>
+    </ClCompile>
+    <ClCompile Include="LimitedWrappingProce55Viewer2d.cpp">
+      <Filter>Framework\Proce55\Controllers and Viewers</Filter>
+    </ClCompile>
+    <ClCompile Include="OrderedProce55Viewer.cpp">
+      <Filter>Framework\Proce55\Controllers and Viewers</Filter>
+    </ClCompile>
+    <ClCompile Include="Proce55Viewer2d.cpp">
+      <Filter>Framework\Proce55\Controllers and Viewers</Filter>
+    </ClCompile>
+    <ClCompile Include="Proce55Controller.cpp">
+      <Filter>Framework\Proce55\Proce55ors</Filter>
+    </ClCompile>
+    <ClCompile Include="Proce55or.cpp">
+      <Filter>Framework\Proce55\Proce55ors</Filter>
+    </ClCompile>
+    <ClCompile Include="Proce55orGroup.cpp">
+      <Filter>Framework\Proce55\Proce55ors</Filter>
+    </ClCompile>
+    <ClCompile Include="Proce55ors.cpp">
+      <Filter>Framework\Proce55\Proce55ors</Filter>
+    </ClCompile>
+    <ClCompile Include="Presentation.cpp">
+      <Filter>Framework\Proce55\Linear</Filter>
+    </ClCompile>
+    <ClCompile Include="Slide.cpp">
+      <Filter>Framework\Proce55\Linear</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite2d.cpp">
+      <Filter>Framework\Proce55\Linear</Filter>
+    </ClCompile>
+    <ClCompile Include="VisualAid.cpp">
+      <Filter>Framework\Proce55\Linear</Filter>
+    </ClCompile>
+    <ClCompile Include="WrappingProce55Viewer2d.cpp">
+      <Filter>Framework\Proce55\Controllers and Viewers</Filter>
+    </ClCompile>
+    <ClCompile Include="ZonedMovingProce55orDebugger.cpp">
+      <Filter>Framework\Proce55\Controllers and Viewers</Filter>
+    </ClCompile>
+    <ClCompile Include="ZonedProce55ors.cpp">
+      <Filter>Framework\Proce55\Controllers and Viewers</Filter>
+    </ClCompile>
+    <ClCompile Include="ZSortedFAFZonedProce55Viewer2d.cpp">
+      <Filter>Framework\Proce55\Controllers and Viewers</Filter>
+    </ClCompile>
+    <ClCompile Include="ZSortedFireAndForgetLimitedWrappingProce55Viewer2d.cpp">
+      <Filter>Framework\Proce55\Controllers and Viewers</Filter>
+    </ClCompile>
+    <ClCompile Include="Tween.cpp">
+      <Filter>Framework\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="Tweens.cpp">
+      <Filter>Framework\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="Trigger.cpp">
+      <Filter>Framework\Physics\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="ExternalResources.cpp">
+      <Filter>Lost and Found</Filter>
+    </ClCompile>
+    <ClCompile Include="ByteEncoder.cpp">
+      <Filter>Framework\Language\Legacy Ideas</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassDecoder.cpp">
+      <Filter>Framework\Language\Legacy Ideas</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassDeployer.cpp">
+      <Filter>Framework\Language\Legacy Ideas</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderProcess.cpp">
+      <Filter>Framework\Language\Legacy Ideas</Filter>
+    </ClCompile>
+    <ClCompile Include="Scripting.cpp">
+      <Filter>Framework\Language</Filter>
+    </ClCompile>
+    <ClCompile Include="Variadics.cpp">
+      <Filter>Framework\Language</Filter>
+    </ClCompile>
+    <ClCompile Include="Functions.cpp">
+      <Filter>Framework\Language</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptableProce55or.cpp">
+      <Filter>Framework\Language</Filter>
+    </ClCompile>
+    <ClCompile Include="FastGUIProcessors.cpp">
+      <Filter>Framework\Language</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptableFX.cpp">
+      <Filter>Framework\Language</Filter>
+    </ClCompile>
+    <ClCompile Include="HashStore.cpp">
+      <Filter>Framework\Data Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="PackedString.cpp">
+      <Filter>Framework\Data Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="PresentationScriptable.cpp">
+      <Filter>Framework\Language</Filter>
+    </ClCompile>
+    <ClCompile Include="Image2Model.cpp">
+      <Filter>Framework\2D\Art\Imaging</Filter>
+    </ClCompile>
+    <ClCompile Include="Image2Placements.cpp">
+      <Filter>Framework\2D\Art\Imaging</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageCombiner.cpp">
+      <Filter>Framework\2D\Art\Imaging</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageLoader.cpp">
+      <Filter>Framework\2D\Art\Imaging</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageLoaders.cpp">
+      <Filter>Framework\2D\Art\Imaging</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageProcess.cpp">
+      <Filter>Framework\2D\Art\Imaging</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageResizer.cpp">
+      <Filter>Framework\2D\Art\Imaging</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageRotator.cpp">
+      <Filter>Framework\2D\Art\Imaging</Filter>
+    </ClCompile>
+    <ClCompile Include="RoundedRectangle.cpp">
+      <Filter>Framework\2D\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="Load.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Globals.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="GLTransform.cpp">
+      <Filter>Framework\GL</Filter>
+    </ClCompile>
+    <ClCompile Include="EditGUI.cpp">
+      <Filter>Framework\Interface\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualGUITest.cpp">
+      <Filter>Framework\Interface\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualWindow.cpp">
+      <Filter>Framework\Interface\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="FastGUI.cpp">
+      <Filter>Framework\Interface\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="JSON.cpp">
+      <Filter>Framework\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowsKeyboard.cpp">
+      <Filter>Framework\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowsKeyboardTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="QuarterCircleTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="VBOFlavors.cpp">
+      <Filter>Framework\GL\VBO</Filter>
+    </ClCompile>
+    <ClCompile Include="VBOTriangles.cpp">
+      <Filter>Framework\GL\VBO</Filter>
+    </ClCompile>
+    <ClCompile Include="VBO_V.cpp">
+      <Filter>Framework\GL\VBO\Flavors</Filter>
+    </ClCompile>
+    <ClCompile Include="VBO_VC.cpp">
+      <Filter>Framework\GL\VBO\Flavors</Filter>
+    </ClCompile>
+    <ClCompile Include="VBO_VCLines.cpp">
+      <Filter>Framework\GL\VBO\Flavors</Filter>
+    </ClCompile>
+    <ClCompile Include="VBO_VN.cpp">
+      <Filter>Framework\GL\VBO\Flavors</Filter>
+    </ClCompile>
+    <ClCompile Include="VBO_VNC.cpp">
+      <Filter>Framework\GL\VBO\Flavors</Filter>
+    </ClCompile>
+    <ClCompile Include="VBO_VNT.cpp">
+      <Filter>Framework\GL\VBO\Flavors</Filter>
+    </ClCompile>
+    <ClCompile Include="VBO_VNTC.cpp">
+      <Filter>Framework\GL\VBO\Flavors</Filter>
+    </ClCompile>
+    <ClCompile Include="VBO_VNTCTan.cpp">
+      <Filter>Framework\GL\VBO\Flavors</Filter>
+    </ClCompile>
+    <ClCompile Include="VBO_VNTTan.cpp">
+      <Filter>Framework\GL\VBO\Flavors</Filter>
+    </ClCompile>
+    <ClCompile Include="VBO_VNTTanBi.cpp">
+      <Filter>Framework\GL\VBO\Flavors</Filter>
+    </ClCompile>
+    <ClCompile Include="VBO_VT.cpp">
+      <Filter>Framework\GL\VBO\Flavors</Filter>
+    </ClCompile>
+    <ClCompile Include="VBO_Vw.cpp">
+      <Filter>Framework\GL\VBO\Flavors</Filter>
+    </ClCompile>
+    <ClCompile Include="OldVBO.cpp">
+      <Filter>Framework\GL\VBO</Filter>
+    </ClCompile>
+    <ClCompile Include="p2t_advancing_front.cc">
+      <Filter>Framework\2D\Algorithms\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="p2t_cdt.cc">
+      <Filter>Framework\2D\Algorithms\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="p2t_shapes.cc">
+      <Filter>Framework\2D\Algorithms\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="p2t_sweep.cc">
+      <Filter>Framework\2D\Algorithms\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="p2t_sweep_context.cc">
+      <Filter>Framework\2D\Algorithms\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Framework\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="AppFramework.cpp">
+      <Filter>Framework\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>Framework\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="GridSplitter.cpp">
+      <Filter>Framework\2D\Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="GridSplitterTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoTexture.cpp">
+      <Filter>Framework\Video</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoStream.cpp">
+      <Filter>Framework\Video</Filter>
+    </ClCompile>
+    <ClCompile Include="waveout.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="GameHUD.cpp">
+      <Filter>Application\Game\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorController.cpp">
+      <Filter>Framework\Color</Filter>
+    </ClCompile>
+    <ClCompile Include="ComplexWave.cpp">
+      <Filter>Framework\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="BinPack.cpp">
+      <Filter>Framework\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="FileDialog.cpp">
+      <Filter>Framework\Interface\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="FileDialogTest.cpp">
+      <Filter>Framework\Interface\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="FormUI.cpp">
+      <Filter>Framework\Interface\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="FormUITest.cpp">
+      <Filter>Framework\Interface\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorShader.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="StarNestShader.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics.cpp">
+      <Filter>Framework\Interface\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="TermShader.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform2d.cpp">
+      <Filter>Framework\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="RectPackTest.cpp">
+      <Filter>Framework\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="RectPlacer.cpp">
+      <Filter>Framework\2D\Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="CSV.cpp">
+      <Filter>Framework\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Nebula4LightShader.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioSampleLookup.cpp">
+      <Filter>Framework\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="DJ.cpp">
+      <Filter>Framework\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="DJTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="StarNestTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="SpaceShaderTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleZonedProcessors.cpp">
+      <Filter>Framework\Proce55\Controllers and Viewers</Filter>
+    </ClCompile>
+    <ClCompile Include="Shadow2DTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="SuperSimpleMacroTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="PixelatedFBOTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="ASCIIShader.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="SpaceShaders.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="PixelDoubler.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Steamworks.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="NavigationController.cpp">
+      <Filter>Framework\2D\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="HIDControlMapping.cpp">
+      <Filter>Framework\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="ControlOptions.cpp">
+      <Filter>Framework\Interface</Filter>
+    </ClCompile>
+    <ClCompile Include="StarfieldTestView.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="IsotrapGrid.cpp">
+      <Filter>Framework\2D\Art</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleAnimatedSprite.cpp">
+      <Filter>Framework\2D\Art</Filter>
+    </ClCompile>
+    <ClCompile Include="VVoxel.cpp">
+      <Filter>Framework\2D\Art</Filter>
+    </ClCompile>
+    <ClCompile Include="MilazzoVisibility.cpp">
+      <Filter>Framework\2D\Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="Universe.cpp">
+      <Filter>Application\Deprecated Legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="SolarSystemStarfield.cpp">
+      <Filter>Application\Game\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="PortraitPaperdoll.cpp">
+      <Filter>Application\Game\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="AssetLoader.cpp">
+      <Filter>Application\Game\Data Structures\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Application\Game\Data Structures\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionProfile.cpp">
+      <Filter>Application\Game\Data Structures\Game World</Filter>
+    </ClCompile>
+    <ClCompile Include="Mulligan.cpp">
+      <Filter>Application\Game\Data Structures\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEffect.cpp">
+      <Filter>Application\Game\Data Structures\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerPortrait.cpp">
+      <Filter>Application\Game\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="MoneyCounter.cpp">
+      <Filter>Application\Game\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="Art.cpp">
+      <Filter>Framework\2D\Art\Legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="Art2d.cpp">
+      <Filter>Framework\2D\Art</Filter>
+    </ClCompile>
+    <ClCompile Include="TexShader.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Hardware.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="SpherizeShaderTest.cpp">
+      <Filter>Framework\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="Blend8WayTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="AtlasFontViewer.cpp">
+      <Filter>Framework\Fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="UglyGlyphs.cpp">
+      <Filter>Framework\Fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="BestRectTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="fx_Teletype.cpp">
+      <Filter>Framework\Proce55\FX</Filter>
+    </ClCompile>
+    <ClCompile Include="Icons.cpp">
+      <Filter>Framework\2D</Filter>
+    </ClCompile>
+    <ClCompile Include="StringIndexed.cpp">
+      <Filter>Framework\Data Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="BASIC.cpp">
+      <Filter>Framework\Vintage</Filter>
+    </ClCompile>
+    <ClCompile Include="TwoDeeElementEditor.cpp">
+      <Filter>Framework\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderLab.cpp">
+      <Filter>Framework\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="ATFont.cpp">
+      <Filter>Framework\Fonts</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMenu.cpp">
+      <Filter>Application\Game\Visuals</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Application\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOptions.cpp">
+      <Filter>Application\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="NewGamePanel.cpp">
+      <Filter>Application\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Application\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="ATFontTest.cpp">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClCompile>
+    <ClCompile Include="Atlas.cpp">
+      <Filter>Framework\2D\Art</Filter>
+    </ClCompile>
+    <ClCompile Include="glew.c">
+      <Filter>Framework\GL\Context</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TTFTriangulatorIII.h">
+      <Filter>Framework\Fonts\TTF</Filter>
+    </ClInclude>
+    <ClInclude Include="TTF.h">
+      <Filter>Framework\Fonts\TTF</Filter>
+    </ClInclude>
+    <ClInclude Include="TTFCoreTest.h">
+      <Filter>Framework\Fonts\TTF</Filter>
+    </ClInclude>
+    <ClInclude Include="TTFExceptions.h">
+      <Filter>Framework\Fonts\TTF</Filter>
+    </ClInclude>
+    <ClInclude Include="TTFFont.h">
+      <Filter>Framework\Fonts\TTF</Filter>
+    </ClInclude>
+    <ClInclude Include="TTFLibrary.h">
+      <Filter>Framework\Fonts\TTF</Filter>
+    </ClInclude>
+    <ClInclude Include="TTFLibraryBrowser.h">
+      <Filter>Framework\Fonts\TTF</Filter>
+    </ClInclude>
+    <ClInclude Include="TTFMath.h">
+      <Filter>Framework\Fonts\TTF</Filter>
+    </ClInclude>
+    <ClInclude Include="TTFTriangulator.h">
+      <Filter>Framework\Fonts\TTF</Filter>
+    </ClInclude>
+    <ClInclude Include="TTFTriangulatorI.h">
+      <Filter>Framework\Fonts\TTF</Filter>
+    </ClInclude>
+    <ClInclude Include="TTFTriangulatorII.h">
+      <Filter>Framework\Fonts\TTF</Filter>
+    </ClInclude>
+    <ClInclude Include="TTFExLibraryBrowser.h">
+      <Filter>Framework\Fonts\TTFEx</Filter>
+    </ClInclude>
+    <ClInclude Include="TTFEx.h">
+      <Filter>Framework\Fonts\TTFEx</Filter>
+    </ClInclude>
+    <ClInclude Include="aCamera.h">
+      <Filter>Framework\3D\Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="Arrows.h">
+      <Filter>Framework\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="AStarTest.h">
+      <Filter>Framework\2D\Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="AStar.h">
+      <Filter>Framework\2D\Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="AsciiMap.h">
+      <Filter>Framework\2D\Mapping</Filter>
+    </ClInclude>
+    <ClInclude Include="b2WorldCallbacks.h">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="b2BlockAllocator.h">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="b2Body.h">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="b2BroadPhase.h">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="b2CircleContact.h">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="b2CircleShape.h">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="b2Collision.h">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="b2Contact.h">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="b2ContactManager.h">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="b2ContactSolver.h">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="b2Distance.h">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="b2DistanceJoint.h">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="b2DynamicTree.h">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="b2Fixture.h">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="b2FrictionJoint.h">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="b2GearJoint.h">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="b2Island.h">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="b2Joint.h">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="b2LineJoint.h">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="b2Math.h">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="b2MouseJoint.h">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="b2PolygonAndCircleContact.h">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="b2PolygonContact.h">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="b2PolygonShape.h">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="b2PrismaticJoint.h">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="b2PulleyJoint.h">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="b2RevoluteJoint.h">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="b2Settings.h">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="b2Shape.h">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="b2StackAllocator.h">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="b2TimeOfImpact.h">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="b2TimeStep.h">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="b2TOISolver.h">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="b2WeldJoint.h">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="b2World.h">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="BDungeon.h">
+      <Filter>Framework\2D\Mapping</Filter>
+    </ClInclude>
+    <ClInclude Include="Attraction.h">
+      <Filter>Framework\Physics\Traer</Filter>
+    </ClInclude>
+    <ClInclude Include="BillboardShader.h">
+      <Filter>Framework\2D\Billboarding</Filter>
+    </ClInclude>
+    <ClInclude Include="Billboard.h">
+      <Filter>Framework\2D\Billboarding</Filter>
+    </ClInclude>
+    <ClInclude Include="BendShader.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio.h">
+      <Filter>Framework\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryFileTest.h">
+      <Filter>Framework\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryFile.h">
+      <Filter>Framework\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="BitVoxel.h">
+      <Filter>Framework\3D\Worlds</Filter>
+    </ClInclude>
+    <ClInclude Include="BitVoxelTest.h">
+      <Filter>Framework\3D\Worlds</Filter>
+    </ClInclude>
+    <ClInclude Include="BlendShader.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="BloomShader.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockWorld.h">
+      <Filter>Framework\3D\Worlds</Filter>
+    </ClInclude>
+    <ClInclude Include="BouncingBall.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2DTest.h">
+      <Filter>Framework\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D.h">
+      <Filter>Framework\Physics\Box2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Blur3D.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Box3d.h">
+      <Filter>Framework\3D\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera2d.h">
+      <Filter>Framework\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Framework\3D\Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxBool.h">
+      <Filter>Framework\3D\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxCollision2d.h">
+      <Filter>Framework\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Cartesian.h">
+      <Filter>Framework\3D\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="ClodShader.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="CDateTime.h">
+      <Filter>Framework\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Chemistry.h">
+      <Filter>Framework\3D\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionTests.h">
+      <Filter>Framework\Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="CLL.h">
+      <Filter>Lost and Found</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorNetwork.h">
+      <Filter>Framework\Color</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorField.h">
+      <Filter>Framework\Color</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorFieldTest.h">
+      <Filter>Framework\Color</Filter>
+    </ClInclude>
+    <ClInclude Include="CommandLine.h">
+      <Filter>Framework\System</Filter>
+    </ClInclude>
+    <ClInclude Include="CompositeImage.h">
+      <Filter>Framework\2D\Art</Filter>
+    </ClInclude>
+    <ClInclude Include="BitBrush.h">
+      <Filter>Framework\2D\Art</Filter>
+    </ClInclude>
+    <ClInclude Include="Cone.h">
+      <Filter>Framework\3D\Geometry\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="ConvolverShader.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Crack2d.h">
+      <Filter>Framework\2D\FX</Filter>
+    </ClInclude>
+    <ClInclude Include="Crayon.h">
+      <Filter>Framework\Color</Filter>
+    </ClInclude>
+    <ClInclude Include="CrosshatchShader.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="CTimer.h">
+      <Filter>Framework\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Cube.h">
+      <Filter>Framework\3D\Geometry\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="CudaParticles.h">
+      <Filter>Lost and Found</Filter>
+    </ClInclude>
+    <ClInclude Include="DeformerShader.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Delay.h">
+      <Filter>Framework\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Cylinder.h">
+      <Filter>Framework\3D\Geometry\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="Derar.h">
+      <Filter>Framework\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Display.h">
+      <Filter>Framework\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="DreamBlurShader.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="DungeonDigger.h">
+      <Filter>Framework\2D\Mapping</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicCamera.h">
+      <Filter>Framework\3D\Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="Emitter2d.h">
+      <Filter>Framework\2D\FX</Filter>
+    </ClInclude>
+    <ClInclude Include="Enumerated.h">
+      <Filter>Framework\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="FAFParticles.h">
+      <Filter>Framework\2D\FX</Filter>
+    </ClInclude>
+    <ClInclude Include="FANSI.h">
+      <Filter>Lost and Found</Filter>
+    </ClInclude>
+    <ClInclude Include="FBMShader.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="FBMShaderTest.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="FBOTests.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="FDP2d.h">
+      <Filter>Framework\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="FIFO.h">
+      <Filter>Framework\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="FileLibrary.h">
+      <Filter>Framework\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Film.h">
+      <Filter>Framework\2D\Art</Filter>
+    </ClInclude>
+    <ClInclude Include="Fluid2d.h">
+      <Filter>Framework\2D\FX</Filter>
+    </ClInclude>
+    <ClInclude Include="Fire2d.h">
+      <Filter>Framework\2D\FX</Filter>
+    </ClInclude>
+    <ClInclude Include="Fluid3dTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Fluid3d.h">
+      <Filter>Framework\3D\FX</Filter>
+    </ClInclude>
+    <ClInclude Include="FBOSwapperTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Curve2dTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="DLTilemapTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="FBOBoxCameraTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyingShader.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ForeverWrappingQuadLayers.h">
+      <Filter>Framework\GL\FBO</Filter>
+    </ClInclude>
+    <ClInclude Include="FBO.h">
+      <Filter>Framework\GL\FBO</Filter>
+    </ClInclude>
+    <ClInclude Include="FObject.h">
+      <Filter>Framework\GL\FBO</Filter>
+    </ClInclude>
+    <ClInclude Include="Force.h">
+      <Filter>Framework\Physics\Traer</Filter>
+    </ClInclude>
+    <ClInclude Include="EulerIntegrator.h">
+      <Filter>Framework\Physics\Traer</Filter>
+    </ClInclude>
+    <ClInclude Include="FrostedShader.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Frosted2Shader.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="FreeType.h">
+      <Filter>Framework\Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="FWTFTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEffects.h">
+      <Filter>Framework\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine.h">
+      <Filter>Framework\Abstractions</Filter>
+    </ClInclude>
+    <ClInclude Include="GammaShader.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="GarbageCollector.h">
+      <Filter>Framework\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry.h">
+      <Filter>Framework\3D\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryInstancer.h">
+      <Filter>Framework\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="GetTotalMemory.h">
+      <Filter>Framework\System</Filter>
+    </ClInclude>
+    <ClInclude Include="GlasscaveShader.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="GLScissor.h">
+      <Filter>Framework\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="GLCubeMap.h">
+      <Filter>Framework\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="GLBlend.h">
+      <Filter>Framework\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="GLFAFTester.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="GLFontsTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="GLFBOColorDepthStencilTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="GLMCamera.h">
+      <Filter>Framework\3D\Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="GLMVBO.h">
+      <Filter>Framework\GL\VBO</Filter>
+    </ClInclude>
+    <ClInclude Include="GLSL2ShaderTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="GLPrimitives.h">
+      <Filter>Framework\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="GLSimpleCubeTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="GLSkyboxTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="GLWindow.h">
+      <Filter>Framework\Abstractions</Filter>
+    </ClInclude>
+    <ClInclude Include="GLWindowGLTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="GLWindowHeightmapTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="GLWindowMaterialsCubeTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="GLWindowTotalWidgetTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="GLWindowSceneTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="GLWindowTest3.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="GLWindowTest2.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Gravitron2d.h">
+      <Filter>Framework\2D\FX</Filter>
+    </ClInclude>
+    <ClInclude Include="HeightBrush.h">
+      <Filter>Framework\3D\Topography</Filter>
+    </ClInclude>
+    <ClInclude Include="GravitronTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="HistoryFileManager.h">
+      <Filter>Framework\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="HeightMap.h">
+      <Filter>Framework\3D\Topography</Filter>
+    </ClInclude>
+    <ClInclude Include="HRTimer.h">
+      <Filter>Framework\System</Filter>
+    </ClInclude>
+    <ClInclude Include="HUDOverlay.h">
+      <Filter>Framework\Abstractions</Filter>
+    </ClInclude>
+    <ClInclude Include="HUD.h">
+      <Filter>Framework\Abstractions</Filter>
+    </ClInclude>
+    <ClInclude Include="ImplodeShader.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface.h">
+      <Filter>Framework\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="InputControls.h">
+      <Filter>Framework\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="Hemisphere.h">
+      <Filter>Framework\3D\Geometry\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="InfiniteTerrain.h">
+      <Filter>Framework\3D\Topography</Filter>
+    </ClInclude>
+    <ClInclude Include="IncrementalHalton.h">
+      <Filter>Framework\Randomness</Filter>
+    </ClInclude>
+    <ClInclude Include="Indexed.h">
+      <Filter>Framework\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Lathe.h">
+      <Filter>Framework\3D\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="LatheTool.h">
+      <Filter>Framework\3D\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="LightScattering.h">
+      <Filter>Framework\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="Light2d.h">
+      <Filter>Framework\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="LightManager2d.h">
+      <Filter>Framework\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="LightManager2dTest.h">
+      <Filter>Framework\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="Lightning2dTest.h">
+      <Filter>Framework\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="LightningSystem2d.h">
+      <Filter>Framework\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="Lights.h">
+      <Filter>Framework\Lighting</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemCamera.h">
+      <Filter>Framework\3D\Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyedDataStore.h">
+      <Filter>Framework\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="LithophaneTest2.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="FastGUITest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="FreetypeTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="ZonedProce55orsTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="ZigguratTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldShaderTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="WireframeTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="TraerParticleTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="TouchGestureDetectorTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadedLoadingTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="TexturedFBOPLYTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="TexFontTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="SpiralTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="SpherePainterTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="SparksTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="SnowTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="SmokeTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaded2dShadowTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenPositionTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="RotatedTextureTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="QuadGridVBOTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="PointInTriangleTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="PagedLithophaneTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalAlphaMapTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalMapTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="NewShaderTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiCirclePlacerTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="LithophaneTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="STLViewer.h">
+      <Filter>Framework\3D\Geometry\Modeling\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="STLFile.h">
+      <Filter>Framework\3D\Geometry\Modeling\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="STLLibrary.h">
+      <Filter>Framework\3D\Geometry\Modeling\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="STLLibraryBrowser.h">
+      <Filter>Framework\3D\Geometry\Modeling\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="OrderedSet.h">
+      <Filter>Framework\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="ZIndexed.h">
+      <Filter>Framework\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="ZeroTypes.h">
+      <Filter>Framework\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Variable.h">
+      <Filter>Framework\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedList.h">
+      <Filter>Framework\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerCombinerProfile.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerCombiner.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Kernel.h">
+      <Filter>Framework\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="LatheTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Lithophane.h">
+      <Filter>Framework\3D\Topography</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix4x4.h">
+      <Filter>Framework\3D\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>Framework\3D\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix16.h">
+      <Filter>Framework\3D\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="HyperspaceLoadingSequence.h">
+      <Filter>Lost and Found</Filter>
+    </ClInclude>
+    <ClInclude Include="Introduction.h">
+      <Filter>Lost and Found</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadingSequence.h">
+      <Filter>Framework\System</Filter>
+    </ClInclude>
+    <ClInclude Include="LuxShader.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="MapPosition.h">
+      <Filter>Framework\2D\Mapping</Filter>
+    </ClInclude>
+    <ClInclude Include="Masking.h">
+      <Filter>Framework\2D\Art</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Framework\3D\Materials</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelLibrary.h">
+      <Filter>Framework\3D\Geometry\Modeling</Filter>
+    </ClInclude>
+    <ClInclude Include="Mesh.h">
+      <Filter>Framework\3D\Geometry\Modeling</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Framework\3D\Geometry\Modeling</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelFactory.h">
+      <Filter>Framework\3D\Geometry\Modeling</Filter>
+    </ClInclude>
+    <ClInclude Include="NautilusShader.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="NightvisionShader.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="MonjoriShader.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="MetaFractalShader.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ParallaxShader.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="PatchworkShader.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="PixelateShader.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="PlasmaShader.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ProtoShader.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="PulseShader.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Shadows2DShader.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ShockwaveShader.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="SmoothShadows2dShader.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="SniperLensShader.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="SpherizeShader.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="SurfaceShader.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="SwirlShader.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="StencilShader.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="TileShader.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ThermalShader.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Tunnel2Shader.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="TunnelShader.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="TVShader.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="VortexShader.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="WireframeShader.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldShader.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ModifiedEulerIntegrator.h">
+      <Filter>Framework\Physics\Traer</Filter>
+    </ClInclude>
+    <ClInclude Include="ListItem.h">
+      <Filter>Framework\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="OCSG.h">
+      <Filter>Framework\3D\CSG</Filter>
+    </ClInclude>
+    <ClInclude Include="jsCSG.h">
+      <Filter>Framework\3D\CSG</Filter>
+    </ClInclude>
+    <ClInclude Include="SGjs.h">
+      <Filter>Framework\3D\CSG</Filter>
+    </ClInclude>
+    <ClInclude Include="Matter.h">
+      <Filter>Framework\3D\Geometry\Modeling</Filter>
+    </ClInclude>
+    <ClInclude Include="ModernVBOTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="PagedLithophane.h">
+      <Filter>Framework\3D\Topography</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryPool.h">
+      <Filter>Framework\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Multiparticle.h">
+      <Filter>Framework\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiPointSprite.h">
+      <Filter>Framework\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiCirclePlacer.h">
+      <Filter>Framework\2D\Art</Filter>
+    </ClInclude>
+    <ClInclude Include="Particles.h">
+      <Filter>Framework\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Framework\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle2d.h">
+      <Filter>Framework\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="ModernVBO.h">
+      <Filter>Framework\GL\VBO</Filter>
+    </ClInclude>
+    <ClInclude Include="glext.h">
+      <Filter>Framework\GL\Context</Filter>
+    </ClInclude>
+    <ClInclude Include="GLSetup.h">
+      <Filter>Framework\GL\Context</Filter>
+    </ClInclude>
+    <ClInclude Include="glsw.h">
+      <Filter>Framework\GL\Context</Filter>
+    </ClInclude>
+    <ClInclude Include="GLImage.h">
+      <Filter>Framework\GL\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="OrangeShader.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="PanningWrappingMultiVBODetail.h">
+      <Filter>Framework\GL\VBO</Filter>
+    </ClInclude>
+    <ClInclude Include="Parallax2D.h">
+      <Filter>Framework\2.5D</Filter>
+    </ClInclude>
+    <ClInclude Include="ParallaxTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Polygon.h">
+      <Filter>Framework\3D\Geometry\Modeling</Filter>
+    </ClInclude>
+    <ClInclude Include="PLY.h">
+      <Filter>Framework\3D\Geometry\Modeling</Filter>
+    </ClInclude>
+    <ClInclude Include="MotionShader.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenPosition.h">
+      <Filter>Framework\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="macros.h">
+      <Filter>Framework\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="moremath.h">
+      <Filter>Framework\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Panes.h">
+      <Filter>Framework\Abstractions</Filter>
+    </ClInclude>
+    <ClInclude Include="Parametric3d.h">
+      <Filter>Framework\3D\Geometry\Modeling</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertySet.h">
+      <Filter>Framework\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="PatchworkSystem.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Postprocessing.h">
+      <Filter>Framework\Abstractions</Filter>
+    </ClInclude>
+    <ClInclude Include="ProceduralTerrain.h">
+      <Filter>Framework\3D\Topography</Filter>
+    </ClInclude>
+    <ClInclude Include="Numbers.h">
+      <Filter>Framework\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Primitive3d.h">
+      <Filter>Framework\3D\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="InterpolatedPointFilm.h">
+      <Filter>Framework\3D\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="RippleShader.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="pThread.h">
+      <Filter>Framework\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Profiler.h">
+      <Filter>Framework\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Reference.h">
+      <Filter>Framework\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Recyclable.h">
+      <Filter>Framework\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="RungeKuttaIntegrator.h">
+      <Filter>Framework\Physics\Traer</Filter>
+    </ClInclude>
+    <ClInclude Include="Poly2Tri.h">
+      <Filter>Framework\2D\Algorithms\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="vntShader.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="TweenBeamProfile.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="TweenBeam.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrollingInfiniteTerrain.h">
+      <Filter>Framework\3D\Topography</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleObjectiveCamera.h">
+      <Filter>Framework\3D\Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="RadialShader.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="GLSL2Shader.h">
+      <Filter>Framework\GL\GLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadProgram.h">
+      <Filter>Framework\GL\GLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Framework\GL\GLSL</Filter>
+    </ClInclude>
+    <ClInclude Include="pBufferWindow.h">
+      <Filter>Framework\GL\PBUFFER</Filter>
+    </ClInclude>
+    <ClInclude Include="pBuffer.h">
+      <Filter>Framework\GL\PBUFFER</Filter>
+    </ClInclude>
+    <ClInclude Include="GLGenTextureSettings.h">
+      <Filter>Framework\GL\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureRolodex.h">
+      <Filter>Framework\GL\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureLibrary.h">
+      <Filter>Framework\GL\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleSequence.h">
+      <Filter>Lost and Found</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleMenu.h">
+      <Filter>Lost and Found</Filter>
+    </ClInclude>
+    <ClInclude Include="SpilledLiquid2d.h">
+      <Filter>Framework\2D\FX</Filter>
+    </ClInclude>
+    <ClInclude Include="Smoke2d.h">
+      <Filter>Framework\2D\FX</Filter>
+    </ClInclude>
+    <ClInclude Include="Snow2d.h">
+      <Filter>Framework\2D\FX</Filter>
+    </ClInclude>
+    <ClInclude Include="Spark2d.h">
+      <Filter>Framework\2D\FX</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape2d.h">
+      <Filter>Framework\2D\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Primitives2D.h">
+      <Filter>Framework\2D\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Framework\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Skybox.h">
+      <Filter>Framework\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Voxel.h">
+      <Filter>Framework\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="VoxelLandscape.h">
+      <Filter>Framework\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Quaternion.h">
+      <Filter>Framework\3D\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>Framework\3D\Geometry\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="Pyramids.h">
+      <Filter>Framework\3D\Geometry\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="Prisms.h">
+      <Filter>Framework\3D\Geometry\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="Toroid.h">
+      <Filter>Framework\3D\Geometry\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="Torus.h">
+      <Filter>Framework\3D\Geometry\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="Tube.h">
+      <Filter>Framework\3D\Geometry\Primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeMappedSphereTest.h">
+      <Filter>Framework\3D\Geometry\Cube Mapped Sphere</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeMappedSphere.h">
+      <Filter>Framework\3D\Geometry\Cube Mapped Sphere</Filter>
+    </ClInclude>
+    <ClInclude Include="CubeMappedSpherePatternTest.h">
+      <Filter>Framework\3D\Geometry\Cube Mapped Sphere</Filter>
+    </ClInclude>
+    <ClInclude Include="SpherePainter.h">
+      <Filter>Framework\3D\Geometry\Cube Mapped Sphere</Filter>
+    </ClInclude>
+    <ClInclude Include="LookAtPerspective.h">
+      <Filter>Framework\3D\Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="IncrementalDelauney.h">
+      <Filter>Framework\2D\Algorithms\Tesselation</Filter>
+    </ClInclude>
+    <ClInclude Include="GLUTesselator.h">
+      <Filter>Framework\2D\Algorithms\Tesselation</Filter>
+    </ClInclude>
+    <ClInclude Include="Delaunay.h">
+      <Filter>Framework\2D\Algorithms\Tesselation</Filter>
+    </ClInclude>
+    <ClInclude Include="Triangulate.h">
+      <Filter>Framework\2D\Algorithms\Tesselation</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertexd.h">
+      <Filter>Framework\3D\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>Framework\3D\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="dhpowareGL3.h">
+      <Filter>Framework\3D\Math\3rd Party</Filter>
+    </ClInclude>
+    <ClInclude Include="HVertex.h">
+      <Filter>Framework\3D\Math\3rd Party</Filter>
+    </ClInclude>
+    <ClInclude Include="dhpowareMath.h">
+      <Filter>Framework\3D\Math\3rd Party</Filter>
+    </ClInclude>
+    <ClInclude Include="HMath.h">
+      <Filter>Framework\3D\Math\3rd Party</Filter>
+    </ClInclude>
+    <ClInclude Include="HMatrix.h">
+      <Filter>Framework\3D\Math\3rd Party</Filter>
+    </ClInclude>
+    <ClInclude Include="HPlane.h">
+      <Filter>Framework\3D\Math\3rd Party</Filter>
+    </ClInclude>
+    <ClInclude Include="HQuaternion.h">
+      <Filter>Framework\3D\Math\3rd Party</Filter>
+    </ClInclude>
+    <ClInclude Include="UglyFont.h">
+      <Filter>Framework\Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="TexFont.h">
+      <Filter>Framework\Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="QuadGridVBO.h">
+      <Filter>Framework\2.5D</Filter>
+    </ClInclude>
+    <ClInclude Include="Quad1.h">
+      <Filter>Framework\2.5D</Filter>
+    </ClInclude>
+    <ClInclude Include="QuadBender.h">
+      <Filter>Framework\2.5D</Filter>
+    </ClInclude>
+    <ClInclude Include="RLDungeon.h">
+      <Filter>Framework\2D\Mapping</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMap2d.h">
+      <Filter>Framework\2D\Mapping</Filter>
+    </ClInclude>
+    <ClInclude Include="SafeMediaLookup.h">
+      <Filter>Framework\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Randoms.h">
+      <Filter>Framework\Randomness</Filter>
+    </ClInclude>
+    <ClInclude Include="Rock.h">
+      <Filter>Framework\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="VBOGroup.h">
+      <Filter>Framework\GL\VBO</Filter>
+    </ClInclude>
+    <ClInclude Include="VBO.h">
+      <Filter>Framework\GL\VBO</Filter>
+    </ClInclude>
+    <ClInclude Include="Spring.h">
+      <Filter>Framework\Physics\Traer</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Framework\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="SaveData.h">
+      <Filter>Framework\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Set.h">
+      <Filter>Framework\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="SpecialPaths.h">
+      <Filter>Framework\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="DisplayList.h">
+      <Filter>Framework\GL\Display Lists %28defunct%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>Framework\GL\Display Lists %28defunct%29</Filter>
+    </ClInclude>
+    <ClInclude Include="GLDisplayListTest.h">
+      <Filter>Framework\GL\Display Lists %28defunct%29</Filter>
+    </ClInclude>
+    <ClInclude Include="Spiral.h">
+      <Filter>Framework\2D\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Curve2d.h">
+      <Filter>Framework\2D\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Image2Fansi.h">
+      <Filter>Lost and Found</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteSheet.h">
+      <Filter>Framework\GL\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="Stopwatch.h">
+      <Filter>Framework\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Statistic.h">
+      <Filter>Framework\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="TouchTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMapTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="TouchGestureDetector.h">
+      <Filter>Framework\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="TSCTime.h">
+      <Filter>Framework\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Strings.h">
+      <Filter>Framework\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="string_functions.h">
+      <Filter>Framework\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Framework\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="utlist.h">
+      <Filter>Framework\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="wglext.h">
+      <Filter>Framework\GL\Context</Filter>
+    </ClInclude>
+    <ClInclude Include="WebPage.h">
+      <Filter>Framework\System</Filter>
+    </ClInclude>
+    <ClInclude Include="WebAPI.h">
+      <Filter>Framework\System</Filter>
+    </ClInclude>
+    <ClInclude Include="FireAndForgetLimitedWrappingProce55Viewer2d.h">
+      <Filter>Framework\Proce55\Controllers and Viewers</Filter>
+    </ClInclude>
+    <ClInclude Include="fx_VBOView.h">
+      <Filter>Framework\Proce55\FX</Filter>
+    </ClInclude>
+    <ClInclude Include="fx_Buttons.h">
+      <Filter>Framework\Proce55\FX</Filter>
+    </ClInclude>
+    <ClInclude Include="fx_CircleMenu.h">
+      <Filter>Framework\Proce55\FX</Filter>
+    </ClInclude>
+    <ClInclude Include="fx_Film.h">
+      <Filter>Framework\Proce55\FX</Filter>
+    </ClInclude>
+    <ClInclude Include="fx_FireAndForget.h">
+      <Filter>Framework\Proce55\FX</Filter>
+    </ClInclude>
+    <ClInclude Include="fx_Glow.h">
+      <Filter>Framework\Proce55\FX</Filter>
+    </ClInclude>
+    <ClInclude Include="fx_IconSelect.h">
+      <Filter>Framework\Proce55\FX</Filter>
+    </ClInclude>
+    <ClInclude Include="fx_Lightning.h">
+      <Filter>Framework\Proce55\FX</Filter>
+    </ClInclude>
+    <ClInclude Include="fx_LineGraph.h">
+      <Filter>Framework\Proce55\FX</Filter>
+    </ClInclude>
+    <ClInclude Include="fx_List.h">
+      <Filter>Framework\Proce55\FX</Filter>
+    </ClInclude>
+    <ClInclude Include="fx_MixedBag.h">
+      <Filter>Framework\Proce55\FX</Filter>
+    </ClInclude>
+    <ClInclude Include="fx_Model.h">
+      <Filter>Framework\Proce55\FX</Filter>
+    </ClInclude>
+    <ClInclude Include="fx_MultiPointSprite.h">
+      <Filter>Framework\Proce55\FX</Filter>
+    </ClInclude>
+    <ClInclude Include="fx_Numbers.h">
+      <Filter>Framework\Proce55\FX</Filter>
+    </ClInclude>
+    <ClInclude Include="fx_RGBAPal.h">
+      <Filter>Framework\Proce55\FX</Filter>
+    </ClInclude>
+    <ClInclude Include="fx_RotaryMenu.h">
+      <Filter>Framework\Proce55\FX</Filter>
+    </ClInclude>
+    <ClInclude Include="fx_SectionalPercentages.h">
+      <Filter>Framework\Proce55\FX</Filter>
+    </ClInclude>
+    <ClInclude Include="fx_Shader2d.h">
+      <Filter>Framework\Proce55\FX</Filter>
+    </ClInclude>
+    <ClInclude Include="fx_Shockwave.h">
+      <Filter>Framework\Proce55\FX</Filter>
+    </ClInclude>
+    <ClInclude Include="fx_Sliders.h">
+      <Filter>Framework\Proce55\FX</Filter>
+    </ClInclude>
+    <ClInclude Include="fx_Switchers.h">
+      <Filter>Framework\Proce55\FX</Filter>
+    </ClInclude>
+    <ClInclude Include="fx_TexFont.h">
+      <Filter>Framework\Proce55\FX</Filter>
+    </ClInclude>
+    <ClInclude Include="fx_Toggles.h">
+      <Filter>Framework\Proce55\FX</Filter>
+    </ClInclude>
+    <ClInclude Include="fx_Tweakables.h">
+      <Filter>Framework\Proce55\FX</Filter>
+    </ClInclude>
+    <ClInclude Include="fx_Tween.h">
+      <Filter>Framework\Proce55\FX</Filter>
+    </ClInclude>
+    <ClInclude Include="fx_UglyText.h">
+      <Filter>Framework\Proce55\FX</Filter>
+    </ClInclude>
+    <ClInclude Include="OrderedProce55Viewer.h">
+      <Filter>Framework\Proce55\Controllers and Viewers</Filter>
+    </ClInclude>
+    <ClInclude Include="LimitedProce55Viewer2d.h">
+      <Filter>Framework\Proce55\Controllers and Viewers</Filter>
+    </ClInclude>
+    <ClInclude Include="LimitedWrappingProce55Viewer2d.h">
+      <Filter>Framework\Proce55\Controllers and Viewers</Filter>
+    </ClInclude>
+    <ClInclude Include="Proce55Viewer2d.h">
+      <Filter>Framework\Proce55\Controllers and Viewers</Filter>
+    </ClInclude>
+    <ClInclude Include="Proce55ors.h">
+      <Filter>Framework\Proce55\Proce55ors</Filter>
+    </ClInclude>
+    <ClInclude Include="Proce55Controller.h">
+      <Filter>Framework\Proce55\Proce55ors</Filter>
+    </ClInclude>
+    <ClInclude Include="Proce55or.h">
+      <Filter>Framework\Proce55\Proce55ors</Filter>
+    </ClInclude>
+    <ClInclude Include="Proce55orGroup.h">
+      <Filter>Framework\Proce55\Proce55ors</Filter>
+    </ClInclude>
+    <ClInclude Include="Presentation.h">
+      <Filter>Framework\Proce55\Linear</Filter>
+    </ClInclude>
+    <ClInclude Include="Slide.h">
+      <Filter>Framework\Proce55\Linear</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite2d.h">
+      <Filter>Framework\Proce55\Linear</Filter>
+    </ClInclude>
+    <ClInclude Include="VisualAid.h">
+      <Filter>Framework\Proce55\Linear</Filter>
+    </ClInclude>
+    <ClInclude Include="ZSortedFireAndForgetLimitedWrappingProce55Viewer2d.h">
+      <Filter>Framework\Proce55\Controllers and Viewers</Filter>
+    </ClInclude>
+    <ClInclude Include="WrappingProce55Viewer2d.h">
+      <Filter>Framework\Proce55\Controllers and Viewers</Filter>
+    </ClInclude>
+    <ClInclude Include="ZonedMovingProce55orDebugger.h">
+      <Filter>Framework\Proce55\Controllers and Viewers</Filter>
+    </ClInclude>
+    <ClInclude Include="ZonedProce55ors.h">
+      <Filter>Framework\Proce55\Controllers and Viewers</Filter>
+    </ClInclude>
+    <ClInclude Include="ZSortedFAFZonedProce55Viewer2d.h">
+      <Filter>Framework\Proce55\Controllers and Viewers</Filter>
+    </ClInclude>
+    <ClInclude Include="Tweens.h">
+      <Filter>Framework\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Tween.h">
+      <Filter>Framework\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Trigger.h">
+      <Filter>Framework\Physics\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="ExternalResources.h">
+      <Filter>Lost and Found</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderProcess.h">
+      <Filter>Framework\Language\Legacy Ideas</Filter>
+    </ClInclude>
+    <ClInclude Include="ByteEncoder.h">
+      <Filter>Framework\Language\Legacy Ideas</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassDecoder.h">
+      <Filter>Framework\Language\Legacy Ideas</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassDeployer.h">
+      <Filter>Framework\Language\Legacy Ideas</Filter>
+    </ClInclude>
+    <ClInclude Include="Scripting.h">
+      <Filter>Framework\Language</Filter>
+    </ClInclude>
+    <ClInclude Include="Variadics.h">
+      <Filter>Framework\Language</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions.h">
+      <Filter>Framework\Language</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptableProce55or.h">
+      <Filter>Framework\Language</Filter>
+    </ClInclude>
+    <ClInclude Include="FastGUIProcessors.h">
+      <Filter>Framework\Language</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptableFX.h">
+      <Filter>Framework\Language</Filter>
+    </ClInclude>
+    <ClInclude Include="PackedString.h">
+      <Filter>Framework\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="HashStore.h">
+      <Filter>Framework\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="PresentationScriptable.h">
+      <Filter>Framework\Language</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageRotator.h">
+      <Filter>Framework\2D\Art\Imaging</Filter>
+    </ClInclude>
+    <ClInclude Include="Image2Model.h">
+      <Filter>Framework\2D\Art\Imaging</Filter>
+    </ClInclude>
+    <ClInclude Include="Image2Placements.h">
+      <Filter>Framework\2D\Art\Imaging</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageCombiner.h">
+      <Filter>Framework\2D\Art\Imaging</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageLoader.h">
+      <Filter>Framework\2D\Art\Imaging</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageLoaders.h">
+      <Filter>Framework\2D\Art\Imaging</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageProcess.h">
+      <Filter>Framework\2D\Art\Imaging</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageResizer.h">
+      <Filter>Framework\2D\Art\Imaging</Filter>
+    </ClInclude>
+    <ClInclude Include="vmath.hpp">
+      <Filter>Framework\3D\Math\3rd Party</Filter>
+    </ClInclude>
+    <ClInclude Include="RoundedRectangle.h">
+      <Filter>Framework\2D\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="Load.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Globals.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="GLTransform.h">
+      <Filter>Framework\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="EditGUI.h">
+      <Filter>Framework\Interface\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualGUITest.h">
+      <Filter>Framework\Interface\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="VirtualWindow.h">
+      <Filter>Framework\Interface\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="FastGUI.h">
+      <Filter>Framework\Interface\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="JSON.h">
+      <Filter>Framework\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsKeyboard.h">
+      <Filter>Framework\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsKeyboardTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="QuarterCircleTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="VBOFlavors.h">
+      <Filter>Framework\GL\VBO</Filter>
+    </ClInclude>
+    <ClInclude Include="VBOTriangles.h">
+      <Filter>Framework\GL\VBO</Filter>
+    </ClInclude>
+    <ClInclude Include="VBO_Vw.h">
+      <Filter>Framework\GL\VBO\Flavors</Filter>
+    </ClInclude>
+    <ClInclude Include="VBO_V.h">
+      <Filter>Framework\GL\VBO\Flavors</Filter>
+    </ClInclude>
+    <ClInclude Include="VBO_VC.h">
+      <Filter>Framework\GL\VBO\Flavors</Filter>
+    </ClInclude>
+    <ClInclude Include="VBO_VCLines.h">
+      <Filter>Framework\GL\VBO\Flavors</Filter>
+    </ClInclude>
+    <ClInclude Include="VBO_VN.h">
+      <Filter>Framework\GL\VBO\Flavors</Filter>
+    </ClInclude>
+    <ClInclude Include="VBO_VNC.h">
+      <Filter>Framework\GL\VBO\Flavors</Filter>
+    </ClInclude>
+    <ClInclude Include="VBO_VNT.h">
+      <Filter>Framework\GL\VBO\Flavors</Filter>
+    </ClInclude>
+    <ClInclude Include="VBO_VNTC.h">
+      <Filter>Framework\GL\VBO\Flavors</Filter>
+    </ClInclude>
+    <ClInclude Include="VBO_VNTCTan.h">
+      <Filter>Framework\GL\VBO\Flavors</Filter>
+    </ClInclude>
+    <ClInclude Include="VBO_VNTTan.h">
+      <Filter>Framework\GL\VBO\Flavors</Filter>
+    </ClInclude>
+    <ClInclude Include="VBO_VNTTanBi.h">
+      <Filter>Framework\GL\VBO\Flavors</Filter>
+    </ClInclude>
+    <ClInclude Include="VBO_VT.h">
+      <Filter>Framework\GL\VBO\Flavors</Filter>
+    </ClInclude>
+    <ClInclude Include="OldVBO.h">
+      <Filter>Framework\GL\VBO</Filter>
+    </ClInclude>
+    <ClInclude Include="p2t_advancing_front.h">
+      <Filter>Framework\2D\Algorithms\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="p2t_cdt.h">
+      <Filter>Framework\2D\Algorithms\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="p2t_shapes.h">
+      <Filter>Framework\2D\Algorithms\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="p2t_sweep.h">
+      <Filter>Framework\2D\Algorithms\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="p2t_sweep_context.h">
+      <Filter>Framework\2D\Algorithms\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="p2t_utils.h">
+      <Filter>Framework\2D\Algorithms\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Framework\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>Framework\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="AppFramework.h">
+      <Filter>Framework\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="GridSplitter.h">
+      <Filter>Framework\2D\Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="GridSplitterTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoTexture.h">
+      <Filter>Framework\Video</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoStream.h">
+      <Filter>Framework\Video</Filter>
+    </ClInclude>
+    <ClInclude Include="waveout.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="GameHUD.h">
+      <Filter>Application\Game\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorController.h">
+      <Filter>Framework\Color</Filter>
+    </ClInclude>
+    <ClInclude Include="ComplexWave.h">
+      <Filter>Framework\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="BinPack.h">
+      <Filter>Framework\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="FormUITest.h">
+      <Filter>Framework\Interface\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="FileDialog.h">
+      <Filter>Framework\Interface\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="FileDialogTest.h">
+      <Filter>Framework\Interface\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="FormUI.h">
+      <Filter>Framework\Interface\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorShader.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="StarNestShader.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics.h">
+      <Filter>Framework\Interface\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="TermShader.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform2d.h">
+      <Filter>Framework\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="RectPlacer.h">
+      <Filter>Framework\2D\Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="RectPackTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="CSV.h">
+      <Filter>Framework\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Nebula4LightShader.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioSampleLookup.h">
+      <Filter>Framework\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="DJ.h">
+      <Filter>Framework\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="DJTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="StarNestTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="SpaceShaderTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleZonedProcessors.h">
+      <Filter>Framework\Proce55\Controllers and Viewers</Filter>
+    </ClInclude>
+    <ClInclude Include="Shadow2DTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="SuperSimpleMacroTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="PixelatedFBOTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="ASCIIShader.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="SpaceShaders.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="PixelDoubler.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Steamworks.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="NavigationController.h">
+      <Filter>Framework\2D\AI</Filter>
+    </ClInclude>
+    <ClInclude Include="HIDControlMapping.h">
+      <Filter>Framework\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlOptions.h">
+      <Filter>Framework\Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="StarfieldTestView.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="IsotrapGrid.h">
+      <Filter>Framework\2D\Art</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleAnimatedSprite.h">
+      <Filter>Framework\2D\Art</Filter>
+    </ClInclude>
+    <ClInclude Include="VVoxel.h">
+      <Filter>Framework\2D\Art</Filter>
+    </ClInclude>
+    <ClInclude Include="MilazzoVisibility.h">
+      <Filter>Framework\2D\Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="Universe.h">
+      <Filter>Application\Deprecated Legacy</Filter>
+    </ClInclude>
+    <ClInclude Include="PortraitPaperdoll.h">
+      <Filter>Application\Game\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="SolarSystemStarfield.h">
+      <Filter>Application\Game\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="AssetLoader.h">
+      <Filter>Application\Game\Data Structures\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Application\Game\Data Structures\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionProfile.h">
+      <Filter>Application\Game\Data Structures\Game World</Filter>
+    </ClInclude>
+    <ClInclude Include="Mulligan.h">
+      <Filter>Application\Game\Data Structures\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEffect.h">
+      <Filter>Application\Game\Data Structures\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerPortrait.h">
+      <Filter>Application\Game\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="MoneyCounter.h">
+      <Filter>Application\Game\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="Art.h">
+      <Filter>Framework\2D\Art\Legacy</Filter>
+    </ClInclude>
+    <ClInclude Include="Art2d.h">
+      <Filter>Framework\2D\Art</Filter>
+    </ClInclude>
+    <ClInclude Include="TexShader.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Hardware.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="SpherizeShaderTest.h">
+      <Filter>Framework\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="Blend8WayTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="AtlasFontViewer.h">
+      <Filter>Framework\Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="UglyGlyphs.h">
+      <Filter>Framework\Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="BestRectTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="fx_Teletype.h">
+      <Filter>Framework\Proce55\FX</Filter>
+    </ClInclude>
+    <ClInclude Include="Icons.h">
+      <Filter>Framework\2D</Filter>
+    </ClInclude>
+    <ClInclude Include="StringIndexed.h">
+      <Filter>Framework\Data Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="BASIC.h">
+      <Filter>Framework\Vintage</Filter>
+    </ClInclude>
+    <ClInclude Include="TwoDeeElementEditor.h">
+      <Filter>Framework\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderLab.h">
+      <Filter>Framework\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="ATFont.h">
+      <Filter>Framework\Fonts</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMenu.h">
+      <Filter>Application\Game\Visuals</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Application\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOptions.h">
+      <Filter>Application\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="NewGamePanel.h">
+      <Filter>Application\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Application\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Dynamic_VBO_VC.h">
+      <Filter>Framework\GL\VBO</Filter>
+    </ClInclude>
+    <ClInclude Include="ATFontTest.h">
+      <Filter>Framework\Examples and Tests</Filter>
+    </ClInclude>
+    <ClInclude Include="Atlas.h">
+      <Filter>Framework\2D\Art</Filter>
+    </ClInclude>
+    <ClInclude Include="AppCompileOptions.h">
+      <Filter>Framework\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="wglew.h">
+      <Filter>Framework\GL\Context</Filter>
+    </ClInclude>
+    <ClInclude Include="glew.h">
+      <Filter>Framework\GL\Context</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{9c1ad6e6-811b-4e3e-88fc-c350c71861f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\3D">
+      <UniqueIdentifier>{22889f59-1405-4c40-8403-cf0e270565b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\3D\Cameras">
+      <UniqueIdentifier>{17698f1c-50d4-455f-af1a-aeafbaa78b12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\3D\Algorithms">
+      <UniqueIdentifier>{80648220-3ea6-4abe-b859-f171f316d43b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\3D\Worlds">
+      <UniqueIdentifier>{221cf7fc-7dbb-41b6-91c3-5213a6481521}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\3D\Geometry">
+      <UniqueIdentifier>{5db93887-b067-4f2c-8d58-6b404a269b4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\3D\Geometry\Primitives">
+      <UniqueIdentifier>{9f6e77fa-0d60-46f8-aac4-dfb5103c21f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\3D\Materials">
+      <UniqueIdentifier>{55c1d0da-6a2d-407a-8a8a-72dbec4a7dae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\3D\Math">
+      <UniqueIdentifier>{3815adfe-dbea-4254-a021-75ca618efe8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\3D\FX">
+      <UniqueIdentifier>{52b5d387-22ff-42d4-91a1-0784bc9bf652}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\3D\Topography">
+      <UniqueIdentifier>{43448471-b732-4a27-83e9-6ebc85bdbcc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Audio">
+      <UniqueIdentifier>{517bdf85-fec0-41ba-a490-c33a279d9bd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Shaders">
+      <UniqueIdentifier>{d7f15a90-5c1e-4210-aa61-eb62ff65cba9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Data">
+      <UniqueIdentifier>{9a99a569-4041-43d9-aed8-bed930e097ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Examples and Tests">
+      <UniqueIdentifier>{eba5046e-2b80-467d-af02-49a0dadeb440}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\System">
+      <UniqueIdentifier>{3a4d5b82-07ff-4487-9356-13e3f52907e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Language">
+      <UniqueIdentifier>{bbca8977-34f6-40ca-84cf-6e0dd8e05133}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Time">
+      <UniqueIdentifier>{1be1a79d-9421-46cc-9584-57b1085a1fae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Interface">
+      <UniqueIdentifier>{411ff310-a8b8-4e2d-9fc4-5ed5b76f65b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\GL">
+      <UniqueIdentifier>{d6caf20c-2cfe-4dbd-b355-73308883e4d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\GL\FBO">
+      <UniqueIdentifier>{8f758275-88d5-4bfe-bd58-cebfd287eb49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\GL\VBO">
+      <UniqueIdentifier>{8affa4de-ffc9-4517-a3db-29a0574c95e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Fonts">
+      <UniqueIdentifier>{f9c6fe5c-4e09-423b-b8e6-d1c9b2bea9fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Particles">
+      <UniqueIdentifier>{cc335747-ff08-4c92-b860-89e2d7dc4974}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Abstractions">
+      <UniqueIdentifier>{cb32526d-c336-4fc9-af8c-218c1860758c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Randomness">
+      <UniqueIdentifier>{ba8042d8-880b-4809-aa28-6c819d71a3bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Lighting">
+      <UniqueIdentifier>{b8c8e799-2604-4acd-8378-265476b99476}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\3D\CSG">
+      <UniqueIdentifier>{2e20d57f-6d9a-419a-8c63-0e8f22c84c02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\GL\Context">
+      <UniqueIdentifier>{1ce8eb37-ad59-4ca8-ad0e-5c179dcd7270}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Utility">
+      <UniqueIdentifier>{afee2632-8665-4124-bdf4-4c5c7a176e27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\3D\Geometry\Modeling">
+      <UniqueIdentifier>{40820990-ecfb-4042-b726-e17c8420994e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\3D\Geometry\Modeling\STL">
+      <UniqueIdentifier>{bef2b7c4-e468-4b7d-92a8-debbf50e7dd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\GL\GLSL">
+      <UniqueIdentifier>{4c1c9afc-ba9b-41c2-843c-3eed427c7a13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\GL\PBUFFER">
+      <UniqueIdentifier>{068756dd-0659-496f-8cd3-f104c346c56a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\3D\Geometry\Cube Mapped Sphere">
+      <UniqueIdentifier>{f1faa72b-e66a-4754-b3f6-77e5b9199407}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\3D\Math\3rd Party">
+      <UniqueIdentifier>{1b1843bd-7f27-4463-a49b-7131dabf7492}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Fonts\TTFEx">
+      <UniqueIdentifier>{e9f8d7cf-e428-4bcb-b228-01f2954c6bd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Fonts\TTF">
+      <UniqueIdentifier>{f4050317-ecf5-4abb-a164-e4cff22367e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\2D">
+      <UniqueIdentifier>{00fcd9db-85cb-4436-972f-5de8023bed61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\2D\Algorithms">
+      <UniqueIdentifier>{ee6948dc-cb3c-425d-8ee9-0a2033994944}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\2D\Mapping">
+      <UniqueIdentifier>{abd6dbe1-451f-496a-8a65-1835d88a1c8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\2D\Billboarding">
+      <UniqueIdentifier>{c3b52b90-88e5-43cb-a862-bb30ea06060b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\2D\Art">
+      <UniqueIdentifier>{12ea10e4-2359-49a1-9a08-563bf91b618e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\2D\FX">
+      <UniqueIdentifier>{4b310fc9-1bcd-40cf-b773-3f46fa97d405}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\2D\Geometry">
+      <UniqueIdentifier>{4a1475ab-5ed6-450e-89a1-a72e297667b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Data Structures">
+      <UniqueIdentifier>{93679942-12a8-48d0-902f-69b1ec420d68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Color">
+      <UniqueIdentifier>{2cbd0a3e-d7a3-4c54-8d63-dbca80dd6874}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\2.5D">
+      <UniqueIdentifier>{92ab514f-ba08-4592-b955-934a7abd5a43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\GL\Display Lists %28defunct%29">
+      <UniqueIdentifier>{b27b396c-3a8d-42ae-a3a6-01a430994c2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\GL\Textures">
+      <UniqueIdentifier>{e9881bda-c7f9-4881-a2cf-bb008b34dd4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Proce55">
+      <UniqueIdentifier>{0eb85ae4-eed8-4e88-86bf-7c2e09bcefcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Proce55\Controllers and Viewers">
+      <UniqueIdentifier>{a0e30fc4-ef21-48a5-8053-c1db3d29173c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Proce55\FX">
+      <UniqueIdentifier>{64f73353-6da2-44c0-914e-8cb6852d3ba8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Proce55\Proce55ors">
+      <UniqueIdentifier>{e214ce75-7a16-47b7-8a52-741bc7b04b9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Proce55\Linear">
+      <UniqueIdentifier>{43c5842e-791b-41ea-ab50-eba17729e400}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Physics">
+      <UniqueIdentifier>{4c9b3167-9b36-4d49-a898-e0349fb746a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Physics\Box2D">
+      <UniqueIdentifier>{d1e0ca04-370c-43a1-bd97-032bfd1855d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Physics\Traer">
+      <UniqueIdentifier>{3b7d773d-0979-456c-9d1b-6149fd23bd05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Physics\Collision">
+      <UniqueIdentifier>{4faa2263-9cd7-436c-a401-038b7b8577b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lost and Found">
+      <UniqueIdentifier>{6954b265-a951-4c75-a7a2-6f6a3884da03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Language\Legacy Ideas">
+      <UniqueIdentifier>{59e660cd-0721-40fa-9866-8ddb2625a98f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Tools">
+      <UniqueIdentifier>{042c3134-08f5-4224-876d-e9c937e8f0e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\2D\Art\Imaging">
+      <UniqueIdentifier>{eec7dcfe-403c-4775-b856-996c8048acaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application">
+      <UniqueIdentifier>{2e50cfe1-82c3-4267-b518-0654088798d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Interface\GUI">
+      <UniqueIdentifier>{3ce0f34f-c27d-4028-85cb-9d3958d39901}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\GL\VBO\Flavors">
+      <UniqueIdentifier>{3de93816-746a-452a-85d7-e384600c3263}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Application">
+      <UniqueIdentifier>{1e7718bb-b92d-472f-845b-546349ecaafe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Video">
+      <UniqueIdentifier>{092710cc-9adb-48ff-aa94-468222a32fc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Game">
+      <UniqueIdentifier>{fa0e2d76-f7e7-4723-8389-ca2098a6e649}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\2D\Algorithms\Tesselation">
+      <UniqueIdentifier>{7134bc22-0bba-4b88-8e29-3d751eb4b39e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\2D\Algorithms\Poly2Tri">
+      <UniqueIdentifier>{4c1c296f-7303-4939-b029-488ac9ecd116}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\2D\AI">
+      <UniqueIdentifier>{f6689620-8bf5-4d8c-9d1c-ef5f888112ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Deprecated Legacy">
+      <UniqueIdentifier>{8c968e57-dd39-4bee-9310-bff3a7de784f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Game\Data Structures">
+      <UniqueIdentifier>{ddffb287-96c0-4451-bd88-b618990cec42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Game\Visuals">
+      <UniqueIdentifier>{23ab5b14-ba09-4e4c-8d1e-6b5fc707cf7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Game\Data Structures\Game World">
+      <UniqueIdentifier>{6c84dab3-b8e1-48d0-aaa1-e7f182be6085}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application\Game\Data Structures\Utility">
+      <UniqueIdentifier>{d39ed9d9-d12b-4de0-b4f3-1e51ce1b51cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\2D\Art\Legacy">
+      <UniqueIdentifier>{7687678e-078e-448a-a54a-d488321baa11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Vintage">
+      <UniqueIdentifier>{12af6479-0c4b-4b93-849e-9b6cfb1935f2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LIBSETTING.props">
+      <Filter>Application</Filter>
+    </None>
+  </ItemGroup>
+</Project>

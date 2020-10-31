@@ -1,0 +1,13 @@
+How to Add a File Type (decoder or encoder)
+
+Read code_guidelines.txt.
+
+1) add FF_<filetype> constant to corona.h
+2) add proper function to Open.h or Save.h
+3) call function in CorOpenImageFromFile or CorSaveImageToFile in Corona.cpp
+4) add Open<filetype>.cpp or Save<filetype>.cpp with implementation of
+   your function...  I recommend basing your decoder on OpenPCX or
+   OpenTGA.
+5) update doc/doxygen/mainpage.doxy
+6) update src/Corona.cpp (CorGetSupportedReadFormats and
+   CorGetSupportedWriteFormats)

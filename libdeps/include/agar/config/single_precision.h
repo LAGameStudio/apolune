@@ -1,0 +1,1 @@
+#undef SINGLE_PRECISION

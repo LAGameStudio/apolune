@@ -1,0 +1,46 @@
+﻿Build started 7/18/2010 1:36:42 PM.
+     1>Project "C:\AGAR140\libdeps\lib\alure\ALURE32.vcxproj" on node 3 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "ALURE32.dir\Debug\ALURE32.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "ALURE32.dir\Debug\ALURE32.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule C:/Program Files (x86)/CMake 2.8/alure-1.0/CMakeLists.txt
+         CMake does not need to re-run because C:\AGAR140\libdeps\lib\alure\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:/Program Files (x86)/CMake 2.8/alure-1.0/include" /IC:/AGAR140/libdeps/lib/alure /I"C:/Program Files (x86)/OpenAL 1.1 SDK/include" /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D ALURE_BUILD_LIBRARY /D HAVE_CONFIG_H /D _WIN32 /D "CMAKE_INTDIR=\"Debug\"" /D ALURE32_EXPORTS /D _WINDLL /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"ALURE32.dir\Debug\\" /Fd"C:/AGAR140/libdeps/lib/alure/Debug/ALURE32.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\..\..\Program Files (x86)\CMake 2.8\alure-1.0\src\alure.cpp" "..\..\..\..\Program Files (x86)\CMake 2.8\alure-1.0\src\buffer.cpp" "..\..\..\..\Program Files (x86)\CMake 2.8\alure-1.0\src\stream.cpp"  /Zm1000 
+         alure.cpp
+         buffer.cpp
+         stream.cpp
+     1>..\..\..\..\Program Files (x86)\CMake 2.8\alure-1.0\src\stream.cpp(166): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>..\..\..\..\Program Files (x86)\CMake 2.8\alure-1.0\src\stream.cpp(432): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"ALURE32.dir\Debug\ALURE32.dll.embed.manifest.res" ALURE32.dir\Debug\ALURE32_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\AGAR140\libdeps\lib\alure\Debug\ALURE32.dll" /VERSION:"0.0" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\Program Files (x86)\OpenAL 1.1 SDK\libs\Win32\OpenAL32.lib" /MANIFEST /ManifestFile:"ALURE32.dir\Debug\ALURE32.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\AGAR140\libdeps\lib\alure\Debug\ALURE32.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/AGAR140/libdeps/lib/alure/Debug/ALURE32.lib" /MACHINE:X86 /DLL ALURE32.dir\Debug\ALURE32.dll.embed.manifest.res
+         ALURE32.dir\Debug\alure.obj
+         ALURE32.dir\Debug\buffer.obj
+         ALURE32.dir\Debug\stream.obj  /machine:X86 /debug 
+            Creating library C:/AGAR140/libdeps/lib/alure/Debug/ALURE32.lib and object C:/AGAR140/libdeps/lib/alure/Debug/ALURE32.exp
+       Manifest:
+         Deleting file "ALURE32.dir\Debug\ALURE32.dll.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"ALURE32.dir\Debug\ALURE32.dll.embed.manifest" /manifest ALURE32.dir\Debug\ALURE32.dll.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"ALURE32.dir\Debug\ALURE32.dll.embed.manifest.res" ALURE32.dir\Debug\ALURE32_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\AGAR140\libdeps\lib\alure\Debug\ALURE32.dll" /VERSION:"0.0" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\Program Files (x86)\OpenAL 1.1 SDK\libs\Win32\OpenAL32.lib" /MANIFEST /ManifestFile:"ALURE32.dir\Debug\ALURE32.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\AGAR140\libdeps\lib\alure\Debug\ALURE32.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/AGAR140/libdeps/lib/alure/Debug/ALURE32.lib" /MACHINE:X86 /DLL ALURE32.dir\Debug\ALURE32.dll.embed.manifest.res
+         ALURE32.dir\Debug\alure.obj
+         ALURE32.dir\Debug\buffer.obj
+         ALURE32.dir\Debug\stream.obj  /machine:X86 /debug 
+            Creating library C:/AGAR140/libdeps/lib/alure/Debug/ALURE32.lib and object C:/AGAR140/libdeps/lib/alure/Debug/ALURE32.exp
+         ALURE32.vcxproj -> C:\AGAR140\libdeps\lib\alure\Debug\ALURE32.dll
+       FinalizeBuildStatus:
+         Deleting file "ALURE32.dir\Debug\ALURE32.unsuccessfulbuild".
+         Touching "ALURE32.dir\Debug\ALURE32.lastbuildstate".
+     1>Done Building Project "C:\AGAR140\libdeps\lib\alure\ALURE32.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.64

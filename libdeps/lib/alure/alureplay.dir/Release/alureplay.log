@@ -1,0 +1,21 @@
+﻿Build started 7/22/2010 11:12:47 PM.
+     1>Project "C:\AGAR140\libdeps\lib\alure\alureplay.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "alureplay.dir\Release\alureplay.unsuccessfulbuild".
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\AGAR140\libdeps\lib\alure\Release\alureplay.exe" /VERSION:"0.0" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib Release\ALURE32.lib "C:\Program Files (x86)\OpenAL 1.1 SDK\libs\Win32\OpenAL32.lib" /MANIFEST /ManifestFile:"alureplay.dir\Release\alureplay.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\AGAR140\libdeps\lib\alure\Release\alureplay.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/AGAR140/libdeps/lib/alure/Release/alureplay.lib" /MACHINE:X86 alureplay.dir\Release\alureplay.obj  /machine:X86 
+         alureplay.vcxproj -> C:\AGAR140\libdeps\lib\alure\Release\alureplay.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\AGAR140\libdeps\lib\alure\Release\alureplay.exe;#1" /manifest alureplay.dir\Release\alureplay.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "alureplay.dir\Release\alureplay.unsuccessfulbuild".
+         Touching "alureplay.dir\Release\alureplay.lastbuildstate".
+     1>Done Building Project "C:\AGAR140\libdeps\lib\alure\alureplay.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.85

@@ -1,0 +1,122 @@
+color_title {91 50 94 255}
+color_caption {0 0 0 255}
+color_b_text {255 255 255 255}
+color_b_textbox {255 255 255 127}
+color_b_backing {252 109 34 255}
+color_b_pressed {19 151 213 255}
+color_b_active {255 204 0 255}
+color_b_inactive {148 149 153 255}
+color_b_highlight {255 220 0 127}
+color_bgtint {255 255 255 255}
+color_innerphoto_bgtint {143 65 155 255}
+color_unselected {0 0 0 255}
+
+# Catalog Root Category Screen
+
+text_catalog_root_title "Tap a Box to Begin Creating"
+text_catalog_root_subtitle "You can personalize your item after you've selected it"
+
+# Item Detail Panel
+
+text_item_customization_options "How you can personalize this piece"
+text_item_personalize "Tap to Personalize"
+
+# Layout Selection Modal
+
+text_item_layout_select "Select The Layout to Personalize"
+
+# Color Selection Panel
+
+text_color_title "Choose Color"
+text_color_label "Choose Color"
+text_color_subtitle "Pick your desired printing color"
+text_color_blurb  {Touch a color above to select.
+On the item pictured to the right, swipe
+with your finger to rotate the item.
+}
+
+# Receipt Panel
+
+text_receipt_title "Your Item Has Been Ordered"
+text_receipt_subtitle "Thanks for printing with us!"
+text_receipt_xmit "Please Wait..."
+text_receipt_ticket "Ticket #"
+text_receipt_confirm {Your receipt is now printing
+Your item is queued to print in 3D
+}
+text_receipt_browse_prefix "Browse again in"
+
+# Pickup Form Panel
+
+text_pickup_title "Complete Your Order"
+text_pickup_subtitle "Enter your name and contact information to complete your order"
+text_pickup_blurb {After clicking Complete Order, you will be given a ticket number
+to refer to your order with the sales clerk. All sales final. Void where prohibited.
+}
+text_pickup_name "Name:"
+text_pickup_email "Email:"
+
+# Review Purchase Panel
+
+text_review_title "Print This Piece?"
+text_review_subtitle ""
+text_review_label "Purchase"
+text_review_blurb {Check the piece for accuracy and go back to change before ordering
+After you have clicked Purchase we'll ask you for
+some contact information to claim the item for pickup.
+}
+text_review_purchase_button "Purchase"
+
+# Stencil Selection Panel
+
+text_stencil_title "Personalize with Image"
+text_stencil_label "Add Image"
+
+# Text Personalize Panel
+
+text_text_title "Personalize Text"
+text_text_blurb_infix {
+1) Click the change font button to see different text styles.
+2) Enter text on the keyboard\n3) Inspect the item for changes on }
+
+# UI Elements (PNG)
+
+png_backing      "data/images/elements/transrounded1024white.png"
+png_roundedB     "data/images/elements/transrounded1024black.png"
+png_roundedW     "data/images/elements/transrounded1024white.png"
+png_bg           "data/images/elements/white.png"
+png_teaser       "data/styles/default/teaser/LP-bg.png"
+png_teaserLogo   "data/styles/default/teaser/LP-Logo.png"
+png_teaserImage1 "data/styles/default/teaser/LP-CreateIcon.png"
+png_teaserImage2 "data/styles/default/teaser/LP-PayIcon.png"
+png_teaserImage3 "data/styles/default/teaser/LP-PrintIcon.png"
+png_farewell     "data/styles/default/farewell/Farewell.png"
+png_btn_empty    "data/images/elements/invis.png"
+png_btn_home     "data/styles/default/icons/home.png"
+png_btn_back     "data/styles/default/icons/back.png"
+png_btn_next     "data/styles/default/icons/next.png"
+png_btn_up       "data/styles/default/icons/up.png"
+png_btn_down     "data/styles/default/icons/down.png"
+png_star         "data/styles/default/icons/star.png"
+png_check        "data/styles/default/icons/check.png"
+png_ex           "data/styles/default/icons/x.png"
+png_fontSelect   "data/styles/default/icons/font.png"
+png_logo         "data/styles/default/logo.png"
+png_i32          "data/styles/default/backings/32x32.png"
+png_i64          "data/styles/default/backings/64x64.png"
+png_i96x64       "data/styles/default/backings/96x64.png"
+png_i300x96      "data/styles/default/backings/300x96.png"
+png_i96x48       "data/styles/default/backings/96x48.png"
+png_i744x744     "data/styles/default/backings/744x744.png"
+png_i760x760     "data/styles/default/backings/760x760.png"
+png_i728x256     "data/styles/default/backings/728x256.png"
+png_i728x136     "data/styles/default/backings/728x136.png"
+png_i216x48      "data/styles/default/backings/216x48.png"
+png_i347x347     "data/styles/default/backings/347x347.png"
+png_i554x64      "data/styles/default/backings/554x64.png"
+png_i166x64      "data/styles/default/backings/166x64.png"
+png_clock        "data/styles/default/icons/clock.png"
+png_cam_left     "data/styles/default/icons/camera-left.png"
+png_cam_right    "data/styles/default/icons/camera-right.png"
+png_cam_top      "data/styles/default/icons/camera-top.png"
+png_cam_default  "data/styles/default/icons/camera-default.png"

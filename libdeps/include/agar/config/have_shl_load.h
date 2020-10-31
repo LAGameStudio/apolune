@@ -1,0 +1,1 @@
+#undef HAVE_SHL_LOAD

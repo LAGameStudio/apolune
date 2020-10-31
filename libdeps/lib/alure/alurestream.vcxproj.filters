@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Program Files (x86)\CMake 2.8\alure-1.0\examples\alurestream.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\..\Program Files (x86)\CMake 2.8\alure-1.0\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C4C9046D-0C04-4027-BA02-38B40AEC4F31}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\Program Files (x86)\CMake 2.8\alure-1.0\examples\alurestream.c">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

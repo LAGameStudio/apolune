@@ -1,0 +1,10 @@
+name {calibri}
+image {data/images/atfonts/calibri.png}
+spaceWidth {0.75}
+charSpace {0.0}
+blend {transparency}
+lineSpace {0.0}
+size {w 22.0 h 42.0}
+cells {x 52 y 130}
+padding { x 14 y 0 }
+glyphs {data/images/atfonts/calibri.glyphs.txt}

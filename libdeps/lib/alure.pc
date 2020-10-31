@@ -1,0 +1,11 @@
+prefix=C:/Program Files (x86)/ALURE
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: ALURE
+Description: File-loading and utility functions for OpenAL
+Requires: openal
+Version: 1.0.72
+Libs: -L${libdir} -lALURE32 
+Cflags: -I${includedir}

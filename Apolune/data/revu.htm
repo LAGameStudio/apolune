@@ -1,0 +1,173 @@
+<HTML>
+<HEAD>
+<TITLE> Revu </TITLE>
+<link rel=stylesheet type="text/css" HREF="kwsw.css">
+</HEAD>
+<BODY background=backgrnd.gif bgcolor=LIGHTSTEELBLUE>
+<IMG SRC="kws32.gif" align=left>
+<IMG SRC="kws32.gif" align=right>
+<center><b><FONT COLOR="#000080" FACE="Tahoma">Revu&#153;</FONT></b></center>
+<center>Your colorful text viewer</center>
+<HR>
+<H1> Categories: </H1>
+<P>visual accessory, read-only text file viewer, variable color program display
+<A NAME="Description">  </A>
+<H1> Description: </H1>
+<P>The <b>Revu&#153;</b> program is used view text files in read-only mode. The contents of
+the text file are presented in various colors. Special coloration is provided for the following
+file types:
+<UL >
+<LI>HTML and XML files
+<LI>C/C++/Perl/JavaScript program source
+<LI>Java program source
+<LI>Rexx program source
+<LI>NetRexx program source
+</UL>
+<p>
+<P>Other text files are presented using generic coloration, with different hues for numbers, punctuation,
+and text.
+<A NAME="Usage">  </A>
+<H1> Usage: </H1>
+<ul><TABLE border=1 cellspacing=5 width=80% style='font-weight:bold'><TR><TD>
+&nbsp;Revu [[-#nnn] textFile]
+</TD></TR></TABLE></ul>
+<H1> Optional Argument: </H1>
+<UL >
+<LI><b><i>-#nnn</i></b> .. number of first line to view.
+<LI><b><i>-CurrentDirectory</i></b> .. use current directory scope for nested browse, edit, etc.
+<LI><b><i>-LongNames</i></b> .. show long names in caption
+<LI><b>textFile</b> .. a text file containing lines to view. When this argument is absent,
+a standard file search window is displayed.
+</UL>
+<A NAME="Buttons">  </A>
+<H1> Buttons, and other input fields </H1>
+<ul><DL >
+<DD><b>x</b>
+<DT>Closes window
+<p>
+<DD><b>:</b>
+<DT>Shows program information
+<p>
+<DD><b>Open</b>
+<DT>Starts another file 'Revu'. A standard file search window is displayed to locate the other
+file to display. You can view the same file multiple times.
+<p>
+<DD><b>Restore</b>
+<DT>The displayed text is restored from current file contents.
+<p>
+<DD><b>Find...</b>
+<DT>Finds a line containing a text value. You can choose that character case
+must match when the text value is located. You can also choose to proceed from the
+top of the filee, when the end of the note is reached.
+<p>
+A popup window provides the following search choices:
+<ul><DL >
+<DD><b>Find...</b>
+<DT>A window appears where the text to find is entered. The search for the text
+value proceeds after the currently selected item.
+<p>
+<DD><b>Find Next</b>
+<DT>A search for the text of a prior find request proceeds from the currently
+selected line downward. You can also press the F3 key to find the next line containing the
+search text.
+<p>
+<DD><b>Find First</b>
+<DT>A search for the text of a prior find request proceeds from
+the top of the file downward.  You can also hold the <b>Shift</b> down and press the F3 key
+to find the first line containing the search text.
+</DL></ul>
+<p>
+<DD><b>Line#</b>
+<DT>This is a line number input field. When you change the number Revu&#153;
+will activate that line as the current selection. This input field is accompanied
+by a spin button on the right side. If you click the downward pointing spin button,
+the next line is selected. Alternatively, if you click the upward pointing spin button,
+the prior line is selected.
+<p>
+<DD><b>Stay on top</b>
+<DT>When this button is checked, the 'Revu' window will remain visible when other applications
+are activated.
+<p>
+<DD><b>Notepad</b>
+<DT>Starts the Notepad accessory to edit the current text file. The Notepad accessory is
+started as another system task. If you make revisions to the file, you will have to press
+the <b>Restore</b> button to revise the lines that are presented by <b>Revu&#153;</b>.
+</DL></ul>
+<H1> Examples: </H1>
+<ul><TABLE border=1 cellspacing=5 width=80%><TR><TD>
+&nbsp;<b>Revu hello.cpp</b> [opens a CPP source file]
+<p>
+<BR>&nbsp;<b>Revu default.htm</b> [opens an HTML source file]
+<p>
+<BR>&nbsp;<b>Revu asc2html.rex</b> [opens a REXX source file]
+<p>
+<BR>&nbsp;<b>Revu readme.txt</b> [opens a text file]
+<p>
+<BR>&nbsp;<b>Revu</b> [uses a file search dialog to find the file to view]
+</TD></TR></TABLE></ul>
+<A NAME="Remarks">  </A>
+<H1> Other remarks: </H1>
+<UL >
+<LI><b>Revu&#153;</b> can only be used to read text files. It can never be used to revise text files.
+<LI><b>Revu&#153;</b> is implicitly used by <b>r4&#153;</b> and <b>roo!&#153;</b> for source presentation
+during interactive tracing. The current line is continually updated, as the program is debugged. When
+the program being debugged concludes, the associated <b>Revu&#153;</b> window is automatically closed.
+<LI>RevuAlt.Exe is also available. You can customize the size of the font by setting
+the REVU_FONT_SIZE environment variable to the desired font size.
+<BR>The following sets the font size to 16.
+<BR>&nbsp;&nbsp;set REF_FONT_SIZE=16
+<BR>The default alternate font size is 12.
+<LI><b>Clipboard actions:</b>
+<UL >
+<LI>Ctrl-C copies the selected line to the clipboard.
+<LI>Shift-Ctrl-C begins a block copy.
+<BR>The highlighted line of the block copy has a yellow on dark purple line number.
+<BR>The copy-to line can be before the highlighted line.
+<BR>A Ctrl-C concludes the block copy.
+<LI>Ctrl-1, Ctrl-2, ..., Ctrl-9 copies word #1, ..., 9 of the selected line to the clipboard
+</UL>
+<LI><b>File name, or command, actions:</b>
+<BR>File name actions are on the first text in the line
+<UL >
+<LI>Ctrl-B browses the file with a new Revu&#153; window
+<BR>The file name can be followed by a target line number in square brackets.
+<LI>Ctrl-E edits the file - with the editor of the file extension
+<LI>Ctrl-O opens the file - with the program associated with the file extension
+<LI>Ctrl-L launches the selected line as a command
+</UL>
+<P>The following batch file can be used to show the standard output of one or more
+console commands using Revu&#153; instead of the standard <b>more</b> command.
+In this example the batch file is named !!.bat. That file must be in a directory
+established by the PATH environment variable.
+<P>The <b>cat.exe</b> program is provided by Kilowatt Software LLC. It is an emulation of the
+standard UNIX <b>cat</b> command. You can use other implementations of the <b>cat</b> command
+instead.
+<P>In the following &lt;cmd+&gt; represents one or more console commands. Shazam is a
+text segment that will appear as the caption of the Revu&#153; window.
+<ul><TABLE border=1 cellspacing=5 width=80%><TR><TD>
+<BR>@echo off
+<BR>rem
+<BR>rem replaces 'more' with 'revu' !
+<BR>rem
+<BR>rem usage: &lt;cmd+&gt; | !! Shazam
+<BR>cat &gt; %tmp%\_%1.txt
+<BR>start revu %tmp%\_%1.txt
+</TD></TR></TABLE></ul>
+<p>
+<HR>
+<center><img src=kilowattsoftware.gif></center>
+<p>
+<center><img src=Revu.gif></center>
+<center><b>Revu&#153;</b></center>
+<center>Version 1.0</center>
+<center>Copyright &copy; 2001-2014</center>
+<center>All Rights Reserved.</center>
+<center>Web: <A HREF=http://www.kilowattsoftware.com/>http://www.kilowattsoftware.com/</A></center>
+<center><a hrevu=mailto:support@kilowattsoftware.com>E-Mail: support@kilowattsoftware.com</a></center>
+<BR>
+<IMG SRC="kws32.gif" align=left>
+<IMG SRC="kws32.gif" align=right>
+<p>
+<p><center><i>Last updated on: 9 Jun 2013</center><p>
+</BODY>
+</HTML>

@@ -1,0 +1,31 @@
+import glob
+
+dst = '../lib/'
+
+target = 'common'
+source = glob.glob('*.cpp')
+
+inc1 = '../common/'
+
+inc = [inc1, '.']
+
+env = Environment(CPPPATH = ['.'])
+env.Append(CCFLAGS = '-O3')
+
+static_build = ARGUMENTS.get('static', 0)
+
+targetlib = None
+if int(static_build):
+	env.Append(LINKFLAGS = '-static')
+	env.StaticLibrary(target, source)
+	targetlib = 'lib' + target + '.a'
+else:
+	env.SharedLibrary(target, source)
+	targetlib = 'lib' + target + '.so'
+
+Repository(inc)
+
+ret = env.Install(dst, targetlib)
+env.Default(ret)
+    
+

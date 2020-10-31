@@ -1,0 +1,4 @@
+Corona depends on semi-recent versions of the following libraries.
+
+libpng - http://www.libpng.org/pub/png/libpng.html
+libjpeg - http://www.ijg.org/

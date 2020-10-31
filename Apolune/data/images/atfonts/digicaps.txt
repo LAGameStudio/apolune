@@ -1,0 +1,12 @@
+name {digicaps}
+image {data/images/atfonts/digicaps.png}
+nearest
+capsonly
+blend {additive}
+spaceWidth {1.0}
+charSpace {0.0}
+lineSpace {0.0}
+size {w 32.0 h 32}
+cells {x 128 y 128}
+padding {x 1 y 1}
+glyphs {data/images/atfonts/digicaps.glyphs.txt}

@@ -1,0 +1,34 @@
+﻿Build started 7/22/2010 11:12:44 PM.
+     1>Project "C:\AGAR140\libdeps\lib\alure\ALURE32.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "ALURE32.dir\Release\ALURE32.unsuccessfulbuild".
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:/Program Files (x86)/CMake 2.8/alure-1.0/include" /IC:/AGAR140/libdeps/lib/alure /I"C:/Program Files (x86)/OpenAL 1.1 SDK/include" /Zi /nologo /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _WIN32 /D DYNLOAD=1 /D HAVE_CONFIG_H /D "CMAKE_INTDIR=\"Release\"" /D ALURE_BUILD_LIBRARY /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"ALURE32.dir\Release\\" /Fd"C:/AGAR140/libdeps/lib/alure/Release/ALURE32.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\..\..\Program Files (x86)\CMake 2.8\alure-1.0\src\streamdec.cpp"  /Zm1000 
+         streamdec.cpp
+     1>..\..\..\..\Program Files (x86)\CMake 2.8\alure-1.0\src\streamdec.cpp(186): warning C4244: '-=' : conversion from 'std::streamsize' to 'size_t', possible loss of data
+     1>..\..\..\..\Program Files (x86)\CMake 2.8\alure-1.0\src\streamdec.cpp(212): warning C4244: 'return' : conversion from 'std::streamsize' to 'ALuint', possible loss of data
+     1>..\..\..\..\Program Files (x86)\CMake 2.8\alure-1.0\src\streamdec.cpp(306): warning C4244: '=' : conversion from 'std::streamoff' to 'long', possible loss of data
+     1>..\..\..\..\Program Files (x86)\CMake 2.8\alure-1.0\src\streamdec.cpp(348): warning C4244: '-=' : conversion from 'std::streamsize' to 'size_t', possible loss of data
+     1>..\..\..\..\Program Files (x86)\CMake 2.8\alure-1.0\src\streamdec.cpp(367): warning C4244: 'return' : conversion from 'std::streamsize' to 'ALuint', possible loss of data
+     1>..\..\..\..\Program Files (x86)\CMake 2.8\alure-1.0\src\streamdec.cpp(425): warning C4244: '=' : conversion from 'std::streamoff' to 'long', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\AGAR140\libdeps\lib\alure\Release\ALURE32.dll" /VERSION:"0.0" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib "C:\Program Files (x86)\OpenAL 1.1 SDK\libs\Win32\OpenAL32.lib" /MANIFEST /ManifestFile:"ALURE32.dir\Release\ALURE32.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\AGAR140\libdeps\lib\alure\Release\ALURE32.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/AGAR140/libdeps/lib/alure/Release/ALURE32.lib" /MACHINE:X86 /DLL ALURE32.dir\Release\alure.obj
+         ALURE32.dir\Release\buffer.obj
+         ALURE32.dir\Release\istream.obj
+         ALURE32.dir\Release\stream.obj
+         ALURE32.dir\Release\streamdec.obj
+         ALURE32.dir\Release\streamplay.obj  /machine:X86 
+            Creating library C:/AGAR140/libdeps/lib/alure/Release/ALURE32.lib and object C:/AGAR140/libdeps/lib/alure/Release/ALURE32.exp
+         ALURE32.vcxproj -> C:\AGAR140\libdeps\lib\alure\Release\ALURE32.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\AGAR140\libdeps\lib\alure\Release\ALURE32.dll;#2" /manifest ALURE32.dir\Release\ALURE32.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "ALURE32.dir\Release\ALURE32.unsuccessfulbuild".
+         Touching "ALURE32.dir\Release\ALURE32.lastbuildstate".
+     1>Done Building Project "C:\AGAR140\libdeps\lib\alure\ALURE32.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.18

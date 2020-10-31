@@ -1,0 +1,160 @@
+ // Textures
+ // Directional Arrows
+ data/images/elements/up.png 
+ data/images/elements/down.png 
+ data/images/elements/left.png 
+ data/images/elements/right.png
+
+ // Icons for Model Editor
+ data/images/modeledit/tube.png 
+ data/images/modeledit/torus.png 
+ data/images/modeledit/cone.png 
+ data/images/modeledit/hemisphere.png 
+ data/images/modeledit/triprism.png 
+ data/images/modeledit/quadpyramid.png 
+ data/images/modeledit/tripyramid.png 
+ data/images/modeledit/pentamid.png 
+ data/images/modeledit/sphere.png 
+ data/images/modeledit/cylinder.png 
+ data/images/modeledit/cube.png 
+
+ data/images/modeledit/lightbulb.png 
+ data/images/modeledit/emitter.png 
+ data/images/modeledit/coupler.png 
+ data/images/modeledit/hardpoint.png 
+ data/images/modeledit/joint.png 
+
+ // Design Elements
+ data/images/elements/rounder1.png 
+ data/images/elements/rounder_box.png 
+ data/images/elements/rounder_minigrid.png 
+ data/images/elements/white.png 
+ data/images/elements/black.png 
+ data/images/elements/rounder0.png 
+ data/images/elements/rounder1.png 
+ data/images/elements/rounder4.png 
+ data/images/elements/crosshair1.png 
+ data/images/elements/tab.png 
+ data/images/elements/orbitpath.png 
+ data/images/elements/filledcircle.png 
+ data/images/elements/fatx.png 
+ data/images/elements/smallcube.png
+ data/images/elements/cube.png
+
+ data/images/elements/rounded.png 
+ data/images/elements/rounded_tall.png 
+
+ data/images/elements/rounded_less_1024.png 
+ data/images/elements/buttonglow_1024_0.png 
+ data/images/elements/buttonglow_1024_1.png 
+ data/images/elements/buttonglow_1024_2.png 
+ data/images/elements/buttonglow_1024_3.png 
+ data/images/elements/buttonglow_1024_4.png 
+ 
+ data/images/elements/rounded_tall_hires.png
+ data/images/elements/transroundedouter512.png
+ data/images/elements/transrounded256.png
+ data/images/elements/transrounded512.png
+
+ // Flares and glows
+ data/images/flares/ball1.png 
+ data/images/flares/ball2.png 
+ data/images/flares/ball3.png 
+ data/images/flares/ball4.png 
+ data/images/flares/ball5.png 
+ data/images/flares/ball6.png 
+ data/images/flares/ball7.png 
+ data/images/flares/ball8.png 
+ data/images/flares/ball9.png 
+ data/images/flares/ball10.png 
+ data/images/flares/ball11.png 
+ data/images/flares/ball12.png 
+ data/images/flares/base.png 
+ data/images/flares/flare.png 
+ data/images/flares/Purple_Flare.jpg 
+
+ data/images/flares/jet1.png 
+ data/images/flares/jet2.png 
+ data/images/flares/shockwave1.png 
+ data/images/flares/shockwave2.png 
+
+ // "main menu"
+ data/images/elements/mainmenu/login.png 
+ data/images/elements/mainmenu/combat.png 
+ data/images/elements/mainmenu/options.png 
+// data/images/elements/mainmenu/credits.png 
+ data/images/elements/mainmenu/exit.png 
+
+ // Starmap crap
+ data/images/flares/hole.png 
+
+ data/images/icons/Andy_Tools_Hammer_Spanner.png
+ data/images/icons/Andy_Trash_Can.png
+ data/images/icons/Machovka_Hammer_4.png
+ data/images/icons/Machovka_Pipe_wrench.png
+ data/images/icons/Machovka_Screwdriver_5.png
+ data/images/icons/Machovka_Shovel.png
+ data/images/icons/Silveira_Neto_Robot_with_a_claw.png
+ data/images/icons/SnarkHunter_Hammer_and_Nails.png
+ data/images/icons/Steren_Warning.png
+ data/images/icons/adriano_Hard_Hat.png
+ data/images/icons/anamix_FITA_Official_Face_archery_target.png
+ data/images/icons/barretr_Key.png
+ data/images/icons/dagobert83_apply.png
+ data/images/icons/dagobert83_cancel.png
+ data/images/icons/dtjohnnymonkey_Stopwatch.png
+ data/images/icons/eastshores_Warning_Notification.png
+ data/images/icons/emyller_alert.png
+ data/images/icons/felipecaparelli_Gears_1.png
+ data/images/icons/fzap_clock_sportstudio_design.png
+ data/images/icons/gringer_Piggybank-pink.png
+ data/images/icons/h0us3s_Signs_Hazard_Warning_10.png
+ data/images/icons/h0us3s_Signs_Hazard_Warning_2.png
+ data/images/icons/h0us3s_Signs_Hazard_Warning_29.png
+ data/images/icons/h0us3s_Signs_Hazard_Warning_3.png
+ data/images/icons/h0us3s_Signs_Hazard_Warning_32.png
+ data/images/icons/h0us3s_Signs_Hazard_Warning_34.png
+ data/images/icons/h0us3s_Signs_Hazard_Warning_4.png
+ data/images/icons/h0us3s_Signs_Hazard_Warning_8.png
+ data/images/icons/hyoga_Tux_G2.png
+ data/images/icons/jcartier_building.png
+ data/images/icons/jcartier_building_1.png
+ data/images/icons/jean_victor_balin_icon_console.png
+ data/images/icons/jean_victor_balin_icon_cube_green.png
+ data/images/icons/jean_victor_balin_icon_cube_orange.png
+ data/images/icons/jean_victor_balin_icon_cube_red.png
+ data/images/icons/jean_victor_balin_icon_cube_white.png
+ data/images/icons/jean_victor_balin_icon_cubes.png
+ data/images/icons/jean_victor_balin_icon_graphics.png
+ data/images/icons/jean_victor_balin_icon_monitoring.png
+ data/images/icons/johnny_automatic_Services_10.png
+ data/images/icons/johnny_automatic_Services_12.png
+ data/images/icons/johnny_automatic_pliers.png
+ data/images/icons/lemmling_Blank_sticky_note.png
+ data/images/icons/lemmling_Blank_sticky_note_1.png
+ data/images/icons/liftarn_A_pair_of_scissors.png
+ data/images/icons/martinix_biohazard.png
+ data/images/icons/mcol_open_box.png
+ data/images/icons/molumen_Exclamation_icons_1.png
+ data/images/icons/molumen_Exclamation_icons_2.png
+ data/images/icons/molumen_Exclamation_icons_3.png
+ data/images/icons/molumen_Exclamation_icons_4.png
+ data/images/icons/papapishu_Lab_icon_1.png
+ data/images/icons/papapishu_Lab_icon_3.png
+ data/images/icons/pitr_First_aid_icon.png
+ data/images/icons/plussign.png
+ data/images/icons/radacina_cursor_hand.png
+ data/images/icons/rejon_Hammer.png
+ data/images/icons/richardtallent_Sticky_Note_Pad.png
+ data/images/icons/sigalaflecha_m_sico_hopi.png
+ data/images/icons/smallcube.png
+ data/images/icons/station.png
+ data/images/icons/tractorbeam.png
+ data/images/icons/underwater.png
+ data/images/icons/urwald_Zielscheibe_target_aim.png
+ data/images/icons/weapon.png
+ data/images/icons/webmichl_light_bulb.png
+ data/images/icons/webmichl_powerbutton_2_states_(_on_off_)_1.png
+ data/images/icons/webmichl_powerbutton_2_states_(_on_off_)_2.png
+ data/images/icons/zeimusu_Warning_notification.png
+ data/images/icons/zeimusu_Warning_sign.png

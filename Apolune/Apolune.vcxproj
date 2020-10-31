@@ -1,0 +1,2437 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug Quiet Divide by Zero Warning|Win32">
+      <Configuration>Debug Quiet Divide by Zero Warning</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug Quiet Divide by Zero Warning|x64">
+      <Configuration>Debug Quiet Divide by Zero Warning</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug with RTC|Win32">
+      <Configuration>Debug with RTC</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug with RTC|x64">
+      <Configuration>Debug with RTC</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug QDbyZ GL_DEBUG|Win32">
+      <Configuration>Deug QDbyZ GL_DEBUG</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug QDbyZ GL_DEBUG|x64">
+      <Configuration>Deug QDbyZ GL_DEBUG</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Edit with Release|Win32">
+      <Configuration>Edit with Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Edit with Release|x64">
+      <Configuration>Edit with Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Logged Release|Win32">
+      <Configuration>Logged Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Logged Release|x64">
+      <Configuration>Logged Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Optimized Release|Win32">
+      <Configuration>Optimized Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Optimized Release|x64">
+      <Configuration>Optimized Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Production|Win32">
+      <Configuration>Production</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Production|x64">
+      <Configuration>Production</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release 2|Win32">
+      <Configuration>Release 2</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release 2|x64">
+      <Configuration>Release 2</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release with Debug Symbols|Win32">
+      <Configuration>Release with Debug Symbols</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release with Debug Symbols|x64">
+      <Configuration>Release with Debug Symbols</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release with Full Debug|Win32">
+      <Configuration>Release with Full Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release with Full Debug|x64">
+      <Configuration>Release with Full Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release With Optional Logging|Win32">
+      <Configuration>Release With Optional Logging</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release With Optional Logging|x64">
+      <Configuration>Release With Optional Logging</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Unoptimized Release|Win32">
+      <Configuration>Unoptimized Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Unoptimized Release|x64">
+      <Configuration>Unoptimized Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="win64|Win32">
+      <Configuration>win64</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="win64|x64">
+      <Configuration>win64</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{231C78B0-F4B4-42B2-8A66-187064C2EAE7}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>EmpireintheSky</RootNamespace>
+    <ProjectName>Apolune</ProjectName>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug Quiet Divide by Zero Warning|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Deug QDbyZ GL_DEBUG|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug with RTC|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug Quiet Divide by Zero Warning|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Deug QDbyZ GL_DEBUG|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug with RTC|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <CLRSupport>false</CLRSupport>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Edit with Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release with Full Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release With Optional Logging|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Edit with Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release with Full Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release With Optional Logging|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Production|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Production|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Logged Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Logged Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release 2|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release 2|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release with Debug Symbols|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release with Debug Symbols|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Unoptimized Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Unoptimized Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Optimized Release|Win32'">
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Optimized Release|x64'" Label="Configuration">
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='win64|Win32'">
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='win64|x64'" Label="Configuration">
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug Quiet Divide by Zero Warning|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Deug QDbyZ GL_DEBUG|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug with RTC|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug Quiet Divide by Zero Warning|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Deug QDbyZ GL_DEBUG|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug with RTC|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Edit with Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release with Full Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release With Optional Logging|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Edit with Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release with Full Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release With Optional Logging|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Production|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Production|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Logged Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Logged Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release 2|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release 2|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release with Debug Symbols|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release with Debug Symbols|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Unoptimized Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Unoptimized Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>c:\AGAR140\libdeps\include;c:\DirectXMar09\include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;$(IncludePath)</IncludePath>
+    <LibraryPath>c:\AGAR140\libdeps\lib;c:\DirectXMar09\lib\x86;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib;$(LibraryPath)</LibraryPath>
+    <ReferencePath>$(VCInstallDir)atlmfc\lib;$(VCInstallDir)lib;C:\Program Files\Microsoft SDKs\Windows\v7.1\Lib;$(ReferencePath)</ReferencePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug Quiet Divide by Zero Warning|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SolutionDir)libdeps\include;c:\DirectXMar09\include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)libdeps\lib;c:\DirectXMar09\lib\x86;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib;$(LibraryPath)</LibraryPath>
+    <ReferencePath>$(VCInstallDir)atlmfc\lib;$(VCInstallDir)lib;C:\Program Files\Microsoft SDKs\Windows\v7.1\Lib;$(ReferencePath)</ReferencePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Deug QDbyZ GL_DEBUG|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>c:\AGAR140\libdeps\include;c:\DirectXMar09\include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;$(IncludePath)</IncludePath>
+    <LibraryPath>c:\AGAR140\libdeps\lib;c:\DirectXMar09\lib\x86;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib;$(LibraryPath)</LibraryPath>
+    <ReferencePath>$(VCInstallDir)atlmfc\lib;$(VCInstallDir)lib;C:\Program Files\Microsoft SDKs\Windows\v7.1\Lib;$(ReferencePath)</ReferencePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug with RTC|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>c:\AGAR140\libdeps\include;c:\DirectXMar09\include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;$(IncludePath)</IncludePath>
+    <LibraryPath>c:\AGAR140\libdeps\lib;c:\DirectXMar09\lib\x86;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib;$(LibraryPath)</LibraryPath>
+    <ReferencePath>$(VCInstallDir)atlmfc\lib;$(VCInstallDir)lib;C:\Program Files\Microsoft SDKs\Windows\v7.1\Lib;$(ReferencePath)</ReferencePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>c:\AGAR140\libdeps\include;c:\DirectXMar09\include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;$(WindowsSdkDir)include\um;$(WindowsSdkDir)include\shared;$(IncludePath)</IncludePath>
+    <LibraryPath>c:\AGAR140\libdeps\lib;c:\DirectXMar09\lib\x86;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib;$(LibraryPath)</LibraryPath>
+    <ReferencePath>$(VCInstallDir)atlmfc\lib;$(VCInstallDir)lib;$(WindowsSdkDir)Lib</ReferencePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug Quiet Divide by Zero Warning|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>c:\AGAR140\libdeps\include;c:\DirectXMar09\include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;$(WindowsSdkDir)include\um;$(WindowsSdkDir)include\shared;$(IncludePath)</IncludePath>
+    <LibraryPath>c:\AGAR140\libdeps\lib;c:\DirectXMar09\lib\x86;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib;$(LibraryPath)</LibraryPath>
+    <ReferencePath>$(VCInstallDir)atlmfc\lib;$(VCInstallDir)lib;$(WindowsSdkDir)Lib</ReferencePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Deug QDbyZ GL_DEBUG|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>c:\AGAR140\libdeps\include;c:\DirectXMar09\include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;$(WindowsSdkDir)include\um;$(WindowsSdkDir)include\shared;$(IncludePath)</IncludePath>
+    <LibraryPath>c:\AGAR140\libdeps\lib;c:\DirectXMar09\lib\x86;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib;$(LibraryPath)</LibraryPath>
+    <ReferencePath>$(VCInstallDir)atlmfc\lib;$(VCInstallDir)lib;$(WindowsSdkDir)Lib</ReferencePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug with RTC|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>c:\AGAR140\libdeps\include;c:\DirectXMar09\include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;$(WindowsSdkDir)include\um;$(WindowsSdkDir)include\shared;$(IncludePath)</IncludePath>
+    <LibraryPath>c:\AGAR140\libdeps\lib;c:\DirectXMar09\lib\x86;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib;$(LibraryPath)</LibraryPath>
+    <ReferencePath>$(VCInstallDir)atlmfc\lib;$(VCInstallDir)lib;$(WindowsSdkDir)Lib</ReferencePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)libdeps\include;c:\DirectXMar09\include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)libdeps\lib;c:\DirectXMar09\lib\x86;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Edit with Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>c:\AGAR140\libdeps\include;c:\DirectXMar09\include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;$(IncludePath)</IncludePath>
+    <LibraryPath>c:\AGAR140\libdeps\lib;c:\DirectXMar09\lib\x86;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release with Full Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(SolutionDir)libdeps\include;c:\DirectXMar09\include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)libdeps\lib;c:\DirectXMar09\lib\x86;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release With Optional Logging|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>c:\AGAR140\libdeps\include;c:\DirectXMar09\include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;$(IncludePath)</IncludePath>
+    <LibraryPath>c:\AGAR140\libdeps\lib;c:\DirectXMar09\lib\x86;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>c:\AGAR140\libdeps\include;c:\DirectXMar09\include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;</IncludePath>
+    <LibraryPath>c:\AGAR140\libdeps\lib64;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Edit with Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>c:\AGAR140\libdeps\include;c:\DirectXMar09\include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;</IncludePath>
+    <LibraryPath>c:\AGAR140\libdeps\lib;c:\DirectXMar09\lib\x86;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release with Full Debug|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>c:\AGAR140\libdeps\include;c:\DirectXMar09\include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;</IncludePath>
+    <LibraryPath>c:\AGAR140\libdeps\lib;c:\DirectXMar09\lib\x86;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release With Optional Logging|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>c:\AGAR140\libdeps\include;c:\DirectXMar09\include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;</IncludePath>
+    <LibraryPath>c:\AGAR140\libdeps\lib;c:\DirectXMar09\lib\x86;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Production|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>c:\AGAR140\libdeps\include;c:\DirectXMar09\include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;$(IncludePath)</IncludePath>
+    <LibraryPath>c:\AGAR140\libdeps\lib;c:\DirectXMar09\lib\x86;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Production|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>c:\AGAR140\libdeps\include;c:\DirectXMar09\include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;</IncludePath>
+    <LibraryPath>c:\AGAR140\libdeps\lib;c:\DirectXMar09\lib\x86;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Logged Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>c:\AGAR140\libdeps\include;c:\DirectXMar09\include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;$(IncludePath)</IncludePath>
+    <LibraryPath>c:\AGAR140\libdeps\lib;c:\DirectXMar09\lib\x86;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Logged Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>c:\AGAR140\libdeps\include;c:\DirectXMar09\include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;</IncludePath>
+    <LibraryPath>c:\AGAR140\libdeps\lib;c:\DirectXMar09\lib\x86;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release 2|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>c:\AGAR140\libdeps\include;c:\DirectXMar09\include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;$(IncludePath)</IncludePath>
+    <LibraryPath>c:\AGAR140\libdeps\lib;c:\DirectXMar09\lib\x86;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release 2|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>c:\AGAR140\libdeps\include;c:\DirectXMar09\include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;</IncludePath>
+    <LibraryPath>c:\AGAR140\libdeps\lib;c:\DirectXMar09\lib\x86;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release with Debug Symbols|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(SolutionDir)libdeps\include;c:\DirectXMar09\include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)libdeps\lib;c:\DirectXMar09\lib\x86;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release with Debug Symbols|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>c:\AGAR140\libdeps\include;c:\DirectXMar09\include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;</IncludePath>
+    <LibraryPath>c:\AGAR140\libdeps\lib;c:\DirectXMar09\lib\x86;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Unoptimized Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>c:\AGAR140\libdeps\include;c:\DirectXMar09\include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;$(IncludePath)</IncludePath>
+    <LibraryPath>c:\AGAR140\libdeps\lib;c:\DirectXMar09\lib\x86;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Unoptimized Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>c:\AGAR140\libdeps\include;c:\DirectXMar09\include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;</IncludePath>
+    <LibraryPath>c:\AGAR140\libdeps\lib;c:\DirectXMar09\lib\x86;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Optimized Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>c:\AGAR140\libdeps\include;c:\DirectXMar09\include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;$(IncludePath)</IncludePath>
+    <LibraryPath>c:\AGAR140\libdeps\lib;c:\DirectXMar09\lib\x86;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Optimized Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>c:\AGAR140\libdeps\include;c:\DirectXMar09\include;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)include;$(FrameworkSDKDir)\include;</IncludePath>
+    <LibraryPath>c:\AGAR140\libdeps\lib;c:\DirectXMar09\lib\x86;$(VCInstallDir)lib;$(VCInstallDir)atlmfc\lib;$(WindowsSdkDir)lib;$(FrameworkSDKDir)\lib</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsManaged>false</CompileAsManaged>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <AdditionalOptions>/D "DEBUG" /D "OUTPUT_LOG" /D "DIV_BY_ZERO_REPORTING"</AdditionalOptions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <SmallerTypeCheck>false</SmallerTypeCheck>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>xinput.lib;steam_api.lib;Wininet.lib;freetype6.lib;gdiplus.lib;unrar.lib;physfs.lib;LgKit1.1.lib;VAST.lib;zlib.lib;libpng15.lib;pthreadVC2.lib;pthreadVCE2.lib;libcurl.lib;libsndfile-1.lib;libFLAC.lib;openal32.lib;alure32.lib;glew32.lib;dxguid.lib;winmm.lib;dinput8.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug Quiet Divide by Zero Warning|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsManaged>false</CompileAsManaged>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <AdditionalOptions>/D "DEBUG" /D "OUTPUT_LOG"</AdditionalOptions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <SmallerTypeCheck>false</SmallerTypeCheck>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>glfw3dll.lib;glu32.lib;glew32.lib;opengl32.lib;steam_api.lib;freetype6.lib;gdiplus.lib;unrar.lib;physfs.lib;LgKit1.1.lib;VAST.lib;zlib.lib;libsndfile-1.lib;libFLAC.lib;openal32.lib;alure32.lib;dxguid.lib;winmm.lib;xinput.lib;dinput8.lib;Wininet.lib;kernel32.lib;user32.lib;winspool.lib;comdlg32.lib;advapi32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;shell32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Deug QDbyZ GL_DEBUG|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>GL_DEBUG;WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsManaged>false</CompileAsManaged>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <AdditionalOptions>/D "DEBUG" /D "OUTPUT_LOG"</AdditionalOptions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <SmallerTypeCheck>false</SmallerTypeCheck>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>xinput.lib;steam_api.lib;Wininet.lib;freetype6.lib;gdiplus.lib;unrar.lib;physfs.lib;LgKit1.1.lib;VAST.lib;zlib.lib;libpng15.lib;pthreadVC2.lib;pthreadVCE2.lib;libcurl.lib;libsndfile-1.lib;libFLAC.lib;openal32.lib;alure32.lib;glew32.lib;dxguid.lib;winmm.lib;dinput8.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug with RTC|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsManaged>false</CompileAsManaged>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <AdditionalOptions>/D "DEBUG"</AdditionalOptions>
+      <MinimalRebuild>false</MinimalRebuild>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>steam_api.lib;Wininet.lib;freetype6.lib;gdiplus.lib;unrar.lib;physfs.lib;LgKit1.1.lib;VAST.lib;zlib.lib;libpng15.lib;pthreadVC2.lib;pthreadVCE2.lib;libcurl.lib;libsndfile-1.lib;libFLAC.lib;openal32.lib;alure32.lib;glew32.lib;dxguid.lib;winmm.lib;dinput8.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsManaged>false</CompileAsManaged>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <AdditionalOptions>/D "DEBUG"</AdditionalOptions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <TreatWarningAsError>false</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Wininet.lib;OpenCSGd.lib;freetype6.lib;gdiplus.lib;unrar.lib;physfs.lib;LgKit1.1.lib;VAST.lib;zlib.lib;libpng15.lib;pthreadVC2.lib;pthreadVCE2.lib;libcurl.lib;libsndfile-1.lib;libFLAC.lib;openal32.lib;alure32.lib;glew32.lib;dxguid.lib;winmm.lib;dinput8.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug Quiet Divide by Zero Warning|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsManaged>false</CompileAsManaged>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <AdditionalOptions>/D "DEBUG" /D "BUILD_64"</AdditionalOptions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <TreatWarningAsError>false</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Wininet.lib;OpenCSGd.lib;freetype6.lib;gdiplus.lib;unrar.lib;physfs.lib;LgKit1.1.lib;VAST.lib;zlib.lib;libpng15.lib;pthreadVC2.lib;pthreadVCE2.lib;libcurl.lib;libsndfile-1.lib;libFLAC.lib;openal32.lib;alure32.lib;glew32.lib;dxguid.lib;winmm.lib;dinput8.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Deug QDbyZ GL_DEBUG|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsManaged>false</CompileAsManaged>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <AdditionalOptions>/D "DEBUG" /D "BUILD_64"</AdditionalOptions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <TreatWarningAsError>false</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Wininet.lib;OpenCSGd.lib;freetype6.lib;gdiplus.lib;unrar.lib;physfs.lib;LgKit1.1.lib;VAST.lib;zlib.lib;libpng15.lib;pthreadVC2.lib;pthreadVCE2.lib;libcurl.lib;libsndfile-1.lib;libFLAC.lib;openal32.lib;alure32.lib;glew32.lib;dxguid.lib;winmm.lib;dinput8.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug with RTC|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <CompileAsManaged>false</CompileAsManaged>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <AdditionalOptions>/D "DEBUG"</AdditionalOptions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <TreatWarningAsError>false</TreatWarningAsError>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>Wininet.lib;OpenCSGd.lib;freetype6.lib;gdiplus.lib;unrar.lib;physfs.lib;LgKit1.1.lib;VAST.lib;zlib.lib;libpng15.lib;pthreadVC2.lib;pthreadVCE2.lib;libcurl.lib;libsndfile-1.lib;libFLAC.lib;openal32.lib;alure32.lib;glew32.lib;dxguid.lib;winmm.lib;dinput8.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <CompileAsManaged>false</CompileAsManaged>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>glfw3dll.lib;steam_api.lib;xinput.lib;WinINET.lib;freetype6.lib;unrar.lib;physfs.lib;LgKit1.1.lib;libcurl.lib;libsndfile-1.lib;libFLAC.lib;openal32.lib;alure32.lib;glew32.lib;dxguid.lib;winmm.lib;dinput8.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;gdiplus.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LargeAddressAware>true</LargeAddressAware>
+      <AdditionalOptions>/VERBOSE:LIB %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Edit with Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <CompileAsManaged>false</CompileAsManaged>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>steam_api.lib;xinput.lib;WinINET.lib;freetype6.lib;unrar.lib;physfs.lib;LgKit1.1.lib;libcurl.lib;libsndfile-1.lib;libFLAC.lib;openal32.lib;alure32.lib;glew32.lib;dxguid.lib;winmm.lib;dinput8.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;gdiplus.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LargeAddressAware>true</LargeAddressAware>
+      <AdditionalOptions>/VERBOSE:LIB %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release with Full Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <CompileAsManaged>false</CompileAsManaged>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <AdditionalOptions>/D "RELEASE_DEBUG"</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>glfw3dll.lib;steam_api.lib;xinput.lib;WinINET.lib;freetype6.lib;unrar.lib;physfs.lib;LgKit1.1.lib;libcurl.lib;libsndfile-1.lib;libFLAC.lib;openal32.lib;alure32.lib;glew32.lib;dxguid.lib;winmm.lib;dinput8.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;gdiplus.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LargeAddressAware>true</LargeAddressAware>
+      <AdditionalOptions>/VERBOSE:LIB %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release With Optional Logging|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <CompileAsManaged>false</CompileAsManaged>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <AdditionalOptions>/D "OPTIONAL_LOGGING_TO_FILE" %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>xinput.lib;WinINET.lib;StarIOPort.lib;OpenCSG.lib;freetype6.lib;unrar.lib;physfs.lib;LgKit1.1.lib;libcurl.lib;libsndfile-1.lib;libFLAC.lib;openal32.lib;alure32.lib;glew32.lib;dxguid.lib;winmm.lib;dinput8.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;gdiplus.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LargeAddressAware>true</LargeAddressAware>
+      <AdditionalOptions>/VERBOSE:LIB %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <CompileAsManaged>false</CompileAsManaged>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>WinINET.lib;StarIOPort.lib;OpenCSG.lib;freetype6.lib;unrar.lib;physfs.lib;LgKit1.1.lib;libcurl.lib;libsndfile-1.lib;libFLAC.lib;openal32.lib;alure32.lib;glew32.lib;dxguid.lib;winmm.lib;dinput8.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;gdiplus.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LargeAddressAware>true</LargeAddressAware>
+      <AdditionalOptions>/VERBOSE:LIB %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Edit with Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <CompileAsManaged>false</CompileAsManaged>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>WinINET.lib;StarIOPort.lib;OpenCSG.lib;freetype6.lib;unrar.lib;physfs.lib;LgKit1.1.lib;libcurl.lib;libsndfile-1.lib;libFLAC.lib;openal32.lib;alure32.lib;glew32.lib;dxguid.lib;winmm.lib;dinput8.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;gdiplus.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LargeAddressAware>true</LargeAddressAware>
+      <AdditionalOptions>/VERBOSE:LIB %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release with Full Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <CompileAsManaged>false</CompileAsManaged>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <AdditionalOptions>/D "BUILD_64" %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>WinINET.lib;StarIOPort.lib;OpenCSG.lib;freetype6.lib;unrar.lib;physfs.lib;LgKit1.1.lib;libcurl.lib;libsndfile-1.lib;libFLAC.lib;openal32.lib;alure32.lib;glew32.lib;dxguid.lib;winmm.lib;dinput8.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;gdiplus.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LargeAddressAware>true</LargeAddressAware>
+      <AdditionalOptions>/VERBOSE:LIB %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release With Optional Logging|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <CompileAsManaged>false</CompileAsManaged>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>WinINET.lib;StarIOPort.lib;OpenCSG.lib;freetype6.lib;unrar.lib;physfs.lib;LgKit1.1.lib;libcurl.lib;libsndfile-1.lib;libFLAC.lib;openal32.lib;alure32.lib;glew32.lib;dxguid.lib;winmm.lib;dinput8.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;gdiplus.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LargeAddressAware>true</LargeAddressAware>
+      <AdditionalOptions>/VERBOSE:LIB %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Production|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <CompileAsManaged>false</CompileAsManaged>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <AdditionalOptions>/D "PRODUCTION" %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>glfw3dll.lib;steam_api.lib;xinput.lib;WinINET.lib;StarIOPort.lib;OpenCSG.lib;freetype6.lib;unrar.lib;physfs.lib;LgKit1.1.lib;libcurl.lib;libsndfile-1.lib;libFLAC.lib;openal32.lib;alure32.lib;glew32.lib;dxguid.lib;winmm.lib;dinput8.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;gdiplus.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LargeAddressAware>true</LargeAddressAware>
+      <AdditionalOptions>/VERBOSE:LIB %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Production|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <CompileAsManaged>false</CompileAsManaged>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <AdditionalOptions>/D "PRODUCTION" %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>WinINET.lib;StarIOPort.lib;OpenCSG.lib;freetype6.lib;unrar.lib;physfs.lib;LgKit1.1.lib;libcurl.lib;libsndfile-1.lib;libFLAC.lib;openal32.lib;alure32.lib;glew32.lib;dxguid.lib;winmm.lib;dinput8.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;gdiplus.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LargeAddressAware>true</LargeAddressAware>
+      <AdditionalOptions>/VERBOSE:LIB %(AdditionalOptions)</AdditionalOptions>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Logged Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>OUTPUT_LOG;WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <CompileAsManaged>false</CompileAsManaged>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>glfw3dll.lib;steam_api.lib;xinput.lib;WinINET.lib;freetype6.lib;unrar.lib;physfs.lib;LgKit1.1.lib;libcurl.lib;libsndfile-1.lib;libFLAC.lib;openal32.lib;alure32.lib;glew32.lib;dxguid.lib;winmm.lib;dinput8.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;gdiplus.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Logged Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>OUTPUT_LOG;WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <CompileAsManaged>false</CompileAsManaged>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>OpenCSG.lib;freetype6.lib;unrar.lib;physfs.lib;LgKit1.1.lib;libcurl.lib;libsndfile-1.lib;libFLAC.lib;openal32.lib;alure32.lib;glew32.lib;dxguid.lib;winmm.lib;dinput8.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;gdiplus.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release 2|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <CompileAsManaged>false</CompileAsManaged>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>glfw3dll.lib;steam_api.lib;xinput.lib;WinINET.lib;freetype6.lib;unrar.lib;physfs.lib;LgKit1.1.lib;libcurl.lib;libsndfile-1.lib;libFLAC.lib;openal32.lib;alure32.lib;glew32.lib;dxguid.lib;winmm.lib;dinput8.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;gdiplus.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release 2|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <CompileAsManaged>false</CompileAsManaged>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>OpenCSG.lib;freetype6.lib;unrar.lib;physfs.lib;LgKit1.1.lib;VAST.lib;pthreadVC2.lib;pthreadVCE2.lib;libcurl.lib;libsndfile-1.lib;libFLAC.lib;openal32.lib;alure32.lib;glew32.lib;dxguid.lib;winmm.lib;dinput8.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;gdiplus.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release with Debug Symbols|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>DEBUG_OUTPUT;WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <EnableEnhancedInstructionSet>NotSet</EnableEnhancedInstructionSet>
+      <CompileAsManaged>false</CompileAsManaged>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <StringPooling>false</StringPooling>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <FloatingPointExceptions>
+      </FloatingPointExceptions>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>steam_api.lib;WinINET.lib;OpenCSG.lib;freetype6.lib;gdiplus.lib;unrar.lib;physfs.lib;LgKit1.1.lib;VAST.lib;libpng.lib;pthreadVC2.lib;pthreadVCE2.lib;libcurl.lib;libsndfile-1.lib;libFLAC.lib;openal32.lib;alure32.lib;glew32.lib;corona.lib;dxguid.lib;winmm.lib;dinput8.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release with Debug Symbols|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>DEBUG_OUTPUT;WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <EnableEnhancedInstructionSet>NotSet</EnableEnhancedInstructionSet>
+      <CompileAsManaged>false</CompileAsManaged>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <StringPooling>false</StringPooling>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <FloatingPointExceptions>
+      </FloatingPointExceptions>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>WinINET.lib;OpenCSG.lib;freetype6.lib;gdiplus.lib;unrar.lib;physfs.lib;LgKit1.1.lib;VAST.lib;libpng.lib;pthreadVC2.lib;pthreadVCE2.lib;libcurl.lib;libsndfile-1.lib;libFLAC.lib;openal32.lib;alure32.lib;glew32.lib;corona.lib;dxguid.lib;winmm.lib;dinput8.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Unoptimized Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <CompileAsManaged>false</CompileAsManaged>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>false</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>OpenCSG.lib;freetype6.lib;unrar.lib;physfs.lib;LgKit1.1.lib;VAST.lib;libpng.lib;pthreadVC2.lib;pthreadVCE2.lib;libcurl.lib;libsndfile-1.lib;libFLAC.lib;openal32.lib;alure32.lib;glew32.lib;corona.lib;dxguid.lib;winmm.lib;dinput8.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Unoptimized Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <CompileAsManaged>false</CompileAsManaged>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>false</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>OpenCSG.lib;freetype6.lib;unrar.lib;physfs.lib;LgKit1.1.lib;VAST.lib;libpng.lib;pthreadVC2.lib;pthreadVCE2.lib;libcurl.lib;libsndfile-1.lib;libFLAC.lib;openal32.lib;alure32.lib;glew32.lib;corona.lib;dxguid.lib;winmm.lib;dinput8.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Optimized Release|Win32'">
+    <ClCompile>
+      <Optimization>Full</Optimization>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Optimized Release|x64'">
+    <ClCompile>
+      <Optimization>Full</Optimization>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Optimized Release|Win32'">
+    <ClCompile>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Optimized Release|x64'">
+    <ClCompile>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Optimized Release|Win32'">
+    <ClCompile>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Optimized Release|x64'">
+    <ClCompile>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Optimized Release|Win32'">
+    <ClCompile>
+      <OmitFramePointers>true</OmitFramePointers>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Optimized Release|x64'">
+    <ClCompile>
+      <OmitFramePointers>true</OmitFramePointers>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Optimized Release|Win32'">
+    <ClCompile>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Optimized Release|x64'">
+    <ClCompile>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Optimized Release|Win32'">
+    <ClCompile>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <CompileAs>Default</CompileAs>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <CompileAsManaged>false</CompileAsManaged>
+      <WarningLevel>Level3</WarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <LinkStatus>true</LinkStatus>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <AdditionalDependencies>glfw3dll.lib;steam_api.lib;xinput.lib;WinINET.lib;freetype6.lib;unrar.lib;physfs.lib;LgKit1.1.lib;libcurl.lib;libsndfile-1.lib;libFLAC.lib;openal32.lib;alure32.lib;glew32.lib;dxguid.lib;winmm.lib;dinput8.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;gdiplus.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Optimized Release|x64'">
+    <ClCompile>
+      <WholeProgramOptimization>true</WholeProgramOptimization>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <CompileAs>Default</CompileAs>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <CompileAsManaged>false</CompileAsManaged>
+      <WarningLevel>Level3</WarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <LinkStatus>true</LinkStatus>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
+      <AdditionalDependencies>OpenCSG.lib;freetype6.lib;unrar.lib;physfs.lib;LgKit1.1.lib;VAST.lib;pthreadVC2.lib;pthreadVCE2.lib;libcurl.lib;libsndfile-1.lib;libFLAC.lib;openal32.lib;alure32.lib;glew32.lib;dxguid.lib;winmm.lib;dinput8.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;gdiplus.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AppFramework.cpp" />
+    <ClCompile Include="Application.cpp" />
+    <ClCompile Include="ASCIIShader.cpp" />
+    <ClCompile Include="AssetLoader.cpp" />
+    <ClCompile Include="ATFont.cpp" />
+    <ClCompile Include="ATFontTest.cpp" />
+    <ClCompile Include="Atlas.cpp" />
+    <ClCompile Include="AtlasFontViewer.cpp" />
+    <ClCompile Include="AudioSampleLookup.cpp" />
+    <ClCompile Include="BASIC.cpp" />
+    <ClCompile Include="BestRectTest.cpp" />
+    <ClCompile Include="BinPack.cpp" />
+    <ClCompile Include="CollisionProfile.cpp" />
+    <ClCompile Include="ColorController.cpp" />
+    <ClCompile Include="ColorShader.cpp" />
+    <ClCompile Include="ComplexWave.cpp" />
+    <ClCompile Include="ControlOptions.cpp" />
+    <ClCompile Include="CSV.cpp" />
+    <ClCompile Include="DJ.cpp" />
+    <ClCompile Include="DJTest.cpp" />
+    <ClCompile Include="FileDialog.cpp" />
+    <ClCompile Include="FileDialogTest.cpp" />
+    <ClCompile Include="FormUI.cpp" />
+    <ClCompile Include="FormUITest.cpp" />
+    <ClCompile Include="fx_Teletype.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GameHUD.cpp" />
+    <ClCompile Include="GameMenu.cpp" />
+    <ClCompile Include="GameOptions.cpp" />
+    <ClCompile Include="glew.c" />
+    <ClCompile Include="Hardware.cpp" />
+    <ClCompile Include="Icons.cpp" />
+    <ClCompile Include="MilazzoVisibility.cpp" />
+    <ClCompile Include="MoneyCounter.cpp" />
+    <ClCompile Include="NewGamePanel.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PlayerPortrait.cpp" />
+    <ClCompile Include="PortraitPaperdoll.cpp" />
+    <ClCompile Include="ShaderLab.cpp" />
+    <ClCompile Include="Shadow2DTest.cpp" />
+    <ClCompile Include="SimpleZonedProcessors.cpp" />
+    <ClCompile Include="Graphics.cpp" />
+    <ClCompile Include="HIDControlMapping.cpp" />
+    <ClCompile Include="IsotrapGrid.cpp" />
+    <ClCompile Include="Mulligan.cpp" />
+    <ClCompile Include="NavigationController.cpp" />
+    <ClCompile Include="Nebula4LightShader.cpp" />
+    <ClCompile Include="p2t_advancing_front.cc" />
+    <ClCompile Include="AStar.cpp" />
+    <ClCompile Include="AStarTest.cpp" />
+    <ClCompile Include="BDungeon.cpp" />
+    <ClCompile Include="BendShader.cpp" />
+    <ClCompile Include="Billboard.cpp" />
+    <ClCompile Include="BillboardShader.cpp" />
+    <ClCompile Include="BinaryFile.cpp" />
+    <ClCompile Include="BinaryFileTest.cpp" />
+    <ClCompile Include="BitBrush.cpp" />
+    <ClCompile Include="BitVoxel.cpp" />
+    <ClCompile Include="BitVoxelTest.cpp" />
+    <ClCompile Include="Blend8WayTest.cpp" />
+    <ClCompile Include="BlendShader.cpp" />
+    <ClCompile Include="BlockWorld.cpp" />
+    <ClCompile Include="BloomShader.cpp" />
+    <ClCompile Include="BouncingBall.cpp" />
+    <ClCompile Include="Box3d.cpp" />
+    <ClCompile Include="BoxBool.cpp" />
+    <ClCompile Include="CDateTime.cpp" />
+    <ClCompile Include="p2t_cdt.cc" />
+    <ClCompile Include="Chemistry.cpp" />
+    <ClCompile Include="CollisionTests.cpp" />
+    <ClCompile Include="ColorField.cpp" />
+    <ClCompile Include="ColorFieldTest.cpp" />
+    <ClCompile Include="ColorNetwork.cpp" />
+    <ClCompile Include="ConvolverShader.cpp" />
+    <ClCompile Include="Crack2d.cpp" />
+    <ClCompile Include="CrosshatchShader.cpp" />
+    <ClCompile Include="Delaunay.cpp" />
+    <ClCompile Include="Delay.cpp" />
+    <ClCompile Include="Derar.cpp" />
+    <ClCompile Include="DreamBlurShader.cpp" />
+    <ClCompile Include="EditGUI.cpp" />
+    <ClCompile Include="Enumerated.cpp" />
+    <ClCompile Include="ExternalResources.cpp" />
+    <ClCompile Include="FANSI.cpp" />
+    <ClCompile Include="FastGUI.cpp" />
+    <ClCompile Include="FastGUIProcessors.cpp" />
+    <ClCompile Include="FastGUITest.cpp" />
+    <ClCompile Include="FBMShader.cpp" />
+    <ClCompile Include="FBMShaderTest.cpp" />
+    <ClCompile Include="FBOBoxCameraTest.cpp" />
+    <ClCompile Include="FBOSwapperTest.cpp" />
+    <ClCompile Include="FBOTests.cpp" />
+    <ClCompile Include="FIFO.cpp" />
+    <ClCompile Include="FileLibrary.cpp" />
+    <ClCompile Include="FObject.cpp" />
+    <ClCompile Include="FreeType.cpp" />
+    <ClCompile Include="FreetypeTest.cpp" />
+    <ClCompile Include="Frosted2Shader.cpp" />
+    <ClCompile Include="FrostedShader.cpp" />
+    <ClCompile Include="Functions.cpp" />
+    <ClCompile Include="FWTFTest.cpp" />
+    <ClCompile Include="fx_CircleMenu.cpp" />
+    <ClCompile Include="fx_LineGraph.cpp" />
+    <ClCompile Include="fx_List.cpp" />
+    <ClCompile Include="fx_MultiPointSprite.cpp" />
+    <ClCompile Include="fx_RotaryMenu.cpp" />
+    <ClCompile Include="fx_SectionalPercentages.cpp" />
+    <ClCompile Include="fx_Shockwave.cpp" />
+    <ClCompile Include="fx_VBOView.cpp" />
+    <ClCompile Include="GameEffects.cpp" />
+    <ClCompile Include="GammaShader.cpp" />
+    <ClCompile Include="GarbageCollector.cpp" />
+    <ClCompile Include="GeometryInstancer.cpp" />
+    <ClCompile Include="GetTotalMemory.cpp" />
+    <ClCompile Include="GLFBOColorDepthStencilTest.cpp" />
+    <ClCompile Include="GLGenTextureSettings.cpp" />
+    <ClCompile Include="GLMCamera.cpp" />
+    <ClCompile Include="GLMVBO.cpp" />
+    <ClCompile Include="GLScissor.cpp" />
+    <ClCompile Include="GLTransform.cpp" />
+    <ClCompile Include="GLUTesselator.cpp" />
+    <ClCompile Include="GridSplitter.cpp" />
+    <ClCompile Include="GridSplitterTest.cpp" />
+    <ClCompile Include="HashStore.cpp" />
+    <ClCompile Include="HeightBrush.cpp" />
+    <ClCompile Include="HMatrix.cpp" />
+    <ClCompile Include="HPlane.cpp" />
+    <ClCompile Include="HQuaternion.cpp" />
+    <ClCompile Include="HVertex.cpp" />
+    <ClCompile Include="HyperspaceLoadingSequence.cpp" />
+    <ClCompile Include="Image2Fansi.cpp" />
+    <ClCompile Include="Image2Model.cpp" />
+    <ClCompile Include="Image2Placements.cpp" />
+    <ClCompile Include="ImageCombiner.cpp" />
+    <ClCompile Include="ImageLoader.cpp" />
+    <ClCompile Include="ImageLoaders.cpp" />
+    <ClCompile Include="ImageProcess.cpp" />
+    <ClCompile Include="ImageResizer.cpp" />
+    <ClCompile Include="ImageRotator.cpp" />
+    <ClCompile Include="ImplodeShader.cpp" />
+    <ClCompile Include="IncrementalDelauney.cpp" />
+    <ClCompile Include="Indexed.cpp" />
+    <ClCompile Include="InfiniteTerrain.cpp" />
+    <ClCompile Include="InputControls.cpp" />
+    <ClCompile Include="InterpolatedPointFilm.cpp" />
+    <ClCompile Include="ItemCamera.cpp" />
+    <ClCompile Include="jsCSG.cpp" />
+    <ClCompile Include="JSON.cpp" />
+    <ClCompile Include="KeyedDataStore.cpp" />
+    <ClCompile Include="Lathe.cpp" />
+    <ClCompile Include="LatheTest.cpp" />
+    <ClCompile Include="LatheTool.cpp" />
+    <ClCompile Include="LayerCombiner.cpp" />
+    <ClCompile Include="LayerCombinerProfile.cpp" />
+    <ClCompile Include="LightManager2dTest.cpp" />
+    <ClCompile Include="LightningSystem2d.cpp" />
+    <ClCompile Include="Lithophane.cpp" />
+    <ClCompile Include="LithophaneTest.cpp" />
+    <ClCompile Include="LithophaneTest2.cpp" />
+    <ClCompile Include="macros.cpp" />
+    <ClCompile Include="MemoryPool.cpp" />
+    <ClCompile Include="MetaFractalShader.cpp" />
+    <ClCompile Include="ModernVBO.cpp" />
+    <ClCompile Include="ModernVBOTest.cpp" />
+    <ClCompile Include="MultiCirclePlacer.cpp" />
+    <ClCompile Include="MultiCirclePlacerTest.cpp" />
+    <ClCompile Include="MultiPointSprite.cpp" />
+    <ClCompile Include="NewShaderTest.cpp" />
+    <ClCompile Include="NightvisionShader.cpp" />
+    <ClCompile Include="NormalAlphaMapTest.cpp" />
+    <ClCompile Include="NormalMapTest.cpp" />
+    <ClCompile Include="NormalTest.cpp" />
+    <ClCompile Include="OCSG.cpp" />
+    <ClCompile Include="OldVBO.cpp" />
+    <ClCompile Include="OrangeShader.cpp" />
+    <ClCompile Include="OrderedProce55Viewer.cpp" />
+    <ClCompile Include="PackedString.cpp" />
+    <ClCompile Include="PagedLithophane.cpp" />
+    <ClCompile Include="PagedLithophaneTest.cpp" />
+    <ClCompile Include="PanningWrappingMultiVBODetail.cpp" />
+    <ClCompile Include="ParallaxShader.cpp" />
+    <ClCompile Include="PatchworkShader.cpp" />
+    <ClCompile Include="PatchworkSystem.cpp" />
+    <ClCompile Include="PixelatedFBOTest.cpp" />
+    <ClCompile Include="PixelateShader.cpp" />
+    <ClCompile Include="PixelDoubler.cpp" />
+    <ClCompile Include="PointInTriangleTest.cpp" />
+    <ClCompile Include="PresentationScriptable.cpp" />
+    <ClCompile Include="Proce55ors.cpp" />
+    <ClCompile Include="Proce55orGroup.cpp" />
+    <ClCompile Include="ProtoShader.cpp" />
+    <ClCompile Include="Quad1.cpp" />
+    <ClCompile Include="QuadBender.cpp" />
+    <ClCompile Include="QuadGridVBO.cpp" />
+    <ClCompile Include="QuadGridVBOTest.cpp" />
+    <ClCompile Include="QuarterCircleTest.cpp" />
+    <ClCompile Include="RectPackTest.cpp" />
+    <ClCompile Include="RectPlacer.cpp" />
+    <ClCompile Include="Recyclable.cpp" />
+    <ClCompile Include="RippleShader.cpp" />
+    <ClCompile Include="RLDungeon.cpp" />
+    <ClCompile Include="RoundedRectangle.cpp" />
+    <ClCompile Include="SafeMediaLookup.cpp" />
+    <ClCompile Include="ScreenPosition.cpp" />
+    <ClCompile Include="ScreenPositionTest.cpp" />
+    <ClCompile Include="ScriptableFX.cpp" />
+    <ClCompile Include="ScriptableProce55or.cpp" />
+    <ClCompile Include="Scripting.cpp" />
+    <ClCompile Include="ScrollingInfiniteTerrain.cpp" />
+    <ClCompile Include="SGjs.cpp" />
+    <ClCompile Include="ShockwaveShader.cpp" />
+    <ClCompile Include="SimpleAnimatedSprite.cpp" />
+    <ClCompile Include="SmoothShadows2dShader.cpp" />
+    <ClCompile Include="SniperLensShader.cpp" />
+    <ClCompile Include="SolarSystemStarfield.cpp" />
+    <ClCompile Include="SoundEffect.cpp" />
+    <ClCompile Include="SpaceShaders.cpp" />
+    <ClCompile Include="SpaceShaderTest.cpp" />
+    <ClCompile Include="SpecialPaths.cpp" />
+    <ClCompile Include="SpherePainterTest.cpp" />
+    <ClCompile Include="SpherizeShaderTest.cpp" />
+    <ClCompile Include="Spiral.cpp" />
+    <ClCompile Include="SpiralTest.cpp" />
+    <ClCompile Include="Sprite.cpp" />
+    <ClCompile Include="Art2d.cpp" />
+    <ClCompile Include="SpriteSheet.cpp" />
+    <ClCompile Include="StarfieldTestView.cpp" />
+    <ClCompile Include="StarNestShader.cpp" />
+    <ClCompile Include="StarNestTest.cpp" />
+    <ClCompile Include="Steamworks.cpp" />
+    <ClCompile Include="StringIndexed.cpp" />
+    <ClCompile Include="SuperSimpleMacroTest.cpp" />
+    <ClCompile Include="TermShader.cpp" />
+    <ClCompile Include="TexShader.cpp" />
+    <ClCompile Include="TwoDeeElementEditor.cpp" />
+    <ClCompile Include="UglyGlyphs.cpp" />
+    <ClCompile Include="Universe.cpp" />
+    <ClCompile Include="Statistic.cpp" />
+    <ClCompile Include="StencilShader.cpp" />
+    <ClCompile Include="STLFile.cpp" />
+    <ClCompile Include="STLLibrary.cpp" />
+    <ClCompile Include="STLLibraryBrowser.cpp" />
+    <ClCompile Include="STLViewer.cpp" />
+    <ClCompile Include="Stopwatch.cpp" />
+    <ClCompile Include="SurfaceShader.cpp" />
+    <ClCompile Include="p2t_sweep.cc" />
+    <ClCompile Include="p2t_sweep_context.cc" />
+    <ClCompile Include="SwirlShader.cpp" />
+    <ClCompile Include="TexFontTest.cpp" />
+    <ClCompile Include="TexturedFBOPLYTest.cpp" />
+    <ClCompile Include="ThermalShader.cpp" />
+    <ClCompile Include="ThreadedLoadingTest.cpp" />
+    <ClCompile Include="TileShader.cpp" />
+    <ClCompile Include="TouchGestureDetector.cpp" />
+    <ClCompile Include="TouchGestureDetectorTest.cpp" />
+    <ClCompile Include="Transform2d.cpp" />
+    <ClCompile Include="Trigger.cpp" />
+    <ClCompile Include="TTFCoreTest.cpp" />
+    <ClCompile Include="TTFEx.cpp" />
+    <ClCompile Include="TTFExceptions.cpp" />
+    <ClCompile Include="TTFExLibraryBrowser.cpp" />
+    <ClCompile Include="TTFFont.cpp" />
+    <ClCompile Include="TTFLibrary.cpp" />
+    <ClCompile Include="TTFLibraryBrowser.cpp" />
+    <ClCompile Include="TTFMath.cpp" />
+    <ClCompile Include="TTFTriangulator.cpp" />
+    <ClCompile Include="TTFTriangulatorI.cpp" />
+    <ClCompile Include="TTFTriangulatorII.cpp" />
+    <ClCompile Include="TTFTriangulatorIII.cpp" />
+    <ClCompile Include="Tunnel2Shader.cpp" />
+    <ClCompile Include="TweenBeam.cpp" />
+    <ClCompile Include="TweenBeamProfile.cpp" />
+    <ClCompile Include="Variadics.cpp" />
+    <ClCompile Include="VBOFlavors.cpp" />
+    <ClCompile Include="VBOGroup.cpp" />
+    <ClCompile Include="VBOTriangles.cpp" />
+    <ClCompile Include="VBO_V.cpp" />
+    <ClCompile Include="VBO_VC.cpp" />
+    <ClCompile Include="VBO_VCLines.cpp" />
+    <ClCompile Include="VBO_VN.cpp" />
+    <ClCompile Include="VBO_VNC.cpp" />
+    <ClCompile Include="VBO_VNT.cpp" />
+    <ClCompile Include="VBO_VNTC.cpp" />
+    <ClCompile Include="VBO_VNTCTan.cpp" />
+    <ClCompile Include="VBO_VNTTan.cpp" />
+    <ClCompile Include="VBO_VNTTanBi.cpp" />
+    <ClCompile Include="VBO_VT.cpp" />
+    <ClCompile Include="VBO_Vw.cpp" />
+    <ClCompile Include="VideoStream.cpp" />
+    <ClCompile Include="VideoTexture.cpp" />
+    <ClCompile Include="VirtualGUITest.cpp" />
+    <ClCompile Include="VirtualWindow.cpp" />
+    <ClCompile Include="vntShader.cpp" />
+    <ClCompile Include="Voxel.cpp" />
+    <ClCompile Include="VoxelLandscape.cpp" />
+    <ClCompile Include="VVoxel.cpp" />
+    <ClCompile Include="waveout.cpp" />
+    <ClCompile Include="WindowsKeyboard.cpp" />
+    <ClCompile Include="WindowsKeyboardTest.cpp" />
+    <ClCompile Include="WireframeShader.cpp" />
+    <ClCompile Include="WireframeTest.cpp" />
+    <ClCompile Include="WorldShaderTest.cpp" />
+    <ClCompile Include="ZigguratTest.cpp" />
+    <ClCompile Include="ZIndexed.cpp" />
+    <ClCompile Include="ZonedProce55ors.cpp" />
+    <ClCompile Include="ZonedMovingProce55orDebugger.cpp" />
+    <ClCompile Include="ZSortedFAFZonedProce55Viewer2d.cpp" />
+    <ClCompile Include="ZSortedFireAndForgetLimitedWrappingProce55Viewer2d.cpp" />
+    <ClCompile Include="FireAndForgetLimitedWrappingProce55Viewer2d.cpp" />
+    <ClCompile Include="LimitedProce55Viewer2d.cpp" />
+    <ClCompile Include="aCamera.cpp" />
+    <ClCompile Include="WrappingProce55Viewer2d.cpp" />
+    <ClCompile Include="LimitedWrappingProce55Viewer2d.cpp" />
+    <ClCompile Include="Curve2d.cpp" />
+    <ClCompile Include="Curve2dTest.cpp" />
+    <ClCompile Include="DungeonDigger.cpp" />
+    <ClCompile Include="FAFParticles.cpp" />
+    <ClCompile Include="GLFAFTester.cpp" />
+    <ClCompile Include="HistoryFileManager.cpp" />
+    <ClCompile Include="Parametric3d.cpp" />
+    <ClCompile Include="Shaded2dShadowTest.cpp" />
+    <ClCompile Include="Shadows2DShader.cpp" />
+    <ClCompile Include="Arrows.cpp" />
+    <ClCompile Include="Art.cpp" />
+    <ClCompile Include="AsciiMap.cpp" />
+    <ClCompile Include="Attraction.cpp" />
+    <ClCompile Include="Audio.cpp" />
+    <ClCompile Include="b2BlockAllocator.cpp" />
+    <ClCompile Include="b2Body.cpp" />
+    <ClCompile Include="b2BroadPhase.cpp" />
+    <ClCompile Include="b2CircleContact.cpp" />
+    <ClCompile Include="b2CircleShape.cpp" />
+    <ClCompile Include="b2CollideCircle.cpp" />
+    <ClCompile Include="b2CollidePolygon.cpp" />
+    <ClCompile Include="b2Collision.cpp" />
+    <ClCompile Include="b2Contact.cpp" />
+    <ClCompile Include="b2ContactManager.cpp" />
+    <ClCompile Include="b2ContactSolver.cpp" />
+    <ClCompile Include="b2Distance.cpp" />
+    <ClCompile Include="b2DistanceJoint.cpp" />
+    <ClCompile Include="b2DynamicTree.cpp" />
+    <ClCompile Include="b2Fixture.cpp" />
+    <ClCompile Include="b2FrictionJoint.cpp" />
+    <ClCompile Include="b2GearJoint.cpp" />
+    <ClCompile Include="b2Island.cpp" />
+    <ClCompile Include="b2Joint.cpp" />
+    <ClCompile Include="b2LineJoint.cpp" />
+    <ClCompile Include="b2Math.cpp" />
+    <ClCompile Include="b2MouseJoint.cpp" />
+    <ClCompile Include="b2PolygonAndCircleContact.cpp" />
+    <ClCompile Include="b2PolygonContact.cpp" />
+    <ClCompile Include="b2PolygonShape.cpp" />
+    <ClCompile Include="b2PrismaticJoint.cpp" />
+    <ClCompile Include="b2PulleyJoint.cpp" />
+    <ClCompile Include="b2RevoluteJoint.cpp" />
+    <ClCompile Include="b2Settings.cpp" />
+    <ClCompile Include="b2StackAllocator.cpp" />
+    <ClCompile Include="b2TimeOfImpact.cpp" />
+    <ClCompile Include="b2TOISolver.cpp" />
+    <ClCompile Include="b2WeldJoint.cpp" />
+    <ClCompile Include="b2World.cpp" />
+    <ClCompile Include="b2WorldCallbacks.cpp" />
+    <ClCompile Include="Blur3D.cpp" />
+    <ClCompile Include="Box2d.cpp" />
+    <ClCompile Include="Box2DTest.cpp" />
+    <ClCompile Include="BoxCollision2d.cpp" />
+    <ClCompile Include="ByteEncoder.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Camera2d.cpp" />
+    <ClCompile Include="Cartesian.cpp" />
+    <ClCompile Include="ClassDecoder.cpp" />
+    <ClCompile Include="ClassDeployer.cpp" />
+    <ClCompile Include="ClodShader.cpp" />
+    <ClCompile Include="CommandLine.cpp" />
+    <ClCompile Include="CompositeImage.cpp" />
+    <ClCompile Include="Cone.cpp" />
+    <ClCompile Include="Crayon.cpp" />
+    <ClCompile Include="CTimer.cpp" />
+    <ClCompile Include="Cube.cpp" />
+    <ClCompile Include="CubeMappedSphere.cpp" />
+    <ClCompile Include="CubeMappedSpherePatternTest.cpp" />
+    <ClCompile Include="CubeMappedSphereTest.cpp" />
+    <ClCompile Include="CudaParticles.cpp" />
+    <ClCompile Include="Cylinder.cpp" />
+    <ClCompile Include="DeformerShader.cpp" />
+    <ClCompile Include="dhpowareMath.cpp" />
+    <ClCompile Include="DisplayList.cpp" />
+    <ClCompile Include="DLTilemapTest.cpp" />
+    <ClCompile Include="DynamicCamera.cpp" />
+    <ClCompile Include="Emitter2d.cpp" />
+    <ClCompile Include="EulerIntegrator.cpp" />
+    <ClCompile Include="FBO.cpp" />
+    <ClCompile Include="FDP2d.cpp" />
+    <ClCompile Include="Film.cpp" />
+    <ClCompile Include="Fire2d.cpp" />
+    <ClCompile Include="Fluid2d.cpp" />
+    <ClCompile Include="Fluid3d.cpp" />
+    <ClCompile Include="Fluid3dTest.cpp" />
+    <ClCompile Include="FlyingShader.cpp" />
+    <ClCompile Include="Force.cpp" />
+    <ClCompile Include="ForeverWrappingQuadLayers.cpp" />
+    <ClCompile Include="fx_Film.cpp" />
+    <ClCompile Include="fx_FireAndForget.cpp" />
+    <ClCompile Include="fx_Lightning.cpp" />
+    <ClCompile Include="fx_Model.cpp" />
+    <ClCompile Include="fx_UglyText.cpp" />
+    <ClCompile Include="Geometry.cpp" />
+    <ClCompile Include="GLCubeMap.cpp" />
+    <ClCompile Include="GLSimpleCubeTest.cpp" />
+    <ClCompile Include="GLSkyboxTest.cpp" />
+    <ClCompile Include="glsw.c" />
+    <ClCompile Include="Light2d.cpp" />
+    <ClCompile Include="LightManager2d.cpp" />
+    <ClCompile Include="Lightning2dTest.cpp" />
+    <ClCompile Include="LoadingSequence.cpp" />
+    <ClCompile Include="LookAtPerspective.cpp" />
+    <ClCompile Include="MapPosition.cpp" />
+    <ClCompile Include="fx_Shader2d.cpp" />
+    <ClCompile Include="fx_Switchers.cpp" />
+    <ClCompile Include="fx_Toggles.cpp" />
+    <ClCompile Include="GameEngine.cpp" />
+    <ClCompile Include="GlasscaveShader.cpp" />
+    <ClCompile Include="GLBlend.cpp" />
+    <ClCompile Include="GLDisplayListTest.cpp" />
+    <ClCompile Include="GLFontsTest.cpp" />
+    <ClCompile Include="Globals.cpp" />
+    <ClCompile Include="Display.cpp" />
+    <ClCompile Include="fx_Buttons.cpp" />
+    <ClCompile Include="fx_Glow.cpp" />
+    <ClCompile Include="fx_IconSelect.cpp" />
+    <ClCompile Include="fx_MixedBag.cpp" />
+    <ClCompile Include="fx_Numbers.cpp" />
+    <ClCompile Include="fx_RGBAPal.cpp" />
+    <ClCompile Include="fx_Sliders.cpp" />
+    <ClCompile Include="fx_TexFont.cpp" />
+    <ClCompile Include="fx_Tweakables.cpp" />
+    <ClCompile Include="fx_Tween.cpp" />
+    <ClCompile Include="GLImage.cpp" />
+    <ClCompile Include="GLSetup.cpp" />
+    <ClCompile Include="GLSL2Shader.cpp" />
+    <ClCompile Include="GLSL2ShaderTest.cpp" />
+    <ClCompile Include="GLWindow.cpp" />
+    <ClCompile Include="GLWindowGLTest.cpp" />
+    <ClCompile Include="GLWindowHeightmapTest.cpp" />
+    <ClCompile Include="GLWindowMaterialsCubeTest.cpp" />
+    <ClCompile Include="GLWindowSceneTest.cpp" />
+    <ClCompile Include="GLWindowTest2.cpp" />
+    <ClCompile Include="GLWindowTest3.cpp" />
+    <ClCompile Include="GLWindowTotalWidgetTest.cpp" />
+    <ClCompile Include="Gravitron2d.cpp" />
+    <ClCompile Include="GravitronTest.cpp" />
+    <ClCompile Include="HeightMap.cpp" />
+    <ClCompile Include="Hemisphere.cpp" />
+    <ClCompile Include="HRTimer.cpp" />
+    <ClCompile Include="HUD.cpp" />
+    <ClCompile Include="HUDOverlay.cpp" />
+    <ClCompile Include="IncrementalHalton.cpp" />
+    <ClCompile Include="Interface.cpp" />
+    <ClCompile Include="Introduction.cpp" />
+    <ClCompile Include="CLL.cpp" />
+    <ClCompile Include="Lights.cpp" />
+    <ClCompile Include="LightScattering.cpp" />
+    <ClCompile Include="LinkedList.cpp" />
+    <ClCompile Include="ListItem.cpp" />
+    <ClCompile Include="Load.cpp" />
+    <ClCompile Include="LoadProgram.cpp" />
+    <ClCompile Include="LuxShader.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Masking.cpp" />
+    <ClCompile Include="Material.cpp" />
+    <ClCompile Include="Matrix16.cpp" />
+    <ClCompile Include="Matrix.cpp" />
+    <ClCompile Include="Matrix4x4.cpp" />
+    <ClCompile Include="Mesh.cpp" />
+    <ClCompile Include="ModelFactory.cpp" />
+    <ClCompile Include="ModelLibrary.cpp" />
+    <ClCompile Include="ModifiedEulerIntegrator.cpp" />
+    <ClCompile Include="MonjoriShader.cpp" />
+    <ClCompile Include="MotionShader.cpp" />
+    <ClCompile Include="Multiparticle.cpp" />
+    <ClCompile Include="NautilusShader.cpp" />
+    <ClCompile Include="Numbers.cpp" />
+    <ClCompile Include="GLPrimitives.cpp" />
+    <ClCompile Include="OrderedSet.cpp" />
+    <ClCompile Include="Panes.cpp" />
+    <ClCompile Include="Parallax2D.cpp" />
+    <ClCompile Include="ParallaxTest.cpp" />
+    <ClCompile Include="Particle.cpp" />
+    <ClCompile Include="Particle2d.cpp" />
+    <ClCompile Include="Particles.cpp" />
+    <ClCompile Include="pBuffer.cpp" />
+    <ClCompile Include="pBufferWindow.cpp" />
+    <ClCompile Include="PlasmaShader.cpp" />
+    <ClCompile Include="PLY.cpp" />
+    <ClCompile Include="Poly2Tri.cpp" />
+    <ClCompile Include="Postprocessing.cpp" />
+    <ClCompile Include="Primitive3d.cpp" />
+    <ClCompile Include="Proce55Viewer2d.cpp" />
+    <ClCompile Include="ProceduralTerrain.cpp" />
+    <ClCompile Include="Profiler.cpp" />
+    <ClCompile Include="PropertySet.cpp" />
+    <ClCompile Include="pThread.cpp" />
+    <ClCompile Include="PulseShader.cpp" />
+    <ClCompile Include="RadialShader.cpp" />
+    <ClCompile Include="Reference.cpp" />
+    <ClCompile Include="RenderProcess.cpp" />
+    <ClCompile Include="RotatedTextureTest.cpp" />
+    <ClCompile Include="RungeKuttaIntegrator.cpp" />
+    <ClCompile Include="Set.cpp" />
+    <ClCompile Include="Shape.cpp" />
+    <ClCompile Include="Shape2d.cpp" />
+    <ClCompile Include="p2t_shapes.cc" />
+    <ClCompile Include="SimpleObjectiveCamera.cpp" />
+    <ClCompile Include="Singleton.cpp" />
+    <ClCompile Include="Skybox.cpp" />
+    <ClCompile Include="Smoke2d.cpp" />
+    <ClCompile Include="SmokeTest.cpp" />
+    <ClCompile Include="Snow2d.cpp" />
+    <ClCompile Include="SnowTest.cpp" />
+    <ClCompile Include="Matter.cpp" />
+    <ClCompile Include="Spark2d.cpp" />
+    <ClCompile Include="SparksTest.cpp" />
+    <ClCompile Include="SpherePainter.cpp" />
+    <ClCompile Include="SpherizeShader.cpp" />
+    <ClCompile Include="SpilledLiquid2d.cpp" />
+    <ClCompile Include="Spring.cpp" />
+    <ClCompile Include="Sprite2d.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="SaveData.cpp" />
+    <ClCompile Include="string_functions.cpp" />
+    <ClCompile Include="Model.cpp" />
+    <ClCompile Include="moremath.cpp" />
+    <ClCompile Include="Polygon.cpp" />
+    <ClCompile Include="Presentation.cpp" />
+    <ClCompile Include="Primitives2D.cpp" />
+    <ClCompile Include="Prisms.cpp" />
+    <ClCompile Include="Proce55Controller.cpp" />
+    <ClCompile Include="Proce55or.cpp" />
+    <ClCompile Include="Pyramids.cpp" />
+    <ClCompile Include="Quaternion.cpp" />
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="Shader.cpp" />
+    <ClCompile Include="Slide.cpp" />
+    <ClCompile Include="Sphere.cpp" />
+    <ClCompile Include="Strings.cpp" />
+    <ClCompile Include="Randoms.cpp" />
+    <ClCompile Include="TexFont.cpp" />
+    <ClCompile Include="TextureLibrary.cpp" />
+    <ClCompile Include="TextureRolodex.cpp" />
+    <ClCompile Include="TileMap2d.cpp" />
+    <ClCompile Include="TileMapTest.cpp" />
+    <ClCompile Include="TitleMenu.cpp" />
+    <ClCompile Include="TitleSequence.cpp" />
+    <ClCompile Include="Toroid.cpp" />
+    <ClCompile Include="Torus.cpp" />
+    <ClCompile Include="TraerParticleTest.cpp" />
+    <ClCompile Include="Triangulate.cpp" />
+    <ClCompile Include="Rock.cpp" />
+    <ClCompile Include="TSCTime.cpp" />
+    <ClCompile Include="Tube.cpp" />
+    <ClCompile Include="TunnelShader.cpp" />
+    <ClCompile Include="TVShader.cpp" />
+    <ClCompile Include="Tween.cpp" />
+    <ClCompile Include="Tweens.cpp" />
+    <ClCompile Include="Variable.cpp" />
+    <ClCompile Include="VBO.cpp" />
+    <ClCompile Include="UglyFont.cpp" />
+    <ClCompile Include="Vertex.cpp" />
+    <ClCompile Include="Vertexd.cpp" />
+    <ClCompile Include="VisualAid.cpp" />
+    <ClCompile Include="VortexShader.cpp" />
+    <ClCompile Include="WebAPI.cpp" />
+    <ClCompile Include="WebPage.cpp" />
+    <ClCompile Include="WorldShader.cpp" />
+    <ClCompile Include="ZonedProce55orsTest.cpp" />
+    <ClCompile Include="ZeroTypes.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AppFramework.h" />
+    <ClInclude Include="Application.h" />
+    <ClInclude Include="ASCIIShader.h" />
+    <ClInclude Include="AssetLoader.h" />
+    <ClInclude Include="ATFont.h" />
+    <ClInclude Include="ATFontTest.h" />
+    <ClInclude Include="Atlas.h" />
+    <ClInclude Include="AtlasFontViewer.h" />
+    <ClInclude Include="AudioSampleLookup.h" />
+    <ClInclude Include="BASIC.h" />
+    <ClInclude Include="BestRectTest.h" />
+    <ClInclude Include="BinPack.h" />
+    <ClInclude Include="CollisionProfile.h" />
+    <ClInclude Include="ColorController.h" />
+    <ClInclude Include="ColorShader.h" />
+    <ClInclude Include="ComplexWave.h" />
+    <ClInclude Include="ControlOptions.h" />
+    <ClInclude Include="CSV.h" />
+    <ClInclude Include="DJ.h" />
+    <ClInclude Include="DJTest.h" />
+    <ClInclude Include="Dynamic_VBO_VC.h" />
+    <ClInclude Include="FileDialog.h" />
+    <ClInclude Include="FileDialogTest.h" />
+    <ClInclude Include="FormUI.h" />
+    <ClInclude Include="FormUITest.h" />
+    <ClInclude Include="fx_Teletype.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GameHUD.h" />
+    <ClInclude Include="GameMenu.h" />
+    <ClInclude Include="GameOptions.h" />
+    <ClInclude Include="glew.h" />
+    <ClInclude Include="Hardware.h" />
+    <ClInclude Include="AppCompileOptions.h" />
+    <ClInclude Include="Icons.h" />
+    <ClInclude Include="MilazzoVisibility.h" />
+    <ClInclude Include="MoneyCounter.h" />
+    <ClInclude Include="NewGamePanel.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="PlayerPortrait.h" />
+    <ClInclude Include="PortraitPaperdoll.h" />
+    <ClInclude Include="ShaderLab.h" />
+    <ClInclude Include="Shadow2DTest.h" />
+    <ClInclude Include="SimpleZonedProcessors.h" />
+    <ClInclude Include="Graphics.h" />
+    <ClInclude Include="HIDControlMapping.h" />
+    <ClInclude Include="IsotrapGrid.h" />
+    <ClInclude Include="Mulligan.h" />
+    <ClInclude Include="NavigationController.h" />
+    <ClInclude Include="Nebula4LightShader.h" />
+    <ClInclude Include="p2t_advancing_front.h" />
+    <ClInclude Include="AStar.h" />
+    <ClInclude Include="AStarTest.h" />
+    <ClInclude Include="BDungeon.h" />
+    <ClInclude Include="BendShader.h" />
+    <ClInclude Include="Billboard.h" />
+    <ClInclude Include="BillboardShader.h" />
+    <ClInclude Include="BinaryFile.h" />
+    <ClInclude Include="BinaryFileTest.h" />
+    <ClInclude Include="BitBrush.h" />
+    <ClInclude Include="BitVoxel.h" />
+    <ClInclude Include="BitVoxelTest.h" />
+    <ClInclude Include="Blend8WayTest.h" />
+    <ClInclude Include="BlendShader.h" />
+    <ClInclude Include="BlockWorld.h" />
+    <ClInclude Include="BloomShader.h" />
+    <ClInclude Include="BouncingBall.h" />
+    <ClInclude Include="Box3d.h" />
+    <ClInclude Include="BoxBool.h" />
+    <ClInclude Include="CDateTime.h" />
+    <ClInclude Include="p2t_cdt.h" />
+    <ClInclude Include="Chemistry.h" />
+    <ClInclude Include="CollisionTests.h" />
+    <ClInclude Include="ColorField.h" />
+    <ClInclude Include="ColorFieldTest.h" />
+    <ClInclude Include="ColorNetwork.h" />
+    <ClInclude Include="ConvolverShader.h" />
+    <ClInclude Include="Crack2d.h" />
+    <ClInclude Include="CrosshatchShader.h" />
+    <ClInclude Include="Delaunay.h" />
+    <ClInclude Include="Delay.h" />
+    <ClInclude Include="Derar.h" />
+    <ClInclude Include="DreamBlurShader.h" />
+    <ClInclude Include="EditGUI.h" />
+    <ClInclude Include="Enumerated.h" />
+    <ClInclude Include="ExternalResources.h" />
+    <ClInclude Include="FANSI.h" />
+    <ClInclude Include="FastGUI.h" />
+    <ClInclude Include="FastGUIProcessors.h" />
+    <ClInclude Include="FastGUITest.h" />
+    <ClInclude Include="FBMShader.h" />
+    <ClInclude Include="FBMShaderTest.h" />
+    <ClInclude Include="FBOBoxCameraTest.h" />
+    <ClInclude Include="FBOSwapperTest.h" />
+    <ClInclude Include="FBOTests.h" />
+    <ClInclude Include="FIFO.h" />
+    <ClInclude Include="FileLibrary.h" />
+    <ClInclude Include="FObject.h" />
+    <ClInclude Include="FreeType.h" />
+    <ClInclude Include="FreetypeTest.h" />
+    <ClInclude Include="Frosted2Shader.h" />
+    <ClInclude Include="FrostedShader.h" />
+    <ClInclude Include="Functions.h" />
+    <ClInclude Include="FWTFTest.h" />
+    <ClInclude Include="fx_CircleMenu.h" />
+    <ClInclude Include="fx_LineGraph.h" />
+    <ClInclude Include="fx_List.h" />
+    <ClInclude Include="fx_MultiPointSprite.h" />
+    <ClInclude Include="fx_RotaryMenu.h" />
+    <ClInclude Include="fx_SectionalPercentages.h" />
+    <ClInclude Include="fx_Shockwave.h" />
+    <ClInclude Include="fx_VBOView.h" />
+    <ClInclude Include="GammaShader.h" />
+    <ClInclude Include="GarbageCollector.h" />
+    <ClInclude Include="GeometryInstancer.h" />
+    <ClInclude Include="GetTotalMemory.h" />
+    <ClInclude Include="GLFBOColorDepthStencilTest.h" />
+    <ClInclude Include="GLGenTextureSettings.h" />
+    <ClInclude Include="GLMCamera.h" />
+    <ClInclude Include="GLMVBO.h" />
+    <ClInclude Include="GLScissor.h" />
+    <ClInclude Include="GLTransform.h" />
+    <ClInclude Include="GLUTesselator.h" />
+    <ClInclude Include="GridSplitter.h" />
+    <ClInclude Include="GridSplitterTest.h" />
+    <ClInclude Include="HashStore.h" />
+    <ClInclude Include="HeightBrush.h" />
+    <ClInclude Include="HMath.h" />
+    <ClInclude Include="HMatrix.h" />
+    <ClInclude Include="HPlane.h" />
+    <ClInclude Include="HQuaternion.h" />
+    <ClInclude Include="HVertex.h" />
+    <ClInclude Include="HyperspaceLoadingSequence.h" />
+    <ClInclude Include="Image2Fansi.h" />
+    <ClInclude Include="Image2Model.h" />
+    <ClInclude Include="Image2Placements.h" />
+    <ClInclude Include="ImageCombiner.h" />
+    <ClInclude Include="ImageLoader.h" />
+    <ClInclude Include="ImageLoaders.h" />
+    <ClInclude Include="ImageProcess.h" />
+    <ClInclude Include="ImageResizer.h" />
+    <ClInclude Include="ImageRotator.h" />
+    <ClInclude Include="ImplodeShader.h" />
+    <ClInclude Include="IncrementalDelauney.h" />
+    <ClInclude Include="Indexed.h" />
+    <ClInclude Include="InfiniteTerrain.h" />
+    <ClInclude Include="InputControls.h" />
+    <ClInclude Include="InterpolatedPointFilm.h" />
+    <ClInclude Include="ItemCamera.h" />
+    <ClInclude Include="jsCSG.h" />
+    <ClInclude Include="JSON.h" />
+    <ClInclude Include="KeyedDataStore.h" />
+    <ClInclude Include="Lathe.h" />
+    <ClInclude Include="LatheTest.h" />
+    <ClInclude Include="LatheTool.h" />
+    <ClInclude Include="Lithophane.h" />
+    <ClInclude Include="LithophaneTest.h" />
+    <ClInclude Include="LithophaneTest2.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="LayerCombiner.h" />
+    <ClInclude Include="LayerCombinerProfile.h" />
+    <ClInclude Include="LightManager2dTest.h" />
+    <ClInclude Include="LightningSystem2d.h" />
+    <ClInclude Include="MemoryPool.h" />
+    <ClInclude Include="MetaFractalShader.h" />
+    <ClInclude Include="ModernVBO.h" />
+    <ClInclude Include="ModernVBOTest.h" />
+    <ClInclude Include="MultiCirclePlacer.h" />
+    <ClInclude Include="MultiCirclePlacerTest.h" />
+    <ClInclude Include="MultiPointSprite.h" />
+    <ClInclude Include="NewShaderTest.h" />
+    <ClInclude Include="NightvisionShader.h" />
+    <ClInclude Include="NormalAlphaMapTest.h" />
+    <ClInclude Include="NormalMapTest.h" />
+    <ClInclude Include="NormalTest.h" />
+    <ClInclude Include="OCSG.h" />
+    <ClInclude Include="OldVBO.h" />
+    <ClInclude Include="OrangeShader.h" />
+    <ClInclude Include="OrderedProce55Viewer.h" />
+    <ClInclude Include="PackedString.h" />
+    <ClInclude Include="PagedLithophane.h" />
+    <ClInclude Include="PagedLithophaneTest.h" />
+    <ClInclude Include="PanningWrappingMultiVBODetail.h" />
+    <ClInclude Include="ParallaxShader.h" />
+    <ClInclude Include="PatchworkShader.h" />
+    <ClInclude Include="PatchworkSystem.h" />
+    <ClInclude Include="PixelatedFBOTest.h" />
+    <ClInclude Include="PixelateShader.h" />
+    <ClInclude Include="PixelDoubler.h" />
+    <ClInclude Include="PointInTriangleTest.h" />
+    <ClInclude Include="PresentationScriptable.h" />
+    <ClInclude Include="Proce55ors.h" />
+    <ClInclude Include="Proce55orGroup.h" />
+    <ClInclude Include="ProtoShader.h" />
+    <ClInclude Include="Quad1.h" />
+    <ClInclude Include="QuadBender.h" />
+    <ClInclude Include="QuadGridVBO.h" />
+    <ClInclude Include="QuadGridVBOTest.h" />
+    <ClInclude Include="QuarterCircleTest.h" />
+    <ClInclude Include="RectPackTest.h" />
+    <ClInclude Include="RectPlacer.h" />
+    <ClInclude Include="Recyclable.h" />
+    <ClInclude Include="RippleShader.h" />
+    <ClInclude Include="RLDungeon.h" />
+    <ClInclude Include="RoundedRectangle.h" />
+    <ClInclude Include="SafeMediaLookup.h" />
+    <ClInclude Include="ScreenPosition.h" />
+    <ClInclude Include="ScreenPositionTest.h" />
+    <ClInclude Include="ScriptableFX.h" />
+    <ClInclude Include="ScriptableProce55or.h" />
+    <ClInclude Include="Scripting.h" />
+    <ClInclude Include="ScrollingInfiniteTerrain.h" />
+    <ClInclude Include="SGjs.h" />
+    <ClInclude Include="ShockwaveShader.h" />
+    <ClInclude Include="SimpleAnimatedSprite.h" />
+    <ClInclude Include="SmoothShadows2dShader.h" />
+    <ClInclude Include="SniperLensShader.h" />
+    <ClInclude Include="SolarSystemStarfield.h" />
+    <ClInclude Include="SoundEffect.h" />
+    <ClInclude Include="SpaceShaders.h" />
+    <ClInclude Include="SpaceShaderTest.h" />
+    <ClInclude Include="SpecialPaths.h" />
+    <ClInclude Include="SpherePainterTest.h" />
+    <ClInclude Include="SpherizeShaderTest.h" />
+    <ClInclude Include="Spiral.h" />
+    <ClInclude Include="SpiralTest.h" />
+    <ClInclude Include="Sprite.h" />
+    <ClInclude Include="Art2d.h" />
+    <ClInclude Include="SpriteSheet.h" />
+    <ClInclude Include="StarfieldTestView.h" />
+    <ClInclude Include="StarNestShader.h" />
+    <ClInclude Include="StarNestTest.h" />
+    <ClInclude Include="Steamworks.h" />
+    <ClInclude Include="StringIndexed.h" />
+    <ClInclude Include="SuperSimpleMacroTest.h" />
+    <ClInclude Include="TermShader.h" />
+    <ClInclude Include="TexShader.h" />
+    <ClInclude Include="TwoDeeElementEditor.h" />
+    <ClInclude Include="UglyGlyphs.h" />
+    <ClInclude Include="Universe.h" />
+    <ClInclude Include="Statistic.h" />
+    <ClInclude Include="StencilShader.h" />
+    <ClInclude Include="STLFile.h" />
+    <ClInclude Include="STLLibrary.h" />
+    <ClInclude Include="STLLibraryBrowser.h" />
+    <ClInclude Include="STLViewer.h" />
+    <ClInclude Include="Stopwatch.h" />
+    <ClInclude Include="SurfaceShader.h" />
+    <ClInclude Include="p2t_sweep.h" />
+    <ClInclude Include="p2t_sweep_context.h" />
+    <ClInclude Include="SwirlShader.h" />
+    <ClInclude Include="TexFontTest.h" />
+    <ClInclude Include="TexturedFBOPLYTest.h" />
+    <ClInclude Include="ThermalShader.h" />
+    <ClInclude Include="ThreadedLoadingTest.h" />
+    <ClInclude Include="TileShader.h" />
+    <ClInclude Include="TouchGestureDetector.h" />
+    <ClInclude Include="TouchGestureDetectorTest.h" />
+    <ClInclude Include="TouchTest.h" />
+    <ClInclude Include="Transform2d.h" />
+    <ClInclude Include="Trigger.h" />
+    <ClInclude Include="TTF.h" />
+    <ClInclude Include="TTFCoreTest.h" />
+    <ClInclude Include="TTFEx.h" />
+    <ClInclude Include="TTFExceptions.h" />
+    <ClInclude Include="TTFExLibraryBrowser.h" />
+    <ClInclude Include="TTFFont.h" />
+    <ClInclude Include="TTFLibrary.h" />
+    <ClInclude Include="TTFLibraryBrowser.h" />
+    <ClInclude Include="TTFMath.h" />
+    <ClInclude Include="TTFTriangulator.h" />
+    <ClInclude Include="TTFTriangulatorI.h" />
+    <ClInclude Include="TTFTriangulatorII.h" />
+    <ClInclude Include="TTFTriangulatorIII.h" />
+    <ClInclude Include="Tunnel2Shader.h" />
+    <ClInclude Include="TweenBeam.h" />
+    <ClInclude Include="TweenBeamProfile.h" />
+    <ClInclude Include="Variadics.h" />
+    <ClInclude Include="VBOFlavors.h" />
+    <ClInclude Include="VBOGroup.h" />
+    <ClInclude Include="VBOTriangles.h" />
+    <ClInclude Include="VBO_V.h" />
+    <ClInclude Include="VBO_VC.h" />
+    <ClInclude Include="VBO_VCLines.h" />
+    <ClInclude Include="VBO_VN.h" />
+    <ClInclude Include="VBO_VNC.h" />
+    <ClInclude Include="VBO_VNT.h" />
+    <ClInclude Include="VBO_VNTC.h" />
+    <ClInclude Include="VBO_VNTCTan.h" />
+    <ClInclude Include="VBO_VNTTan.h" />
+    <ClInclude Include="VBO_VNTTanBi.h" />
+    <ClInclude Include="VBO_VT.h" />
+    <ClInclude Include="VBO_Vw.h" />
+    <ClInclude Include="VideoStream.h" />
+    <ClInclude Include="VideoTexture.h" />
+    <ClInclude Include="VirtualGUITest.h" />
+    <ClInclude Include="VirtualWindow.h" />
+    <ClInclude Include="vntShader.h" />
+    <ClInclude Include="Voxel.h" />
+    <ClInclude Include="VoxelLandscape.h" />
+    <ClInclude Include="VVoxel.h" />
+    <ClInclude Include="waveout.h" />
+    <ClInclude Include="wglew.h" />
+    <ClInclude Include="WindowsKeyboard.h" />
+    <ClInclude Include="WindowsKeyboardTest.h" />
+    <ClInclude Include="WireframeShader.h" />
+    <ClInclude Include="WireframeTest.h" />
+    <ClInclude Include="WorldShaderTest.h" />
+    <ClInclude Include="ZigguratTest.h" />
+    <ClInclude Include="ZIndexed.h" />
+    <ClInclude Include="ZonedProce55ors.h" />
+    <ClInclude Include="ZonedMovingProce55orDebugger.h" />
+    <ClInclude Include="ZSortedFAFZonedProce55Viewer2d.h" />
+    <ClInclude Include="ZSortedFireAndForgetLimitedWrappingProce55Viewer2d.h" />
+    <ClInclude Include="FireAndForgetLimitedWrappingProce55Viewer2d.h" />
+    <ClInclude Include="LimitedProce55Viewer2d.h" />
+    <ClInclude Include="aCamera.h" />
+    <ClInclude Include="WrappingProce55Viewer2d.h" />
+    <ClInclude Include="LimitedWrappingProce55Viewer2d.h" />
+    <ClInclude Include="Curve2d.h" />
+    <ClInclude Include="Curve2dTest.h" />
+    <ClInclude Include="DungeonDigger.h" />
+    <ClInclude Include="FAFParticles.h" />
+    <ClInclude Include="GLFAFTester.h" />
+    <ClInclude Include="HistoryFileManager.h" />
+    <ClInclude Include="Parametric3d.h" />
+    <ClInclude Include="Shaded2dShadowTest.h" />
+    <ClInclude Include="Shadows2DShader.h" />
+    <ClInclude Include="Arrows.h" />
+    <ClInclude Include="Art.h" />
+    <ClInclude Include="AsciiMap.h" />
+    <ClInclude Include="Attraction.h" />
+    <ClInclude Include="Audio.h" />
+    <ClInclude Include="b2BlockAllocator.h" />
+    <ClInclude Include="b2Body.h" />
+    <ClInclude Include="b2BroadPhase.h" />
+    <ClInclude Include="b2CircleContact.h" />
+    <ClInclude Include="b2CircleShape.h" />
+    <ClInclude Include="b2Collision.h" />
+    <ClInclude Include="b2Contact.h" />
+    <ClInclude Include="b2ContactManager.h" />
+    <ClInclude Include="b2ContactSolver.h" />
+    <ClInclude Include="b2Distance.h" />
+    <ClInclude Include="b2DistanceJoint.h" />
+    <ClInclude Include="b2DynamicTree.h" />
+    <ClInclude Include="b2Fixture.h" />
+    <ClInclude Include="b2FrictionJoint.h" />
+    <ClInclude Include="b2GearJoint.h" />
+    <ClInclude Include="b2Island.h" />
+    <ClInclude Include="b2Joint.h" />
+    <ClInclude Include="b2LineJoint.h" />
+    <ClInclude Include="b2Math.h" />
+    <ClInclude Include="b2MouseJoint.h" />
+    <ClInclude Include="b2PolygonAndCircleContact.h" />
+    <ClInclude Include="b2PolygonContact.h" />
+    <ClInclude Include="b2PolygonShape.h" />
+    <ClInclude Include="b2PrismaticJoint.h" />
+    <ClInclude Include="b2PulleyJoint.h" />
+    <ClInclude Include="b2RevoluteJoint.h" />
+    <ClInclude Include="b2Settings.h" />
+    <ClInclude Include="b2Shape.h" />
+    <ClInclude Include="b2StackAllocator.h" />
+    <ClInclude Include="b2TimeOfImpact.h" />
+    <ClInclude Include="b2TimeStep.h" />
+    <ClInclude Include="b2TOISolver.h" />
+    <ClInclude Include="b2WeldJoint.h" />
+    <ClInclude Include="b2World.h" />
+    <ClInclude Include="b2WorldCallbacks.h" />
+    <ClInclude Include="Blur3D.h" />
+    <ClInclude Include="Box2D.h" />
+    <ClInclude Include="Box2DTest.h" />
+    <ClInclude Include="BoxCollision2d.h" />
+    <ClInclude Include="ByteEncoder.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="Camera2d.h" />
+    <ClInclude Include="Cartesian.h" />
+    <ClInclude Include="ClassDecoder.h" />
+    <ClInclude Include="ClassDeployer.h" />
+    <ClInclude Include="ClodShader.h" />
+    <ClInclude Include="CommandLine.h" />
+    <ClInclude Include="CompositeImage.h" />
+    <ClInclude Include="Cone.h" />
+    <ClInclude Include="Crayon.h" />
+    <ClInclude Include="CTimer.h" />
+    <ClInclude Include="Cube.h" />
+    <ClInclude Include="CubeMappedSphere.h" />
+    <ClInclude Include="CubeMappedSpherePatternTest.h" />
+    <ClInclude Include="CubeMappedSphereTest.h" />
+    <ClInclude Include="CudaParticles.h" />
+    <ClInclude Include="Cylinder.h" />
+    <ClInclude Include="DeformerShader.h" />
+    <ClInclude Include="dhpowareGL3.h" />
+    <ClInclude Include="dhpowareMath.h" />
+    <ClInclude Include="DisplayList.h" />
+    <ClInclude Include="DLTilemapTest.h" />
+    <ClInclude Include="DynamicCamera.h" />
+    <ClInclude Include="Emitter2d.h" />
+    <ClInclude Include="EulerIntegrator.h" />
+    <ClInclude Include="FBO.h" />
+    <ClInclude Include="FDP2d.h" />
+    <ClInclude Include="Film.h" />
+    <ClInclude Include="Fire2d.h" />
+    <ClInclude Include="Fluid2d.h" />
+    <ClInclude Include="Fluid3d.h" />
+    <ClInclude Include="Fluid3dTest.h" />
+    <ClInclude Include="FlyingShader.h" />
+    <ClInclude Include="Force.h" />
+    <ClInclude Include="ForeverWrappingQuadLayers.h" />
+    <ClInclude Include="fx_Film.h" />
+    <ClInclude Include="fx_FireAndForget.h" />
+    <ClInclude Include="fx_Lightning.h" />
+    <ClInclude Include="fx_Model.h" />
+    <ClInclude Include="fx_UglyText.h" />
+    <ClInclude Include="Geometry.h" />
+    <ClInclude Include="GLCubeMap.h" />
+    <ClInclude Include="GLSimpleCubeTest.h" />
+    <ClInclude Include="GLSkyboxTest.h" />
+    <ClInclude Include="glsw.h" />
+    <ClInclude Include="Light2d.h" />
+    <ClInclude Include="LightManager2d.h" />
+    <ClInclude Include="Lightning2dTest.h" />
+    <ClInclude Include="LoadingSequence.h" />
+    <ClInclude Include="LookAtPerspective.h" />
+    <ClInclude Include="MapPosition.h" />
+    <ClInclude Include="fx_Shader2d.h" />
+    <ClInclude Include="fx_Switchers.h" />
+    <ClInclude Include="fx_Toggles.h" />
+    <ClInclude Include="GameEffects.h" />
+    <ClInclude Include="GameEngine.h" />
+    <ClInclude Include="GlasscaveShader.h" />
+    <ClInclude Include="GLBlend.h" />
+    <ClInclude Include="GLDisplayListTest.h" />
+    <ClInclude Include="GLFontsTest.h" />
+    <ClInclude Include="Globals.h" />
+    <ClInclude Include="Display.h" />
+    <ClInclude Include="fx_Buttons.h" />
+    <ClInclude Include="fx_Glow.h" />
+    <ClInclude Include="fx_IconSelect.h" />
+    <ClInclude Include="fx_MixedBag.h" />
+    <ClInclude Include="fx_Numbers.h" />
+    <ClInclude Include="fx_RGBAPal.h" />
+    <ClInclude Include="fx_Sliders.h" />
+    <ClInclude Include="fx_TexFont.h" />
+    <ClInclude Include="fx_Tweakables.h" />
+    <ClInclude Include="fx_Tween.h" />
+    <ClInclude Include="glext.h" />
+    <ClInclude Include="GLImage.h" />
+    <ClInclude Include="GLSetup.h" />
+    <ClInclude Include="GLSL2Shader.h" />
+    <ClInclude Include="GLSL2ShaderTest.h" />
+    <ClInclude Include="GLWindow.h" />
+    <ClInclude Include="GLWindowGLTest.h" />
+    <ClInclude Include="GLWindowHeightmapTest.h" />
+    <ClInclude Include="GLWindowMaterialsCubeTest.h" />
+    <ClInclude Include="GLWindowSceneTest.h" />
+    <ClInclude Include="GLWindowTest2.h" />
+    <ClInclude Include="GLWindowTest3.h" />
+    <ClInclude Include="GLWindowTotalWidgetTest.h" />
+    <ClInclude Include="Gravitron2d.h" />
+    <ClInclude Include="GravitronTest.h" />
+    <ClInclude Include="HeightMap.h" />
+    <ClInclude Include="Hemisphere.h" />
+    <ClInclude Include="HRTimer.h" />
+    <ClInclude Include="HUD.h" />
+    <ClInclude Include="HUDOverlay.h" />
+    <ClInclude Include="IncrementalHalton.h" />
+    <ClInclude Include="Interface.h" />
+    <ClInclude Include="Introduction.h" />
+    <ClInclude Include="CLL.h" />
+    <ClInclude Include="Kernel.h" />
+    <ClInclude Include="Lights.h" />
+    <ClInclude Include="LightScattering.h" />
+    <ClInclude Include="LinkedList.h" />
+    <ClInclude Include="ListItem.h" />
+    <ClInclude Include="Load.h" />
+    <ClInclude Include="LoadProgram.h" />
+    <ClInclude Include="LuxShader.h" />
+    <ClInclude Include="macros.h" />
+    <ClInclude Include="Masking.h" />
+    <ClInclude Include="Material.h" />
+    <ClInclude Include="Matrix16.h" />
+    <ClInclude Include="Matrix.h" />
+    <ClInclude Include="Matrix4x4.h" />
+    <ClInclude Include="Mesh.h" />
+    <ClInclude Include="ModelFactory.h" />
+    <ClInclude Include="ModelLibrary.h" />
+    <ClInclude Include="ModifiedEulerIntegrator.h" />
+    <ClInclude Include="MonjoriShader.h" />
+    <ClInclude Include="MotionShader.h" />
+    <ClInclude Include="Multiparticle.h" />
+    <ClInclude Include="NautilusShader.h" />
+    <ClInclude Include="Numbers.h" />
+    <ClInclude Include="GLPrimitives.h" />
+    <ClInclude Include="OrderedSet.h" />
+    <ClInclude Include="Panes.h" />
+    <ClInclude Include="Parallax2D.h" />
+    <ClInclude Include="ParallaxTest.h" />
+    <ClInclude Include="Particle.h" />
+    <ClInclude Include="Particle2d.h" />
+    <ClInclude Include="Particles.h" />
+    <ClInclude Include="pBuffer.h" />
+    <ClInclude Include="pBufferWindow.h" />
+    <ClInclude Include="PlasmaShader.h" />
+    <ClInclude Include="PLY.h" />
+    <ClInclude Include="Poly2Tri.h" />
+    <ClInclude Include="Postprocessing.h" />
+    <ClInclude Include="Primitive3d.h" />
+    <ClInclude Include="Proce55Viewer2d.h" />
+    <ClInclude Include="ProceduralTerrain.h" />
+    <ClInclude Include="Profiler.h" />
+    <ClInclude Include="PropertySet.h" />
+    <ClInclude Include="pThread.h" />
+    <ClInclude Include="PulseShader.h" />
+    <ClInclude Include="RadialShader.h" />
+    <ClInclude Include="Reference.h" />
+    <ClInclude Include="RenderProcess.h" />
+    <ClInclude Include="RotatedTextureTest.h" />
+    <ClInclude Include="RungeKuttaIntegrator.h" />
+    <ClInclude Include="Set.h" />
+    <ClInclude Include="Shape.h" />
+    <ClInclude Include="Shape2d.h" />
+    <ClInclude Include="p2t_shapes.h" />
+    <ClInclude Include="SimpleObjectiveCamera.h" />
+    <ClInclude Include="Singleton.h" />
+    <ClInclude Include="Skybox.h" />
+    <ClInclude Include="Smoke2d.h" />
+    <ClInclude Include="SmokeTest.h" />
+    <ClInclude Include="Snow2d.h" />
+    <ClInclude Include="SnowTest.h" />
+    <ClInclude Include="Matter.h" />
+    <ClInclude Include="Spark2d.h" />
+    <ClInclude Include="SparksTest.h" />
+    <ClInclude Include="SpherePainter.h" />
+    <ClInclude Include="SpherizeShader.h" />
+    <ClInclude Include="SpilledLiquid2d.h" />
+    <ClInclude Include="Spring.h" />
+    <ClInclude Include="Sprite2d.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="SaveData.h" />
+    <ClInclude Include="string_functions.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Model.h" />
+    <ClInclude Include="moremath.h" />
+    <ClInclude Include="Polygon.h" />
+    <ClInclude Include="Presentation.h" />
+    <ClInclude Include="Primitives2D.h" />
+    <ClInclude Include="Prisms.h" />
+    <ClInclude Include="Proce55Controller.h" />
+    <ClInclude Include="Proce55or.h" />
+    <ClInclude Include="Pyramids.h" />
+    <ClInclude Include="Quaternion.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="Shader.h" />
+    <ClInclude Include="Slide.h" />
+    <ClInclude Include="Sphere.h" />
+    <ClInclude Include="Strings.h" />
+    <ClInclude Include="Randoms.h" />
+    <ClInclude Include="TexFont.h" />
+    <ClInclude Include="TextureLibrary.h" />
+    <ClInclude Include="TextureRolodex.h" />
+    <ClInclude Include="TileMap2d.h" />
+    <ClInclude Include="TileMapTest.h" />
+    <ClInclude Include="TitleMenu.h" />
+    <ClInclude Include="TitleSequence.h" />
+    <ClInclude Include="Toroid.h" />
+    <ClInclude Include="Torus.h" />
+    <ClInclude Include="TraerParticleTest.h" />
+    <ClInclude Include="Triangulate.h" />
+    <ClInclude Include="Rock.h" />
+    <ClInclude Include="TSCTime.h" />
+    <ClInclude Include="Tube.h" />
+    <ClInclude Include="TunnelShader.h" />
+    <ClInclude Include="TVShader.h" />
+    <ClInclude Include="Tween.h" />
+    <ClInclude Include="Tweens.h" />
+    <ClInclude Include="p2t_utils.h" />
+    <ClInclude Include="utlist.h" />
+    <ClInclude Include="Variable.h" />
+    <ClInclude Include="VBO.h" />
+    <ClInclude Include="UglyFont.h" />
+    <ClInclude Include="Vertex.h" />
+    <ClInclude Include="Vertexd.h" />
+    <ClInclude Include="VisualAid.h" />
+    <ClInclude Include="vmath.hpp" />
+    <ClInclude Include="VortexShader.h" />
+    <ClInclude Include="WebAPI.h" />
+    <ClInclude Include="WebPage.h" />
+    <ClInclude Include="wglext.h" />
+    <ClInclude Include="WorldShader.h" />
+    <ClInclude Include="ZonedProce55orsTest.h" />
+    <ClInclude Include="ZeroTypes.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LIBSETTING.props" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

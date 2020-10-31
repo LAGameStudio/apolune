@@ -1,0 +1,152 @@
+presentation {
+ fullscreen
+ bg clear
+ slide {
+  duration 40
+  visual {
+   delay 2
+   duration 5 in 2 out 4
+   image "data/images/elements/rounded_trans.png"
+   blend transparency
+   scale {
+    dim(500,500)
+    dim(50,50)
+   }
+   path { line(5,5,500,500) }
+   color {
+    tint(hotPink,"Humanized Gradual Rise")
+    tint(hotPink,"Humanized Gradual Rise Reversed")
+   }
+  }
+  visual {
+   delay 2
+   duration 15 in 2 out 14
+   image "data/images/elements/rounder_box256.png"
+   scale {
+    dim(500,500)
+    dim(50,50)
+    dim(500,500)
+   }
+   path { line(5,5,500,500) }
+   color {
+    tint(hotPink,"Humanized Gradual Rise")
+    tint(hotPink,"Humanized Gradual Rise Reversed")
+   }
+   rotation {
+    teeter
+    angle(0,90)
+   }
+  }
+  visual.aid1 {
+   delay 2
+   duration 25 in 2 out 24
+   tints(clear any clear)
+   image "data/images/elements/swab.png"
+   move(50,50)
+   stretches(0,0,10000,10000)
+   fullsize
+  }
+  visual.aid1 {
+   delay 4
+   duration 25 in 2 out 24
+   tints(clear any clear)
+   image "data/images/elements/swab.png"
+   move(150,50)
+   stretches(0,0,10000,10000)
+   fullsize
+  }
+  visual.aid1 {
+   delay 6
+   duration 25 in 2 out 24
+   tints(clear any clear)
+   image "data/images/elements/swab.png"
+   move(250,50)
+   stretches(0,0,10000,10000)
+   fullsize
+  }
+  visual.aid1 {
+   delay 8
+   duration 25 in 2 out 24
+   tints(clear any clear)
+   image "data/images/elements/swab.png"
+   move(350,50)
+   stretches(0,0,10000,10000)
+   fullsize
+  }
+  visual.aid1 {
+   delay 10
+   duration 25 in 2 out 24
+   tints(clear any clear)
+   image "data/images/elements/swab.png"
+   move(450,50)
+   stretches(0,0,10000,10000)
+   fullsize
+  }
+  visual.aid1 {
+   delay 12
+   duration 25 in 2 out 24
+   tints(clear any clear)
+   image "data/images/elements/swab.png"
+   move(550,50)
+   stretches(0,0,10000,10000)
+   fullsize
+  }
+  visual.aid1 {
+   delay 12
+   duration 15 in 12 out 14
+   tints(clear any clear)
+   image "data/images/elements/rounder_minigrid.png"
+   move(50,50)
+   stretches(25,25,1000,1000)
+  }
+  visual.aid1 {
+   delay 22
+   duration 5 in 2 out 4
+   tints(clear any clear)
+   image "data/images/elements/rounder_minigrid.png"
+   position { x 25 y 25 w 1024 h 1024 }
+  }
+  visual.aid2 {
+   delay 1.2
+   duration 10 in 2 out 8
+   tints(clear any clear)
+   image "data/images/elements/rounder_minigrid.png"
+   position { x 25 y 25 w 768 h 768 }
+  }
+  visual.rotate {
+   delay 1
+   duration 10 in 2 out 7
+   tints(any any)
+   image "data/images/elements/rounder_minigrid.png"   
+   spin 0.5
+   pivot(32,32)
+   size(64,64)
+   move(256,512)
+  }
+  visual.rotate {
+   delay 2
+   duration 7 in 2 out 6
+   tints(red green)
+   image "data/images/elements/rounder_minigrid.png"   
+   spin 0.5
+   pivot(0,0)
+   size(640,640)
+   move(256,512)
+  }
+ }
+ looping
+ rewind
+}
+
+window {
+ name "Pink Window"
+ bg hotPink
+ centered {250 250}
+}
+
+
+window {
+ name "Indigo Window"
+ bg indigo
+ centered {50 20}
+}

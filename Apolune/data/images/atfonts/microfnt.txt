@@ -1,0 +1,11 @@
+name {microfont}
+image {data/images/atfonts/microfnt.png}
+nearest
+blend {additive}
+spaceWidth {0.75}
+charSpace {0.0}
+lineSpace {0.0}
+size {w 21.0 h 54.0}
+cells {x 7 y 18}
+padding { x 2 y 0 }
+glyphs {data/images/atfonts/microfnt.glyphs.txt}

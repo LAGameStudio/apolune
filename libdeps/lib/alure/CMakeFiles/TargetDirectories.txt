@@ -1,0 +1,6 @@
+C:/AGAR140/libdeps/lib/alure/CMakeFiles/ALL_BUILD.dir
+C:/AGAR140/libdeps/lib/alure/CMakeFiles/ALURE32.dir
+C:/AGAR140/libdeps/lib/alure/CMakeFiles/ALURE32-static.dir
+C:/AGAR140/libdeps/lib/alure/CMakeFiles/ZERO_CHECK.dir
+C:/AGAR140/libdeps/lib/alure/CMakeFiles/alureplay.dir
+C:/AGAR140/libdeps/lib/alure/CMakeFiles/alurestream.dir

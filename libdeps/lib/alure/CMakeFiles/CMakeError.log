@@ -1,0 +1,427 @@
+Determining if the include file sndfile.h exists failed with the following output:
+Change Dir: C:/AGAR140/libdeps/lib/alure/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe cmTryCompileExec.vcxproj /p:Configuration=Debug
+Microsoft (R) Build Engine Version 4.0.30319.1
+[Microsoft .NET Framework, Version 4.0.30319.1]
+Copyright (C) Microsoft Corporation 2007. All rights reserved.
+
+Build started 7/18/2010 1:32:33 PM.
+Project "C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" on node 1 (default targets).
+InitializeBuildStatus:
+  Creating "cmTryCompileExec.dir\Debug\cmTryCompileExec.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo- /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:/AGAR140/libdeps/lib/alure/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c  /Zm1000 
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.30319.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /nologo- /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:/AGAR140/libdeps/lib/alure/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c  /Zm1000 
+cl : Command line warning D9035: option 'nologo-' has been deprecated and will be removed in a future release [C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+  
+  CheckIncludeFile.c
+CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sndfile.h': No such file or directory [C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+Done Building Project "C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  cl : Command line warning D9035: option 'nologo-' has been deprecated and will be removed in a future release [C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+
+
+"C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sndfile.h': No such file or directory [C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+
+    1 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.19
+
+
+Determining if the include file vorbis/vorbisfile.h exists failed with the following output:
+Change Dir: C:/AGAR140/libdeps/lib/alure/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe cmTryCompileExec.vcxproj /p:Configuration=Debug
+Microsoft (R) Build Engine Version 4.0.30319.1
+[Microsoft .NET Framework, Version 4.0.30319.1]
+Copyright (C) Microsoft Corporation 2007. All rights reserved.
+
+Build started 7/18/2010 1:32:34 PM.
+Project "C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" on node 1 (default targets).
+InitializeBuildStatus:
+  Creating "cmTryCompileExec.dir\Debug\cmTryCompileExec.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo- /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:/AGAR140/libdeps/lib/alure/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c  /Zm1000 
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.30319.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /nologo- /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:/AGAR140/libdeps/lib/alure/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c  /Zm1000 
+cl : Command line warning D9035: option 'nologo-' has been deprecated and will be removed in a future release [C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+  CheckIncludeFile.c
+  
+CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'vorbis/vorbisfile.h': No such file or directory [C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+Done Building Project "C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  cl : Command line warning D9035: option 'nologo-' has been deprecated and will be removed in a future release [C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+
+
+"C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'vorbis/vorbisfile.h': No such file or directory [C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+
+    1 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.19
+
+
+Determining if the include file FLAC/all.h exists failed with the following output:
+Change Dir: C:/AGAR140/libdeps/lib/alure/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe cmTryCompileExec.vcxproj /p:Configuration=Debug
+Microsoft (R) Build Engine Version 4.0.30319.1
+[Microsoft .NET Framework, Version 4.0.30319.1]
+Copyright (C) Microsoft Corporation 2007. All rights reserved.
+
+Build started 7/18/2010 1:32:34 PM.
+Project "C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" on node 1 (default targets).
+InitializeBuildStatus:
+  Creating "cmTryCompileExec.dir\Debug\cmTryCompileExec.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo- /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:/AGAR140/libdeps/lib/alure/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c  /Zm1000 
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.30319.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /nologo- /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:/AGAR140/libdeps/lib/alure/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c  /Zm1000 
+cl : Command line warning D9035: option 'nologo-' has been deprecated and will be removed in a future release [C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+  CheckIncludeFile.c
+  
+CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'FLAC/all.h': No such file or directory [C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+Done Building Project "C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  cl : Command line warning D9035: option 'nologo-' has been deprecated and will be removed in a future release [C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+
+
+"C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'FLAC/all.h': No such file or directory [C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+
+    1 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.19
+
+
+Determining if the function memset exists in the stdc++ failed with the following output:
+Change Dir: C:/AGAR140/libdeps/lib/alure/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe cmTryCompileExec.vcxproj /p:Configuration=Debug
+Microsoft (R) Build Engine Version 4.0.30319.1
+[Microsoft .NET Framework, Version 4.0.30319.1]
+Copyright (C) Microsoft Corporation 2007. All rights reserved.
+
+Build started 7/22/2010 10:43:26 PM.
+Project "C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" on node 1 (default targets).
+InitializeBuildStatus:
+  Creating "cmTryCompileExec.dir\Debug\cmTryCompileExec.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo- /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WIN32 /D CHECK_SHARED_FUNCTION_EXISTS=memset /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:/AGAR140/libdeps/lib/alure/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.pdb" /Gd /TC /analyze- /errorReport:queue "..\..\..\..\..\..\Program Files (x86)\CMake 2.8\alure-1.0\cmake\CheckSharedFunctionExists.c"  /Zm1000 
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.30319.01 for 80x86
+  CheckSharedFunctionExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /nologo- /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WIN32 /D CHECK_SHARED_FUNCTION_EXISTS=memset /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:/AGAR140/libdeps/lib/alure/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.pdb" /Gd /TC /analyze- /errorReport:queue "..\..\..\..\..\..\Program Files (x86)\CMake 2.8\alure-1.0\cmake\CheckSharedFunctionExists.c"  /Zm1000 
+cl : Command line warning D9035: option 'nologo-' has been deprecated and will be removed in a future release [C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+  
+ManifestResourceCompile:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.embed.manifest.res" cmTryCompileExec.dir\Debug\cmTryCompileExec_manifest.rc 
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.exe" /VERSION:"0.0" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib stdc++.lib /MANIFEST /ManifestFile:"cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/AGAR140/libdeps/lib/alure/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.lib" /MACHINE:X86 cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.embed.manifest.res
+  cmTryCompileExec.dir\Debug\CheckSharedFunctionExists.obj  /machine:X86 /debug 
+LINK : fatal error LNK1104: cannot open file 'stdc++.lib' [C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+Done Building Project "C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  cl : Command line warning D9035: option 'nologo-' has been deprecated and will be removed in a future release [C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+
+
+"C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" (default target) (1) ->
+(Link target) -> 
+  LINK : fatal error LNK1104: cannot open file 'stdc++.lib' [C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+
+    1 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:02.25
+
+
+Determining if the function pow exists in the m failed with the following output:
+Change Dir: C:/AGAR140/libdeps/lib/alure/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe cmTryCompileExec.vcxproj /p:Configuration=Debug
+Microsoft (R) Build Engine Version 4.0.30319.1
+[Microsoft .NET Framework, Version 4.0.30319.1]
+Copyright (C) Microsoft Corporation 2007. All rights reserved.
+
+Build started 7/22/2010 10:43:28 PM.
+Project "C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" on node 1 (default targets).
+InitializeBuildStatus:
+  Creating "cmTryCompileExec.dir\Debug\cmTryCompileExec.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo- /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WIN32 /D CHECK_SHARED_FUNCTION_EXISTS=pow /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:/AGAR140/libdeps/lib/alure/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.pdb" /Gd /TC /analyze- /errorReport:queue "..\..\..\..\..\..\Program Files (x86)\CMake 2.8\alure-1.0\cmake\CheckSharedFunctionExists.c"  /Zm1000 
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.30319.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /nologo- /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _WIN32 /D CHECK_SHARED_FUNCTION_EXISTS=pow /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:/AGAR140/libdeps/lib/alure/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.pdb" /Gd /TC /analyze- /errorReport:queue "..\..\..\..\..\..\Program Files (x86)\CMake 2.8\alure-1.0\cmake\CheckSharedFunctionExists.c"  /Zm1000 
+cl : Command line warning D9035: option 'nologo-' has been deprecated and will be removed in a future release [C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+  CheckSharedFunctionExists.c
+  
+ManifestResourceCompile:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.embed.manifest.res" cmTryCompileExec.dir\Debug\cmTryCompileExec_manifest.rc 
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.exe" /VERSION:"0.0" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib m.lib /MANIFEST /ManifestFile:"cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/AGAR140/libdeps/lib/alure/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.lib" /MACHINE:X86 cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.embed.manifest.res
+  cmTryCompileExec.dir\Debug\CheckSharedFunctionExists.obj  /machine:X86 /debug 
+LINK : fatal error LNK1104: cannot open file 'm.lib' [C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+Done Building Project "C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  cl : Command line warning D9035: option 'nologo-' has been deprecated and will be removed in a future release [C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+
+
+"C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" (default target) (1) ->
+(Link target) -> 
+  LINK : fatal error LNK1104: cannot open file 'm.lib' [C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+
+    1 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.37
+
+
+Determining if the function fseeko exists failed with the following output:
+Change Dir: C:/AGAR140/libdeps/lib/alure/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe cmTryCompileExec.vcxproj /p:Configuration=Debug
+Microsoft (R) Build Engine Version 4.0.30319.1
+[Microsoft .NET Framework, Version 4.0.30319.1]
+Copyright (C) Microsoft Corporation 2007. All rights reserved.
+
+Build started 7/22/2010 10:43:30 PM.
+Project "C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" on node 1 (default targets).
+InitializeBuildStatus:
+  Creating "cmTryCompileExec.dir\Debug\cmTryCompileExec.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo- /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fseeko /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:/AGAR140/libdeps/lib/alure/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.pdb" /Gd /TC /analyze- /errorReport:queue "..\..\..\..\..\..\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"  /Zm1000 
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.30319.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /nologo- /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fseeko /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:/AGAR140/libdeps/lib/alure/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.pdb" /Gd /TC /analyze- /errorReport:queue "..\..\..\..\..\..\Program Files (x86)\CMake 2.8\share\cmake-2.8\Modules\CheckFunctionExists.c"  /Zm1000 
+cl : Command line warning D9035: option 'nologo-' has been deprecated and will be removed in a future release [C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+  
+  CheckFunctionExists.c
+ManifestResourceCompile:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.embed.manifest.res" cmTryCompileExec.dir\Debug\cmTryCompileExec_manifest.rc 
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.exe" /VERSION:"0.0" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.pdb" /SUBSYSTEM:CONSOLE /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/AGAR140/libdeps/lib/alure/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.lib" /MACHINE:X86 cmTryCompileExec.dir\Debug\cmTryCompileExec.exe.embed.manifest.res
+  cmTryCompileExec.dir\Debug\CheckFunctionExists.obj  /machine:X86 /debug 
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _fseeko referenced in function _main [C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.exe : fatal error LNK1120: 1 unresolved externals [C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+Done Building Project "C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  cl : Command line warning D9035: option 'nologo-' has been deprecated and will be removed in a future release [C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+
+
+"C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol _fseeko referenced in function _main [C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+  C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec.exe : fatal error LNK1120: 1 unresolved externals [C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+
+    1 Warning(s)
+    2 Error(s)
+
+Time Elapsed 00:00:00.81
+
+
+Determining if the include file sys/wait.h exists failed with the following output:
+Change Dir: C:/AGAR140/libdeps/lib/alure/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe cmTryCompileExec.vcxproj /p:Configuration=Debug
+Microsoft (R) Build Engine Version 4.0.30319.1
+[Microsoft .NET Framework, Version 4.0.30319.1]
+Copyright (C) Microsoft Corporation 2007. All rights reserved.
+
+Build started 7/22/2010 10:43:32 PM.
+Project "C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" on node 1 (default targets).
+InitializeBuildStatus:
+  Creating "cmTryCompileExec.dir\Debug\cmTryCompileExec.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo- /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:/AGAR140/libdeps/lib/alure/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c  /Zm1000 
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.30319.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /nologo- /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:/AGAR140/libdeps/lib/alure/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c  /Zm1000 
+cl : Command line warning D9035: option 'nologo-' has been deprecated and will be removed in a future release [C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+  
+  CheckIncludeFile.c
+CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/wait.h': No such file or directory [C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+Done Building Project "C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  cl : Command line warning D9035: option 'nologo-' has been deprecated and will be removed in a future release [C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+
+
+"C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'sys/wait.h': No such file or directory [C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+
+    1 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.24
+
+
+Determining if the include file dlfcn.h exists failed with the following output:
+Change Dir: C:/AGAR140/libdeps/lib/alure/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe cmTryCompileExec.vcxproj /p:Configuration=Debug
+Microsoft (R) Build Engine Version 4.0.30319.1
+[Microsoft .NET Framework, Version 4.0.30319.1]
+Copyright (C) Microsoft Corporation 2007. All rights reserved.
+
+Build started 7/22/2010 10:43:34 PM.
+Project "C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" on node 1 (default targets).
+InitializeBuildStatus:
+  Creating "cmTryCompileExec.dir\Debug\cmTryCompileExec.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo- /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:/AGAR140/libdeps/lib/alure/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c  /Zm1000 
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.30319.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /nologo- /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:/AGAR140/libdeps/lib/alure/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c  /Zm1000 
+cl : Command line warning D9035: option 'nologo-' has been deprecated and will be removed in a future release [C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+  CheckIncludeFile.c
+  
+CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'dlfcn.h': No such file or directory [C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+Done Building Project "C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  cl : Command line warning D9035: option 'nologo-' has been deprecated and will be removed in a future release [C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+
+
+"C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'dlfcn.h': No such file or directory [C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+
+    1 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.21
+
+
+Determining if the include file mpg123.h exists failed with the following output:
+Change Dir: C:/AGAR140/libdeps/lib/alure/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe cmTryCompileExec.vcxproj /p:Configuration=Debug
+Microsoft (R) Build Engine Version 4.0.30319.1
+[Microsoft .NET Framework, Version 4.0.30319.1]
+Copyright (C) Microsoft Corporation 2007. All rights reserved.
+
+Build started 7/22/2010 10:43:34 PM.
+Project "C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" on node 1 (default targets).
+InitializeBuildStatus:
+  Creating "cmTryCompileExec.dir\Debug\cmTryCompileExec.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo- /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:/AGAR140/libdeps/lib/alure/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c  /Zm1000 
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.30319.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /nologo- /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:/AGAR140/libdeps/lib/alure/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c  /Zm1000 
+cl : Command line warning D9035: option 'nologo-' has been deprecated and will be removed in a future release [C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+  
+  CheckIncludeFile.c
+CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'mpg123.h': No such file or directory [C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+Done Building Project "C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  cl : Command line warning D9035: option 'nologo-' has been deprecated and will be removed in a future release [C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+
+
+"C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'mpg123.h': No such file or directory [C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+
+    1 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.23
+
+
+Determining if the include file dumb.h exists failed with the following output:
+Change Dir: C:/AGAR140/libdeps/lib/alure/CMakeFiles/CMakeTmp
+
+Run Build Command:C:\Windows\Microsoft.NET\Framework\v4.0.30319\MSBuild.exe cmTryCompileExec.vcxproj /p:Configuration=Debug
+Microsoft (R) Build Engine Version 4.0.30319.1
+[Microsoft .NET Framework, Version 4.0.30319.1]
+Copyright (C) Microsoft Corporation 2007. All rights reserved.
+
+Build started 7/22/2010 10:43:35 PM.
+Project "C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" on node 1 (default targets).
+InitializeBuildStatus:
+  Creating "cmTryCompileExec.dir\Debug\cmTryCompileExec.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo- /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:/AGAR140/libdeps/lib/alure/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c  /Zm1000 
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.30319.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /nologo- /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:/AGAR140/libdeps/lib/alure/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c  /Zm1000 
+cl : Command line warning D9035: option 'nologo-' has been deprecated and will be removed in a future release [C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+  CheckIncludeFile.c
+  
+CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'dumb.h': No such file or directory [C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+Done Building Project "C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  cl : Command line warning D9035: option 'nologo-' has been deprecated and will be removed in a future release [C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+
+
+"C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'dumb.h': No such file or directory [C:\AGAR140\libdeps\lib\alure\CMakeFiles\CMakeTmp\cmTryCompileExec.vcxproj]
+
+    1 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.23
+
+

@@ -1,0 +1,748 @@
+AGK Change Log
+==============
+
+Build 2.0 Alpha 9
+------------------------
+
+- Fixed DeleteTween crashing if the tween is currently in use
+- Fixed arrays delcared without a type but with a comment after them not appearing in the symbols list
+- Fixed full screen adverts sometimes getting cropped
+- Added support for Amazon controller trigger buttons
+- Changed Android fragment shaders to use highp precision if device claims support, since some devices 
+  incorrectly implement mediump as lowp. This may reduce performance so you are encouraged to override 
+  it with "precision mediump float;" if you want to force it back to mediump in all cases
+- Fixed Mac LoadImage with the BlackToAlpha parameter set to 1 not working
+- Fixed misspelling in the Android location permission causing it to fail
+- Fixed GetSoundMaxRate on Android returning the minimum rate instead
+- Fixed SetRawMousePosition not working properly on Mac
+- Fixed #insert not being recognised by the compiler
+- Fixed a bug causing IsSupportedDepthTexture to not be recognised as a valid command
+- Fixed FacebookPostOnMyWall crashing if called when not logged in
+- Added Blackberry support
+- Fixed cut/copy/paste in Mac IDE dialog boxes not working properly
+- Fixed cut/copy/paste in Mac and Windows IDE dialog boxes if the default key bindings are changed
+- Fixed Mac menu bar not updating its shortcuts if the default key bindings are changed
+- Fixed Android apps freezing when rotating the device after using SetScreenResolution 
+- Added build option to connect directly to a device IP for when broadcasting can't detect the device
+- Fixed interpreter sometimes disconnecting from the IDE after broadcasting an app
+- Fixed scissor commands not working when using SetRenderToImage
+- Added SetSpriteAdditionalImage command to set multiple texture stages per sprite for use with shaders
+
+Build 2.0 Alpha 8
+------------------------
+
+- Opening configuration files no longer adds them to the current project
+- Fixed a crash when deleting an image assigned to a cloned sprite
+- Fixed local function variables not being assigned their default value
+- Fixed float variables not accepting a default integer value 
+- Added Alt key code for Windows
+- Allowed array default values to span muiltiple lines
+- Fixed SetBorderColor not working properly on Mac
+- Added #option_explicit and #insert to the help files
+- Fixed using Exit, Continue, or ExitFunction inside a Case statement causing stack corruption
+- Removed the ability to use Goto and labels inside select statements due to stack corruption
+- Fixed a crash when returning an array from a function that was declared inside that function
+- Fixed global variables defined in functions with AS in a comma separated list creating both a global and local variable
+- Added Spine commands to get animated bone positions in world coordinates
+- Added Spine commands to get skeleton root position
+- Added CreateFullscreenAdvert command to display AdMob interstitial ads
+- Added SetChartboostDetails to allow the advert commands to display Chartboost ads (currently fullscreen only)
+- Changed default shader version on Windows to GLSL 110 to support OpenGL 2.0 cards such as old Intel integrated graphics
+- Added support for using "#version <versionnum>" at the beginning of Windows shaders to allow higher versions
+- Added GetRawGPSAltitude to all platforms
+- Fixed Spine sprites sometimes disappearing when near the edge of the screen
+- Changed iOS magnet sensor commands to use the calibrated magnetic field
+- Creating a new project with a path that doesn't end in a slash no longer causes an error when compiling
+- Fixed broadcasting sometimes not sending updated files if the device time was ahead of the host time
+- Fixed DeleteTween causing a crash on Android
+- Added XInput support for XBox 360 controllers on Windows
+- Added GetRawJoystickConnected to detect if a joystick was removed or reconnected
+- Rearranged joystick button numbers on Mac so they match Windows and Android
+- Changed SetScreenResolution to only accept width and height
+- Added SetWindowSize to change window size and fullscreen modes instead
+- IDE now remembers the order of tabs within a project
+- When opening a project the IDE now opens files at last known cursor position
+- Added install dialog to IDE Tools menu to allow manual installation of projects and tier 2 files
+- Added SetCameraAspect to change the aspect ratio when rendering 3D
+
+Build 2.0 Alpha 7.1
+------------------------
+
+- Fixed repeatedly pressing the back button crashing Android
+- Fixed GetResumed() not working in tier 1
+- Fixed "AGK Projects" folder getting installed in the "All Users" documents instead of the current user
+- Added GetDocumentsPath() command to get the current user's documents folder
+- Fixed iOS lib not working with iOS 8 SDK
+- Upgraded iOS libs and projects to iOS 8
+- Updated AGK icon
+- Made APK export icon optional
+- Made IPA export icon optional
+- Fixed Close All Projects menu option not working
+- Fixed Mac video position being incorrect if repositioned every frame
+- Fixed a crash on Windows when switching music tracks
+
+Build 2.0 Alpha 7
+------------------------
+
+- Removed dialog asking to create the new folder when creating a new project
+- Updated the main.agc template to include window size commands
+- Creating a new project no longer creates a setup.agc by default, it can still be used if desired
+- Moved default installation path for "AGK Projects" folder to inside "My Documents" on Windows
+- Moved AGK write folder for apps from "My Documents/AGK" to "AppData/Local/AGKApps" on Windows
+- Creating a new project will no longer overwrite main.agc if it already exists in the project folder
+- Fixed compiler path being incorrect on Windows
+- Fixed Mac IDE not liking spaces in its path
+- Fixed a bug preventing arrays of types being passed into functions
+- Attempted to target MacOS 10.7, unable to test
+- Added arm64 architecture to iOS lib
+- Deactivated Twitter commands due to build problems with arm64
+- Fixed message window not remembering its height in some cases
+- Changed Windows interpreter so it will attempt to load an "icon.ico" file before defaulting to the AGK logo
+- Fixed "open in new window" menu option not working
+- Added IDE option to remember open projects when closing
+- Fixed Mac compiler not replacing old .app file with the new version
+- Added displaying of function parameters on typing a comma in addition to an open bracket
+- Fixed broadcasted app not being able to play video if a previous app didn't delete its video
+- Fixed Mac video position not matching the coordinates given
+- Added SetSkeleton2DFlip to flip a skeleton in the horizontal or vertical axis
+- Can now open a project or document's folder by right clicking on it in the side bar
+
+Build 2.0 Alpha 6
+------------------------
+
+- Fixed joysticks on Mac
+- Fixed escaped strings (using single quotes) not correctly escaping new line characters
+- Fixed FileEOF on Android APK apps not being consistent with other platforms (did not affect broadcasted apps)
+- Fixed Facebook photo downloads going to different folders on iOS and Android, they will now both be placed in the current folder
+- Fixed SetSpriteShapeCircle() with setPhysicsDebugOn() not showing the correct position of the shape
+- Fixed HTTP file uploads on iOS when using HTTP authentication
+- Fixed adding new files to a project not updating the side bar properly
+- Fixed assigning a variable the lowest possible integer value -2147483648
+- Fixed syntax highlighting of hexidecimal numbers
+- Fixed Dwmapi.dll sometimes causing a crash
+- Added some themes for the main IDE look 
+- Added an IDE option to highlight other instances of the currently selected word (on by default)
+- Fixed message window in Mac IDE getting progressively lower when auto hide is turned on
+- Fixed paste not working in the Mac editor window
+- Fixed Mac key bindings so they default to the Cmd key
+- Added app broadcasting on the Mac
+- Fixed Find In Files freezing the IDE on Mac
+- Added Gyro/Magnetic/Rotation/AmbientLight sensor commands for Android
+- Added Gyro/Magnetic/Rotation sensor commands for iOS
+- Added GPS commands to Windows, Mac, Android, and iOS
+- Removed redundant ultrabook sensor commands like inclinometer, these can be calculated from the accelerometer
+- Separated documentation for input commands into a raw section and a universal section
+- Added GetFileCount and GetFolderCount commands
+- Added GetDeviceID command
+- Added CopyMemblock command
+- Fixed Mac IDE sometimes saying compilation failed without showing the compiler errors
+- Added runtime error for integer division by zero
+- Updated help files for iOS and Android push notifications
+- Added SetPushNotificaitonKeys so the AGKHelper.java file doesn't have to be edited
+- Added export APK option to the IDE
+- Fixed network bug where a disconnected socket would prevent the broadcaster reconnecting
+- Added export to IPA option for Mac users
+- Added menu item to generate an Android keystore
+- Added menu option to generate the iOS AGK Player on Mac
+
+Build 2.0 Alpha 5
+------------------------
+
+- Fixed Compile/Run/Debug buttons becoming enabled before a project was opened
+- Added tool tips to the Compile/Run/Debug buttons to mention a project must be open to enable them
+- Fixed compiler error "Invalid path for CopyFile" sometimes appearing due to a memory error
+- Modified the default syntax highlighting color scheme and added support for alternate color schemes
+- Merged the project menu into the File menu
+- Fixed the symbols list not rendering multidimensional arrays properly
+- Changed toolbar New and Open buttons to refer to projects instead of files
+- Fixed adding a new file to a project when the save dialog is cancelled
+- Fixed native dialogs not redrawing properly if the Windows Aero theme is turned off or not applicable
+- Fixed interpreter not responding during long loading routines
+- Fixed saving new project file not defaulting to the project path
+- Fixed the project open/import dialogs ignoring the native dialog setting
+- Creating a new project now creates the default files main.agc and setup.agc in the project folder
+- Fixed declarations like "global dim myarray" not appearing in the symbols list correctly
+- Fixed indentation settings to stop converting tabs to spaces on saving
+- Simplified indentation settings to be global only, which are changed in the preferences dialog
+- Auto indentation now recognises AGK keywords like DO and IF as valid targets for indenting the next line
+- Pressing F1 will now look for a command at the current cursor position and display the relevant help page
+- Trying to load a project file with Open File will prompt to open it as a project instead
+- Fixed single quote strings not being recognised
+- Fixed SetErrorMode(2) on mobile devices not showing the error
+- Improved SetErrorMode(2) in tier 1 by adding the line number and include file to any errors
+- The symbol sidebar now recognises variables inside types, and constants
+- Autocomplete will now suggest variables inside types after a period
+- Code folding now recognises select statements and cases
+- Added the commands FoldStart and FoldEnd to manually fold sections of code
+- Added the ability to auto hide the message window when not focused
+- Added a separate broadcast button instead of having run and broadcast as one button
+- Added session files to the project file so it remembers what files were open
+
+Build 2.0 Alpha 4
+------------------------
+
+- Fixed crash when deleting a physics sprite while looping over another sprite's contacts with GetNextContact
+- Fixed crash when deleting the most recently created sprite or text object
+- Reduced memory leak when playing OGG files, but can't remove it completely, I recommend M4A or MP2 for royalty free music
+- Completely new compiler that should solve a lot of tier 1 issues
+- Types can now contain arrays 
+- Types and arrays can now be passed by reference into functions
+- Types and arrays can now be passed by value into and out of functions
+- Arrays can now be sorted and searched
+- Completely new IDE that should help write tier 1 apps
+- IDE now supports auto complete
+- IDE now supports code folding for AGK specific structures
+- IDE now has symbol parsing to show you what functions/types/variables exist in a file
+- Compiler errors now appear in the IDE instead of in message boxes and can now show multiple errors at once
+- Fixed a memory leak when loading and deleting Spine skeletons
+- Upgraded Android to NDK version r9d
+
+Build 2.0 Alpha 3
+------------------------
+
+- Fixed crash when deleting an image assigned to a currently active frame buffer
+- Fixed crash when a shader fails to compile with a lot of errors
+- Fixed a bug where text greater than depth 0 would not display
+- Added all features from Alpha 2 to Android
+- Added all features from Alpha 2 to iOS and Mac except for sound balance
+- Added all features from Alpha 2 to Blackberry except new music commands, video meta data commands, and SetScreenResolution
+- Added new command InAppPurchaseSetKeys to set public keys unique to each app
+- Added new random number commands Random2() that have a longer period before repetition and greater range
+- Fixed LoadSkeleton2DFromSpineFile scale parameter not working
+- Fixed sprites not appearing on screen if any sprites were drawn with SetRenderToImage active
+
+Build 2.0 Alpha 2
+------------------------
+
+- Fixed tier 2 libs for VS2010
+- Fixed AddTweenChainCamera
+- Fixed Spine skeletons sometimes not being transparent
+- Fixed shader error message on ATI cards
+- Fixed crash when closing an app that used SetRenderToImage
+- Attempted to fix missing pixel in DrawBox, may be GPU dependent
+- Fixed DrawEllipse having some incorrect pixel colors when using gradients
+- Fixed skeletons disappearing when using SetViewOffset
+- Added commands to get properties of skeleton bones
+- Fixed particles appearing behind sprites at the same depth
+- Fixed skeletons always appearing above everything else
+- Added commands SetSkeleton2DDepth, FixSkeleton2DToScreen, GetSkeleton2DExists, DeleteSkeleton2D
+- Added commands GetSkeleton2DBoneX, GetSkeleton2DBoneY, GetSkeleton2DBoneAngle
+
+Build 2.0 Alpha 1
+------------------------
+
+- Fixed GetPointerX and GetPointerY being affected by interaction with virtual buttons and joysticks
+- Fixed SetSpritePhysicsDelete not clearing the SetSpritePhysicsIsSensor attribute
+- Added Quad object primitive for drawing full screen shaders
+- Added SetRenderToImage for drawing to images instead of the screen
+- Added SetRenderToScreen to return drawing to the screen
+- Added SetScreenResolution to modify the resolution of the final render target, and the window size on platforms that use windows
+- Modified sprites to set their transparency mode based on whether their image contains transparent pixels unless previously overridden by SetSpriteTransparency
+- Added new additive blend mode for sprites with SetSpriteTransparency
+- Added new additive blend mode for particles
+- Fixed memory leak when changing orientation on iOS
+- Fixed memory leak when deleting 3D objects
+- Fixed memory leak when setting the default font image
+- Added ellipse and rectangle drawing commands
+- Added random particle rotation controlled with a min and max setting
+- Added particle size modification based on keyframes
+- Added particle offset command to change existing particle positions
+- Added sound instance commands to change volume, playback rate, and balance per instance
+- Modified sound looping to allow looping a fixed number of times before stopping
+- Added sound memblock commands
+- Added save sound command
+- Added music seeking and music duration commands
+- Added file memblock commands to convert between files and memblocks
+- Added memblock string commands to get and set strings
+- Added copy memblock command to copy a portion of one memblock to another
+- Added skeleton commands for 2D sprite animation with Spine support
+- Added tween commands inspired by TrezSoft
+
+Build 108.24
+--------------------
+
+- Fixed an error when trying to compile the VS2008 template in debug mode
+- Fixed shader error message caused by a debug file being left in the build
+
+Build 108.23
+------------------------
+
+- Fixed videos not playing on some Macs with the new API
+- Fixed SetShape with mode 3 (polygon) on transparent images producing an error instead of falling back to mode 2 (box).
+- Updated Facebook API 
+- Added user_friends Facebook permission to allow friends list with Graph API 2.0
+- Note that FacebookGetFriends will now only return a list of friends that also have you app installed, this is change made by Facebook
+- Updated the AdMob SDK on Android as the old one will no longer work after the 1st August, you will need to import the new google-play-services project, and use the new AGKHelper.java and AndroidManifest.xml files to update your apps
+
+Build 108.22
+------------------------
+
+- Fixed crash when more than 20 clients are connected to a server
+
+Build 108.21
+------------------------
+
+- Fixed mp3 loop bug
+
+Build 108.20
+------------------------
+
+- Fixed Windows 8.1 crash
+- Fixed various memory leaks
+- Fixed Android characters #`~ not working with edit boxes
+- Fixed music looping with OGG files on Windows
+- Updated iOS projects to XCode 5
+- Fixed Mac video and music playback using deprecated QTKit API, minimum supported OS version is now 10.7
+- Removed camera capture code on Mac due to removing QTKit
+- Fixed black screen on Android when resuming an app from device sleep
+
+Build 108.19
+------------------------
+
+- Fixed OpenBrowser not working with tel: and mailto: addresses on Android
+- Fixed music not looping after using SetFolder or SetCurrentDir commands
+- Fixed screen tearing when using fullscreen apps on Windows
+- Fixed GetSpriteInBox with sprites using the circle shape
+- Fixed GetSpriteCollision between world sprites and fixed to screen sprites
+
+Build 108.18
+------------------------
+
+- Fixed passing UDTs to functions not working in some cases
+- Fixed Windows tier 2 templates not having mouse wheel functionality
+- Fixed Android crashing when passing a URL to OpenBrowser that doesn't have a protocol
+- Fixed Blackberry GetInternetState returning undefined values.
+- Fixed iOS edit box cursor not moving properly when tapped
+
+Build 108.17
+------------------------
+
+- Fixed iOS edit box cursor not working properly in some cases.
+
+Build 108.16
+------------------------
+
+- Fixed Mac tier 2 apps not receiving key pressed and released events
+- Fixed print text appearing behind opaque sprites with depth 8 or less
+- Fixed template_android_lite project not compiling
+- Fixed iOS edit boxes not responding to touch events to move the cursor
+- Fixed a crash on Ouya if an app was started with a joystick held off center
+- Fixed a crash when using virtual joysticks in multiple broadcasts to the AGK Player 
+- Reduced memory footprint of font images
+
+Build 108.15
+------------------------
+
+- Fixed crash on some Android devices that try to send the app to the background before it is initialised
+- Fixed crash on Ouya when too many input events are received
+- Fixed crash on Ouya when sending the app to and from the background
+- For those people compiling apps with the Android NDK please go to the AGK\IDE\platform\android\Source folder and view the readme file about updating an NDK file
+- Fixed Ouya controllers not working with the joystick commands 
+- Removed Ouya key codes as they are now accessed through the joystick commands
+- Fixed possible crash when using CreateImageFromMemblock every frame.
+- Set SetImageSavePixels to default to 0 as it reduced performance when doing frequent image updates and performance gain in general was negligible
+- Fixed built in point light shaders on Samsung Galaxy S3 and other Mali-400 devices
+- Fixed GetMemblockPtr removing the memblock ID from the memblock
+- Fixed SetMusicFileVolume not updating the volume whilst the file is playing
+- Added lite versions of the Android and iOS templates and interpreters to exclude Facebook, Twitter, Push Notifications, and Game Center
+
+Build 108.14
+------------------------
+
+- Fixed compiler not recognising array declarations with square brackets like ["a","b","c"]
+- Updated offline help files
+- Fixed images on iOS having the bottom row of pixels cut off when using SetIntendedDeviceSize
+- Fixed GetOrientation on Android not responding to orientation changes after ResetTimer is used 
+- Fixed app broadcast sometimes failing with "already listening on port 5687" error
+
+Build 108.13
+------------------------
+
+- Removed Default Location prompt unless using the location commands
+- Fixed the IDE F1 context sensitive help not working on core language commands like "if" and "for"
+- Changed timeout on HTTP connections to 6 seconds
+- Modified the GetScreenBounds commands to return correct values when SetScissor(0,0,0,0) is not being used
+- Fixed DrawLine when using a blue value between 128 and 192 not displaying correctly
+- Added padding option to the Image Joiner utility to add extra pixels around images
+- Windows apps now reset the mouse state when losing focus
+- Added tier 2 command agk::GetMemblockPtr to get direct access to the memory
+- Added tier 2 command cImage::LoadFromData to load uncompressed image data directly from memory
+- Fixed GetTextHit when FixTextToScreen is used to function the same as the sprite versions
+
+Build 108.12
+------------------------
+
+- Fixed tapping on an editbox sometimes not showing the keyboard
+- Fixed back button crash on Galaxy Note 2
+- For those people compiling apps with NDK go to the AGK\IDE\platform\android\Source folder and view the readme file about fixing an NDK bug.
+- Fixed GetPointerPressed on devices with both mouse and touch inputs
+- Fixed missing commands in the help files
+- Text objects now use less memory but extended font images must match the format of normal font images, i.e. both must be fixed width, or both must be variable width.
+- Fixed memory corruption bug when debugging in tier 2
+- All Android projects MUST use the new AGKHelper.java file from the interpreter_android_prebuilt (tier 1) or template_android (tier 2) projects to avoid crashing. It is also recommended to copy the other java files from these projects to get the latest fixes.
+- Rewrote Android video handling to allow pausing and resuming of videos without a jump
+- Upgraded Android to API 10 (2.3.3) as the minimum version
+- Removed ATL requirement from the VS2008 projects
+- Added OUYA key codes 102-107 to the android interpreter (untested)
+- Fixed camera and choose image commands on Android not returning valid images on some devices
+- Fixed loading of large JPG images on Android
+- Fixed pressing enter in an editbox not setting the GetEditBoxChanged flag
+- Fixed a crash when deleting lots of images immediately after they are created
+- Fixed crash with OpenToWrite when using the overwrite parameter
+- Due to the above fix the 106 and 107 compilers are no longer compatible with the 108 player
+- Fixed OpenToWrite not defaulting to overwrite when using no parameter
+- Added support for x86 (Intel) devices running Android (anyone using NDK should copy the jni/x86 folder from the template_android project into their projects and note the change to jni/Application.mk)
+- Added support for mouse wheel and middle mouse button on Mac and Windows (those using tier 2 be sure to update your Core.cpp files from the template project)
+- Modified GetmultiTouchExists on Windows to detect touch screen support rather than assuming true, may still assume true on Windows 7 and 8 even if no touch screen exists.
+- Changed DrawLine to draw lines that are less than 1 pixel in length as a dot.
+- Fixed Blackberry hide keyboard button not ending text entry
+- Added the following video commands to Blackberry: LoadVideo, PlayVideo, PauseVideo, StopVideo, DeleteVideo, GetVideoPosition, SetVideoDimensions, and GetVideoPlaying
+- The following commands are not possible on Blackberry: GetVideoDuration, GetVideoWidth, GetVideoHeight
+- Mac windows now resize themselves when they are bigger than the desktop resolution
+- Changed the way Windows apps resize themselves when they bigger than the desktop resolution to maintain aspect ratio
+- Added right ALT to Windows key input commands
+- Reduced memory usage for text objects when using fixed width font images
+- Fixed SetHTTPHost when using a username and password
+- Fixed crash when using SendHTTPRequest with a large response string on iOS and Mac
+- Fixed SetTextDefaultMagFilter and SetTextDefaultMinFilter not affecting extended characters
+- Fixed SetEditBoxTextSize and SetEditBoxSize causing SetEditBoxWrapMode to behave incorrectly
+- Stopped all sounds (in addition to music) when sending the app to the background on Android and Blackberry. Sounds will not be resumed like music so if you want a continuous sound playing you must use GetResumed to detect when it should be restarted.
+- Fixed extended characters not displaying when using a variable width font
+- Updated iOS AdMob SDK to prevent apps getting rejected for using the uniqueIdentifier
+
+Build 108.11
+------------------------
+
+- Fixed pressing the sleep button on Android devices with the lock screen turned off not stopping music
+- Fixed inneractive adverts sometimes not displaying
+- Fixed GetImage when using a clear color other than black
+- Fixed GameCenterShowLeaderBoard not showing the correct leader board
+- Fixed PauseMusic/ResumeMusic on Blackberry restarting from the beginning
+- Fixed GetResumed being triggered by the app start on all platforms
+- Added HTTP commands to Blackberry
+- Added message box command to Blackberry
+- Fixed GetDeviceName crash on Blackberry
+- Updated editboxes on blackberry to match the other platforms
+- Fixed edit box cursor disappearing at small resolutions
+
+Build 108.10
+------------------------
+
+- Fixed instance objects with images displaying incorrectly if the original object did not have an image
+- Fixed a crash when using CloseNetwork immediately after HostNetwork
+- Fixed a bug that meant large projects would sometimes fail to broadcast to the player
+- Updated Android In App Billing to use version 3 of the API, should be more reliable
+- Fixed a bug with alpha transparent sprites in GetImage results
+- Fixed VS2010 libs
+- Updated help files with the latest commands
+- Changed InAppPurchaseAddProductID to add a parameter for the type of product being added
+
+Build 108.9
+------------------------
+
+- Fixed GetObjectVisible always returning 0
+- Improved performance when handling hundreds of text objects
+- Fixed GetObjectDepthWrite returning values outside the range 0-1
+- Fixed CloneObject crash on objects without indexed vertices
+- Can now load GIF images with LoadImage
+- Fixed Android memory leak when using Java helper functions
+- Improved performance when using Sync with only 2D items
+- Fixed AGKSplash.png splash screen on Android devices
+- Added help description for SetObjectScale
+- Fixed GetChosenImage on Android so that it returns 0 if the user cancelled
+- Fixed memory leak on Android
+- Changed Android PrintImage so that it saves the image to the pictures folder and increments the image name
+- Fixed sprite sorting bug when using Render() without Update()
+- Added check for extended ASCII characters in edit boxes that do not have an extended font image
+- Completed Game Center commands
+- Added command SetEditBoxExtendedFontImage to support extended ASCII characters
+- Added parmater to RateApp(ID,title) to change the dialog box title text
+- Added SetEditBoxUseAlternateInput to set whether the edit box will use the default text input screen or not
+- Improved edit box apperance to be consistent across resolutions
+- Improved quality of default Arial font image
+- Fixed a not responding message when selecting an image from Picasa
+- Changed the Android Message command to be an actual message box
+- Fixed Android keyboard missing key presses
+- Changed alpha blending when using GetImage to preserve opaque areas
+- Improved video play back on Android, now less likely to crash.
+- Fixed FacebookPostOnMyWall command
+- Improved text creation speed
+- Fixed crash on iOS when images greater than 1024 with an odd number of pixels in height get scaled down
+- Fixed FacebookSetup on iOS so it now uses the given AppID instead of needing a project setting
+- Fixed SetFolder on Android sometimes crashing with an empty string
+- Fixed Android crash when back button pressed during text entry
+- Improved text rendering speed when some of the letters are off screen
+- Changed alpha blending when using GetImage to preserve opaque areas
+- Fixed GetEditBoxChanged so it no longer misses updates on iOS
+- Added InAppPurchaseRestore command for iOS
+- Added SetIntendedDeviceSize command so AGK can scale down images on low resolution devices if you have designed your app for high resolution devices
+- Fixed screen flash when app is rotated on iOS and Android
+- SetSpriteImage now clears any existing animation frames for that sprite
+- Fixed SetSpriteShapeBox with an offset box not being calculated correctly
+- Fixed GetSpriteCollision between a sphere and an offset box sometimes being wrong
+- Fixed bug on iOS when using AdMob adverts with an offset on the iPad 3 using incorrect position
+- Fixed GetSpriteContactWorldX not returning the correct value in some situations
+- Fixed GetPhysicsCollisionWorldX not returning the correct value in some situations
+- Fixed GetSpriteYFromWorld not returning the correct value
+- Fixed crash when deleting a joint if the sprite it was connected to has been deleted
+- Changed GetResumed on Windows to return 1 when the user restores the AGK window from the background
+- Fixed image filter on Android and iOS reseting to linear after resuming from the background
+- Fixed GetDeviceLanguage on Windows
+- Fixed cloned and instance objects appearing in front of transparent objects even when they are positioned behind
+- Fixed crash when deleting transparent objects
+
+Build 108.8
+------------------------
+
+-Fixed DeleteAllSprites not clearing everything from memory
+-Fixed SaveImage on iOS and Android not saving PNG images properly
+-Fixed CopyImage and SetImageMask modifying the wrong image in some rare cases
+-Changed the draw order to draw opaque objects in the order they were created, useful when using sky boxes with depth write off
+-Added Delayed DLL Loading to Compiler for Windows XP compatibility
+
+Build 108.7
+------------------------
+
+-Fixed VS2010 LIB issue causing VS2010 projects not to compile
+
+Build 108.6
+------------------------
+
+-Added FACEBOOK app back in apps folder, need to include this when building Android T1/T2 apps in Eclipse
+-Updated T1 and T2 guides for Android and iOS to reflect newer SDKs being used now
+-Added a collection of memblock commands for direct memory access
+-Added conversion between images and memblocks for direct pixel access
+-Changed GetHTTPResponseReady to return -1 if the current task has finished but returned an error
+-Fixed tranparent 3D objects sometimes appearing behind opaque objects
+-Fixed video playback bug on Android where playing after stopping wouldn't work
+-Fixed video playback bug on iOS and Android where GetVideoPlaying would not immediately return 1 after PlayVideo
+-Fixed long load time when using large strings in CreateText
+-Fixed crash when using CloneObject
+-Fixed SetFolder("..") not working
+-Fixed UDT assignment in functions
+-Fixed global or literal strings returning from functions
+-Fixed END now forces exit even if in subroutines or functions
+
+Build 108.5
+------------------------
+
+-Added a few more dummy commands and tweaks to Facebook commands (should be command set complete now)
+-Fixed issue with Mac not allowing choose image and capture image to work properly
+-Ensured Android, Mac, iOS and Windows platforms all working together
+
+Build 108.4
+------------------------
+
+-Added ability to save image in JPEG format on iOS
+-Added CloneObject command to copy an object
+-Added InstanceObject command to copy an object whilst sharing 3D data
+-Fixed Android videos not starting from the beginning when stopped
+-Added code for Android in-app purchase, although may be broken, sometimes returns errors from Google Play
+-Added PushNotificationSetup to register for push notifcations on iOS
+-Added GetPushNotificationToken to get push notification token for the device
+-Improved image loading time on all platforms
+-Improved performance of SetFolder and SetCurrentDir
+-Added GetDeviceLanguage to return the ISO 639 language code of the device
+-Fixed crash if ResumeSprite was called before PlaySprite
+-Added code for Ultrabook Sensors and Multitouch
+-Allowed VS2008 project to use above features (works from XP through to Windows 8)
+-Replaced SensorsAPI with LocationAPI for GPS longitude and latitude (100% success)
+
+Build 108.3
+------------------------
+New V108 Commands:
+
+-Added SetObjectScale command to scale an object in X, Y, or Z
+-Added DrawLine command to draw 2D lines directly to the screen
+-Added SetCameraRange command to set the near and far clip planes
+-Added SetCameraFOV command to change the camera field of view angle
+-Added Set3DGlobalDepth command to place all 3D objects at a specified sprite depth value
+-Added LoadObject command that returns an ID
+-Added LoadShader command that returns an ID
+-Added WriteByte command to write single bytes to a file
+-Added ReadByte command to read a single byte from a file
+-Added RenderBack command to draw only the sprites behind 3D, Render() now only draws those in front of 3D
+-Added SetObjectDepthReadMode to set the depth test function, if it passes the depth test the pixel is drawn, 0=never pass, 1=less than, 2=equal, 3=less than or equal, 4=greater than, 5=not equal, 6=greater than or equal, 7=equal, 8=always pass
+-Added SetObjectDepthWrite to set whether a pixel that passes the depth test writes its depth value to the depth buffer
+-Added SetObjectTransparency to set alpha transaprency on or off
+-Added SetObjectCullMode to set the cull mode of the object 0=draw both front and back faces, 1=draw front faces, 2=draw back faces
+-Added SetObjectVisible to set an object as visible or hidden
+-Added GetObjectDepthReadMode returns the current depth func for this object
+-Added GetObjectDepthWrite returns the current depth write mode for this object
+-Added GetObjectTransparency returns the current transparency mode for this object
+-Added GetObjectCullMode returns the current cull mode for this object
+-Added GetObjectVisible returns the current visibility mode for this object
+-Added GetObjectInScreen returns 1 if the object is in screen, 0 if not, this is only an estimate and may assume an object is on screen when it is actually not
+-Added GetWorldXFromSprite converts sprite coordinates into world coordinates, for example the top of a sprite rotated by 90 would actually be to the right of the sprite in world coordinates
+-Added GetWorldYFromSprite
+-Added GetSpriteXFromWorld converts world coordinates into sprite coordinates
+-Added GetSpriteYFromWorld
+-Added GetScreenXFrom3D returns the screen coordinates of the given 3D point
+-Added GetScreenYFrom3D
+-Added Get3DVectorXFromScreen returns a vector pointing into the 3D world from the given screen coordinates
+-Added Get3DVectorYFromScreen
+-Added Get3DVectorZFromScreen
+-Added DeleteAllImages deletes all images loaded with LoadImage or LoadSubImage
+-Added DeleteAllSprites deletes all sprites created with CreateSprite, LoadSprite, or CloneSprite
+-Added DeleteAllText deletes all text objects created with CreateText
+-Added GetScreenBoundsLeft returns the edge of the screen in you chosen virtual resolution, this takes black borders into account to the left of the screen my be a negative value in your current virtual resolution
+-Added GetScreenBoundsRight returns the edge of the screen taking black borders into account
+-Added GetScreenBoundsTop returns the edge of the screen taking black borders into account
+-Added GetScreenBoundsBottom returns the edge of the screen taking black borders into account
+-Added GetReadPath to return the path of the current application exectuable
+-Added GetLoadedImages returns the number of images loaded with LoadImage or LoadSubImage
+-Added GetUnassignedImages returns the number of loaded images that are not currently assigned to a sprite or text object
+-Added GetUnassignedImageFileName returns the file name of a specified unassigned image
+-All tier 2 Windows projects must add "Dwmapi.dll" the linker option "Delay Loaded DLLs" to maintain Windows XP support
+-Fixed edit boxes that are fixed to the screen not detecting mouse clicks properly
+-Fixed iOS video when changing orientation, fixed iOS GetVideoPosition command
+-Added Mac video playback suport
+-Added Windows video playback suport
+-Fixed a crash is DeleteImage was used on an image that had previously been used in SetTextDefaultFontImage
+-Fixed occasional stutter in frame rate on Windows Vista and Windows 7
+-Fixed mipmaps not working on some platforms and generating an error about glGenerateMipmap
+-Fixed particles so they can use images loaded from atlas textures
+-Returned default wrap mode to 0 (clamp) to solve some edge bleeding issues, use SetImageWrap to use mode 1 (repeat)
+-Fixed compiler issue with round brackets crashing compiler, now prompts square bracket error
+-Fixed bug with network integers causing a crash
+-Fixed text extending beyond the edge of the text input box
+-Added better network disconnetion detection, previously this would take up to 30 seconds to detect, now 5 seconds.
+-Due to this network change 1083 clients cannot connect to pre-1083 servers, however 1083 servers can accept pre-1083 clients.
+-For anyone implementing the AGK network spec a server must now respond to message ID 7 with message ID 6.
+-Old Android Dev Kits need to download and install the latest Android SDK and select Tools & API 13 to install over any existing files you may have. Re-using the SDK folder location will help
+-If Eclipse gives you problems, go to Help > Check For Updates to install missing elements
+-In Android project fails to compile, enter project properties > Android and tick Android 3.2 then Apply
+
+04/10/12 - Build 108.1
+---------------------
+-Added Social, 3D, Sensor and Misc. commands
+-Modified compiler to allow auto-conversion to JavaScript
+-HTML5 Platform added as part of the Freedom-Engine deployment system
+-Unified V108 command between AGK and Freedom-Engine
+-Removed MeeGo and Bada from Platform Support (obsolete platforms)
+-Replaced template projects with template creation guide
+
+10/06/12 - Build 107.7
+---------------------
+-Added error message to prevent accidental statement such as a=3=5
+-Fixed compiler to allow a comment at the end of IF THEN ELSE statement
+-Fixed compiler so REMSTART REMEND are now handled within SELECT statements
+-Fixed UDT.customtype=UDT.customtype to account for offsets within UDT type
+-Compiler no longer accepts an expression as a literal into a declaration
+-Compiler prevents code from calling user functions with GOTO or GOSUB
+-Increased the maximum size of strings returned from the STR(float) command
+-Commented out 'Failed to get OpenGL extension glBindFramebufferEXT' warning
+
+06/06/12 - Build 107.6
+---------------------
+-Fixed GetImage(ID,x,y,w,h) command
+-Fixed AGKSplash.png screen for new orientations
+-Fixed android orientation for non-standard tablets
+-Changed CreateSprite(filename) to LoadSprite(filename) and other small tweaks
+-Added fix for small memory leak
+-Fixed orientation changes on Android
+-Fixed clear color bleeding around full screen sprites
+-Made texture repeat the default wrap mode to reduce flickering issue
+-Modified 1076 build to allow STARTTEXTINPUT to be extended with new parameter
+
+23/05/12 - Build 107.5
+---------------------
+-Modified orientation system to allow TRUE portrait and landscape modes (Android/iOS)
+-Small tweaks to Scissor feature
+-Solved a number of memory issues on the Android platform
+
+17/05/12 - Build 107
+--------------------
+-Changed DBPRO to AGKPROJ to remove old legacy compiler extensions
+-Upgraded internal foundation to allow backward/forward compatibility between compiler & players
+-Line numbers no longer corrupted during compile errors when #constants used
+-Cannot pass string out of function via UDT fixed
+-Teir 1 -> undim does not appear to work fixed
+-Remmed out line still affect running the code fixed	 
+-INC and DEC keyword not recognised fixed
+-Tier1 a remark with accent desactivate a line of code fixed
+-Constant declaration with remark fixed
+-SELECT compiler crash fixed
+-IDE: Core commands don't link to help fixed
+-Not possible to transfer in a successive way UDT to functions fixed
+-Fixed BUG001 - string can now be returned from a locally created UDT
+-Fixed Mac library to allow AGK Player (Mac Store) to accept broadcast app in standby
+-Fixed issue causing Mac App to quit prematurely
+-Over 60 New commands (advert, HTTP, camera, image manipulation and saving)
+
+16/11/11 - Build 106
+--------------------
+-Updated Android Player to Version Code 3
+-Final tweak for MeeGo On 106
+-Fixed MeeGo app broadcasting for the version 1061 compiler
+-Adding Android to 106 build
+-Compiled final libs and players (iOS and Mac) for 106 build
+-Fixed changing friction with existing physics contacts
+-Fixed iOS code to not play music if iPod music is already playing
+-Fixed a bug in the android make file
+-Bada tweak to template (Bada 2 SDK)
+-Simplified android makefiles
+-Added icon the android interpreter
+-Added android libs
+-Made android text input box appear in portrait
+-Changed iOS project to support 3.2 as a minimum version
+-Increased compiler wait time when broadcasting, fixed samsung sound not muting when screen is locked
+-Tweak compiler for AGK Viewer stability
+-Corrected XIB files used in AdMob 4.2 work - killed 3.2 compatibility!
+-Fixed issue with AGK Viewer not running on 3.2 devices
+-removed scrapper code from ios player (not viewer)
+-Added VSync command
+-Fixed issue with AGK Viewer not sending the very latest coordinate back when pressed/touched. Affected virtual buttons.
+-AGK Viewer further tweaks
+-Fix for android devices that reject the default render buffer format (producing a black or corrupted screen)
+-Removed 5 second timeout
+-Tweaks to improve the free version of AGK
+-Made busy waiting the default method of controlling sync rate, fixed loading of images with 87 pixels in height on Windows
+-Changed iOS App Viewer to quit instead of run in the background
+-Fixed iOS not shutting down sockets properly when closing
+-Modified physics step code to not clear forces on manual step, only on sync
+-Fixed bug where iOS may get stuck waiting for a socket to close
+-Modified interpreter to broadcast to the compiler instead of the other way around, fixed time out bug for broadcasting large tier 1 projects
+-Updated samsung bada libs, player and template for Bada 2.0.2
+-New bada 2.0.2 removes need for simulator lib
+-Changes to reference documentation.
+-Fixed samsung template for sim and debug
+-Updated tweaks to ensure source (T2) for meego and bada work
+-AGK Viewer tweaks to sync well with Windows scraper app
+-Fixed issues with AGK Viewer freezing Windows app when cancelled.
+-Improved networking code to warn of firewall block
+-Fixed the XCODE4 template
+-Scheduled Work for Build 107: Issues board fixes, New HTTP and ADVERT commands
+
+24/10/11 - Build 105
+--------------------
+
+-Added New Placement Editor into Utilities folder
+-Updated tweaks to ensure source (T2) for meego and bada work better
+-Removed debug file from Mac player
+-AGK Viewer tweaks to sync well with Windows streamer
+-Fixed issues with AGK Viewer freezing Windows app when cancelled.
+-Improved networking code to warn of firewall block
+-Fixed the XCODE4 template
+-Cleaned up Tier 2 projects to compile first time (apps/templates)
+-Added INTERPRETER_MAC\BUILD\RELEASE folder with final Mac binary
+-Perfected AGK Viewer and AGK Player system.
+-Added free version of Windows Tier 2 Lib into trial
+-Ensured AGK Viewer broadcast does not crash when maximise Window
+-Added better device emulation during AGK Viewer mode (fakes device name, device resolution) and resets app to beginning using new faked properties
+-Finished AGK Viewer complete with re-start mode when iOS scraper mode detected - all examples work with AGK Viewer
+-Adjusted AGK Viewer network to run in parallel to main AGK Player network (no more interference)
+-Added multi-resolution support to new AGK Viewer, added touch input, accelerometer input
+-Added new AGK Viewer app (replacement for AGK Player on App Store)
+-Added support for accelerometer to be passed back from AGK Viewer to AGK Stream feature
+-Fixed error causing LARGE programs to create VERY LARGE allocations of memory that some devices could not create
+-Added code to detect when byte code memory allocation exceeds device limits and produces safe error message (not crash)
+-Fixed issue causing arrays used before the DIM statement parsed to fail to compile even though subscript counts valid
+-Fixed slow Samsung startup
+-Fixed issue caused by LARGE AGK programs being expanded, but variable offsets within byte code not being processed properly
+-Fixed polygon hit test bug
+-Fixed virtual joystick image when aspect ratio changed
+-Fixed DeleteText memory leak
+-Fixed button text with scrolling view
+-Fixed physics walls with SetPhysicsScale command
+

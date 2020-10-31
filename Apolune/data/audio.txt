@@ -1,0 +1,10 @@
+ // UI
+data/sounds/UI/beam1.wav
+data/sounds/UI/beam2.wav
+data/sounds/UI/bloop.wav
+data/sounds/UI/booonj.wav
+data/sounds/UI/bleep.wav
+data/sounds/UI/blenk.wav
+data/sounds/UI/crunch.wav
+data/sounds/UI/dingtone.wav
+data/sounds/UI/rimshot.wav

@@ -1,0 +1,17 @@
+﻿Build started 7/18/2010 1:36:46 PM.
+     1>Project "C:\AGAR140\libdeps\lib\alure\ALL_BUILD.vcxproj" on node 3 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\ALL_BUILD.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\ALL_BUILD.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule C:/Program Files (x86)/CMake 2.8/alure-1.0/CMakeLists.txt
+         CMake does not need to re-run because C:\AGAR140\libdeps\lib\alure\CMakeFiles\generate.stamp is up-to-date.
+       FinalizeBuildStatus:
+         Deleting file "Debug\ALL_BUILD.unsuccessfulbuild".
+         Touching "Debug\ALL_BUILD.lastbuildstate".
+     1>Done Building Project "C:\AGAR140\libdeps\lib\alure\ALL_BUILD.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.14

@@ -1,0 +1,10 @@
+texture 1 particles 600 objects 3000 master 0.28125 music 0.46094 sound 0.37500
+skyboxes 1 asteroids 2 planetres 2 starfield 2 starshader 1 asteroiddensity 1 particleeffects 2 debrisdensity 1
+low
+subtitles
+credits
+tiny
+chat {0.762941 2.000000 2.000000 0.000000}
+radar {x 976 y 11 w 1 h 256 x2 1232 y2 267 fx 1170.00000 fy 8.00000 }
+status {x 761 y 52 fx 761.00000 fy 52.00000 }
+money {x 360 y 946 w 280 h 32 x2 640 y2 978 }

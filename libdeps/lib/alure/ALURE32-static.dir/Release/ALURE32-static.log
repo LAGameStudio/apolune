@@ -1,0 +1,31 @@
+﻿Build started 7/22/2010 11:12:44 PM.
+     1>Project "C:\AGAR140\libdeps\lib\alure\ALURE32-static.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "ALURE32-static.dir\Release\ALURE32-static.unsuccessfulbuild".
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:/Program Files (x86)/CMake 2.8/alure-1.0/include" /IC:/AGAR140/libdeps/lib/alure /I"C:/Program Files (x86)/OpenAL 1.1 SDK/include" /Zi /nologo /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D ALURE_STATIC_LIBRARY /D _WIN32 /D DYNLOAD=1 /D HAVE_CONFIG_H /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"ALURE32-static.dir\Release\\" /Fd"C:/AGAR140/libdeps/lib/alure/Release/ALURE32-static.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\..\..\Program Files (x86)\CMake 2.8\alure-1.0\src\streamdec.cpp"  /Zm1000 
+         streamdec.cpp
+     1>..\..\..\..\Program Files (x86)\CMake 2.8\alure-1.0\src\streamdec.cpp(186): warning C4244: '-=' : conversion from 'std::streamsize' to 'size_t', possible loss of data
+     1>..\..\..\..\Program Files (x86)\CMake 2.8\alure-1.0\src\streamdec.cpp(212): warning C4244: 'return' : conversion from 'std::streamsize' to 'ALuint', possible loss of data
+     1>..\..\..\..\Program Files (x86)\CMake 2.8\alure-1.0\src\streamdec.cpp(306): warning C4244: '=' : conversion from 'std::streamoff' to 'long', possible loss of data
+     1>..\..\..\..\Program Files (x86)\CMake 2.8\alure-1.0\src\streamdec.cpp(348): warning C4244: '-=' : conversion from 'std::streamsize' to 'size_t', possible loss of data
+     1>..\..\..\..\Program Files (x86)\CMake 2.8\alure-1.0\src\streamdec.cpp(367): warning C4244: 'return' : conversion from 'std::streamsize' to 'ALuint', possible loss of data
+     1>..\..\..\..\Program Files (x86)\CMake 2.8\alure-1.0\src\streamdec.cpp(425): warning C4244: '=' : conversion from 'std::streamoff' to 'long', possible loss of data
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\AGAR140\libdeps\lib\alure\Release\ALURE32-static.lib" /NOLOGO "ALURE32-static.dir\Release\alure.obj"
+         "ALURE32-static.dir\Release\buffer.obj"
+         "ALURE32-static.dir\Release\istream.obj"
+         "ALURE32-static.dir\Release\stream.obj"
+         "ALURE32-static.dir\Release\streamdec.obj"
+         "ALURE32-static.dir\Release\streamplay.obj"
+         ALURE32-static.vcxproj -> C:\AGAR140\libdeps\lib\alure\Release\ALURE32-static.lib
+       FinalizeBuildStatus:
+         Deleting file "ALURE32-static.dir\Release\ALURE32-static.unsuccessfulbuild".
+         Touching "ALURE32-static.dir\Release\ALURE32-static.lastbuildstate".
+     1>Done Building Project "C:\AGAR140\libdeps\lib\alure\ALURE32-static.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.07

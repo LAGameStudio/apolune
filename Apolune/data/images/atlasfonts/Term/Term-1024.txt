@@ -1,0 +1,8 @@
+name "Term-1024"
+bmfont
+img "data/images/atlasfonts/Term/Term-1024.png"
+glyphs "data/images/atlasfonts/Term/Term-1024.fnt"
+spaceWidth 108.0
+lineHeight 108.0
+base 108.0
+kern 0.0

@@ -1,0 +1,10 @@
+glyph { 0 data/images/fonts/numbers/rwwgub_Neon_Numerals-0_2.png }
+glyph { 1 data/images/fonts/numbers/rwwgub_Neon_Numerals-1_2.png }
+glyph { 2 data/images/fonts/numbers/rwwgub_Neon_Numerals-2_2.png }
+glyph { 3 data/images/fonts/numbers/rwwgub_Neon_Numerals-3_2.png }
+glyph { 4 data/images/fonts/numbers/rwwgub_Neon_Numerals-4_2.png }
+glyph { 5 data/images/fonts/numbers/rwwgub_Neon_Numerals-5_2.png }
+glyph { 6 data/images/fonts/numbers/rwwgub_Neon_Numerals-6_2.png }
+glyph { 7 data/images/fonts/numbers/rwwgub_Neon_Numerals-7_2.png }
+glyph { 8 data/images/fonts/numbers/rwwgub_Neon_Numerals-8_2.png }
+glyph { 9 data/images/fonts/numbers/rwwgub_Neon_Numerals-9_2.png }

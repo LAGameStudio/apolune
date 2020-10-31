@@ -1,0 +1,9 @@
+name "TinyTerm"
+img "data/images/atlasfonts/TermTiny.png"
+rows 16
+columns 16
+spaceWidth 8.0
+lineHeight 16.0
+base 16.0
+nearest
+kern -4.0

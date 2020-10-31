@@ -1,0 +1,7939 @@
+
+collection {name {A}
+strokes {
+stroke {name {}
+type 2
+lines {
+}
+precision {9}
+endPrecision {10}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.054479}
+y {0.652344}
+x2 {0.005000}
+}
+B {x {0.125156}
+y {-0.096146}
+x2 {1.090000}
+y2 {-0.130000}
+}
+C {x {0.820625}
+y {-0.189219}
+x2 {0.930000}
+y2 {0.760000}
+}
+D {x {0.901406}
+y {0.654948}
+x2 {-0.040000}
+y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.122396}
+thicknesses {
+}
+}
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.149844}
+y {0.390625}
+x2 {0.060000}
+}
+cadxy {x {0.799323}
+y {0.390323}
+x2 {-0.090000}
+y2 {0.001000}
+}
+}
+precision {8}
+endPrecision {2}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.11263}
+thicknesses {
+}
+}
+}
+ord {65}
+}
+collection {name {B}
+strokes {
+stroke {name {}
+type 2
+lines {
+}
+precision {11}
+endPrecision {11}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.049479}
+y {0.046875}
+}
+B {x {0.876094}
+y {0.003906}
+x2 {0.880000}
+}
+C {x {0.894792}
+y {0.397135}
+x2 {0.900000}
+y2 {1.000000}
+}
+D {x {0.053385}
+y {0.351563}
+y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.125977}
+thicknesses {
+}
+}
+stroke {name {}
+type 2
+lines {
+}
+precision {13}
+endPrecision {10}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.054688}
+y {0.347656}
+}
+B {x {1.162188}
+y {0.346354}
+x2 {1.170000}
+}
+C {x {1.192188}
+y {0.697917}
+x2 {1.200000}
+y2 {1.000000}
+}
+D {x {0.062500}
+y {0.652344}
+y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.117513}
+thicknesses {
+}
+}
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.059479}
+y {0.069479}
+x2 {0.010000}
+y2 {0.020000}
+}
+cadxy {x {0.062500}
+y {0.622812}
+y2 {-0.010000}
+}
+}
+precision {13}
+endPrecision {6}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.188477}
+thicknesses {
+}
+}
+}
+ord {66}
+}
+collection {name {C}
+strokes {
+stroke {name {}
+type 2
+lines {
+}
+precision {11}
+endPrecision {11}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.898438}
+y {0.049479}
+}
+B {x {-0.200000}
+y {-0.100000}
+x2 {0.800000}
+y2 {-0.100000}
+}
+C {x {-0.200000}
+y {0.797917}
+x2 {0.800000}
+y2 {1.100000}
+}
+D {x {0.898438}
+y {0.648438}
+y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.100911}
+thicknesses {
+}
+}
+}
+ord {67}
+}
+collection {name {D}
+strokes {
+stroke {name {}
+type 2
+lines {
+}
+precision {11}
+endPrecision {10}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.049479}
+y {0.050781}
+}
+B {x {1.071948}
+y {0.007813}
+x2 {1.167000}
+}
+C {x {1.217135}
+y {0.673823}
+x2 {1.320000}
+y2 {0.972000}
+}
+D {x {0.049479}
+y {0.650042}
+y2 {0.999000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.128906}
+thicknesses {
+}
+}
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.069479}
+y {0.049479}
+x2 {0.020000}
+}
+cadxy {x {0.069781}
+y {0.652344}
+x2 {0.019000}
+}
+}
+precision {8}
+endPrecision {2}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.163086}
+thicknesses {
+}
+}
+}
+ord {68}
+}
+collection {name {E}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.951344}
+y {0.049479}
+x2 {0.049000}
+}
+cadxy {x {0.000781}
+y {0.049479}
+x2 {-0.050000}
+}
+}
+precision {8}
+endPrecision {2}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.107747}
+thicknesses {
+}
+}
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.080781}
+y {0.098781}
+x2 {0.030000}
+y2 {0.048000}
+}
+cadxy {x {0.081385}
+y {0.600344}
+x2 {0.028000}
+y2 {-0.052000}
+}
+}
+precision {8}
+endPrecision {2}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.163411}
+thicknesses {
+}
+}
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.000781}
+y {0.651042}
+x2 {-0.050000}
+}
+cadxy {x {0.951823}
+y {0.651042}
+}
+}
+precision {8}
+endPrecision {2}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.099935}
+thicknesses {
+}
+}
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.101479}
+y {0.351563}
+x2 {0.052000}
+}
+cadxy {x {0.600260}
+y {0.351260}
+y2 {0.001000}
+}
+}
+precision {8}
+endPrecision {2}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.098958}
+thicknesses {
+}
+}
+}
+ord {69}
+}
+collection {name {F}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {y {0.049479}
+}
+cadxy {x {0.949219}
+y {0.049479}
+}
+}
+precision {8}
+endPrecision {2}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.103841}
+thicknesses {
+}
+}
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.100000}
+y {0.350135}
+x2 {0.100000}
+y2 {-0.297000}
+}
+cadxy {x {0.701917}
+y {0.350438}
+x2 {-0.246000}
+y2 {-0.298000}
+}
+}
+precision {8}
+endPrecision {2}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.114583}
+thicknesses {
+}
+}
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.069479}
+y {0.100562}
+x2 {0.020000}
+y2 {-0.001000}
+}
+cadxy {x {0.069479}
+y {0.700260}
+x2 {0.020000}
+y2 {0.100000}
+}
+}
+precision {8}
+endPrecision {2}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.141927}
+thicknesses {
+}
+}
+}
+ord {70}
+}
+collection {name {G}
+strokes {
+stroke {name {}
+type 2
+lines {
+}
+precision {13}
+endPrecision {9}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.901042}
+y {0.049479}
+}
+B {x {-0.243000}
+x2 {0.757000}
+}
+C {x {-0.197396}
+y {0.799219}
+x2 {0.800000}
+y2 {1.100000}
+}
+D {x {0.898438}
+y {0.614437}
+y2 {0.966000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.114583}
+thicknesses {
+}
+}
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.500000}
+y {0.351563}
+}
+cadxy {x {0.901042}
+y {0.351563}
+}
+cadxy {x {0.900438}
+y {0.617188}
+x2 {0.002000}
+}
+}
+precision {8}
+endPrecision {10}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.14974}
+thicknesses {
+}
+}
+}
+ord {71}
+}
+collection {name {H}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.069479}
+y {0.002604}
+x2 {0.020000}
+}
+cadxy {x {0.069479}
+y {0.700219}
+x2 {0.020000}
+y2 {0.001000}
+}
+}
+precision {8}
+endPrecision {2}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.14974}
+thicknesses {
+}
+}
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.818437}
+y {0.002604}
+x2 {-0.080000}
+}
+cadxy {x {0.818437}
+y {0.699219}
+x2 {-0.080000}
+}
+}
+precision {8}
+endPrecision {2}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.164388}
+thicknesses {
+}
+}
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.100260}
+y {0.351563}
+}
+cadxy {x {0.797479}
+y {0.351563}
+x2 {-0.002000}
+}
+}
+precision {8}
+endPrecision {2}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.072591}
+thicknesses {
+}
+}
+}
+ord {72}
+}
+collection {name {I}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {y {0.039479}
+y2 {-0.010000}
+}
+cadxy {x {0.947917}
+y {0.039479}
+y2 {-0.010000}
+}
+}
+precision {8}
+endPrecision {2}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.070638}
+thicknesses {
+}
+}
+stroke {name {}
+type 1
+lines {
+cadxy {y {0.661042}
+y2 {0.010000}
+}
+cadxy {x {0.950010}
+y {0.661042}
+x2 {0.006000}
+y2 {0.010000}
+}
+}
+precision {8}
+endPrecision {2}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.079427}
+thicknesses {
+}
+}
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.480000}
+y {0.074635}
+x2 {-0.020000}
+y2 {-0.010000}
+}
+cadxy {x {0.480000}
+y {0.621979}
+x2 {-0.020000}
+y2 {0.010000}
+}
+}
+precision {8}
+endPrecision {2}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.161458}
+thicknesses {
+}
+}
+}
+ord {73}
+}
+collection {name {J}
+strokes {
+stroke {name {}
+type 2
+lines {
+}
+precision {8}
+endPrecision {10}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.898698}
+y {0.057510}
+x2 {0.150000}
+y2 {0.051000}
+}
+B {x {0.965313}
+y {0.647917}
+x2 {1.020000}
+y2 {0.200000}
+}
+C {x {0.292917}
+y {0.868729}
+x2 {0.720000}
+y2 {1.163000}
+}
+D {x {0.107031}
+y {0.424323}
+x2 {-0.100000}
+y2 {0.910000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.113607}
+thicknesses {
+}
+}
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.898438}
+y {0.054385}
+y2 {0.001000}
+}
+cadxy {x {0.500000}
+y {0.054573}
+y2 {0.009000}
+}
+}
+precision {8}
+endPrecision {2}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.11263}
+thicknesses {
+}
+}
+}
+ord {74}
+}
+collection {name {K}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.089479}
+y {0.050000}
+x2 {0.040000}
+y2 {0.050000}
+}
+cadxy {x {0.079875}
+y {0.651823}
+x2 {0.033000}
+y2 {-0.050000}
+}
+}
+precision {5}
+endPrecision {13}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.181641}
+thicknesses {
+}
+}
+stroke {name {}
+type 2
+lines {
+}
+precision {7}
+endPrecision {10}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.898438}
+y {0.059479}
+y2 {0.010000}
+}
+B {x {0.790625}
+y {0.265573}
+x2 {0.900000}
+y2 {-0.030000}
+}
+C {x {0.486979}
+y {0.334063}
+x2 {1.000000}
+y2 {0.920000}
+}
+D {x {0.133385}
+y {0.355573}
+x2 {0.080000}
+y2 {1.060000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.11849}
+thicknesses {
+}
+}
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.580260}
+y {0.284375}
+x2 {-0.020000}
+y2 {0.050000}
+}
+cadxy {x {0.891042}
+y {0.643042}
+x2 {-0.010000}
+y2 {-0.008000}
+}
+}
+precision {8}
+endPrecision {10}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.120443}
+thicknesses {
+}
+}
+}
+ord {75}
+}
+collection {name {L}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.079479}
+x2 {0.030000}
+}
+cadxy {x {0.079479}
+y {0.699219}
+x2 {0.030000}
+}
+}
+precision {8}
+endPrecision {2}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.163411}
+thicknesses {
+}
+}
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.101563}
+y {0.621042}
+y2 {-0.030000}
+}
+cadxy {x {0.953125}
+y {0.621042}
+y2 {-0.030000}
+}
+}
+precision {8}
+endPrecision {2}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.158529}
+thicknesses {
+}
+}
+}
+ord {76}
+}
+collection {name {M}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.072781}
+y {0.701823}
+x2 {0.022000}
+}
+cadxy {x {0.072875}
+y {0.050781}
+x2 {0.026000}
+}
+}
+precision {8}
+endPrecision {2}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.142904}
+thicknesses {
+}
+}
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.888219}
+y {0.052479}
+x2 {-0.061000}
+y2 {0.003000}
+}
+cadxy {x {0.888219}
+y {0.701823}
+x2 {-0.061000}
+}
+}
+precision {8}
+endPrecision {2}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.136068}
+thicknesses {
+}
+}
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.053385}
+y {0.049479}
+}
+cadxy {x {0.472656}
+y {0.398438}
+}
+cadxy {x {0.897437}
+y {0.053385}
+x2 {-0.001000}
+}
+}
+precision {8}
+endPrecision {12}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.109701}
+thicknesses {
+}
+}
+}
+ord {77}
+}
+collection {name {N}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.071479}
+y {0.700219}
+x2 {0.022000}
+y2 {0.001000}
+}
+cadxy {x {0.071875}
+y {0.053385}
+x2 {0.025000}
+}
+}
+precision {8}
+endPrecision {2}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.139974}
+thicknesses {
+}
+}
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.881042}
+y {0.053385}
+x2 {-0.020000}
+}
+cadxy {x {0.881042}
+y {0.648823}
+x2 {-0.020000}
+y2 {-0.053000}
+}
+}
+precision {8}
+endPrecision {2}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.155599}
+thicknesses {
+}
+}
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.050781}
+y {0.054688}
+}
+cadxy {x {0.900438}
+y {0.648438}
+x2 {0.002000}
+}
+}
+precision {8}
+endPrecision {14}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.11849}
+thicknesses {
+}
+}
+}
+ord {78}
+}
+collection {name {O}
+strokes {
+stroke {name {}
+type 2
+lines {
+}
+precision {9}
+endPrecision {14}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.451302}
+y {0.050781}
+x2 {-0.050000}
+}
+B {x {-0.080000}
+x2 {0.920000}
+}
+C {x {-0.088698}
+y {0.703125}
+x2 {0.910000}
+y2 {1.000000}
+}
+D {x {0.457396}
+y {0.654948}
+x2 {-0.040000}
+y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.110026}
+thicknesses {
+}
+}
+stroke {name {}
+type 2
+lines {
+}
+precision {10}
+endPrecision {10}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.450000}
+y {0.050781}
+x2 {-0.050000}
+}
+B {x {1.044792}
+y {0.002604}
+x2 {1.050000}
+}
+C {x {1.036094}
+y {0.699219}
+x2 {1.040000}
+y2 {1.000000}
+}
+D {x {0.458698}
+y {0.654344}
+x2 {-0.040000}
+y2 {1.002000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.111654}
+thicknesses {
+}
+}
+}
+ord {79}
+}
+collection {name {P}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.074781}
+y {0.622344}
+x2 {0.024000}
+y2 {-0.030000}
+}
+cadxy {x {0.074969}
+y {0.069479}
+x2 {0.032000}
+y2 {0.020000}
+}
+}
+precision {8}
+endPrecision {13}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.155599}
+thicknesses {
+}
+}
+stroke {name {}
+type 2
+lines {
+}
+precision {9}
+endPrecision {12}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.054688}
+y {0.049479}
+}
+B {x {1.196094}
+x2 {1.200000}
+}
+C {x {1.198698}
+y {0.402344}
+x2 {1.200000}
+y2 {1.000000}
+}
+D {x {0.053385}
+y {0.351563}
+y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.098958}
+thicknesses {
+}
+}
+}
+ord {80}
+}
+collection {name {Q}
+strokes {
+stroke {name {}
+type 2
+lines {
+}
+precision {9}
+endPrecision {10}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.472656}
+y {0.049479}
+}
+B {x {-0.090000}
+x2 {0.910000}
+}
+C {x {-0.086094}
+y {0.695313}
+x2 {0.910000}
+y2 {1.000000}
+}
+D {x {0.471354}
+y {0.648438}
+y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.106771}
+thicknesses {
+}
+}
+stroke {name {}
+type 2
+lines {
+}
+precision {10}
+endPrecision {10}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.471354}
+y {0.049479}
+}
+B {x {1.036094}
+y {0.002604}
+x2 {1.040000}
+}
+C {x {1.038698}
+y {0.695313}
+x2 {1.040000}
+y2 {1.000000}
+}
+D {x {0.471354}
+y {0.648438}
+y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.105794}
+thicknesses {
+}
+}
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.651156}
+y {0.499656}
+x2 {0.116000}
+y2 {0.152000}
+}
+cadxy {x {0.897135}
+y {0.795438}
+y2 {0.147000}
+}
+}
+precision {8}
+endPrecision {10}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.119466}
+thicknesses {
+}
+}
+}
+ord {81}
+}
+collection {name {R}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.052781}
+y {0.701562}
+x2 {0.002000}
+y2 {0.100000}
+}
+cadxy {x {0.052781}
+y {0.053385}
+x2 {0.002000}
+}
+}
+precision {8}
+endPrecision {2}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.102865}
+thicknesses {
+}
+}
+stroke {name {}
+type 2
+lines {
+}
+precision {12}
+endPrecision {10}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.053385}
+y {0.053385}
+}
+B {x {1.194792}
+y {0.002604}
+x2 {1.200000}
+}
+C {x {1.196094}
+y {0.398438}
+x2 {1.200000}
+y2 {1.000000}
+}
+D {x {0.050781}
+y {0.351563}
+y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.101888}
+thicknesses {
+}
+}
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.561198}
+y {0.338542}
+}
+cadxy {x {0.908438}
+y {0.652344}
+x2 {0.010000}
+}
+}
+precision {8}
+endPrecision {11}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.099935}
+thicknesses {
+}
+}
+}
+ord {82}
+}
+collection {name {S}
+strokes {
+stroke {name {}
+type 2
+lines {
+}
+precision {8}
+endPrecision {13}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.898438}
+y {0.055479}
+y2 {0.006000}
+}
+B {y {-0.030000}
+x2 {1.000000}
+y2 {-0.030000}
+}
+C {x {-0.262396}
+y {0.321042}
+x2 {0.735000}
+y2 {0.920000}
+}
+D {x {0.496094}
+y {0.334167}
+y2 {0.980000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.102865}
+thicknesses {
+}
+}
+stroke {name {}
+type 2
+lines {
+}
+precision {8}
+endPrecision {13}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.494792}
+y {0.334167}
+y2 {-0.020000}
+}
+B {x {1.094792}
+y {0.300781}
+x2 {1.100000}
+}
+C {x {1.100000}
+y {0.697917}
+x2 {1.100000}
+y2 {1.000000}
+}
+D {x {0.046875}
+y {0.651042}
+y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.105794}
+thicknesses {
+}
+}
+}
+ord {83}
+}
+collection {name {T}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {y {0.050781}
+}
+cadxy {x {0.947917}
+y {0.050781}
+}
+}
+precision {8}
+endPrecision {2}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.101888}
+thicknesses {
+}
+}
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.500000}
+y {0.101260}
+y2 {0.001000}
+}
+cadxy {x {0.500000}
+y {0.701823}
+}
+}
+precision {8}
+endPrecision {2}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.183919}
+thicknesses {
+}
+}
+}
+ord {84}
+}
+collection {name {U}
+strokes {
+stroke {name {}
+type 2
+lines {
+}
+precision {13}
+endPrecision {14}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.049479}
+y {0.050781}
+}
+B {x {-0.010000}
+y {0.759219}
+x2 {0.990000}
+y2 {0.060000}
+}
+C {x {0.999219}
+y {0.981823}
+x2 {1.050000}
+y2 {1.280000}
+}
+D {x {0.898438}
+y {0.049479}
+y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.144857}
+thicknesses {
+}
+}
+}
+ord {85}
+}
+collection {name {V}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.056875}
+y {0.056875}
+x2 {0.010000}
+y2 {0.010000}
+}
+cadxy {x {0.499167}
+y {0.652344}
+x2 {0.020000}
+}
+cadxy {x {0.908438}
+y {0.060781}
+x2 {0.010000}
+y2 {0.010000}
+}
+}
+precision {8}
+endPrecision {11}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.11556}
+thicknesses {
+}
+}
+}
+ord {86}
+}
+collection {name {W}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.059479}
+y {0.060781}
+x2 {0.010000}
+y2 {0.010000}
+}
+cadxy {x {0.248698}
+y {0.641042}
+y2 {-0.010000}
+}
+cadxy {x {0.476563}
+y {0.300781}
+}
+cadxy {x {0.697917}
+y {0.641042}
+y2 {-0.010000}
+}
+cadxy {x {0.888437}
+y {0.059479}
+x2 {-0.010000}
+y2 {0.010000}
+}
+}
+precision {8}
+endPrecision {11}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.130208}
+thicknesses {
+}
+}
+}
+ord {87}
+}
+collection {name {X}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.056875}
+y {0.050781}
+x2 {0.010000}
+}
+cadxy {x {0.898438}
+y {0.652344}
+}
+}
+precision {8}
+endPrecision {12}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.11556}
+thicknesses {
+}
+}
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.057292}
+y {0.651042}
+}
+cadxy {x {0.897135}
+y {0.050781}
+}
+}
+precision {8}
+endPrecision {12}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.11849}
+thicknesses {
+}
+}
+}
+ord {88}
+}
+collection {name {Y}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.476000}
+y {0.351042}
+x2 {-0.024000}
+y2 {-0.050000}
+}
+cadxy {x {0.477000}
+y {0.652344}
+x2 {-0.023000}
+}
+}
+precision {8}
+endPrecision {10}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.171224}
+thicknesses {
+}
+}
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.049479}
+y {0.049479}
+}
+cadxy {x {0.476563}
+y {0.351563}
+}
+cadxy {x {0.901042}
+y {0.049479}
+}
+}
+precision {8}
+endPrecision {6}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.119466}
+thicknesses {
+}
+}
+}
+ord {89}
+}
+collection {name {Z}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.049479}
+y {0.050781}
+}
+cadxy {x {0.898438}
+y {0.050781}
+}
+cadxy {x {0.049479}
+y {0.651042}
+}
+cadxy {x {0.898438}
+y {0.651042}
+}
+}
+precision {8}
+endPrecision {11}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.097005}
+thicknesses {
+}
+}
+}
+ord {90}
+}
+collection {name {Exclamation}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.498698}
+y {0.000781}
+y2 {-0.050000}
+}
+cadxy {x {0.499094}
+y {0.550000}
+x2 {0.003000}
+y2 {0.050000}
+}
+}
+precision {8}
+endPrecision {2}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.202474}
+thicknesses {
+}
+}
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.500000}
+y {0.748438}
+y2 {0.100000}
+}
+}
+precision {8}
+endPrecision {6}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.170247}
+thicknesses {
+}
+}
+}
+ord {33}
+}
+collection {name {Left Bracket}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.899219}
+y {0.049479}
+x2 {-0.050000}
+}
+cadxy {x {0.050875}
+y {0.049479}
+x2 {0.004000}
+}
+cadxy {x {0.050573}
+y {0.902219}
+x2 {0.005000}
+y2 {-0.047000}
+}
+cadxy {x {0.903823}
+y {0.902344}
+x2 {-0.048000}
+}
+}
+precision {8}
+endPrecision {4}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.175781}
+thicknesses {
+}
+}
+}
+ord {91}
+}
+collection {name {Right Bracket}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.050781}
+y {0.050781}
+}
+cadxy {x {0.897135}
+y {0.049479}
+}
+cadxy {x {0.897135}
+y {0.898437}
+y2 {0.250000}
+}
+cadxy {x {0.049479}
+y {0.898042}
+y2 {0.247000}
+}
+}
+precision {8}
+endPrecision {4}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.160156}
+thicknesses {
+}
+}
+}
+ord {93}
+}
+collection {name {a}
+strokes {
+stroke {name {}
+type 2
+lines {
+}
+precision {8}
+endPrecision {6}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.057813}
+y {0.655312}
+x2 {0.050000}
+y2 {-0.040000}
+}
+B {x {0.196875}
+y {0.105729}
+x2 {0.900000}
+y2 {-0.100000}
+}
+C {x {0.803125}
+y {0.105729}
+x2 {1.100000}
+y2 {0.900000}
+}
+D {x {0.890000}
+y {0.651823}
+x2 {-0.110000}
+y2 {0.950000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.150716}
+thicknesses {
+}
+}
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.148385}
+y {0.535156}
+x2 {-0.030000}
+}
+cadxy {x {0.813385}
+y {0.534875}
+x2 {0.010000}
+y2 {-0.012000}
+}
+}
+precision {8}
+endPrecision {2}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.156576}
+thicknesses {
+}
+}
+}
+ord {97}
+}
+collection {name {b}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.080781}
+y {0.053385}
+x2 {0.030000}
+}
+cadxy {x {0.080479}
+y {0.651042}
+x2 {0.031000}
+}
+}
+precision {8}
+endPrecision {6}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.17513}
+thicknesses {
+}
+}
+stroke {name {}
+type 2
+lines {
+}
+precision {9}
+endPrecision {11}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.059479}
+y {0.355469}
+x2 {0.010000}
+}
+B {x {1.174948}
+y {0.250000}
+x2 {1.270000}
+}
+C {x {1.198438}
+y {0.694010}
+x2 {1.300000}
+y2 {1.000000}
+}
+D {x {0.059479}
+y {0.651042}
+x2 {0.010000}
+y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.111654}
+thicknesses {
+}
+}
+}
+ord {98}
+}
+collection {name {c}
+strokes {
+stroke {name {}
+type 2
+lines {
+}
+precision {11}
+endPrecision {9}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.857656}
+y {0.231563}
+x2 {0.010000}
+y2 {-0.120000}
+}
+B {x {-0.400000}
+y {0.300000}
+x2 {0.600000}
+y2 {0.300000}
+}
+C {x {0.010417}
+y {0.701823}
+x2 {1.000000}
+y2 {1.000000}
+}
+D {x {0.850260}
+y {0.651042}
+y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.127279}
+thicknesses {
+}
+}
+}
+ord {99}
+}
+collection {name {d}
+strokes {
+stroke {name {}
+type 2
+lines {
+}
+precision {12}
+endPrecision {11}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.894042}
+y {0.354167}
+x2 {-0.007000}
+}
+B {x {-0.300000}
+y {0.300000}
+x2 {0.700000}
+y2 {0.300000}
+}
+C {x {-0.177865}
+y {0.742448}
+x2 {0.800000}
+y2 {0.900000}
+}
+D {x {0.898438}
+y {0.648438}
+y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.109701}
+thicknesses {
+}
+}
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.868135}
+y {0.050781}
+x2 {-0.029000}
+}
+cadxy {x {0.868438}
+y {0.648438}
+x2 {-0.030000}
+}
+}
+precision {8}
+endPrecision {2}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.177083}
+thicknesses {
+}
+}
+}
+ord {100}
+}
+collection {name {e}
+strokes {
+stroke {name {}
+type 2
+lines {
+}
+precision {12}
+endPrecision {9}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.900260}
+y {0.250260}
+x2 {0.050000}
+y2 {-0.100000}
+}
+B {x {-0.140469}
+y {0.173438}
+x2 {0.840000}
+y2 {-0.100000}
+}
+C {x {-0.340521}
+y {0.704948}
+x2 {0.610000}
+y2 {1.050000}
+}
+D {x {0.899656}
+y {0.651042}
+x2 {0.052000}
+y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.122396}
+thicknesses {
+}
+}
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.901042}
+y {0.260260}
+y2 {-0.090000}
+}
+cadxy {x {0.131979}
+y {0.580719}
+x2 {-0.230000}
+y2 {-0.056000}
+}
+}
+precision {8}
+endPrecision {6}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.125326}
+thicknesses {
+}
+}
+}
+ord {101}
+}
+collection {name {f}
+strokes {
+stroke {name {}
+type 2
+lines {
+}
+precision {6}
+endPrecision {10}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.842448}
+y {0.054688}
+}
+B {x {0.140625}
+y {0.050781}
+x2 {1.310000}
+}
+C {x {0.148438}
+y {0.230469}
+x2 {1.000000}
+y2 {1.000000}
+}
+D {x {0.342448}
+y {0.651042}
+y2 {1.013000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.099935}
+thicknesses {
+}
+}
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.003854}
+y {0.353750}
+x2 {-0.280000}
+y2 {0.010000}
+}
+cadxy {x {0.556250}
+y {0.353750}
+x2 {-0.100000}
+y2 {0.010000}
+}
+}
+precision {8}
+endPrecision {2}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.08138}
+thicknesses {
+}
+}
+}
+ord {102}
+}
+collection {name {g}
+strokes {
+stroke {name {}
+type 2
+lines {
+}
+precision {8}
+endPrecision {8}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.847656}
+y {0.248698}
+}
+B {x {-0.272656}
+y {0.183594}
+x2 {0.700000}
+}
+C {x {-0.189583}
+y {0.699219}
+x2 {0.800000}
+y2 {1.000000}
+}
+D {x {0.836354}
+y {0.651042}
+x2 {-0.010000}
+y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.138021}
+thicknesses {
+}
+}
+stroke {name {}
+type 2
+lines {
+}
+precision {8}
+endPrecision {10}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.857656}
+y {0.250000}
+x2 {0.010000}
+}
+B {x {0.881094}
+y {0.648854}
+x2 {1.010000}
+y2 {-0.010000}
+}
+C {x {0.950260}
+y {0.961354}
+x2 {1.100000}
+y2 {0.990000}
+}
+D {x {0.073385}
+y {0.917917}
+x2 {0.020000}
+y2 {0.970000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.164388}
+thicknesses {
+}
+}
+}
+ord {103}
+}
+collection {name {h}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.089479}
+y {0.040781}
+x2 {0.040000}
+y2 {-0.010000}
+}
+cadxy {x {0.089781}
+y {0.631042}
+x2 {0.039000}
+y2 {-0.020000}
+}
+}
+precision {9}
+endPrecision {6}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.182617}
+thicknesses {
+}
+}
+stroke {name {}
+type 2
+lines {
+}
+precision {8}
+endPrecision {6}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.050781}
+y {0.351563}
+}
+B {x {0.850260}
+y {0.221354}
+x2 {1.000000}
+}
+C {x {0.929688}
+y {0.377604}
+x2 {1.000000}
+y2 {1.000000}
+}
+D {x {0.898438}
+y {0.651042}
+y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.11263}
+thicknesses {
+}
+}
+}
+ord {104}
+}
+collection {name {i}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.495573}
+y {0.240437}
+x2 {0.200000}
+y2 {0.092000}
+}
+cadxy {x {0.495875}
+y {0.701562}
+x2 {0.199000}
+y2 {0.350000}
+}
+}
+precision {8}
+endPrecision {2}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.186849}
+thicknesses {
+}
+}
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.496479}
+y {0.054948}
+x2 {0.197000}
+y2 {-0.100000}
+}
+}
+precision {8}
+endPrecision {10}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.191732}
+thicknesses {
+}
+}
+}
+ord {105}
+}
+collection {name {j}
+strokes {
+stroke {name {}
+type 2
+lines {
+}
+precision {8}
+endPrecision {6}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.498698}
+y {0.300781}
+}
+B {x {1.179167}
+y {0.982292}
+x2 {1.200000}
+y2 {0.300000}
+}
+C {x {-0.067708}
+y {1.186979}
+x2 {0.500000}
+y2 {1.200000}
+}
+D {x {0.045573}
+y {0.651042}
+y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.111654}
+thicknesses {
+}
+}
+}
+ord {106}
+}
+collection {name {k}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.076875}
+x2 {0.030000}
+}
+cadxy {x {0.076875}
+y {0.701823}
+x2 {0.030000}
+}
+}
+precision {8}
+endPrecision {2}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.169271}
+thicknesses {
+}
+}
+stroke {name {}
+type 2
+lines {
+}
+precision {8}
+endPrecision {11}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.702344}
+y {0.151042}
+x2 {0.050000}
+}
+B {x {0.648438}
+y {0.500000}
+x2 {1.000000}
+}
+C {x {0.045573}
+y {0.500000}
+x2 {1.000000}
+y2 {1.000000}
+}
+D {x {0.049479}
+y {0.358073}
+y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.106771}
+thicknesses {
+}
+}
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.546875}
+y {0.373698}
+}
+cadxy {x {0.897135}
+y {0.652438}
+y2 {0.004000}
+}
+}
+precision {8}
+endPrecision {8}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.11263}
+thicknesses {
+}
+}
+}
+ord {107}
+}
+collection {name {l}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.496875}
+y {0.002604}
+x2 {0.450000}
+}
+cadxy {x {0.497573}
+y {0.699219}
+x2 {0.452000}
+}
+}
+precision {8}
+endPrecision {2}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.196615}
+thicknesses {
+}
+}
+}
+ord {108}
+}
+collection {name {m}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.070781}
+y {0.220781}
+x2 {0.020000}
+y2 {-0.080000}
+}
+cadxy {x {0.070479}
+y {0.641219}
+x2 {0.021000}
+y2 {-0.058000}
+}
+}
+precision {8}
+endPrecision {6}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.154622}
+thicknesses {
+}
+}
+stroke {name {}
+type 2
+lines {
+}
+precision {7}
+endPrecision {11}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.089479}
+y {0.472344}
+x2 {0.040000}
+y2 {0.070000}
+}
+B {x {0.137969}
+y {0.202760}
+x2 {0.970000}
+y2 {0.040000}
+}
+C {x {0.492188}
+y {0.152344}
+x2 {1.000000}
+y2 {1.000000}
+}
+D {x {0.519219}
+y {0.546875}
+x2 {0.070000}
+y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.180013}
+thicknesses {
+}
+}
+stroke {name {}
+type 2
+lines {
+}
+precision {8}
+endPrecision {6}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.511823}
+y {0.526875}
+x2 {0.060000}
+y2 {-0.020000}
+}
+B {x {0.520000}
+y {0.144531}
+x2 {1.020000}
+}
+C {x {0.972344}
+y {0.140625}
+x2 {1.070000}
+y2 {1.000000}
+}
+D {x {0.901042}
+y {0.637344}
+y2 {0.985000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.156576}
+thicknesses {
+}
+}
+}
+ord {109}
+}
+collection {name {n}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.074573}
+y {0.252604}
+x2 {0.029000}
+}
+cadxy {x {0.074573}
+y {0.652344}
+x2 {0.029000}
+}
+}
+precision {8}
+endPrecision {10}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.159505}
+thicknesses {
+}
+}
+stroke {name {}
+type 2
+lines {
+}
+precision {6}
+endPrecision {15}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.093385}
+y {0.401823}
+x2 {0.040000}
+y2 {-0.050000}
+}
+B {x {0.336250}
+y {0.102135}
+x2 {1.180000}
+y2 {0.080000}
+}
+C {x {0.970625}
+y {0.026042}
+x2 {1.080000}
+y2 {1.000000}
+}
+D {x {0.857656}
+y {0.648438}
+x2 {0.010000}
+y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.183919}
+thicknesses {
+}
+}
+}
+ord {110}
+}
+collection {name {o}
+strokes {
+stroke {name {}
+type 2
+lines {
+}
+precision {8}
+endPrecision {10}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.476563}
+y {0.252604}
+}
+B {x {-0.079740}
+y {0.228698}
+x2 {0.820000}
+y2 {-0.020000}
+}
+C {x {-0.109740}
+y {0.682344}
+x2 {0.790000}
+y2 {1.030000}
+}
+D {x {0.472656}
+y {0.654948}
+y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.108724}
+thicknesses {
+}
+}
+stroke {name {}
+type 2
+lines {
+}
+precision {7}
+endPrecision {7}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.500000}
+y {0.252604}
+}
+B {x {1.094792}
+y {0.205729}
+x2 {1.100000}
+}
+C {x {0.988281}
+y {0.697917}
+x2 {1.000000}
+y2 {1.000000}
+}
+D {x {0.503906}
+y {0.656250}
+y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.109701}
+thicknesses {
+}
+}
+}
+ord {111}
+}
+collection {name {p}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.089479}
+y {0.266510}
+x2 {0.040000}
+y2 {0.010000}
+}
+cadxy {x {0.089479}
+y {0.949219}
+x2 {0.040000}
+}
+}
+precision {8}
+endPrecision {10}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.183919}
+thicknesses {
+}
+}
+stroke {name {}
+type 2
+lines {
+}
+precision {8}
+endPrecision {8}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.079479}
+y {0.250260}
+x2 {0.030000}
+y2 {-0.100000}
+}
+B {x {1.193260}
+y {0.209635}
+x2 {1.218000}
+}
+C {x {1.208885}
+y {0.707031}
+x2 {1.218000}
+y2 {1.000000}
+}
+D {x {0.069479}
+y {0.648438}
+x2 {0.020000}
+y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.145508}
+thicknesses {
+}
+}
+}
+ord {112}
+}
+collection {name {q}
+strokes {
+stroke {name {}
+type 2
+lines {
+}
+precision {8}
+endPrecision {10}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.901042}
+y {0.255573}
+y2 {-0.040000}
+}
+B {x {-0.245677}
+y {0.063906}
+x2 {0.740000}
+y2 {-0.190000}
+}
+C {x {-0.248281}
+y {0.755313}
+x2 {0.740000}
+y2 {1.060000}
+}
+D {x {0.898438}
+y {0.644531}
+y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.100911}
+thicknesses {
+}
+}
+stroke {name {}
+type 2
+lines {
+}
+precision {4}
+endPrecision {6}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.894531}
+y {0.205729}
+}
+B {x {0.898438}
+y {0.945313}
+x2 {1.000000}
+}
+C {x {0.894531}
+y {0.945313}
+x2 {1.000000}
+y2 {1.000000}
+}
+D {x {0.998698}
+y {0.949219}
+y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.103841}
+thicknesses {
+}
+}
+}
+ord {113}
+}
+collection {name {r}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.090875}
+y {0.197917}
+x2 {0.044000}
+}
+cadxy {x {0.090781}
+y {0.653135}
+x2 {0.040000}
+y2 {0.006000}
+}
+}
+precision {8}
+endPrecision {6}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.186849}
+thicknesses {
+}
+}
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.059479}
+y {0.351563}
+x2 {0.010000}
+}
+cadxy {x {0.947135}
+y {0.240000}
+x2 {0.050000}
+y2 {-0.010000}
+}
+}
+precision {8}
+endPrecision {2}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.119466}
+thicknesses {
+}
+}
+}
+ord {114}
+}
+collection {name {s}
+strokes {
+stroke {name {}
+type 2
+lines {
+}
+precision {6}
+endPrecision {10}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.847656}
+y {0.252604}
+}
+B {x {0.306510}
+y {0.140625}
+x2 {0.800000}
+}
+C {x {-0.435937}
+y {0.427604}
+x2 {0.400000}
+y2 {1.300000}
+}
+D {x {0.483073}
+y {0.434844}
+y2 {0.970000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.134115}
+thicknesses {
+}
+}
+stroke {name {}
+type 2
+lines {
+}
+precision {8}
+endPrecision {10}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.498698}
+y {0.428750}
+y2 {-0.040000}
+}
+B {x {1.094792}
+y {0.412760}
+x2 {1.100000}
+}
+C {x {1.100885}
+y {0.699219}
+x2 {1.110000}
+y2 {1.000000}
+}
+D {x {0.050781}
+y {0.651042}
+y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.128255}
+thicknesses {
+}
+}
+}
+ord {115}
+}
+collection {name {t}
+strokes {
+stroke {name {}
+type 2
+lines {
+}
+precision {8}
+endPrecision {11}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.502604}
+y {0.096354}
+}
+B {x {0.440104}
+y {0.647135}
+x2 {1.000000}
+}
+C {x {0.440104}
+y {0.647135}
+x2 {1.000000}
+y2 {1.000000}
+}
+D {x {0.650260}
+y {0.651042}
+x2 {0.050000}
+y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.158529}
+thicknesses {
+}
+}
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.056875}
+y {0.202604}
+x2 {-0.240000}
+y2 {-0.050000}
+}
+cadxy {x {0.899219}
+y {0.202604}
+x2 {0.200000}
+y2 {-0.050000}
+}
+}
+precision {8}
+endPrecision {10}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.11263}
+thicknesses {
+}
+}
+}
+ord {116}
+}
+collection {name {u}
+strokes {
+stroke {name {}
+type 2
+lines {
+}
+precision {9}
+endPrecision {14}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.050781}
+y {0.248438}
+y2 {0.100000}
+}
+B {x {0.016510}
+y {0.825313}
+x2 {1.010000}
+y2 {0.130000}
+}
+C {x {0.996979}
+y {0.817500}
+x2 {1.010000}
+y2 {1.130000}
+}
+D {x {0.901042}
+y {0.251042}
+y2 {1.100000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.130208}
+thicknesses {
+}
+}
+}
+ord {117}
+}
+collection {name {v}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.049479}
+y {0.299479}
+}
+cadxy {x {0.498698}
+y {0.652344}
+}
+cadxy {x {0.898438}
+y {0.299479}
+}
+}
+precision {8}
+endPrecision {10}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.102865}
+thicknesses {
+}
+}
+}
+ord {118}
+}
+collection {name {w}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.050781}
+y {0.310260}
+y2 {-0.040000}
+}
+cadxy {x {0.260000}
+y {0.651042}
+x2 {0.010000}
+}
+cadxy {x {0.475260}
+y {0.351563}
+}
+cadxy {x {0.679219}
+y {0.654948}
+x2 {-0.020000}
+}
+cadxy {x {0.898438}
+y {0.311562}
+y2 {-0.040000}
+}
+}
+precision {8}
+endPrecision {10}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.136068}
+thicknesses {
+}
+}
+}
+ord {119}
+}
+collection {name {x}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.050781}
+y {0.250260}
+y2 {-0.100000}
+}
+cadxy {x {0.900260}
+y {0.648438}
+x2 {0.050000}
+}
+}
+precision {8}
+endPrecision {11}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.114583}
+thicknesses {
+}
+}
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.049479}
+y {0.651042}
+}
+cadxy {x {0.897656}
+y {0.251562}
+x2 {0.050000}
+y2 {-0.100000}
+}
+}
+precision {8}
+endPrecision {14}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.113607}
+thicknesses {
+}
+}
+}
+ord {120}
+}
+collection {name {y}
+strokes {
+stroke {name {}
+type 2
+lines {
+}
+precision {10}
+endPrecision {11}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.053385}
+y {0.250000}
+}
+B {x {0.003906}
+y {0.701823}
+x2 {1.000000}
+}
+C {x {0.998698}
+y {0.701823}
+x2 {1.000000}
+y2 {1.000000}
+}
+D {x {0.898438}
+y {0.250000}
+y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.122396}
+thicknesses {
+}
+}
+stroke {name {}
+type 2
+lines {
+}
+precision {8}
+endPrecision {10}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.901042}
+y {0.250000}
+}
+B {x {0.894531}
+y {0.914063}
+x2 {1.000000}
+}
+C {x {0.889323}
+y {0.932292}
+x2 {1.000000}
+y2 {1.000000}
+}
+D {x {0.151042}
+y {0.951823}
+y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.11556}
+thicknesses {
+}
+}
+}
+ord {121}
+}
+collection {name {z}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.053385}
+y {0.248604}
+y2 {-0.004000}
+}
+cadxy {x {0.898438}
+y {0.248698}
+}
+cadxy {x {0.046875}
+y {0.651042}
+}
+cadxy {x {0.900260}
+y {0.651042}
+x2 {0.050000}
+}
+}
+precision {8}
+endPrecision {11}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.103841}
+thicknesses {
+}
+}
+}
+ord {122}
+}
+collection {name {Period}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.498698}
+y {0.688698}
+y2 {-0.060000}
+}
+}
+precision {8}
+endPrecision {6}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.213867}
+thicknesses {
+}
+}
+}
+ord {46}
+}
+collection {name {Left Brace}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.739062}
+y {0.899823}
+x2 {0.200000}
+y2 {-0.052000}
+}
+cadxy {x {0.451219}
+y {0.899219}
+x2 {0.002000}
+y2 {-0.050000}
+}
+cadxy {x {0.451823}
+y {0.600260}
+}
+cadxy {x {0.296875}
+y {0.470000}
+y2 {-0.030000}
+}
+cadxy {x {0.453125}
+y {0.351042}
+y2 {-0.050000}
+}
+cadxy {x {0.453125}
+y {0.050781}
+}
+cadxy {x {0.750781}
+y {0.050781}
+x2 {0.200000}
+}
+}
+precision {8}
+endPrecision {8}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.103841}
+thicknesses {
+}
+}
+}
+ord {123}
+}
+collection {name {Right Brace}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.253906}
+y {0.049479}
+}
+cadxy {x {0.550781}
+y {0.049479}
+}
+cadxy {x {0.545573}
+y {0.345573}
+y2 {0.050000}
+}
+cadxy {x {0.704010}
+y {0.448438}
+x2 {0.010000}
+y2 {0.050000}
+}
+cadxy {x {0.545573}
+y {0.552604}
+y2 {0.050000}
+}
+cadxy {x {0.545573}
+y {0.903531}
+y2 {0.009000}
+}
+cadxy {x {0.242188}
+y {0.904042}
+y2 {0.003000}
+}
+}
+precision {8}
+endPrecision {11}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.104818}
+thicknesses {
+}
+}
+}
+ord {125}
+}
+collection {name {0}
+strokes {
+stroke {name {}
+type 2
+lines {
+}
+precision {10}
+endPrecision {10}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.475260}
+y {0.053385}
+}
+B {x {-0.100000}
+x2 {0.900000}
+}
+C {x {-0.097396}
+y {0.701823}
+x2 {0.900000}
+y2 {1.000000}
+}
+D {x {0.475260}
+y {0.652344}
+y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.109701}
+thicknesses {
+}
+}
+stroke {name {}
+type 2
+lines {
+}
+precision {8}
+endPrecision {11}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.475260}
+y {0.053385}
+}
+B {x {1.052188}
+y {0.007813}
+x2 {1.060000}
+}
+C {x {1.046979}
+y {0.691406}
+x2 {1.060000}
+y2 {1.000000}
+}
+D {x {0.475260}
+y {0.652344}
+y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.111654}
+thicknesses {
+}
+}
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.700781}
+y {0.061198}
+x2 {0.400000}
+}
+cadxy {x {0.253594}
+y {0.627604}
+x2 {-0.430000}
+}
+}
+precision {8}
+endPrecision {2}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.073568}
+thicknesses {
+}
+}
+}
+ord {48}
+}
+collection {name {1}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.199219}
+y {0.199219}
+}
+cadxy {x {0.500000}
+y {0.049479}
+}
+cadxy {x {0.500000}
+y {0.651042}
+}
+}
+precision {8}
+endPrecision {6}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.194336}
+thicknesses {
+}
+}
+}
+ord {49}
+}
+collection {name {2}
+strokes {
+stroke {name {}
+type 2
+lines {
+}
+precision {8}
+endPrecision {6}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.225260}
+y {0.226563}
+}
+B {x {0.800885}
+y {-0.241406}
+x2 {1.060000}
+y2 {-0.300000}
+}
+C {x {0.967187}
+y {0.277604}
+x2 {1.100000}
+y2 {0.900000}
+}
+D {x {0.252604}
+y {0.648438}
+y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.101888}
+thicknesses {
+}
+}
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.252604}
+y {0.651042}
+}
+cadxy {x {0.750000}
+y {0.651042}
+}
+}
+precision {8}
+endPrecision {6}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.107747}
+thicknesses {
+}
+}
+}
+ord {50}
+}
+collection {name {3}
+strokes {
+stroke {name {}
+type 2
+lines {
+}
+precision {8}
+endPrecision {9}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.199219}
+y {0.197917}
+}
+B {x {0.567448}
+y {-0.174375}
+x2 {1.100000}
+y2 {-0.190000}
+}
+C {x {1.030729}
+y {0.215885}
+x2 {1.200000}
+y2 {1.100000}
+}
+D {x {0.457031}
+y {0.356250}
+y2 {0.950000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.102865}
+thicknesses {
+}
+}
+stroke {name {}
+type 2
+lines {
+}
+precision {8}
+endPrecision {11}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.455729}
+y {0.354948}
+y2 {-0.050000}
+}
+B {x {0.988281}
+y {0.402344}
+x2 {1.000000}
+}
+C {x {1.092188}
+y {0.699219}
+x2 {1.100000}
+y2 {1.000000}
+}
+D {x {0.199219}
+y {0.648438}
+y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.103841}
+thicknesses {
+}
+}
+}
+ord {51}
+}
+collection {name {4}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.257823}
+y {0.097656}
+x2 {0.056000}
+}
+cadxy {x {0.257917}
+y {0.453125}
+x2 {0.060000}
+}
+cadxy {x {0.719479}
+y {0.453219}
+x2 {-0.080000}
+y2 {0.004000}
+}
+}
+precision {8}
+endPrecision {6}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.15918}
+thicknesses {
+}
+}
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.651563}
+y {0.050781}
+x2 {0.050000}
+}
+cadxy {x {0.651563}
+y {0.651042}
+x2 {0.050000}
+}
+}
+precision {8}
+endPrecision {6}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.180664}
+thicknesses {
+}
+}
+}
+ord {52}
+}
+collection {name {5}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.791479}
+y {0.054385}
+x2 {-0.008000}
+y2 {0.001000}
+}
+cadxy {x {0.299479}
+y {0.054479}
+y2 {0.005000}
+}
+cadxy {x {0.299479}
+y {0.314167}
+y2 {-0.040000}
+}
+}
+precision {8}
+endPrecision {9}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.164063}
+thicknesses {
+}
+}
+stroke {name {}
+type 2
+lines {
+}
+precision {8}
+endPrecision {10}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.299479}
+y {0.344167}
+y2 {-0.010000}
+}
+B {x {1.098698}
+y {0.184167}
+x2 {1.100000}
+y2 {0.080000}
+}
+C {x {1.096094}
+y {0.697917}
+x2 {1.100000}
+y2 {1.000000}
+}
+D {x {0.299479}
+y {0.651042}
+y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.151367}
+thicknesses {
+}
+}
+}
+ord {53}
+}
+collection {name {6}
+strokes {
+stroke {name {}
+type 2
+lines {
+}
+precision {5}
+endPrecision {10}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.697917}
+y {0.050781}
+}
+B {x {0.483073}
+y {0.039063}
+x2 {1.000000}
+}
+C {x {0.240885}
+y {0.156250}
+x2 {1.000000}
+y2 {1.000000}
+}
+D {x {0.250000}
+y {0.402344}
+y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.099935}
+thicknesses {
+}
+}
+stroke {name {}
+type 2
+lines {
+}
+precision {6}
+endPrecision {12}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.498698}
+y {0.300781}
+}
+B {x {0.105729}
+y {0.253906}
+x2 {0.900000}
+}
+C {x {0.201823}
+y {0.703125}
+x2 {1.000000}
+y2 {1.000000}
+}
+D {x {0.500000}
+y {0.652344}
+y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.11263}
+thicknesses {
+}
+}
+stroke {name {}
+type 2
+lines {
+}
+precision {7}
+endPrecision {10}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.500000}
+y {0.300781}
+}
+B {x {1.082604}
+y {0.239479}
+x2 {1.330000}
+y2 {-0.060000}
+}
+C {x {1.000000}
+y {0.651042}
+x2 {1.250000}
+y2 {1.000000}
+}
+D {x {0.500000}
+y {0.652344}
+y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.114583}
+thicknesses {
+}
+}
+}
+ord {54}
+}
+collection {name {7}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.152604}
+y {0.050781}
+x2 {-0.100000}
+}
+cadxy {x {0.701823}
+y {0.050781}
+}
+cadxy {x {0.248698}
+y {0.648438}
+}
+}
+precision {8}
+endPrecision {12}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.136068}
+thicknesses {
+}
+}
+}
+ord {55}
+}
+collection {name {8}
+strokes {
+stroke {name {}
+type 2
+lines {
+}
+precision {7}
+endPrecision {11}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.498698}
+y {0.053385}
+}
+B {x {0.052344}
+y {0.100417}
+x2 {0.900000}
+y2 {0.090000}
+}
+C {x {0.258437}
+y {0.328438}
+x2 {1.110000}
+y2 {0.930000}
+}
+D {x {0.498698}
+y {0.347656}
+y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.100911}
+thicknesses {
+}
+}
+stroke {name {}
+type 2
+lines {
+}
+precision {6}
+endPrecision {6}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.498698}
+y {0.049479}
+}
+B {x {0.836875}
+y {0.050781}
+x2 {1.040000}
+}
+C {x {0.839479}
+y {0.354167}
+x2 {1.040000}
+y2 {1.000000}
+}
+D {x {0.500000}
+y {0.347656}
+y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.097982}
+thicknesses {
+}
+}
+stroke {name {}
+type 2
+lines {
+}
+precision {8}
+endPrecision {9}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.498698}
+y {0.347656}
+}
+B {x {0.000260}
+y {0.303385}
+x2 {0.900000}
+}
+C {x {0.000260}
+y {0.699219}
+x2 {0.900000}
+y2 {1.000000}
+}
+D {x {0.500000}
+y {0.651042}
+y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.097005}
+thicknesses {
+}
+}
+stroke {name {}
+type 2
+lines {
+}
+precision {8}
+endPrecision {7}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.498698}
+y {0.346354}
+}
+B {x {0.998698}
+y {0.303385}
+x2 {1.000000}
+}
+C {x {0.996094}
+y {0.697917}
+x2 {1.000000}
+y2 {1.000000}
+}
+D {x {0.498698}
+y {0.651042}
+y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.099935}
+thicknesses {
+}
+}
+}
+ord {56}
+}
+collection {name {9}
+strokes {
+stroke {name {}
+type 2
+lines {
+}
+precision {5}
+endPrecision {11}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.498698}
+y {0.049479}
+}
+B {x {0.199219}
+y {0.003906}
+x2 {1.000000}
+}
+C {x {0.199219}
+y {0.397135}
+x2 {1.000000}
+y2 {1.000000}
+}
+D {x {0.500000}
+y {0.354167}
+y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.105794}
+thicknesses {
+}
+}
+stroke {name {}
+type 2
+lines {
+}
+precision {5}
+endPrecision {13}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.501302}
+y {0.046875}
+}
+B {x {0.895833}
+y {0.006510}
+x2 {1.000000}
+}
+C {x {1.095833}
+y {0.483229}
+x2 {1.200000}
+y2 {1.090000}
+}
+D {x {0.498698}
+y {0.355469}
+y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.10319}
+thicknesses {
+}
+}
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.805990}
+y {0.354167}
+}
+cadxy {x {0.498177}
+y {0.711042}
+x2 {-0.050000}
+y2 {0.060000}
+}
+}
+precision {7}
+endPrecision {2}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.097982}
+thicknesses {
+}
+}
+}
+ord {57}
+}
+collection {name {At}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.502604}
+y {0.498698}
+}
+}
+precision {8}
+endPrecision {6}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.376302}
+thicknesses {
+}
+}
+stroke {name {}
+type 2
+lines {
+}
+precision {6}
+endPrecision {11}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.643229}
+y {0.494792}
+}
+B {x {0.983073}
+y {0.502604}
+x2 {1.000000}
+}
+C {x {0.983073}
+y {0.023438}
+x2 {1.000000}
+y2 {1.000000}
+}
+D {x {0.500000}
+y {0.097656}
+y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.129232}
+thicknesses {
+}
+}
+stroke {name {}
+type 2
+lines {
+}
+precision {8}
+endPrecision {8}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.498698}
+y {0.097656}
+}
+B {x {0.011719}
+y {0.053385}
+x2 {1.000000}
+}
+C {x {0.019531}
+y {0.984375}
+x2 {1.000000}
+y2 {1.000000}
+}
+D {x {0.500000}
+y {0.904948}
+y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.134115}
+thicknesses {
+}
+}
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.500000}
+y {0.901042}
+}
+cadxy {x {0.697917}
+y {0.898438}
+}
+}
+precision {8}
+endPrecision {10}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.137044}
+thicknesses {
+}
+}
+}
+ord {64}
+}
+collection {name {Asterisk}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.091823}
+y {0.451823}
+x2 {-0.110000}
+}
+cadxy {x {0.906354}
+y {0.451917}
+x2 {0.060000}
+y2 {0.004000}
+}
+}
+precision {8}
+endPrecision {2}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.11556}
+thicknesses {
+}
+}
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.201823}
+y {0.104167}
+}
+cadxy {x {0.796875}
+y {0.795573}
+}
+}
+precision {8}
+endPrecision {2}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.106771}
+thicknesses {
+}
+}
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.169219}
+y {0.826875}
+x2 {-0.030000}
+y2 {0.030000}
+}
+cadxy {x {0.799479}
+y {0.091563}
+y2 {-0.010000}
+}
+}
+precision {8}
+endPrecision {2}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.11263}
+thicknesses {
+}
+}
+}
+ord {42}
+}
+collection {name {Caret}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.250000}
+y {0.211042}
+y2 {0.060000}
+}
+cadxy {x {0.498698}
+y {0.039479}
+y2 {-0.010000}
+}
+cadxy {x {0.755313}
+y {0.204948}
+x2 {0.060000}
+y2 {0.050000}
+}
+}
+precision {8}
+endPrecision {6}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.096029}
+thicknesses {
+}
+}
+}
+ord {94}
+}
+collection {name {Dollar}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.498698}
+y {-0.046094}
+y2 {-0.050000}
+}
+cadxy {x {0.498094}
+y {0.177917}
+x2 {0.002000}
+y2 {-0.020000}
+}
+}
+precision {8}
+endPrecision {6}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.100911}
+thicknesses {
+}
+}
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.497698}
+y {1.061823}
+x2 {-0.001000}
+y2 {0.110000}
+}
+cadxy {x {0.497094}
+y {0.788698}
+x2 {0.001000}
+y2 {0.040000}
+}
+}
+precision {8}
+endPrecision {6}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.103841}
+thicknesses {
+}
+}
+stroke {name {}
+type 2
+lines {
+}
+precision {5}
+endPrecision {6}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.740781}
+y {0.164687}
+x2 {-0.060000}
+y2 {-0.140000}
+}
+B {x {0.259167}
+y {0.211667}
+x2 {1.030000}
+y2 {-0.080000}
+}
+C {x {0.315104}
+y {0.117917}
+x2 {1.000000}
+y2 {0.920000}
+}
+D {x {0.220000}
+y {0.302344}
+x2 {-0.030000}
+y2 {0.900000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.095052}
+thicknesses {
+}
+}
+stroke {name {}
+type 2
+lines {
+}
+precision {4}
+endPrecision {6}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.242604}
+y {0.307292}
+x2 {-0.010000}
+}
+B {x {0.164063}
+y {0.437604}
+x2 {1.000000}
+y2 {0.060000}
+}
+C {x {0.459635}
+y {0.378906}
+x2 {1.000000}
+y2 {1.000000}
+}
+D {x {0.901042}
+y {0.475260}
+y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.108724}
+thicknesses {
+}
+}
+stroke {name {}
+type 2
+lines {
+}
+precision {4}
+endPrecision {6}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.904948}
+y {0.480469}
+}
+B {x {0.945313}
+y {0.746094}
+x2 {1.000000}
+}
+C {x {0.722656}
+y {0.783854}
+x2 {1.000000}
+y2 {1.000000}
+}
+D {x {0.203125}
+y {0.815104}
+y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.103841}
+thicknesses {
+}
+}
+}
+ord {36}
+}
+collection {name {Percent}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.060781}
+y {0.850260}
+x2 {0.010000}
+}
+cadxy {x {0.902604}
+y {0.148438}
+x2 {0.150000}
+}
+}
+precision {8}
+endPrecision {6}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.117513}
+thicknesses {
+}
+}
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.197917}
+y {0.201823}
+}
+}
+precision {8}
+endPrecision {6}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.242513}
+thicknesses {
+}
+}
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.799479}
+y {0.799219}
+y2 {0.100000}
+}
+}
+precision {8}
+endPrecision {6}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.24056}
+thicknesses {
+}
+}
+}
+ord {37}
+}
+collection {name {Pound}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.261823}
+y {0.002604}
+x2 {0.060000}
+}
+cadxy {x {0.261823}
+y {0.847656}
+x2 {0.060000}
+}
+}
+precision {8}
+endPrecision {2}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.129883}
+thicknesses {
+}
+}
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.042604}
+y {0.199219}
+x2 {0.040000}
+}
+cadxy {x {0.906875}
+y {0.199219}
+x2 {0.110000}
+}
+}
+precision {8}
+endPrecision {2}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.154297}
+thicknesses {
+}
+}
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.040000}
+y {0.652344}
+x2 {0.040000}
+}
+cadxy {x {0.906875}
+y {0.652344}
+x2 {0.110000}
+}
+}
+precision {8}
+endPrecision {2}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.102865}
+thicknesses {
+}
+}
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.649479}
+x2 {0.100000}
+}
+cadxy {x {0.649781}
+y {0.847656}
+x2 {0.099000}
+}
+}
+precision {8}
+endPrecision {2}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.155273}
+thicknesses {
+}
+}
+}
+ord {35}
+}
+collection {name {Backtick}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.037656}
+y {0.041562}
+x2 {-0.060000}
+y2 {-0.060000}
+}
+cadxy {x {0.199479}
+y {0.199479}
+x2 {-0.100000}
+y2 {-0.100000}
+}
+}
+precision {8}
+endPrecision {9}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.083333}
+thicknesses {
+}
+}
+}
+ord {96}
+}
+collection {name {Equals}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.097917}
+y {0.201823}
+x2 {-0.100000}
+}
+cadxy {x {0.860781}
+y {0.201823}
+x2 {0.060000}
+}
+}
+precision {8}
+endPrecision {2}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.121419}
+thicknesses {
+}
+}
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.099219}
+y {0.549479}
+x2 {-0.100000}
+}
+cadxy {x {0.859479}
+y {0.549479}
+x2 {0.060000}
+}
+}
+precision {8}
+endPrecision {2}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.123372}
+thicknesses {
+}
+}
+}
+ord {61}
+}
+collection {name {Underscore}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {y {0.951823}
+}
+cadxy {x {1.000000}
+y {0.951823}
+}
+}
+precision {8}
+endPrecision {2}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.100911}
+thicknesses {
+}
+}
+}
+ord {95}
+}
+collection {name {Pipe}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.500000}
+}
+cadxy {x {0.500000}
+y {1.000000}
+}
+}
+precision {8}
+endPrecision {2}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.182943}
+thicknesses {
+}
+}
+}
+ord {124}
+}
+collection {name {Slash}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.101042}
+y {0.950260}
+x2 {-0.050000}
+y2 {0.100000}
+}
+cadxy {x {0.897656}
+y {0.050781}
+x2 {0.050000}
+}
+}
+precision {8}
+endPrecision {11}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.117513}
+thicknesses {
+}
+}
+}
+ord {47}
+}
+collection {name {Backslash}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.248438}
+y {0.053385}
+x2 {0.100000}
+}
+cadxy {x {0.896875}
+y {0.950000}
+x2 {0.100000}
+y2 {0.200000}
+}
+}
+precision {8}
+endPrecision {9}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.100911}
+thicknesses {
+}
+}
+}
+ord {92}
+}
+collection {name {Plus}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.468698}
+y {0.062604}
+x2 {-0.030000}
+y2 {-0.190000}
+}
+cadxy {x {0.468698}
+y {0.679219}
+x2 {-0.030000}
+y2 {-0.020000}
+}
+}
+precision {8}
+endPrecision {2}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.139974}
+thicknesses {
+}
+}
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.036604}
+y {0.380000}
+x2 {-0.216000}
+y2 {-0.120000}
+}
+cadxy {x {0.906698}
+y {0.380000}
+x2 {0.158000}
+y2 {-0.120000}
+}
+}
+precision {8}
+endPrecision {2}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.119466}
+thicknesses {
+}
+}
+}
+ord {43}
+}
+collection {name {-}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.250000}
+y {0.398438}
+}
+cadxy {x {0.746094}
+y {0.398438}
+}
+}
+precision {8}
+endPrecision {2}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.175}
+thicknesses {
+}
+}
+}
+ord {45}
+}
+collection {name {Colon}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.491000}
+y {0.203125}
+x2 {-0.009000}
+}
+}
+precision {8}
+endPrecision {6}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.263021}
+thicknesses {
+}
+}
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.490698}
+y {0.650781}
+x2 {-0.008000}
+y2 {0.100000}
+}
+}
+precision {8}
+endPrecision {6}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.265951}
+thicknesses {
+}
+}
+}
+ord {58}
+}
+collection {name {Semicolon}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.490000}
+y {0.700000}
+x2 {-0.010000}
+y2 {-0.050000}
+}
+}
+precision {8}
+endPrecision {6}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.259115}
+thicknesses {
+}
+}
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.576406}
+y {0.685156}
+x2 {0.010000}
+y2 {-0.100000}
+}
+cadxy {x {0.377917}
+y {1.009219}
+x2 {-0.070000}
+y2 {0.060000}
+}
+}
+precision {8}
+endPrecision {2}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.097005}
+thicknesses {
+}
+}
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.500000}
+y {0.198698}
+y2 {-0.050000}
+}
+}
+precision {8}
+endPrecision {6}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.269857}
+thicknesses {
+}
+}
+}
+ord {59}
+}
+collection {name {Comma}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.500000}
+y {0.750000}
+}
+}
+precision {8}
+endPrecision {6}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.175}
+thicknesses {
+}
+}
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.553385}
+y {0.762969}
+y2 {-0.030000}
+}
+cadxy {x {0.459635}
+y {0.957031}
+}
+}
+precision {8}
+endPrecision {12}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.070638}
+thicknesses {
+}
+}
+}
+ord {44}
+}
+collection {name {Left Parenthesis}
+strokes {
+stroke {name {}
+type 2
+lines {
+}
+precision {11}
+endPrecision {9}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.701042}
+y {0.050781}
+x2 {0.050000}
+}
+B {x {0.060000}
+y {-0.040000}
+x2 {1.060000}
+y2 {-0.040000}
+}
+C {x {-0.257396}
+y {0.937135}
+x2 {0.740000}
+y2 {1.040000}
+}
+D {x {0.697135}
+y {0.904167}
+x2 {0.050000}
+y2 {1.050000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.097005}
+thicknesses {
+}
+}
+}
+ord {40}
+}
+collection {name {Right Parenthesis}
+strokes {
+stroke {name {}
+type 2
+lines {
+}
+precision {12}
+endPrecision {10}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.299479}
+y {0.049479}
+}
+B {x {1.026094}
+y {-0.047396}
+x2 {1.030000}
+y2 {-0.050000}
+}
+C {x {1.194792}
+y {0.897135}
+x2 {1.200000}
+y2 {1.000000}
+}
+D {x {0.296875}
+y {0.910260}
+y2 {1.060000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.094076}
+thicknesses {
+}
+}
+}
+ord {41}
+}
+collection {name {Ampersand}
+strokes {
+stroke {name {}
+type 2
+lines {
+}
+precision {6}
+endPrecision {6}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.669219}
+y {0.199219}
+x2 {-0.030000}
+}
+B {x {0.822656}
+y {-0.088281}
+x2 {1.100000}
+y2 {-0.100000}
+}
+C {x {0.257813}
+y {0.065104}
+x2 {1.000000}
+y2 {1.000000}
+}
+D {x {0.299479}
+y {0.296875}
+y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.086263}
+thicknesses {
+}
+}
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.300781}
+y {0.300781}
+}
+cadxy {x {0.951562}
+y {0.954167}
+x2 {0.100000}
+y2 {0.100000}
+}
+}
+precision {6}
+endPrecision {2}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.079427}
+thicknesses {
+}
+}
+stroke {name {}
+type 2
+lines {
+}
+precision {4}
+endPrecision {6}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.671823}
+y {0.203125}
+x2 {-0.030000}
+}
+B {x {0.501823}
+y {0.401042}
+x2 {0.800000}
+}
+C {x {0.541667}
+y {0.253906}
+x2 {1.000000}
+y2 {1.000000}
+}
+D {x {0.365885}
+y {0.371094}
+y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.08431}
+thicknesses {
+}
+}
+stroke {name {}
+type 2
+lines {
+}
+precision {10}
+endPrecision {8}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.361979}
+y {0.371094}
+}
+B {x {-0.437500}
+y {0.610156}
+x2 {1.000000}
+}
+C {x {0.679948}
+y {1.386979}
+x2 {0.900000}
+y2 {1.400000}
+}
+D {x {0.838542}
+y {0.580729}
+y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.098958}
+thicknesses {
+}
+}
+}
+ord {38}
+}
+collection {name {Tilde}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.177917}
+y {0.345573}
+x2 {-0.020000}
+y2 {0.050000}
+}
+cadxy {x {0.411042}
+y {0.071042}
+x2 {0.010000}
+y2 {-0.080000}
+}
+cadxy {x {0.600260}
+y {0.347656}
+}
+cadxy {x {0.855573}
+y {0.081823}
+x2 {0.060000}
+y2 {-0.120000}
+}
+}
+precision {8}
+endPrecision {9}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.169271}
+thicknesses {
+}
+}
+}
+ord {126}
+}
+collection {name {<}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.748698}
+y {0.046875}
+}
+cadxy {x {0.141406}
+y {0.450000}
+x2 {-0.050000}
+y2 {-0.050000}
+}
+cadxy {x {0.746094}
+y {0.905312}
+y2 {-0.040000}
+}
+}
+precision {8}
+endPrecision {10}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.142904}
+thicknesses {
+}
+}
+}
+ord {60}
+}
+collection {name {>}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.148698}
+y {0.054688}
+x2 {-0.100000}
+}
+cadxy {x {0.747656}
+y {0.451823}
+x2 {-0.100000}
+}
+cadxy {x {0.146094}
+y {0.901042}
+x2 {-0.100000}
+}
+}
+precision {8}
+endPrecision {10}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.140951}
+thicknesses {
+}
+}
+}
+ord {62}
+}
+collection {name {Apostrophe}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.500000}
+y {0.006510}
+}
+cadxy {x {0.499792}
+y {0.201823}
+x2 {0.005000}
+}
+}
+precision {8}
+endPrecision {6}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.175}
+thicknesses {
+}
+}
+}
+ord {39}
+}
+collection {name {Quote}
+strokes {
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.350260}
+}
+cadxy {x {0.350260}
+y {0.248698}
+}
+}
+precision {8}
+endPrecision {6}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.175}
+thicknesses {
+}
+}
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.647135}
+}
+cadxy {x {0.647135}
+y {0.250000}
+}
+}
+precision {8}
+endPrecision {6}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.175}
+thicknesses {
+}
+}
+}
+ord {34}
+}
+collection {name {Question}
+strokes {
+stroke {name {}
+type 2
+lines {
+}
+precision {8}
+endPrecision {7}
+scale {x {1.000000}
+y {1.000000}
+}
+A {x {0.299479}
+y {0.099219}
+y2 {-0.100000}
+}
+B {x {0.532292}
+y {-0.080469}
+x2 {1.100000}
+y2 {-0.100000}
+}
+C {x {0.985156}
+y {0.235417}
+x2 {1.200000}
+y2 {1.100000}
+}
+D {x {0.498698}
+y {0.436198}
+y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.100911}
+thicknesses {
+}
+}
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.496000}
+y {0.436198}
+x2 {-0.004000}
+}
+cadxy {x {0.496094}
+y {0.699219}
+}
+}
+precision {8}
+endPrecision {6}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.152669}
+thicknesses {
+}
+}
+stroke {name {}
+type 1
+lines {
+cadxy {x {0.500000}
+y {0.941406}
+}
+}
+precision {8}
+endPrecision {9}
+scale {x {1.000000}
+y {1.000000}
+}
+A {}
+B {x2 {1.000000}
+}
+C {x2 {1.000000}
+y2 {1.000000}
+}
+D {y2 {1.000000}
+}
+circle {x {0.0}
+y {0.0}
+z {0.0}
+R {0.0}
+precision {0}
+}
+tintA {#00000000}
+tintB {#00000000}
+tintC {#00000000}
+tintD {#00000000}
+thickness {0.175}
+thicknesses {
+}
+}
+}
+ord {63}
+}

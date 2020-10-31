@@ -1,0 +1,1 @@
+#undef HAVE_MATH_C99
