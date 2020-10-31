@@ -1,7 +1,9 @@
 Apolune and the Lost Astronaut Game Creation Framework
 ======================================================
 
-This is the Lost Astronaut Game Creation Framework, along with the commercial Apolune Game (artwork reduced from commercially available version) as an implementation example, organized as a Visual Studio (2017) solution.
+This is the Lost Astronaut Game Creation Framework ...
+
+... along with the commercial Apolune Game (artwork reduced from commercially available version) as an implementation example, organized as a Visual Studio (2017) solution.
 
 This game creation framework has taken well over 10 years of my life to develop.  At various times it has been licensed to companies that I managed, for projects I developed, in the commercial computer graphics space.  In particular one company, PieceMaker Technologies Inc., of which I held an equity stake, allowed me to reuse non-application-level code I developed, so in this way the framework has had some indirect funding applied to it.
 
@@ -29,7 +31,7 @@ Feel free to create Pull requests with fixes and suggested improvements only aft
 
 ## License
 
-Any original artwork not licensed elsewhere and unique to this software is licensed under CC BY NC ND 4.0 and should be replaced if you wish to make a commercial product.  This artwork is found in the ``/data`` folder.
+Any original artwork not licensed elsewhere and unique to this software is licensed under CC BY NC ND 4.0 and should be replaced if you wish to make a commercial product.  This artwork is found in the ``/data`` folder (https://github.com/LAGameStudio/apolune/tree/trunk/Apolune/data)
 
 As it states in the LICENSE file, this work is licensed, unless otherwise indicated, under the AGPL V3 or greater, providing a framework for creating additional open source and is rather permissive.  If you wish to purchase an exception to this license, feel free to contact the author directly.
 
