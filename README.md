@@ -5,6 +5,48 @@ This is the Lost Astronaut Game Creation Framework, along with the commercial Ap
 
 This game creation framework has taken well over 10 years of my life to develop.  At various times it has been licensed to companies that I managed, for projects I developed, in the commercial computer graphics space.  In particular one company, PieceMaker Technologies Inc., of which I held an equity stake, allowed me to reuse non-application-level code I developed, so in this way the framework has had some indirect funding applied to it.
 
+Lost Astronaut Studios (lostastronaut.com) will adapt portions of this code for use in a new proprietary game engine project, but by and large we are releasing it because:
+
+1) It's in a space that always needs more input, so it adds value to the spaces it interacts with (software, image analysis, automation, graphics and gaming)
+2) It would be useful for third parties who wish to produce transparent research and small independent developers who wish to learn and make games
+3) It is solely a Windows targetted project, and is stuck in the Win32 legacy, and when the project started Windows Desktop Users represented over 76% of all gamers, but today that number is more like 24%.   While useful for producing Windows Desktop games, it wouldn't easily be ported to any other platform including the Xbox (though it might work on the Xbox with some effort).
+4) It is built on the aging OpenGL library, a tried-but-true-but-deprecated library from Khronos, and thus is stuck in the throws of that beast
+5) It contains over a decade of distilled knowledge and shows an evolution in home PC entertainment
+6) It is useful for makers and DIY enthusiasts
+7) It is powerful and will empower people who choose to learn it
+
+## License
+
+Any original artwork not licensed elsewhere and unique to this software is licensed under CC BY NC ND 4.0 and should be replaced if you wish to make a commercial product.  This artwork is found in the ``/data`` folder.
+
+As it states in the LICENSE file, this work is licensed, unless otherwise indicated, under the AGPL V3 or greater, providing a framework for creating additional open source and is rather permissive.  If you wish to purchase an exception to this license, feel free to contact the author directly.
+
+The licensed does not cover third party code, snippets and libraries, only the work unique to this framework.  Most of the other work is either in the public domain or, more commonly, in an MIT or MIT-compatible license (some are BSD or 3 Clause).  The library inventory was vetted by attorneys in 2015 when it was licensed to PieceMaker and used in a retail setting at Toys-R-Us for commercial purposes, so it has already been combed for any copyright violations or patent infringements.
+
+Note that if you remove a section you should not remove any copyright notices.  If a file or section of a file that is desired to be used in another project does not have a copyright notice, then, to assure compliance, please use the following snippet and place it at the beginning of the section or file:
+
+```
+--- SNIPPET STARTS
+/*********************************************************************************************
+ *  __    __________________   ________________________________   __________  ________       *
+ * /\ \  /\  __ \  ___\__  _\ /\  __ \  ___\__  _\  == \  __ \ "-.\ \  __ \ \/\ \__  _\ (tm) *
+ * \ \ \_\_\ \/\ \___  \/\ \/ \ \  __ \___  \/\ \/\  __<\ \/\ \ \-.  \  __ \ \_\ \/\ \/      *
+ *  \ \_____\_____\_____\ \_\  \ \_\ \_\_____\ \_\ \_\ \_\_____\_\\"\_\_\ \_\_____\ \_\      *
+ *   \/_____/_____/_____/\/_/   \/_/\/_/_____/\/_/\/_/\/_/_____/_/ \/_/_/\/_/_____/\/_/      *
+ *    --------------------------------------------------------------------------------       *
+ *     Lost Astronaut Game Development Framework (c) 2007-2017 H. Elwood Gilliland III       *
+ *********************************************************************************************
+ * This software is copyrighted software.  Use of this code is given only with permission to *
+ * parties who have been granted such permission by its author, Herbert Elwood Gilliland III *
+ * LICENSE:  AGPL 3.0 or greater                                                             *
+ *********************************************************************************************/
+--- SNIPPET ENDS
+```
+
+## Donations
+
+As the primary author, initiator and only vested official team member, I do appreciate donations and any donations will be used to fund making of video tutorials, documentation and code cleanup.
+
 ## Features
 A massive 1800+ class 1400 file extravaganza of OpenGL, WinAPI, OpenAL and many other features, written in Visual Studio for over a decade!  
 
