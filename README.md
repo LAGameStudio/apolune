@@ -15,6 +15,18 @@ Lost Astronaut Studios (lostastronaut.com) will adapt portions of this code for 
 6) It is useful for makers and DIY enthusiasts
 7) It is powerful and will empower people who choose to learn it
 
+## Donations and Contribution
+
+As the primary author, initiator and only vested official team member, I do appreciate donations and any donations will be used to fund making of video tutorials, documentation and code cleanup.  
+
+Another great way to support the project is to buy our games on STEAM, which you may find by visiting LostAstronaut.com
+
+#### Feel free to make requests by reporting issues, as they will be considered and appropriately prioritized.
+
+#### Fork us
+
+Feel free to create Pull requests with fixes and suggested improvements only after you have tested them.  Explain why you are making the request in the comment section of the request.
+
 ## License
 
 Any original artwork not licensed elsewhere and unique to this software is licensed under CC BY NC ND 4.0 and should be replaced if you wish to make a commercial product.  This artwork is found in the ``/data`` folder.
@@ -44,9 +56,6 @@ Note that if you remove a section you should not remove any copyright notices.  
 --- SNIPPET ENDS
 ```
 
-## Donations
-
-As the primary author, initiator and only vested official team member, I do appreciate donations and any donations will be used to fund making of video tutorials, documentation and code cleanup.
 
 ## Features
 A massive 1800+ class 1400 file extravaganza of OpenGL, WinAPI, OpenAL and many other features, written in Visual Studio for over a decade!  
