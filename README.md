@@ -19,7 +19,7 @@ Lost Astronaut Studios (lostastronaut.com) will adapt portions of this code for 
 
 As the primary author, initiator and only vested official team member, I do appreciate donations and any donations will be used to fund making of video tutorials, documentation and code cleanup.  
 
-Another great way to support the project is to buy our games on STEAM, which you may find by visiting LostAstronaut.com
+Another great way to support the project is to buy our games on STEAM, which you may find by visiting LostAstronaut.com or by searching steam for "Apolune" and looking for "Lost Astronaut Studios" on the Store pages.
 
 #### Feel free to make requests by reporting issues, as they will be considered and appropriately prioritized.
 
