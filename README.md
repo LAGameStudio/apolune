@@ -5,7 +5,7 @@ This is the Lost Astronaut Game Creation Framework, along with the commercial Ap
 
 This game creation framework has taken well over 10 years of my life to develop.  At various times it has been licensed to companies that I managed, for projects I developed, in the commercial computer graphics space.  In particular one company, PieceMaker Technologies Inc., of which I held an equity stake, allowed me to reuse non-application-level code I developed, so in this way the framework has had some indirect funding applied to it.
 
-Lost Astronaut Studios (lostastronaut.com) will adapt portions of this code for use in a new proprietary game engine project, but by and large we are releasing it because:
+Lost Astronaut Studios (lostastronaut.com) will adapt portions of this code for use in a new proprietary game engine project, but I am releasing it because:
 
 1) It's in a space that always needs more input, so it adds value to the spaces it interacts with (software, image analysis, automation, graphics and gaming)
 2) It would be useful for third parties who wish to produce transparent research and small independent developers who wish to learn and make games
