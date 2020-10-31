@@ -1,7 +1,7 @@
 Apolune and the Lost Astronaut Game Creation Framework
 ======================================================
 
-This is the Lost Astronaut Game Creation Framework, along with the commercial Apolune Game as an implementation example, organized as a Visual Studio (2017) solution.
+This is the Lost Astronaut Game Creation Framework, along with the commercial Apolune Game (artwork reduced from commercially available version) as an implementation example, organized as a Visual Studio (2017) solution.
 
 This game creation framework has taken well over 10 years of my life to develop.  At various times it has been licensed to companies that I managed, for projects I developed, in the commercial computer graphics space.  In particular one company, PieceMaker Technologies Inc., of which I held an equity stake, allowed me to reuse non-application-level code I developed, so in this way the framework has had some indirect funding applied to it.
 
