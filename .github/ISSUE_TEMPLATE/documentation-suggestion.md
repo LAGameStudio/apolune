@@ -1,0 +1,23 @@
+---
+name: Documentation suggestion
+about: To request a video, schematic or API documentation and/or usage example
+title: "[DOC] Feature name..."
+labels: documentation
+assignees: ''
+
+---
+
+Files:  (list of files)
+
+Idea for documentation / Request for Documentation
+
+Example lead-ins:
+
+I'd like to see a video demonstrating....  
+It would be good if you drew a schematic describing....
+Can we see a GraphViz relational diagram / butterfly chart of the classes....
+Could you create a document describing the use of....
+Could you include an Examples and Tests tutorial implementation using....
+
+... because I'm confused about ... 
+... because I want to use this for ...
