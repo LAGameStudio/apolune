@@ -33,7 +33,7 @@ Adding justification is fine, especially around complicated technical features t
 
 I call single word, single line or in-line comments a "brain nudge" -- just something to explain something that may not initially appear one way, and instead may appear another way which would lead a hurried developer down the wrong path.  Especially when you return to code and are confused multiple times, it is good to have these brief "nudges"
 
-## Naming conventions, specific notes on commenting, etc.
+## Code Standards: Naming conventions, specific notes on commenting, etc.
 
 #### I recommend that you follow this pattern:
 
