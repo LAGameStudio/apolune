@@ -23,6 +23,8 @@ Lost Astronaut Studios (lostastronaut.com) will adapt portions of this code for 
 6) It is useful for makers and DIY enthusiasts
 7) It is powerful and will empower people who choose to learn it
 
+Come find us on our Discord.  DM "@Retrofriends" to start a conversation with the author.  https://discord.gg/MduSuX3
+
 ## Donations and Contribution
 
 ### If you download this project, please Star it.   
