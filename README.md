@@ -19,6 +19,12 @@ Lost Astronaut Studios (lostastronaut.com) will adapt portions of this code for 
 
 ## Donations and Contribution
 
+#### If you download this project, please Star it.   
+
+#### If you care about this project, please Sponsor it, or Contribute (see CONTRIBUTING.md for more information)
+
+#### If you use this project, please Watch it.
+
 As the primary author, initiator and only vested official team member, I do appreciate donations and any donations will be used to fund making of video tutorials, documentation and code cleanup.  
 
 Another great way to support the project is to buy our games on STEAM, which you may find by visiting LostAstronaut.com or by searching steam for "Apolune" and looking for "Lost Astronaut Studios" on the Store pages.
@@ -27,7 +33,7 @@ Another great way to support the project is to buy our games on STEAM, which you
 
 #### Fork us
 
-Feel free to create Pull requests with fixes and suggested improvements only after you have tested them.  Explain why you are making the request in the comment section of the request.
+Feel free to create Pull requests with fixes and suggested improvements only after you have tested them.  Explain why you are making the request in the comment section of the request.  We have a lax but optional Pull Request Template.
 
 ## License
 
