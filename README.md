@@ -5,6 +5,8 @@ This is the Lost Astronaut Game Creation Framework ...
 
 ... along with the commercial Apolune Game (artwork reduced from commercially available version) as an implementation example, organized as a Visual Studio (2017) solution.
 
+Written in Visual C++ for Win32 using WinAPI as a WinProc Application.  Does not use SDL.  External dependencies kept to a minimum.
+
 This game creation framework has taken well over 10 years of my life to develop.  At various times it has been licensed to companies that I managed, for projects I developed, in the commercial computer graphics space.  In particular one company, PieceMaker Technologies Inc., of which I held an equity stake, allowed me to reuse non-application-level code I developed, so in this way the framework has had some indirect funding applied to it.
 
 Lost Astronaut Studios (lostastronaut.com) will adapt portions of this code for use in a new proprietary game engine project, but I am releasing it because:
@@ -19,19 +21,19 @@ Lost Astronaut Studios (lostastronaut.com) will adapt portions of this code for 
 
 ## Donations and Contribution
 
-#### If you download this project, please Star it.   
+### If you download this project, please Star it.   
 
-#### If you use this project, please Watch it.
+### If you use this project, please Watch it.
 
-#### If you care about this project, please Sponsor it, or Contribute (see CONTRIBUTING.md for more information)
+### If you care about this project, please Sponsor it, or Contribute (see CONTRIBUTING.md for more information)
 
 As the primary author, initiator and only vested official team member, I do appreciate donations and any donations will be used to fund making of video tutorials, documentation and code cleanup.  
 
 Another great way to support the project is to buy our games on STEAM, which you may find by visiting LostAstronaut.com or by searching steam for "Apolune" and looking for "Lost Astronaut Studios" on the Store pages.
 
-#### Feel free to make requests by reporting issues, as they will be considered and appropriately prioritized.
+### Feel free to make requests by reporting issues, as they will be considered and appropriately prioritized.
 
-#### Fork us
+### Fork us
 
 Feel free to create Pull requests with fixes and suggested improvements only after you have tested them.  Explain why you are making the request in the comment section of the request.  We have a lax but optional Pull Request Template.
 
@@ -70,7 +72,7 @@ Note that if you remove a section you should not remove any copyright notices.  
 ## Features
 A massive 1800+ class 1400 file extravaganza of OpenGL, WinAPI, OpenAL and many other features, written in Visual Studio for over a decade!  
 
-#### Technicals:
+### Technicals:
 * Supports building all the way back to Win 7 (Win32 only)
 * Written entirely in Visual Studio (Visual C++)
 * OpenAL (Audio Layer)
@@ -81,7 +83,7 @@ A massive 1800+ class 1400 file extravaganza of OpenGL, WinAPI, OpenAL and many 
 * Built on ultra-fast LinkedLists and ZIndexed and ultra-lightweight ZeroTypes Library (https://zero.handmade.network) (no need for BOOST)
 * Textural datafiles in JSON and/or a proprietary "HDATA" format reminiscent of Poser files
 
-#### OpenGL Implementations:
+### OpenGL Implementations:
 * GLSetup Threaded-Texture-Loading OpenGL 3.1 compatibility context (for widest support)
 * Texture uploading
 * Full shaded GLSL integration
@@ -90,7 +92,7 @@ A massive 1800+ class 1400 file extravaganza of OpenGL, WinAPI, OpenAL and many 
 * DisplayLists (deprecated) and pBuffer (deprecated!)
 * GLWindow "OpenGL Extensible Windowing System" that ties to interface events
 
-#### Image support:
+### Image support:
 * GDI+ (PNG and JPG read/write)
 * Procedural image processing and generation support
 * CPU image manipulation
@@ -100,7 +102,7 @@ A massive 1800+ class 1400 file extravaganza of OpenGL, WinAPI, OpenAL and many 
 * Grid-based texture manipulation
 * Atlas textures
 
-#### Animation Features:
+### Animation Features:
 * Curves and paths
 * AStar pathfinding
 * Tweens and easing (Waveform animation)
@@ -112,30 +114,32 @@ A massive 1800+ class 1400 file extravaganza of OpenGL, WinAPI, OpenAL and many 
 * Many useful programmable and configurable implementions of visual effects like cracking, lightning, destruction, breaking, fading
 * Presentation / Slide classes implementing a way to do programmatic interactive and cut-scene movies
 
-#### Geometry:
+### Geometry:
 * STL, OBJ, PLY
 * Generative primitives in 3D
 * Cube-mapped Sphere Generation
-* Extensive Vertex, mPolygon and ImmediateModel support
+* Extensive Vertex, mPolygon and ImmediateModel support classes for handling 3D geometry
 * Cartesian 2D helper and its family of related classes
 * Semi-automatic element "caching"
 * Rounded rectangle generation
+* Bin packing
+* Z-sorting for 2.5D
 
-#### Fonts:
+### Fonts:
 
 * Texture atlas fonts (ATFont)
 * Bitmap texture fonts (TexFont)
 * 2D vector font format (Art2D)
 * 3D extruded font format (TTFEx font style)
 
-#### UI:
+### UI:
 * Proce55ing-style object-oriented (Proce55or, Proce55ors, Pro55essViewer including buttons, sliders, text boxes, NPCs etc)
 * Panning 2D environments utilizing UI elements as framework
 * Wrappable worlds
 * Zone-activated ultra-large 2D worlds
 * Customizable OpenGL implemented UI framework options:  GLWindow (first-tier game panel framework), "FastGUI" function-based UI programming, "EditGUI" (window-based) elemental semi-auto UI framework
 
-#### Audio:
+### Audio:
 * OpenAL Community Edition
 * Source loading, mixing
 * AI Disc Jockeying with crossfades
@@ -143,13 +147,13 @@ A massive 1800+ class 1400 file extravaganza of OpenGL, WinAPI, OpenAL and many 
 * FLAC, WAV, etc via LibSndFile
 * EFX/EAX (Legacy Creative Sound)
 
-#### Networking and threading:
+### Networking and threading:
 * RESTful support
 * VAST peer-to-peer support
 * Sockets
 * WinThreads and fallback to pThreads (legacy)
 
-#### Shaders:
+### Shaders:
 * Entire Orange Book and Red Book implementations (legacy shaders)
 * Bloom
 * Photoshop-like layering shaders
@@ -158,11 +162,11 @@ A massive 1800+ class 1400 file extravaganza of OpenGL, WinAPI, OpenAL and many 
 * Multilight Shaders
 * Over 100 individual effects!!
 
-#### Collision
+### Collision
 * FBO Depth Stencil with Readback for "pixel perfect 2D collision"
 * Trigger.h which includes lots of useful ways of detecting collision including "shooting through a circle", "box-line" "line-line" "circle-line" tests.
 
-#### Utilities:
+### Utilities:
 * 1D/2D Vector (Indexed / ZIndexed)
 * Auto-zeroed POD-non-POD classes (ZeroTypes)
 * String manipulation and handling of Strings (linkedlist) and KV pairs
@@ -184,7 +188,7 @@ The project filters are carefully organized.
 
 "Framework" contains all of the utilities, helper classes, OpenGL, OpenAL and other middleware classes.  Worth exploring.  It is organized by purpose.  Skimming through the files here is pretty important.  Take inventory of your massive graphics encyclopedia and decide what "legos" you want to plug in to make your next user experience.
 
-##### The project configurations are as follows:
+### The project configurations are as follows:
 
 * Debug  -- not useful unless you want a lot of Output
 * Deug QDbyZ GL_DEBUG  -- for granular debugging of OpenGL without a third-party debugger, used rarely
@@ -209,15 +213,18 @@ Play around with GLWindow derivatives:
 * Uncomment one of the other windows.Add like BestRectTest or AtlasFontViewer or SmokeTest
 * Once you rebuild and play around, you'll realize that those are the individual windows/panels.  Inspect them.  See how they are implemented.  Look in the Tests filter of the project solution under "Examples and Tests" in "Framework" -- you can play around with these individually by loading them into the windows list.
 
-#### Use of Global Singletons
+### Use of Global Singletons
 I looked at each new component as one that was global and reusable.  The main singletons are listed here:
 
-* windows - implements the GLWindowManager class and is the primary way to create new views
+* audio - the audio API
+* input - the unified interface class
+* display - the display information (window size)
+* windows - implements the GLWindowManager class and is the primary way to create new views derived from GLWindow
 * library - the texture library, often invoked as  ``GLImage *myTexture = library.Load("somefilename.png");``
 * art - Implements the TwoDeeElement artistic VBO wrangler, and has lots of useful functions to draw these elements
 * many more!
 
-#### Use of Functional Libraries
+### Use of Functional Libraries
 Some files implement drawing and other routines as functional calls or macros, rather than organizing them into a class.  These are listed here
 
 * art.h
@@ -225,23 +232,23 @@ Some files implement drawing and other routines as functional calls or macros, r
 * moremath.h
 * macros.h
 
-#### Data Wrangling Classes
+### Data Wrangling Classes
 * Strings, Numbers, Integers, Doubles, Floats -- for maintaining lists
 * ZIndexed and Indexed - two styles of the same lightweight vector, also StringHash (for string-indexed hashtable with fast lookup)
 * Tweens and Tween, for waveform library storage and retrieval for use with animations
 * Curve2d, Line, Cartesian, Box, Vertex / Vertexd
 * Vertex and mPolygon work with ImmediateModel - for handling 3D geometry, also see Primitive3d
 
-#### Proce55ing and Particles
+### Proce55ing and Particles
 * Proce55or, and its various flavors, for creating UIs and 2D Game Elements (also known as "Entities")
 * Proce55ors, Proce55Viewer and flavors like Zoned, Wrapping, ForeverWrapping -- mainly for scene management
 * FireAndForget* one and done managed particles
 * Particle, Particles, ParticleSystem, ParticleSystems
 
-#### Cameras
+### Cameras
 There are multiple cameras, one in particular is GLMCamera which is built on GLM.   There are others that were useful for specific implementations, now older and less used.
 
-#### Shaders
+### Shaders
 * GLSLShader (main shader derivable class), wrangles uniforms, binding, activation, deactivation
 * ``*Shader``  -- any shader implementation, such as BloomShader
 * Too numerous to list here...
