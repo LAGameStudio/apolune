@@ -2,6 +2,8 @@
 
 Please include a summary of the change and which issue is fixed. Please also include relevant motivation and context. List any dependencies that are required for this change.
 
+Note that this template is just a strongly suggested guideline, it is not required.  The basic things that are required are:  Description, Justification, Testing You Did (Certainty once merged it will work)
+
 Fixes # (issue)
 
 ## Type of change
