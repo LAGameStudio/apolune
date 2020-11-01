@@ -21,9 +21,9 @@ Lost Astronaut Studios (lostastronaut.com) will adapt portions of this code for 
 
 #### If you download this project, please Star it.   
 
-#### If you care about this project, please Sponsor it, or Contribute (see CONTRIBUTING.md for more information)
-
 #### If you use this project, please Watch it.
+
+#### If you care about this project, please Sponsor it, or Contribute (see CONTRIBUTING.md for more information)
 
 As the primary author, initiator and only vested official team member, I do appreciate donations and any donations will be used to fund making of video tutorials, documentation and code cleanup.  
 
