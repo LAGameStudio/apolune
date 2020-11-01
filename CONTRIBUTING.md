@@ -5,6 +5,8 @@ For those who have a basic fix, like a typo correction or simple bug fix, feel f
 
 The philosophical approach taken with this code is: write well, write succinctly, try to write legible, readible and extensible code smartly, then test extensively, expand additively, remain backward compatible when necessary.  We do not really want to "remove" functionality unless it is truly worthless.  We never want to remove functionality that might be useful even in the smallest bit.  Usefulness is considered a non-zero value when it has been used at least once in one derived project somewhere.
 
+### *Please, only 1 space, never a tab.*
+
 ## On the subject of backward compatability during expansion of functionality
 
 If the direction changes for a feature, it should be created as a new component, rather than evolving an existing component as dependencies may be in projects.  Use of method parameterization variation is one way of maintaining backward compatibility.  This can be seen throughout the source code already.  That is why you may see 3 or 4 different approaches to more complicated sets of features.  UI comes to mind as one feature that will never be "resolved as complete", partly due to the fact that there are many ways one can approach a UI, for different reasons and ultimately, different outcomes.
