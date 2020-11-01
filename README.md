@@ -3,7 +3,7 @@ Apolune and the Lost Astronaut Game Creation Framework
 
 This is the Lost Astronaut Game Creation Framework ...
 
-![alt text](https://github.com/LAGameStudio/apolune/blob/trunk/Apolune/data/images/splash.png?raw=true)
+![alt text](https://github.com/LAGameStudio/apolune/blob/trunk/Apolune/data/images/splash.jpg?raw=true)
 
 ... along with the commercial Apolune Game (artwork reduced from commercially available version) as an implementation example, organized as a Visual Studio (2017) solution.
 
@@ -49,7 +49,7 @@ As it states in the LICENSE file, this work is licensed, unless otherwise indica
 
 The licensed does not cover third party code, snippets and libraries, only the work unique to this framework.  Most of the other work is either in the public domain or, more commonly, in an MIT or MIT-compatible license (some are BSD or 3 Clause).  The library inventory was vetted by attorneys in 2015 when it was licensed to PieceMaker and used in a retail setting at Toys-R-Us for commercial purposes, so it has already been combed for any copyright violations or patent infringements.
 
-I politely request that if you use our framework to make a product, game or otherwise, please include the Lost Astronaut Game Creation Framework splash screen among your logos and other marketing material.  You can find this in ``Apolune/data/images/splash.png``  You are also welcome to isolate the center portion as a "sticker style label" if you don't want to use the whole screen.
+I politely request that if you use our framework to make a product, game or otherwise, please include the Lost Astronaut Game Creation Framework splash screen among your logos and other marketing material.  You can find the highest quality copy of this splash screen image in ``Apolune/data/images/splash.png``  You are also welcome to isolate the center portion as a "sticker style label" if you don't want to use the whole screen.
 
 Crediting the author, H. Elwood Gilliland III in your documentation and/or credits would also be nice.  Also, linking to this repository would be nice.
 
