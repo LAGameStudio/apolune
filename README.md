@@ -223,12 +223,14 @@ Play around with GLWindow derivatives:
 ### Use of Global Singletons
 I looked at each new component as one that was global and reusable.  The main singletons are listed here:
 
-* audio - the audio API
-* input - the unified interface class
-* display - the display information (window size)
-* windows - implements the GLWindowManager class and is the primary way to create new views derived from GLWindow
-* library - the texture library, often invoked as  ``GLImage *myTexture = library.Load("somefilename.png");``
-* art - Implements the TwoDeeElement artistic VBO wrangler, and has lots of useful functions to draw these elements
+* ``input`` - the unified interface class
+* ``display`` - the display information (window size)
+* ``windows`` - implements the GLWindowManager class and is the primary way to create new views derived from GLWindow
+* ``library`` - the texture library, often invoked as  ``GLImage *myTexture = library.Load("somefilename.png");``
+* ``vault`` - contains the "film vault", see Film.h (similar to animated gifs)
+* ``audio`` - the audio API
+* ``dJ`` - contains the "AI DJ" track information and allows you to manipulate the dJ
+* ``art`` - Implements the TwoDeeElement artistic VBO wrangler, and has lots of useful functions to draw these elements
 * many more!
 
 ### Use of Functional Libraries
