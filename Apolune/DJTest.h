@@ -30,6 +30,7 @@ public:
   EACH(dJ.tracks.first,DJTrack,d) tracks.Add(d->name.c_str());
  }
  void Render() {
+  fast.ResetResponsiveRatio();
   fast.text(dJ.Status().c_str(),1024,16+64,false);
   int selected=fast.list("Tracks",&tracks,16,16,256,40,&tSelected.value,&tScroll.value);
   if ( selected >= 0 ) {
