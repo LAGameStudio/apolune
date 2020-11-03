@@ -27,6 +27,8 @@ I am releasing it because:
 
 Come find us on our Discord.  DM "@Retrofriends" to start a conversation with the author.  https://discord.gg/tUvdnxJS
 
+Additional documentation can be found on the wiki https://github.com/LAGameStudio/apolune/wiki
+
 ## Donations and Contribution
 
 ### If you download this project, please Star it.   
