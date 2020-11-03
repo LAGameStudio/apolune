@@ -1,3 +1,5 @@
 dj { name {track_proposal} named {} volScale 0.8 filename {data/music/Alien_Proposition.flac}                               }
 dj { name {track_concerns} named {} volScale 1.0 filename {data/music/Alien_Concerns.flac}                                  }
 dj { name {track_atomic} named {} volScale 1.0 filename {data/music/Atomic_Reawakening.flac}                              }
+dj { name {track_exploration} named {} volScale 1.0 filename {data/music/Atomic_Reawakening.flac}                              }
+dj { name {track_voiceover} named {} volScale 1.0 filename {data/sounds/spoken/corporeal.wav} }
