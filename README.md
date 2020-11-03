@@ -26,6 +26,7 @@ I am releasing it because:
 7) It is powerful and will empower people who choose to learn it
 
 Come find us on our Discord.  DM "@Retrofriends" to start a conversation with the author.  https://discord.gg/tUvdnxJS
+
 ## Donations and Contribution
 
 ### If you download this project, please Star it.   
@@ -196,6 +197,8 @@ The project filters are carefully organized.
 "Application" is your application, and most likely the work you will do will involve adding new files to the "Game" filter/folder under this.  When you first download this repo, the "Game" filter contains the Apolune game.  You can modify this to get started, or you can stick all of those subfilters into Apolune, then create new ones.  The entire application is built off the singleton "windows" -- to that you add derivatives of the GLWindow class, and those can contain many of the other classes, including other derivatives of GLWindow, which you can "hook in" to your GLWindow. You can also switch between GLWindows and you can also build distinct pieces of UI as overlay using multiple GLWindows.
 
 "Framework" contains all of the utilities, helper classes, OpenGL, OpenAL and other middleware classes.  Worth exploring.  It is organized by purpose.  Skimming through the files here is pretty important.  Take inventory of your massive graphics encyclopedia and decide what "legos" you want to plug in to make your next user experience.
+
+Additional documentation can be found on the wiki https://github.com/LAGameStudio/apolune/wiki
 
 ### The project configurations are as follows:
 
