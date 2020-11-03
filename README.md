@@ -13,7 +13,9 @@ Written in Visual C++ for Win32 using WinAPI as a WinProc Application.  Does not
 
 This game creation framework has taken well over 10 years of my life to develop.  At various times it has been licensed to companies that I managed, for projects I developed, in the commercial computer graphics space.  In particular one company, PieceMaker Technologies Inc., of which I held an equity stake, allowed me to reuse non-application-level code I developed, so in this way the framework has had some indirect funding applied to it.
 
-Lost Astronaut Studios (lostastronaut.com) will adapt portions of this code for use in a new proprietary game engine project, but I am releasing it because:
+Lost Astronaut Studios (lostastronaut.com) will adapt portions of this code for use in other game engine projects.
+
+I am releasing it because:
 
 1) It's in a space that always needs more input, so it adds value to the spaces it interacts with (software, image analysis, automation, graphics and gaming)
 2) It would be useful for third parties who wish to produce transparent research and small independent developers who wish to learn and make games
@@ -44,7 +46,7 @@ Feel free to create Pull requests with fixes and suggested improvements only aft
 
 ## License
 
-Any original artwork not licensed elsewhere and unique to this software is licensed under CC BY NC ND 4.0 and should be replaced if you wish to make a commercial product.  This artwork is found in the ``/data`` folder (https://github.com/LAGameStudio/apolune/tree/trunk/Apolune/data)
+Any original artwork not licensed elsewhere and unique to this software is licensed under CC BY NC ND 4.0 and should be replaced if you wish to make a commercial product.  This artwork is found in the ``/data`` folder (https://github.com/LAGameStudio/apolune/tree/trunk/Apolune/data)  -- please note, that you can ask and this portion can be waived depending.  Some of the artwork found here is royalty free, so you can use it!  Just ask.
 
 As it states in the LICENSE file, this work is licensed, unless otherwise indicated, under the AGPL V3 or greater, providing a framework for creating additional open source and is rather permissive.  If you wish to purchase an exception to this license, feel free to contact the author directly.
 
