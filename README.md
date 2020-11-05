@@ -239,6 +239,7 @@ I looked at each new component as one that was global and reusable.  The main si
 * ``dJ`` - contains the "AI DJ" track information and allows you to manipulate the dJ
 * ``art`` - Implements the TwoDeeElement artistic VBO wrangler, and has lots of useful functions to draw these elements
 * ``consulate`` - Handles custom script loading
+* ``tweens`` - Global tween (easing) waveform library
 * many more!
 
 ### Use of Functional Libraries
