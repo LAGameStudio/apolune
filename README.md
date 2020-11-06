@@ -60,63 +60,6 @@ Another great way to support the project is to buy our games on STEAM, which you
 
 Feel free to create Pull requests with fixes and suggested improvements only after you have tested them.  Explain why you are making the request in the comment section of the request.  We have a lax but optional Pull Request Template.
 
-## License
-
-The following statement applies, but please read the following section "Philosophies on Licensings" which talks about how this might be more fluid than it appears.
-
-Any original artwork not licensed elsewhere and unique to this software is licensed under CC BY NC ND 4.0 and should be replaced if you wish to make a commercial product.  This artwork is found in the ``/data`` folder (https://github.com/LAGameStudio/apolune/tree/trunk/Apolune/data)  -- please note, that you can ask and this portion can be waived depending.  Some of the artwork found here is royalty free, so you can use it!  Just ask.  The main reason behind this is to protect people from claiming that they own Fringes of the Empire or Apolune, two games I sell on STEAM.  Also, some of the artwork and sound files are provided here but are licensed elsewhere, so I must protect those sound files from being distributed and resold by third parties.  Much of the visual artwork in the ``data/images`` folder is in fact from free sites on the internet, and you can go and get that free work yourself, replacing what comes with the framework for your own application.
-
-As it states in the LICENSE file, this work is licensed, unless otherwise indicated, under the AGPL V3 or greater, providing a framework for creating additional open source and is rather permissive.  If you wish to purchase an exception to this license, feel free to contact the author directly.
-
-The licensed does not cover third party code, snippets and libraries, only the work unique to this framework.  Most of the other work is either in the public domain or, more commonly, in an MIT or MIT-compatible license (some are BSD or 3 Clause).  The library inventory was vetted by attorneys in 2015 when it was licensed to PieceMaker and used in a retail setting at Toys-R-Us for commercial purposes, so it has already been combed for any copyright violations or patent infringements.
-
-I politely request that if you use our framework to make a product, game or otherwise, please include the Lost Astronaut Game Creation Framework splash screen among your logos and other marketing material.  You can find the highest quality copy of this splash screen image in ``Apolune/data/images/splash.png``  You are also welcome to isolate the center portion as a "sticker style label" if you don't want to use the whole screen.
-
-Crediting the author, H. Elwood Gilliland III in your documentation and/or credits would also be nice.  Also, linking to this repository would be nice.
-
-Note that if you remove a section you should not remove any copyright notices.  If a file or section of a file that is desired to be used in another project does not have a copyright notice, then, to assure compliance, please use the following snippet and place it at the beginning of the section or file:
-
-```
---- SNIPPET STARTS
-/*********************************************************************************************
- *  __    __________________   ________________________________   __________  ________       *
- * /\ \  /\  __ \  ___\__  _\ /\  __ \  ___\__  _\  == \  __ \ "-.\ \  __ \ \/\ \__  _\ (tm) *
- * \ \ \_\_\ \/\ \___  \/\ \/ \ \  __ \___  \/\ \/\  __<\ \/\ \ \-.  \  __ \ \_\ \/\ \/      *
- *  \ \_____\_____\_____\ \_\  \ \_\ \_\_____\ \_\ \_\ \_\_____\_\\"\_\_\ \_\_____\ \_\      *
- *   \/_____/_____/_____/\/_/   \/_/\/_/_____/\/_/\/_/\/_/_____/_/ \/_/_/\/_/_____/\/_/      *
- *    --------------------------------------------------------------------------------       *
- *     Lost Astronaut Game Development Framework (c) 2007-2020 H. Elwood Gilliland III       *
- *********************************************************************************************
- * This software is copyrighted software.  Use of this code is given only with permission to *
- * parties who have been granted such permission by its author, Herbert Elwood Gilliland III *
- * This software is licensed by permissions of the following open source LICENSE:  AGPL 3.0  *
- * See https://www.gnu.org/licenses/agpl-3.0.en.html for details on this license.            *
- *********************************************************************************************/
---- SNIPPET ENDS
-```
-
-### Philosophies on Licensings
-
-The point of releasing this work in Github as AGPL3 was to:
-
-a) Protect myself against losing ownership
-
-b) Provide a way for open source to be made by third parties
-
-c) Align with the goals of the AGPL3
-
-However, it is not set in stone and may change in the future.  I have not yet found a license that:
-
-a) Encourages/requires modifications and improvements to the framework to be passed back to the main project in a way that enhances the original project for community support
-
-b) Distinguishes "Application Code" from "Framework Code" when these things are in essentially the same overall source code project, and yet is still a recognized OSI license.  I really don't want to "own" your application code, it's yours -- as I say in one of the GraphicsAddict videos -- but if you make something amazing as part of your application and want to share it back with us, you should, and we'll try to include it for everyone to benefit.
-
-c) Provides some way for those who do profit off it from to reliably contribute profits back to this project to help it financially.
-
-I have mentioned at some point in this readme, that you can negotiate an exception or exemption from the AGPL.  This would probably mean you would have to sign something or provide at least some written evidence of an agreement with me.  However, while I have not posted any particular fee for that, I want to make clear that I have considered a fee of $200 per application in the past, though I have not entirely decided when and how that is appropriate to collect.  So, I'm open to discussing ways to exempt yourself.  Perhaps a percentage of royalties is a good way for this to happen.  Regardless, we do not have enough sponsorship at this point to create a non-profit around this source code, to hire people to maintain it for example, nor to fund improvements for the greater good as far as the project's roadmap.  These things are all possible if we (you the community and me the author) can leverage such deals. There are also some cases where a fee-less exemption might be possible.
-
-So, it's still up for discussion and may change and I welcome you to open an Issue to discuss this publicly, or to reach out privately (starting on the Discord, as mentioned above) to negotiate.
-
 
 ## Features
 A massive 1800+ class 1400 file extravaganza of OpenGL, WinAPI, OpenAL and many other features, written in Visual Studio for over a decade!  
@@ -326,6 +269,65 @@ There are many.  Here they are in a nutshell:
 * steam_api and steamclient
 * VAST and VASTd (for VAST peer-to-peer networking, not actively used anymore)
 * libtiff
+
+
+## License
+
+The following statement applies, but please read the following section "Philosophies on Licensings" which talks about how this might be more fluid than it appears.
+
+Any original artwork not licensed elsewhere and unique to this software is licensed under CC BY NC ND 4.0 and should be replaced if you wish to make a commercial product.  This artwork is found in the ``/data`` folder (https://github.com/LAGameStudio/apolune/tree/trunk/Apolune/data)  -- please note, that you can ask and this portion can be waived depending.  Some of the artwork found here is royalty free, so you can use it!  Just ask.  The main reason behind this is to protect people from claiming that they own Fringes of the Empire or Apolune, two games I sell on STEAM.  Also, some of the artwork and sound files are provided here but are licensed elsewhere, so I must protect those sound files from being distributed and resold by third parties.  Much of the visual artwork in the ``data/images`` folder is in fact from free sites on the internet, and you can go and get that free work yourself, replacing what comes with the framework for your own application.
+
+As it states in the LICENSE file, this work is licensed, unless otherwise indicated, under the AGPL V3 or greater, providing a framework for creating additional open source and is rather permissive.  If you wish to purchase an exception to this license, feel free to contact the author directly.
+
+The licensed does not cover third party code, snippets and libraries, only the work unique to this framework.  Most of the other work is either in the public domain or, more commonly, in an MIT or MIT-compatible license (some are BSD or 3 Clause).  The library inventory was vetted by attorneys in 2015 when it was licensed to PieceMaker and used in a retail setting at Toys-R-Us for commercial purposes, so it has already been combed for any copyright violations or patent infringements.
+
+I politely request that if you use our framework to make a product, game or otherwise, please include the Lost Astronaut Game Creation Framework splash screen among your logos and other marketing material.  You can find the highest quality copy of this splash screen image in ``Apolune/data/images/splash.png``  You are also welcome to isolate the center portion as a "sticker style label" if you don't want to use the whole screen.
+
+Crediting the author, H. Elwood Gilliland III in your documentation and/or credits would also be nice.  Also, linking to this repository would be nice.
+
+Note that if you remove a section you should not remove any copyright notices.  If a file or section of a file that is desired to be used in another project does not have a copyright notice, then, to assure compliance, please use the following snippet and place it at the beginning of the section or file:
+
+```
+--- SNIPPET STARTS
+/*********************************************************************************************
+ *  __    __________________   ________________________________   __________  ________       *
+ * /\ \  /\  __ \  ___\__  _\ /\  __ \  ___\__  _\  == \  __ \ "-.\ \  __ \ \/\ \__  _\ (tm) *
+ * \ \ \_\_\ \/\ \___  \/\ \/ \ \  __ \___  \/\ \/\  __<\ \/\ \ \-.  \  __ \ \_\ \/\ \/      *
+ *  \ \_____\_____\_____\ \_\  \ \_\ \_\_____\ \_\ \_\ \_\_____\_\\"\_\_\ \_\_____\ \_\      *
+ *   \/_____/_____/_____/\/_/   \/_/\/_/_____/\/_/\/_/\/_/_____/_/ \/_/_/\/_/_____/\/_/      *
+ *    --------------------------------------------------------------------------------       *
+ *     Lost Astronaut Game Development Framework (c) 2007-2020 H. Elwood Gilliland III       *
+ *********************************************************************************************
+ * This software is copyrighted software.  Use of this code is given only with permission to *
+ * parties who have been granted such permission by its author, Herbert Elwood Gilliland III *
+ * This software is licensed by permissions of the following open source LICENSE:  AGPL 3.0  *
+ * See https://www.gnu.org/licenses/agpl-3.0.en.html for details on this license.            *
+ *********************************************************************************************/
+--- SNIPPET ENDS
+```
+
+### Philosophies on Licensings
+
+The point of releasing this work in Github as AGPL3 was to:
+
+a) Protect myself against losing ownership
+
+b) Provide a way for open source to be made by third parties
+
+c) Align with the goals of the AGPL3
+
+However, it is not set in stone and may change in the future.  I have not yet found a license that:
+
+a) Encourages/requires modifications and improvements to the framework to be passed back to the main project in a way that enhances the original project for community support
+
+b) Distinguishes "Application Code" from "Framework Code" when these things are in essentially the same overall source code project, and yet is still a recognized OSI license.  I really don't want to "own" your application code, it's yours -- as I say in one of the GraphicsAddict videos -- but if you make something amazing as part of your application and want to share it back with us, you should, and we'll try to include it for everyone to benefit.
+
+c) Provides some way for those who do profit off it from to reliably contribute profits back to this project to help it financially.
+
+I have mentioned at some point in this readme, that you can negotiate an exception or exemption from the AGPL.  This would probably mean you would have to sign something or provide at least some written evidence of an agreement with me.  However, while I have not posted any particular fee for that, I want to make clear that I have considered a fee of $200 per application in the past, though I have not entirely decided when and how that is appropriate to collect.  So, I'm open to discussing ways to exempt yourself.  Perhaps a percentage of royalties is a good way for this to happen.  Regardless, we do not have enough sponsorship at this point to create a non-profit around this source code, to hire people to maintain it for example, nor to fund improvements for the greater good as far as the project's roadmap.  These things are all possible if we (you the community and me the author) can leverage such deals. There are also some cases where a fee-less exemption might be possible.
+
+So, it's still up for discussion and may change and I welcome you to open an Issue to discuss this publicly, or to reach out privately (starting on the Discord, as mentioned above) to negotiate.
+
 
 ## Project History
 Let's go through a brief history of this project, which, until 10/30/2020 was completely done in secret as closed source. 
