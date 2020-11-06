@@ -49,6 +49,8 @@ Feel free to create Pull requests with fixes and suggested improvements only aft
 
 ## License
 
+The following statement applies, but please read the following section "Philosophies on Licensings" which talks about how this might be more fluid than it appears.
+
 Any original artwork not licensed elsewhere and unique to this software is licensed under CC BY NC ND 4.0 and should be replaced if you wish to make a commercial product.  This artwork is found in the ``/data`` folder (https://github.com/LAGameStudio/apolune/tree/trunk/Apolune/data)  -- please note, that you can ask and this portion can be waived depending.  Some of the artwork found here is royalty free, so you can use it!  Just ask.
 
 As it states in the LICENSE file, this work is licensed, unless otherwise indicated, under the AGPL V3 or greater, providing a framework for creating additional open source and is rather permissive.  If you wish to purchase an exception to this license, feel free to contact the author directly.
@@ -79,6 +81,28 @@ Note that if you remove a section you should not remove any copyright notices.  
  *********************************************************************************************/
 --- SNIPPET ENDS
 ```
+
+### Philosophies on Licensings
+
+The point of releasing this work in Github as AGPL3 was to:
+
+a) Protect myself against losing ownership
+
+b) Provide a way for open source to be made by third parties
+
+c) Align with the goals of the AGPL3
+
+However, it is not set in stone and may change in the future.  I have not yet found a license that:
+
+a) Encourages/requires modifications and improvements to the framework to be passed back to the main project in a way that enhances the original project for community support
+
+b) Distinguishes "Application Code" from "Framework Code" when these things are in essentially the same overall source code project, and yet is still a recognized OSI license.  I really don't want to "own" your application code, it's yours -- as I say in one of the GraphicsAddict videos -- but if you make something amazing as part of your application and want to share it back with us, you should, and we'll try to include it for everyone to benefit.
+
+c) Provides some way for those who do profit off it from to reliably contribute profits back to this project to help it financially.
+
+I have mentioned at some point in this readme, that you can negotiate an exception or exemption from the AGPL.  This would probably mean you would have to sign something or provide at least some written evidence of an agreement with me.  However, while I have not posted any particular fee for that, I want to make clear that I have considered a fee of $200 per application in the past, though I have not entirely decided when and how that is appropriate to collect.  So, I'm open to discussing ways to exempt yourself.  Perhaps a percentage of royalties is a good way for this to happen.  Regardless, we do not have enough sponsorship at this point to create a non-profit around this source code, to hire people to maintain it for example, nor to fund improvements for the greater good as far as the project's roadmap.  These things are all possible if we (you the community and me the author) can leverage such deals. There are also some cases where a fee-less exemption might be possible.
+
+So, it's still up for discussion and may change and I welcome you to open an Issue to discuss this publicly, or to reach out privately (starting on the Discord, as mentioned above) to negotiate.
 
 
 ## Features
