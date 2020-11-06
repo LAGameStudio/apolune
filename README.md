@@ -11,13 +11,12 @@ This is the Lost Astronaut Game Creation Framework ...
 
 ## TL;DR
 
-* Windows (Win32)
+* Windows (Win32) in Visual Studio C++
 * OpenGL & OpenAL
-* Graphics Engine
-* Game Engine
-* Licensed: AGPL v3
-* 2D and 3D
+* Graphics & Game Engine
+* [Licensed: AGPL v3](https://github.com/LAGameStudio/apolune/blob/trunk/LICENSE)
 * 1800+ classes
+* 2D and 3D and 2.5D
 * [Wiki Documentation](https://github.com/LAGameStudio/apolune/wiki) and [YouTube Tutorials](https://www.youtube.com/channel/UCx4VN8ihUqiredLoMe4rtNg)
 * [Discord channel](https://discord.gg/yvXMs2DFzk)
 
