@@ -9,6 +9,20 @@ This is the Lost Astronaut Game Creation Framework ...
 
 ![alt text](https://github.com/LAGameStudio/apolune/blob/trunk/Apolune/data/images/title.png?raw=true)
 
+## TL;DR
+
+* Windows (Win32)
+* OpenGL & OpenAL
+* Graphics Engine
+* Game Engine
+* Licensed: AGPL v3
+* 2D and 3D
+* 1800+ classes
+* [Wiki Documentation](https://github.com/LAGameStudio/apolune/wiki) and [YouTube Tutorials](https://www.youtube.com/channel/UCx4VN8ihUqiredLoMe4rtNg)
+* [Discord channel](https://discord.gg/yvXMs2DFzk)
+
+## Description
+
 Written in Visual C++ for Win32 using WinAPI as a WinProc Application.  Does not use SDL.  External dependencies kept to a minimum.
 
 This game creation framework has taken well over 10 years of my life to develop.  At various times it has been licensed to companies that I managed, for projects I developed, in the commercial computer graphics space.  In particular one company, PieceMaker Technologies Inc., of which I held an equity stake, allowed me to reuse non-application-level code I developed, so in this way the framework has had some indirect funding applied to it.
