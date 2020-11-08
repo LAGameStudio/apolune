@@ -9,6 +9,8 @@ This is the Lost Astronaut Game Creation Framework ...
 
 ![alt text](https://github.com/LAGameStudio/apolune/blob/trunk/Apolune/data/images/title.png?raw=true)
 
+We're low on our monthly LFS charges.  If you can't download the code directly, or if one of these images is "broken", try downloading a Release instead.
+
 ## TL;DR
 
 * Windows (Win32) in Visual Studio C++
@@ -45,6 +47,8 @@ Additional documentation can be found on the wiki https://github.com/LAGameStudi
 ## Donations and Contribution
 
 ### If you download this project, please Star it.   
+
+With more stars we can get an Open Community account to collect additional sponsorships.  
 
 ### If you use this project, please Watch it.
 
