@@ -347,7 +347,7 @@ Frustrated with the extremely odd world of Agar and remembering now why I stoppe
 
 ### 2010
 
-After transliterating all of the work from eC to C++ and filling in most of the requirements by developing an OpenGL engine "from a single triangle demo" in Visual Studio, I decided I would develop a game called Empire in the Sky (https://lostastronaut.com/empire).    It was around this time that I released libALgore, a joke on the name of former vice president of the USA, for the OpenAL ecosystem, which implemented an object-oriented approach to libALURE in C++.
+After transliterating all of the work from eC to C++ and filling in most of the requirements by developing an OpenGL engine "from a single triangle demo" in Visual Studio, I decided I would develop a game called Empire in the Sky (http://lostastronaut.com/empire).    It was around this time that I released libALgore, a joke on the name of former vice president of the USA, for the OpenAL ecosystem, which implemented an object-oriented approach to libALURE in C++.
 
 At the time I was using the first "free" version of Visual Studio, called MS Visual C++ 2010 Express Edition.  Unfortunately, this "freebie" by Microsoft had an inherent flaw: the team at Microsoft had inadvertently colluded C# rules with C++ rules.  And so, even after several years of effort, I kept running into undefined behavior.  After I got in touch with Microsoft, three VPs apologized and gave me "lifetime professional level support" for my fledgling game development company.  They also lead me through a series of complex patches to fix the problem, but ultimately I moved on to newer versions of Visual Studio.
 
