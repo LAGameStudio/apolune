@@ -136,7 +136,7 @@ A massive 1800+ class 1400 file extravaganza of OpenGL, WinAPI, OpenAL and many 
 * Customizable OpenGL implemented UI framework options:  GLWindow (first-tier game panel framework), "FastGUI" function-based UI programming, "EditGUI" (window-based) elemental semi-auto UI framework
 
 ### Audio:
-* OpenAL Community Edition
+* OpenAL 1.1 Community Edition
 * Source loading, mixing
 * AI Disc Jockeying with crossfades
 * Long-form audio streams
