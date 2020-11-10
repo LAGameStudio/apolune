@@ -48,7 +48,7 @@ Additional documentation can be found on the wiki https://github.com/LAGameStudi
 
 ### If you download this project, please Star it.   
 
-With more stars we can get an Open Community account to collect additional sponsorships.  
+With more stars we can get an Open Collective account to collect additional sponsorships.  
 
 ### If you use this project, please Watch it.
 
