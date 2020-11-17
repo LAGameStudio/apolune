@@ -1076,6 +1076,38 @@ public:
  }
  // Pivots a rectangle around axis of rotation px,py at position x,y 
  // rotated by angle a, h2*2 by w2*2 are rectangular dimensions
+ void Pivot( GLuint source, Crayon tint, Blends blend,
+  double x, double y, double px, double py,
+  double h2, double w2, double a=0.0, 
+  bool flipX=false, bool flipY=false ) {
+  flipY=!flipY; // fixes Y inversion of texture
+  GL_Assert("Entering art.Pivot");
+  glReportError( glGetError() );
+  glm::mat4 trans;
+  trans = glm::translate(trans,glm::vec3(x,y,0.0));
+  trans = glm::rotate(trans, (float)glm::radians(a), glm::vec3(0.0, 0.0, 1.0));
+  trans = glm::translate(trans,glm::vec3(px,py,1.0));
+  trans = glm::scale(trans,glm::vec3(w2*2.0,h2*2.0,1.0));
+  trans = viewport->ortho * trans;
+  Blending(blend);
+  glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, ebo);
+  if ( flipX ) {
+   if ( flipY ) glBindBuffer(GL_ARRAY_BUFFER, vCenteredXYFlipped);
+   else glBindBuffer(GL_ARRAY_BUFFER, vCenteredXFlipped);
+  } else if ( flipY ) glBindBuffer(GL_ARRAY_BUFFER, vCenteredYFlipped);
+  else glBindBuffer(GL_ARRAY_BUFFER, vCentered);
+  glReportError( glGetError() );
+  shader->UpdateUniforms(trans,source,tint);
+  glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, 0);
+  shader->Disable();
+  glReportError( glGetError() );
+  glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0);
+  glReportError( glGetError() );
+  glBindBuffer(GL_ARRAY_BUFFER, 0);
+  glReportError( glGetError() );
+ }
+ // Pivots a rectangle around axis of rotation px,py at position x,y 
+ // rotated by angle a, h2*2 by w2*2 are rectangular dimensions
  void Pivot( GLImage *source, Crayon tint, Blends blend,
              double x, double y, double px, double py,
              double h2, double w2, double a=0.0, 
