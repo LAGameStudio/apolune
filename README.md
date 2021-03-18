@@ -46,19 +46,19 @@ Additional documentation can be found on the wiki https://github.com/LAGameStudi
 
 ## Donations and Contribution
 
+As the primary author, initiator and only vested official team member, I do appreciate donations and any donations will be used to fund making of video tutorials, documentation and code cleanup.  Depending on the amount of accumulated donations, I may attempt to form a non-profit corporation around this project.  The current spend of this project is $5/month to support the cost of hosting it on Github.com since the size of the repo is slightly larger than 2GB.
+
+Another great way to support the project is to buy our games on STEAM, which you may find by visiting LostAstronaut.com or by searching steam for "Apolune" and looking for "Lost Astronaut Studios" on the Store pages.
+
 ### If you download this project, please Star it.   
 
 With more stars we can get an Open Collective account to collect additional sponsorships.  
 
 ### If you use this project, please Watch it.
 
-### If you care about this project, please Sponsor it, or Contribute (see CONTRIBUTING.md for more information)
+#### If you care about this project, please Sponsor it, or Contribute (see CONTRIBUTING.md for more information)
 
-As the primary author, initiator and only vested official team member, I do appreciate donations and any donations will be used to fund making of video tutorials, documentation and code cleanup.  
-
-Another great way to support the project is to buy our games on STEAM, which you may find by visiting LostAstronaut.com or by searching steam for "Apolune" and looking for "Lost Astronaut Studios" on the Store pages.
-
-### Feel free to make requests by reporting issues, as they will be considered and appropriately prioritized.
+#### Feel free to make requests by reporting issues, as they will be considered and appropriately prioritized.
 
 ### Fork us
 
