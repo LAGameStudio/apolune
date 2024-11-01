@@ -20,7 +20,7 @@ We're low on our monthly LFS charges.  If you can't download the code directly, 
 * 1800+ classes
 * 2D and 3D and 2.5D
 * [Wiki Documentation](https://github.com/LAGameStudio/apolune/wiki) and [YouTube Tutorials](https://www.youtube.com/channel/UCx4VN8ihUqiredLoMe4rtNg)
-* [Discord channel](https://discord.gg/yvXMs2DFzk)
+* [Discord Server](http://discord.gg/MduSuX3)
 
 ## Description
 
