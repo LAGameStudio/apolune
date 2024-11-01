@@ -40,7 +40,7 @@ I am releasing it because:
 6) It is useful for makers and DIY enthusiasts
 7) It is powerful and will empower people who choose to learn it
 
-Come find us on our Discord.  DM "@Retrofriends" or join #framework to start a conversation with the author. https://discord.gg/yvXMs2DFzk
+Come find us on our Discord.  DM "@Retrofriends" or join #framework to start a conversation with the author. http://discord.gg/MduSuX3
 
 Additional documentation can be found on the wiki https://github.com/LAGameStudio/apolune/wiki
 
